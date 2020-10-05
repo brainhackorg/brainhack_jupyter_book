@@ -2,6 +2,7 @@
 
 ## "What's in this repository?"
 
+This repository hosts the resources for the Jupyter Book "Everything Brainhack: past, present and future".
 
 
 ## "I have some questions..."
