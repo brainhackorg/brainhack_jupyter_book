@@ -533,3 +533,12 @@ Version control is the management of changes to documents, computer programs, la
 ## **Z**
 
 ---
+
+
+## **References**
+
+[Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/glossary)
+
+[OSF Open Science Glossary](https://osf.io/xbcaz/)
+
+[Turing-Way Book Glossary](https://the-turing-way.netlify.app/afterword/glossary.html#) 
