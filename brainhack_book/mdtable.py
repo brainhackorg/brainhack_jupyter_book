@@ -21,7 +21,7 @@ padding = 2
 
 class MarkdownTable():
     '''
-    Generate and save markdown table from csv/tsv file,
+    Generate markdown table from csv/tsv file,
     append to an existing markdown file.
 
     inputs
@@ -56,7 +56,7 @@ class MarkdownTable():
         # write the table
         mdtable = self.assemble_table(self.descriptions,
             header, horiz, body)
-        self.write_md(filename, mdtable)
+        return self.write_md(mdtable)
 
     @staticmethod
     def add_div(line):
@@ -87,13 +87,13 @@ class MarkdownTable():
         return [row.rstrip() for row in table]
 
     @staticmethod
-    def write_md(filepath, table):
+    def write_md(table):
         '''
-        write output from `assemble_table` to a .md file
+        write output from `assemble_table` to a string
+        suitable for writing a .md file
         '''
-        md = '\n'.join(table)
-        with open(filepath, "w") as f:
-            f.write(md)
+        return '\n'.join(table)
+
 
 def parse_affliation(data):
     parsed = data[2:]  # start of header
@@ -123,14 +123,21 @@ def read_page_descriptions(filename):
 if __name__ == '__main__':
     project_root = Path("__file__").parent
 
+    # create acknowledgements page
     ack_path = project_root / "data" / "acknowledgements.csv"
     ack_desc_path = project_root / "data" / "acknowledgements_descriptions.md"
+    ack_page = project_root / "brainhack_book" / "acknowledgements.md"
 
     table = read_tablefile(ack_path, delimiter=",")
     desc = read_page_descriptions(ack_desc_path)
 
     mder = MarkdownTable(table, desc)
-    mder.generate(project_root / "brainhack_book" / "acknowledgements.md")
+    md = mder.generate()
+    # write to file
+    with open(ack_page, "w") as f:
+            f.write(md)
+
+    # create contributors page
 
     # aff_path = project_root / "affiliations.csv"
-    # aff = read_file(aff_path, delimiter="\t")
+    # aff = read_tablefile(aff_path, delimiter="\t")
