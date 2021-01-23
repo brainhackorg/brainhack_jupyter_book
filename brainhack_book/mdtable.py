@@ -41,7 +41,7 @@ class MarkdownTable():
         self.table = table
         self.descriptions = descriptions
 
-    def generate(self, filename):
+    def generate(self):
         """
         generate markdown file with a table
         save as a .md file
