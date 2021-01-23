@@ -50,7 +50,7 @@ Authors include 2 mutually exclusive groups with different ranking systems:
 
 The last author is a consortium author name (“Brainhack community”) to
 acknowledge that more people than those listed in the author list have been
-involved in the building of this community and the organizing of Brainhack
+involved in the building of this community and the organization of Brainhack
 events.
 
 ### Non-core team
