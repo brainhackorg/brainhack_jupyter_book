@@ -6,9 +6,8 @@ The benefits described in this manuscript would not be possible without them.
 We also thank all institutions, labs, and organisations who have helped this community grow, meet in stimulating environments, and add an excellent educational resource pool and agenda. With an expanding community, Brainhack’s support network keeps growing and we thank all labs and individual researchers for their dedication and expertise offered to this community.
 
 These include (in alphabetical order):
-
-Sponsor  |  Brainhack Event
----------|-----------------
+Sponsor  |  Event
+---------|-------
 Allen Institute for Brain Science  |  Organization for Human Brain Mapping (OHBM) 2013
 Amazon Web Services  |  OHBM 2013, OHBM 2014, Boston 2014, AMX 2015, Atlanta 2019
 Athinoula A. Martinos Center for Biomedical Imaging  |  Boston 2014
