@@ -7,11 +7,11 @@ dependencies:
   - sphinx=2.4.4
   - pip
   - git
-  - bokeh
+  - bokeh=2.2.3
   - geopandas
-  - jupytext
   - pandas
   - pyshp
   - matplotlib
   - pip:
     - jupyter-book>=0.7.0b
+    - jupytext=1.7.1
