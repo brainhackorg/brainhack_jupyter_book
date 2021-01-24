@@ -95,9 +95,30 @@ class MarkdownTable():
         return '\n'.join(table)
 
 
-def parse_affliation(data):
-    parsed = data[2:]  # start of header
-    return parsed
+# def parse_affliation(data):
+#     '''
+#     collaspe name
+#     trimm off url part of ORCID
+#     email hyperlink to name
+#     '''
+#     trimmed = [l[9:] for l in data[2:]]  # lazy attempt to remove irrelavant cells
+#     orig_header, orig_body = trimmed[0], trimmed[1:]
+#     idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
+
+#     header = ["Name"]
+#     body = []
+#     for line in orig_body:
+#         name = parse_name(line, idx)
+#         body.append
+#     return parsed
+
+# def parse_name(line, item_idx):
+#     if not line[item_idx["Middle initial(s)"]]:
+#          return " ".join([line[item_idx["First name"]],
+#          line[item_idx["Last name"]]])
+#     init = line[item_idx["Middle initial(s)"]][0] + "."
+#     return " ".join([line[item_idx["First name"]],
+#         init, line[item_idx["Last name"]]])
 
 def read_tablefile(filename, delimiter="\t"):
     '''
@@ -114,10 +135,26 @@ def read_tablefile(filename, delimiter="\t"):
 def read_page_descriptions(filename):
     '''
     Read the header and addtional text from a markdown file.
+    Return a list of string, one item per line
     Line breakers were stripped to fit MarkdownTable.assemble_table
+
+    e.g. ["# header", "Some content."]
     '''
     with open(filename, "r") as f:
         return [l.split("\n")[0] for l in f.readlines()]
+
+def write_page(filename, md):
+    '''
+    write markdown file
+
+    filename:
+        path to book dir and file name
+
+    md:
+        output from MarkdownTable.generate
+    '''
+    with open(filename, "w") as f:
+        f.write(md)
 
 
 if __name__ == '__main__':
@@ -133,11 +170,19 @@ if __name__ == '__main__':
 
     mder = MarkdownTable(table, desc)
     md = mder.generate()
-    # write to file
-    with open(ack_page, "w") as f:
-            f.write(md)
+    write_page(ack_page, md)
 
     # create contributors page
+    # aff_path = project_root / "data" / \
+    #     "affiliation_and_consent_for_the_brainhack_neuroview_preprint.tsv"
+    # contributions_desc_path = project_root / "data" / "contributors_descriptions.md"
+    # contributions_page = project_root / "brainhack_book" / \
+    #     "contributions.md"
 
-    # aff_path = project_root / "affiliations.csv"
     # aff = read_tablefile(aff_path, delimiter="\t")
+    # desc = read_page_descriptions(contributions_desc_path)
+    # aff = parse_affliation(aff)
+
+    # mder = MarkdownTable(aff, desc)
+    # md = mder.generate()
+    # write_page(contributions_page, md)
