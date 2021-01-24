@@ -11,8 +11,8 @@
 
 ### Accessibility
 
-
 ### Ad-hoc
+An impromptu solution or framework for addressing a specific technological or research challenge.
 
 ### Audience
 The group addressed by communication (e.g., those in attendance of an Open Science training). The target audience is a group of individuals that will be addressed or affected by the training.
@@ -20,8 +20,10 @@ The group addressed by communication (e.g., those in attendance of an Open Scien
 ### Author
 Authors are considered as any active local or remote contributors to the project at the time of the project developed and finalised, who had a substantial contribution to the project, not only during the time of the project development taken place for a limited time of the Brainhack but until the project has been finalised or came to a stage to publish the results.
 
-
 ### Attendee
+
+A participant at an event not directly engaged in setting up the minimal framework offered by Brainhack events.
+Most pertinently, unlike in other event formats, at Brainhack an attendee can well be a person taking on a coordination role within one of the many projects set up inside the event framework.
 
 ### Availability
 
@@ -47,11 +49,13 @@ Brainhack Global (BHG) is an umbrella term for all the hacking events run all ar
 ### Brainhack School
 
 ### Brainstorming
+A session for collecting ideas on how to specify or address a problem.
 
 ### Bottom-up
 
 ### Brain Imaging Data Structure (BIDS)
 
+A peer-reviewed data structure (covering hierarchy, file naming, and file formatting conventions) which is commonly used for open data sharing, primarily in the field of neuroimaging.
 
 
 ## **C**
@@ -71,7 +75,6 @@ Consent
 
 ### Code of Conduct
 Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
-
 
 ### Creative Commons
 A suite of standardized licences that allow copyright holders to grant some rights to users by default. CC licences are widely used, simple to use, machine readable, and have been created by legal experts. There are a variety of CC licences, each of which use one or more clauses. Some licences are compatible with Open Access in the Budapest sense (CC0 or those carrying the BY, SA, and ND clauses), and some are not (carrying the NC clause).
@@ -120,21 +123,24 @@ Data in the sense used here are all digitally available objects (simple or compl
 
 
 ### DataLad
-
+An application for data distribution which is based on version control technologies.
 
 ### Data Mining
 An analytic process designed to explore data in search of consistent patterns or systematic relationships between variables, transforming data into information for future use.
 
 ### Data Science
 
-### Data Structuring Standarts
+### Data Structuring Standards
 
 ### Decentralized
+Lacking a centralized gate-keeper, certification body, or distributor.
+A decentralized system is one which cannot be controlled — in either input or output — by a single entity, and is therefore robust to paternalism and censorship.
 
 ### Digital Object Identifier (DOI)
 a unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify content  such as journal articles, data sets or open source software releases  and provide a persistent link to its location on the Internet (American Psychological Association, 2018).
 
 ### Diversity
+The presence of people, ideas, or tools, which feature strong variability in salient characteristics.
 
 ### Documentation
 Documentation is detailed information as well as background and methodological approach about the data or code (e.g., description of the project, variables, and measuring instruments).
@@ -163,10 +169,14 @@ Research ethics are the moral principles that govern how researchers should carr
 FAIR Data (according to FORCE11 principles and published in Nature Scientific Data) are Findable, Accessible, Interoperable, and Re-usable, in order to facilitate knowledge discovery by assisting humans and machines in their discovery of, access to, integration and analysis of, task-appropriate scientific data and their associated algorithms and workflows.
 
 ### Free
+Relating to the concept of freedom (and not necessarily to the lack of cost).
+Free technologies such as free software are such technologies which preserve or enhance the freedom to operate for both users and developers.
 
-### Fully open 
+### Fully open
 
 ### Functional Magnetic Resonance Imaging (fMRI)
+An imaging technique which leverages temporally resolved recording of magnetic resonance signals in order to elucidate the function of dynamic systems.
+Most often this technique is used to image animal brains, though other applications such as cardiac imaging are popular.
 
 ### Funding
 
@@ -195,6 +205,8 @@ GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manag
 ---
 
 ### Hacking
+The process of liberal modification or remix of existing tools in order to address novel questions or implement new approaches for resolution.
+Hacking specifically emphasizes the use of tools for purposes extending beyond their original scope.
 
 ### Hands-on
 
@@ -205,7 +217,7 @@ GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manag
 ---
 
 ### Inclusivity
-
+The quality of being open and welcoming of people and ideas, regardless of differences or disagreement.
 
 ### Informal
 
@@ -239,6 +251,7 @@ A series of published research articles. Historically divided into volumes and i
 ### Lab
 
 ### Leadership
+The quality of providing motivation, outlook, and conceptual guidelines for a project.
 
 ### Licence
 This is a legal document that sets out the permissions for creative and academic work. It explains copyright, ensures proper attribution and sets out how others can copy, distribute and make use of the works.
@@ -252,10 +265,10 @@ This is a legal document that sets out the permissions for creative and academic
 
 
 ### Management
+The action of administrating and coordinating the execution of a project.
 
 ### Maintainers
 Contributors who are responsible for driving the vision and managing the organizational aspects of the project. They may also be authors and/or owners of the project.
- 
 
 ### Mattermost Community Forum
 
@@ -334,22 +347,21 @@ An umbrella term for a number of overlapping ways that peer review models can be
 ### Open source project¶
 A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
  
-
 ### Open Science
- movement which aims to improve the strength of scientific inferences and the effectiveness of scientific communication, by reducing QUESTIONABLE RESEARCH PRACTICES, and making greater use of practices such as REPLICATION and PRE-PRINTS
-
+A movement which aims to improve the strength of scientific inferences and the effectiveness of scientific communication, by reducing QUESTIONABLE RESEARCH PRACTICES, and making greater use of practices such as REPLICATION and PRE-PRINTS
 
 ### Open Science Framework
 
 
 ### Open Source
-Availability of source code for a piece of software, along with an open source license permitting reuse, adaptation, and further distribution.
-
+Availability of human-readable source code for a piece of software, along with an open source license permitting reuse, adaptation, and further distribution.
 
 ### Organic
+The quality of having emerged from free human interaction, in the absence of extraneous incentives aimed towards a specific outcome.
 
 ### Outcome
-
+The result of a process.
+A qualitative decision can be the outcome of applying a tool; a tool can be the outcome of executing a roadmap, or alternatively of organic interaction and free innovation, such as hacking.
 
 
 ## **P**
@@ -394,21 +406,22 @@ Project
 A published report describing the hypotheses and planned method of a study, before the data is collected. Also known as a ‘pre-registration’ or ‘pre-reg’.
  
 ### Repeated data inspection
- 
+
 
 ### Replication
 Replication the repetition of a study’s method, to corroborate its results. An exact replication
 is a repetition using exactly the same procedures as the original stud.
- 
+
 ### Repository
- 
+
 A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
- 
+
 ### Reproducibility
 The degree to which the same methods, results, and inferences of a study can be produced again. Methods reproducibility is the degree to which the methods described in a study report can be performed again. This may be limited by a vague description in the study report or lack of openness in the data. Results reproducibility is the degree to which the same results are produced, in a new study with the same method Inferential reproducibility is the degree to which the same inferences are drawn, either in a new study with the same method and results or in a re-analysis of the original study.
 
 ### README file
-File where you document your research data. The documentation should be sufficient to enable other researchers to understand, replicate or reproduce the data or reuse them in any other way.
+A file which documents an electronic resource, such as data or software.
+The documentation should be sufficient to enable other researchers to understand, and use the resource.
 
 
 ### Reporting Bias
