@@ -30,9 +30,7 @@ alphabetically.
 
 Our motivation to divide contributors that way was to highlight authors who took
 a more involved part in the creation of the paper itself. 
-Everybody in the
-community could join this group at any time to give feedback, help organizing or
-chair a meeting.
+Everybody in the community could join this group at any time to actively contribute content, help writing, creating figures, give feedback, help organizing or chair a meeting.
 
 ## Authors
 
