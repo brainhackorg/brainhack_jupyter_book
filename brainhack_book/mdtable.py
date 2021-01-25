@@ -95,30 +95,40 @@ class MarkdownTable():
         return '\n'.join(table)
 
 
-# def parse_affliation(data):
-#     '''
-#     collaspe name
-#     trimm off url part of ORCID
-#     email hyperlink to name
-#     '''
-#     trimmed = [l[9:] for l in data[2:]]  # lazy attempt to remove irrelavant cells
-#     orig_header, orig_body = trimmed[0], trimmed[1:]
-#     idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
+def parse_affliation(data):
+    '''
+    collaspe name
+    trimm off url part of ORCID
+    email hyperlink to name
+    '''
+    trimmed = [l[9:] for l in data[2:]]  # lazy attempt to remove irrelavant cells
+    orig_header, orig_body = trimmed[0], trimmed[1:]
+    idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
 
-#     header = ["Name"]
-#     body = []
-#     for line in orig_body:
-#         name = parse_name(line, idx)
-#         body.append
-#     return parsed
+    header = ["Name", "Affiliation"]
 
-# def parse_name(line, item_idx):
-#     if not line[item_idx["Middle initial(s)"]]:
-#          return " ".join([line[item_idx["First name"]],
-#          line[item_idx["Last name"]]])
-#     init = line[item_idx["Middle initial(s)"]][0] + "."
-#     return " ".join([line[item_idx["First name"]],
-#         init, line[item_idx["Last name"]]])
+    idx_first_aff = idx[
+            "Affiliation (please use the format: Department / Institution / City / Country)"
+            ]
+    header += orig_header[idx_first_aff + 3:]
+    parsed = [header]
+    for line in orig_body:
+        body = []
+        name = parse_name(line, idx)
+        body.append(name)
+
+        body.append(line[idx_first_aff])
+        body += line[idx_first_aff + 3:]
+        parsed.append(body)
+    return parsed
+
+def parse_name(line, idx):
+    if not line[idx["Middle initial(s)"]]:
+         return " ".join([line[idx["First name"]],
+         line[idx["Last name"]]])
+    init = line[idx["Middle initial(s)"]][0] + "."
+    return " ".join([line[idx["First name"]],
+        init, line[idx["Last name"]]])
 
 def read_tablefile(filename, delimiter="\t"):
     '''
@@ -158,7 +168,7 @@ def write_page(filename, md):
 
 
 if __name__ == '__main__':
-    project_root = Path("__file__").parent
+    project_root = Path(__file__).parents[1]
 
     # create acknowledgements page
     ack_path = project_root / "data" / "acknowledgements.csv"
@@ -173,16 +183,16 @@ if __name__ == '__main__':
     write_page(ack_page, md)
 
     # create contributors page
-    # aff_path = project_root / "data" / \
-    #     "affiliation_and_consent_for_the_brainhack_neuroview_preprint.tsv"
-    # contributions_desc_path = project_root / "data" / "contributors_descriptions.md"
-    # contributions_page = project_root / "brainhack_book" / \
-    #     "contributions.md"
+    aff_path = project_root / "data" / \
+        "affiliation_and_consent_for_the_brainhack_neuroview_preprint.tsv"
+    contributions_desc_path = project_root / "data" / "contributors_descriptions.md"
+    contributions_page = project_root / "brainhack_book" / \
+        "contributions.md"
 
-    # aff = read_tablefile(aff_path, delimiter="\t")
-    # desc = read_page_descriptions(contributions_desc_path)
-    # aff = parse_affliation(aff)
+    aff = read_tablefile(aff_path, delimiter="\t")
+    desc = read_page_descriptions(contributions_desc_path)
+    aff = parse_affliation(aff)
 
-    # mder = MarkdownTable(aff, desc)
-    # md = mder.generate()
-    # write_page(contributions_page, md)
+    mder = MarkdownTable(aff, desc)
+    md = mder.generate()
+    write_page(contributions_page, md)
