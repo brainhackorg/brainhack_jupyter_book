@@ -101,24 +101,34 @@ def parse_affliation(data):
     trimm off url part of ORCID
     email hyperlink to name
     '''
-    trimmed = [l[9:] for l in data[2:]]  # lazy attempt to remove irrelavant cells
-    orig_header, orig_body = trimmed[0], trimmed[1:]
+    trimmed = [l[9:] for l in data[1:]]  # lazy attempt to remove irrelavant cells
+    orig_top, orig_header, orig_body = trimmed[0], trimmed[1], trimmed[2:]
+
     idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
 
     header = ["Name", "Affiliation"]
-
     idx_first_aff = idx[
-            "Affiliation (please use the format: Department / Institution / City / Country)"
-            ]
-    header += orig_header[idx_first_aff + 3:]
-    parsed = [header]
+        "Affiliation (please use the format: Department / Institution / City / Country)"
+        ]
+
+    # having three place holder is a hack; my table generator has problem with empty cells
+    # when len(shorten_top) == len(body[0]),
+    # table cut off the final column, top level not in line with the header in markdown
+    # not sure why this fix the issue
+    shorten_top = ["", "", ""] + orig_top[(idx_first_aff + 2):]
+    # manually relable the top level headers
+    new_names = ["Tasks performed", "Manuscript section contribution"]
+    top_level = [new_names.pop(0) if c != "" else " " for c in shorten_top]
+
+    header += orig_header[(idx_first_aff + 2):]
+    parsed = [top_level, header]
     for line in orig_body:
         body = []
         name = parse_name(line, idx)
         body.append(name)
 
         body.append(line[idx_first_aff])
-        body += line[idx_first_aff + 3:]
+        body += line[(idx_first_aff + 2):]
         parsed.append(body)
     return parsed
 
