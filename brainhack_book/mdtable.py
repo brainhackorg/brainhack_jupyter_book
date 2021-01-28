@@ -5,11 +5,11 @@ Date: 23-01-2021
 Generate Markdown table from csv / tsv file and
 append to an existing markdown file containing
 page header and other free text paragraph for
-acknowledgements and contributions page.
+acknowledgements and contributors page.
 
 Usage:
 >> python brainhack_book/mdtable.py acknowledgements
->> python brainhack_book/mdtable.py contributions
+>> python brainhack_book/mdtable.py contributors
 
 
 '''
