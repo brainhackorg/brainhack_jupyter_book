@@ -1,4 +1,4 @@
-files: brainhack_book/acknowledgements.md data/contributors.tsv brainhack_book/contributions.md
+files: brainhack_book/acknowledgements.md data/contributors.tsv brainhack_book/contributiors.md
 
 osfid=4szct
 osf_contributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_source.tsv
