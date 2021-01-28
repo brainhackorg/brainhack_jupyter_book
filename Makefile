@@ -11,9 +11,9 @@ data/contributors.tsv :
 	osf -p ${osfid} fetch ${osf_contributors} data/contributors.tsv; \
 	echo "fetch contributors table from osf"
 
-brainhack_book/contributions.md : data/contributors.tsv data/contributors_descriptions.md  brainhack_book/mdtable.py
+brainhack_book/contributiors.md : data/contributors.tsv data/contributors_descriptions.md  brainhack_book/mdtable.py
 	python brainhack_book/mdtable.py contributors; \
-	echo "build contributions.md"
+	echo "build contributiors.md"
 
 book :
 	jupyter-book build brainhack_book
