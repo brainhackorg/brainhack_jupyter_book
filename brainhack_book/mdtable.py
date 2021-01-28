@@ -198,7 +198,7 @@ def build_acknowledgement(project_root):
     mder = MarkdownTable(table, desc)
     md = mder.generate()
     write_page(ack_page, md)
-    print("built acknowledgements.md!")
+
 
 def fetch_osf(osf_path, local_path, projectid="4szct"):
     """
@@ -229,9 +229,9 @@ if __name__ == '__main__':
             # create acknowledgements page
             build_acknowledgement(project_root)
         elif sys.argv[1] == "contributors":
-            osf_path = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_source.tsv"
-            local_path = "data/contributors.tsv"
-            fetch_osf(osf_path, local_path, projectid="4szct")
+            # osf_path = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_source.tsv"
+            # local_path = "data/contributors.tsv"
+            # fetch_osf(osf_path, local_path, projectid="4szct")
             build_contributors(project_root)
         else:
             print("unsupported input")

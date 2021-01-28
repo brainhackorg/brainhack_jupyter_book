@@ -24,7 +24,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         persist-credentials: false
-    
+
     - name: Setup Miniconda
       uses: conda-incubator/setup-miniconda@v2
       with:
@@ -40,7 +40,8 @@ jobs:
         conda info
         conda list
         conda activate brainhack-jb-env
-        jupyter-book build brainhack_book
+        make files
+        make book
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
