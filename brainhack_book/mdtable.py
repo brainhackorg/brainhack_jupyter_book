@@ -215,7 +215,7 @@ def build_contributors(project_root):
         "contributors.tsv"
     contributions_desc_path = project_root / "data" / "contributors_descriptions.md"
     contributions_page = project_root / "brainhack_book" / \
-        "contributions.md"
+        "contributors.md"
     aff = read_tablefile(aff_path, delimiter="\t")
     desc = read_page_descriptions(contributions_desc_path)
     aff = parse_affiliation(aff)
