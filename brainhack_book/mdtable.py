@@ -8,9 +8,13 @@ page header and other free text paragraph for
 acknowledgements and contributions page.
 
 Usage:
->> python brainhack_book/mdtable.py
+>> python brainhack_book/mdtable.py acknowledgements
+>> python brainhack_book/mdtable.py contributions
+
 
 '''
+import os
+import sys
 from pathlib import Path
 import csv
 
@@ -95,8 +99,9 @@ class MarkdownTable():
         return '\n'.join(table)
 
 
-def parse_affliation(data):
+def parse_affiliation(data):
     '''
+    A very lazy affiliation table trimmer
     collaspe name
     trimm off url part of ORCID
     email hyperlink to name
@@ -104,6 +109,12 @@ def parse_affliation(data):
     trimmed = [l[9:] for l in data[1:]]  # lazy attempt to remove irrelavant cells
     orig_top, orig_header, orig_body = trimmed[0], trimmed[1], trimmed[2:]
 
+    # remove the consent column the lazy way
+    idx_consent = [i for i, c in enumerate(orig_header) if "psyarxiv" in c][0]
+    for l in [orig_top, orig_header, orig_body]:
+        l.pop(idx_consent)
+
+    # rename some stuff
     idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
 
     header = ["Name", "Affiliation"]
@@ -115,12 +126,12 @@ def parse_affliation(data):
     # when len(shorten_top) == len(body[0]),
     # table cut off the final column, top level not in line with the header in markdown
     # not sure why this fix the issue
-    shorten_top = ["", "", ""] + orig_top[(idx_first_aff + 2):]
+    shorten_top = ["", "", ""] + orig_top[(idx_first_aff + 3):] + ["", "", ""]
     # manually relable the top level headers
-    new_names = ["Tasks performed", "Manuscript section contribution"]
+    new_names = ["Approve submission", "Tasks performed", "Manuscript section contribution"]
     top_level = [new_names.pop(0) if c != "" else " " for c in shorten_top]
 
-    header += orig_header[(idx_first_aff + 2):]
+    header += orig_header[(idx_first_aff + 3):]
     parsed = [top_level, header]
     for line in orig_body:
         body = []
@@ -128,7 +139,7 @@ def parse_affliation(data):
         body.append(name)
 
         body.append(line[idx_first_aff])
-        body += line[(idx_first_aff + 2):]
+        body += line[(idx_first_aff + 3):]
         parsed.append(body)
     return parsed
 
@@ -176,11 +187,7 @@ def write_page(filename, md):
     with open(filename, "w") as f:
         f.write(md)
 
-
-if __name__ == '__main__':
-    project_root = Path(__file__).parents[1]
-
-    # create acknowledgements page
+def build_acknowledgement(project_root):
     ack_path = project_root / "data" / "acknowledgements.csv"
     ack_desc_path = project_root / "data" / "acknowledgements_descriptions.md"
     ack_page = project_root / "brainhack_book" / "acknowledgements.md"
@@ -191,18 +198,42 @@ if __name__ == '__main__':
     mder = MarkdownTable(table, desc)
     md = mder.generate()
     write_page(ack_page, md)
+    print("built acknowledgements.md!")
 
-    # create contributors page
+def fetch_osf(osf_path, local_path, projectid="4szct"):
+    """
+    lazy wrapper to fetch osf spreadsheet
+    """
+    filename = Path(osf_path).name
+    os.system(f"osf -p {projectid} fetch {osf_path} {local_path}")
+    print(f"fetch {osf_path}, save to {local_path}")
+
+def build_contributors(project_root):
     aff_path = project_root / "data" / \
-        "affiliation_and_consent_for_the_brainhack_neuroview_preprint.tsv"
+        "contributors.tsv"
     contributions_desc_path = project_root / "data" / "contributors_descriptions.md"
     contributions_page = project_root / "brainhack_book" / \
         "contributions.md"
-
     aff = read_tablefile(aff_path, delimiter="\t")
     desc = read_page_descriptions(contributions_desc_path)
-    aff = parse_affliation(aff)
+    aff = parse_affiliation(aff)
 
     mder = MarkdownTable(aff, desc)
     md = mder.generate()
     write_page(contributions_page, md)
+
+if __name__ == '__main__':
+    project_root = Path(__file__).parents[1]
+    if len(sys.argv) == 2:
+        if sys.argv[1] == "acknowledgements":
+            # create acknowledgements page
+            build_acknowledgement(project_root)
+        elif sys.argv[1] == "contributors":
+            osf_path = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_source.tsv"
+            local_path = "data/contributors.tsv"
+            fetch_osf(osf_path, local_path, projectid="4szct")
+            build_contributors(project_root)
+        else:
+            print("unsupported input")
+    else:
+        print("require input: acknowledgements or contributors")
