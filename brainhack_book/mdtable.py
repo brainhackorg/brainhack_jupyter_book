@@ -107,14 +107,16 @@ def parse_affiliation(data):
     email hyperlink to name
     '''
     trimmed = [l[9:] for l in data[1:]]  # lazy attempt to remove irrelavant cells
-    orig_top, orig_header, orig_body = trimmed[0], trimmed[1], trimmed[2:]
+    source_header = trimmed[1].copy()
 
     # remove the consent column the lazy way
-    idx_consent = [i for i, c in enumerate(orig_header) if "psyarxiv" in c][0]
-    for l in [orig_top, orig_header, orig_body]:
+    idx_consent = [i for i, c in enumerate(source_header) if "psyarxiv" in c][0]
+    for l in trimmed:
         l.pop(idx_consent)
 
-    # rename some stuff
+    orig_top, orig_header, orig_body = trimmed[0], trimmed[1], trimmed[2:]
+
+    # rename top level header
     idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
 
     header = ["Name", "Affiliation"]
@@ -128,7 +130,7 @@ def parse_affiliation(data):
     # not sure why this fix the issue
     shorten_top = ["", "", ""] + orig_top[(idx_first_aff + 3):] + ["", "", ""]
     # manually relable the top level headers
-    new_names = ["Approve submission", "Tasks performed", "Manuscript section contribution"]
+    new_names = ["Tasks performed", "Manuscript section contribution"]
     top_level = [new_names.pop(0) if c != "" else " " for c in shorten_top]
 
     header += orig_header[(idx_first_aff + 3):]
