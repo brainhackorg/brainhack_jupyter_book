@@ -16,4 +16,4 @@ dependencies:
   - matplotlib
   - pip:
     - jupyter-book>=0.7.0b
-    - osflient>=0.0.4
+    - osfclient>=0.0.4
