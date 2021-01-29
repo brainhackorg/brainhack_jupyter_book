@@ -2,5 +2,4 @@
 - file: overview
 - file: geographical_distribution
 - file: glossary
-- file: acknowledgements
-- file: authorship-agreement
+- file: acknowledgements.md
