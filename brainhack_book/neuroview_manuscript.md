@@ -1,12 +1,20 @@
-# Working Title: Brainhack: inclusivity and openness stimulate professional and scientific progress
+# Neuroview Preprint
+
+## Brainhack: developing a culture of open, inclusive, community-driven neuroscience
+
+*Note: This is a version for community review on psyarxiv and does not constitute the final version of the manuscript.*
 
 [Authors & Affiliations TBD]
 
 ## Abstract
 
-Brainhack is an innovative meeting format that promotes scientific collaboration and education in an open and inclusive environment. Departing from the formats of typical scientific workshops, these events are based on grassroots projects and training, and foster open and reproducible scientific practices. We describe the lasting benefits of Brainhacks for individual participants, the research community, and scientific progress that complement opportunities available in conventional formats.
+Brainhack is an innovative meeting format that promotes scientific collaboration and education in an open and inclusive environment. Departing from the formats of typical scientific workshops, these events are based on grassroots projects and training, and foster open and reproducible scientific practices. We describe here the multifaceted, lasting benefits of Brainhacks for individual participants, particularly early career researchers. We further highlight the unique contributions that Brainhacks can make to the research community, contributing to  scientific progress by complementing opportunities available in conventional formats.
 
-**Keywords**: open science, collaboration, best practices, community building, training, inclusivity, hackathon, Brainhack, neuroscience
+**Keywords**: best practices, Brainhack, collaboration, community building, hackathon,  inclusivity, neuroscience, open science, reproducibility, training
+
+## Conflict of Interest Statement
+
+The Conflict of Interest (COI) assertion is made on behalf of all the authors listed for this preprint. COIs include: financial involvement in any entity such as honoraria, grants, speaking fees, employment, consultancies, stock ownership, expert testimony, and patents or licenses. COIs can also include non-financial interests such as personal or professional relationships or pre-existing beliefs in the subject matter or materials discussed in this preprint.
 
 ## Introduction
 
@@ -59,13 +67,13 @@ The general format of project-oriented, community-building events has gained tra
 ## Conclusion & Future Directions
 Brainhacks complement traditional academic settings and offer additional opportunities for participants to achieve their scientific and professional goals. The focus on building a community that promotes open science and inclusivity has naturally led to better coding practices, more reproducible methods, and ample opportunities for collaboration. Brainhacks differ from many  scientific meetings, as they are more project-oriented, less formal and less directed at producing and broadcasting publications. Within neuroscience, Brainhacks have the potential to evolve beyond their initial focus on neuroimaging data and include more projects on theory, hardware, and different types of neural data. With a growing global community, and an iteratively improving format ([Fig. 1D](#figure-1)), Brainhacks provide a successful template that can easily be extended to other scientific fields. A near decade of Brainhacks has brought about positive change for individual researchers and the field as a whole, in the form of improved skills, reusable resources, new collaborations and a diverse and inclusive community.
 
-## Acknowledgements
+## Acknowledgments
 
-The present manuscript is part of a growing community effort to collate BrainHack related insights and expertise into a [Jupyter Book](http://brainhack.org/brainhack_jupyter_book) that will serve as a centralized set of resources for the community; we acknowledge all the individuals who contributed and will make ongoing contributions to these resources. Moreover, we would like to acknowledge all Brainhack organizers, supporters, presenters, and participants for their contribution to growing and maintaining this community. The benefits described in this manuscript would not be possible without them. A special thank you to the teams associated with ReproNim, INCF, and Nilearn, for their involvement in this community with ideas, tools, energy and funding, and for playing a central role in shaping Brainhack into what it is today. We also thank all institutions, labs, and organisations who have helped this community grow, meet in stimulating environments, and add an excellent educational resource pool and agenda, particularly OHBM, OpenNeuro, NeuroMod, CONP, OHBM Australia, Wellcome Trust, LUDMER, NIH, and UNIQUE. With an expanding community, Brainhack’s support network keeps growing and we thank all labs and individual researchers for their dedication and expertise offered to this community.
+[View acknowledgments here](/neuroview_acknowledgments)
 
 ## Author Contributions
 
-Author contributions are detailed here.
+[View contributions here](/neuroview_contributors)
 
 
 
