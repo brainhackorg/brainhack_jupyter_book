@@ -10,8 +10,6 @@ acknowledgements and contributors page.
 Usage:
 >> python brainhack_book/mdtable.py acknowledgements
 >> python brainhack_book/mdtable.py contributors
-
-
 '''
 import os
 import sys
@@ -98,6 +96,18 @@ class MarkdownTable():
         '''
         return '\n'.join(table)
 
+def drop_author_column(data, header, keyword):
+    '''
+    lazy drop column with a certain keyword
+    '''
+    trimmed = data.copy()
+    source_header = header.copy()
+
+    # remove the consent column the lazy way
+    idx_consent = [i for i, c in enumerate(source_header) if keyword in c][0]
+    for l in trimmed:
+        l.pop(idx_consent)
+    return trimmed
 
 def parse_affiliation(data):
     '''
@@ -107,12 +117,10 @@ def parse_affiliation(data):
     email hyperlink to name
     '''
     trimmed = [l[9:] for l in data[1:]]  # lazy attempt to remove irrelavant cells
-    source_header = trimmed[1].copy()
 
-    # remove the consent column the lazy way
-    idx_consent = [i for i, c in enumerate(source_header) if "psyarxiv" in c][0]
-    for l in trimmed:
-        l.pop(idx_consent)
+    for kw in ["Email", "psyarxiv"]:
+        source_header = trimmed[1].copy()
+        trimmed = drop_author_column(trimmed, source_header, kw)
 
     orig_top, orig_header, orig_body = trimmed[0], trimmed[1], trimmed[2:]
 
