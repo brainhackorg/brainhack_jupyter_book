@@ -7,7 +7,7 @@ brainhack_book/acknowledgements.md : data/acknowledgements.csv data/acknowledgem
 	python brainhack_book/mdtable.py acknowledgements; \
 	echo "build acknowledgements.md"
 
-brainhack_book/contributors.md : data/contributors.tsv data/contributors_descriptions.md  brainhack_book/mdtable.py
+brainhack_book/contributors.md : data/contributors_descriptions.md  brainhack_book/mdtable.py
 	osf -p ${osfid} fetch ${osf_contributors} data/contributors.tsv; \
 	python brainhack_book/mdtable.py contributors; \
 	echo "build contributors.md"
