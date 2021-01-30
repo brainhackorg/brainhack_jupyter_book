@@ -12,11 +12,11 @@ brainhack_book/neuroview_contributors.md : data/neuroview_contributors_descripti
 	osf -p ${osfid} fetch ${osf_contributors} data/neuroview_contributors.tsv; \
 	python brainhack_book/mdtable.py neuroview contributors; \
 
-brainhack_book/acknowledgments.md : data/acknowledgments.csv data/neuroview_acknowledgements_descriptions.md brainhack_book/mdtable.py
+brainhack_book/acknowledgments.md : data/acknowledgments.csv data/acknowledgements_descriptions.md brainhack_book/mdtable.py
 	python brainhack_book/mdtable.py acknowledgments; \
 
 brainhack_book/contributors.md : data/contributors_descriptions.md  brainhack_book/mdtable.py
-	osf -p ${osfid} fetch ${osf_contributors} data/neuroview_acknowledgments.tsv; \
+	osf -p ${osfid} fetch ${osf_contributors} data/neuroview_contributors.tsv; \
 	python brainhack_book/mdtable.py contributors; \
 
 book :
