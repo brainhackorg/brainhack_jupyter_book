@@ -227,7 +227,7 @@ if __name__ == '__main__':
             build_acknowledgement(desc, target, data)
         elif sys.argv[1] == "contributors":
             print("Building neuroview contributors page")
-            data = project_root / "data" / "acknowledgements.csv"
+            data = project_root / "data" / "contributors.csv"
             desc = project_root / "data" / "neuroview_contributors_descriptions.md"
             target = project_root / "brainhack_book" / "neuroview_contributors.md"
             build_contributors(desc, target, data)
