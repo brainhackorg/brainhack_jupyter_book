@@ -6,7 +6,7 @@
     - file: glossary
 - part: Neuroview 2021
   chapters:
-      - file: neuroview_manuscript
-      - file: neuroview_figure
-      - file: neuroview_contributors
-      - file: neuroview_acknowledgments
+    - file: neuroview_manuscript
+    - file: neuroview_figure
+    - file: neuroview_contributors
+    - file: neuroview_acknowledgments
