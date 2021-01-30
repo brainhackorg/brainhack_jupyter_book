@@ -5,13 +5,11 @@ Date: 23-01-2021
 Generate Markdown table from csv / tsv file and
 append to an existing markdown file containing
 page header and other free text paragraph for
-acknowledgements and contributions page.
+acknowledgements and contributors page.
 
 Usage:
 >> python brainhack_book/mdtable.py acknowledgements
->> python brainhack_book/mdtable.py contributions
-
-
+>> python brainhack_book/mdtable.py contributors
 '''
 import os
 import sys
@@ -98,6 +96,18 @@ class MarkdownTable():
         '''
         return '\n'.join(table)
 
+def drop_author_column(data, header, keyword):
+    '''
+    lazy drop column with a certain keyword
+    '''
+    trimmed = data.copy()
+    source_header = header.copy()
+
+    # remove the consent column the lazy way
+    idx_consent = [i for i, c in enumerate(source_header) if keyword in c][0]
+    for l in trimmed:
+        l.pop(idx_consent)
+    return trimmed
 
 def parse_affiliation(data):
     '''
@@ -107,14 +117,14 @@ def parse_affiliation(data):
     email hyperlink to name
     '''
     trimmed = [l[9:] for l in data[1:]]  # lazy attempt to remove irrelavant cells
+
+    for kw in ["Email", "psyarxiv"]:
+        source_header = trimmed[1].copy()
+        trimmed = drop_author_column(trimmed, source_header, kw)
+
     orig_top, orig_header, orig_body = trimmed[0], trimmed[1], trimmed[2:]
 
-    # remove the consent column the lazy way
-    idx_consent = [i for i, c in enumerate(orig_header) if "psyarxiv" in c][0]
-    for l in [orig_top, orig_header, orig_body]:
-        l.pop(idx_consent)
-
-    # rename some stuff
+    # rename top level header
     idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
 
     header = ["Name", "Affiliation"]
@@ -128,7 +138,7 @@ def parse_affiliation(data):
     # not sure why this fix the issue
     shorten_top = ["", "", ""] + orig_top[(idx_first_aff + 3):] + ["", "", ""]
     # manually relable the top level headers
-    new_names = ["Approve submission", "Tasks performed", "Manuscript section contribution"]
+    new_names = ["Tasks performed", "Manuscript section contribution"]
     top_level = [new_names.pop(0) if c != "" else " " for c in shorten_top]
 
     header += orig_header[(idx_first_aff + 3):]
@@ -213,7 +223,7 @@ def build_contributors(project_root):
         "contributors.tsv"
     contributions_desc_path = project_root / "data" / "contributors_descriptions.md"
     contributions_page = project_root / "brainhack_book" / \
-        "contributions.md"
+        "contributors.md"
     aff = read_tablefile(aff_path, delimiter="\t")
     desc = read_page_descriptions(contributions_desc_path)
     aff = parse_affiliation(aff)
