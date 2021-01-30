@@ -197,52 +197,40 @@ def write_page(filename, md):
     with open(filename, "w") as f:
         f.write(md)
 
-def build_acknowledgement(project_root):
-    ack_path = project_root / "data" / "acknowledgements.csv"
-    ack_desc_path = project_root / "data" / "acknowledgements_descriptions.md"
-    ack_page = project_root / "brainhack_book" / "acknowledgements.md"
-
-    table = read_tablefile(ack_path, delimiter=",")
-    desc = read_page_descriptions(ack_desc_path)
+def build_acknowledgement(desc, target, data):
+    table = read_tablefile(data, delimiter=",")
+    desc = read_page_descriptions(desc)
 
     mder = MarkdownTable(table, desc)
     md = mder.generate()
-    write_page(ack_page, md)
+    write_page(target, md)
 
-
-def fetch_osf(osf_path, local_path, projectid="4szct"):
-    """
-    lazy wrapper to fetch osf spreadsheet
-    """
-    filename = Path(osf_path).name
-    os.system(f"osf -p {projectid} fetch {osf_path} {local_path}")
-    print(f"fetch {osf_path}, save to {local_path}")
-
-def build_contributors(project_root):
-    aff_path = project_root / "data" / \
-        "contributors.tsv"
-    contributions_desc_path = project_root / "data" / "contributors_descriptions.md"
-    contributions_page = project_root / "brainhack_book" / \
-        "contributors.md"
-    aff = read_tablefile(aff_path, delimiter="\t")
-    desc = read_page_descriptions(contributions_desc_path)
+def build_contributors(desc, target, data):
+    aff = read_tablefile(data, delimiter="\t")
+    desc = read_page_descriptions(desc)
     aff = parse_affiliation(aff)
 
     mder = MarkdownTable(aff, desc)
     md = mder.generate()
-    write_page(contributions_page, md)
+    write_page(target, md)
 
 if __name__ == '__main__':
     project_root = Path(__file__).parents[1]
+
     if len(sys.argv) == 2:
         if sys.argv[1] == "acknowledgements":
             # create acknowledgements page
-            build_acknowledgement(project_root)
+            print("Building neuroview acknowledgements page")
+            data = project_root / "data" / "acknowledgements.csv"
+            desc = project_root / "data" / "neuroview_acknowledgements_descriptions.md"
+            target = project_root / "brainhack_book" / "neuroview_acknowledgements.md"
+            build_acknowledgement(desc, target, data)
         elif sys.argv[1] == "contributors":
-            # osf_path = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_source.tsv"
-            # local_path = "data/contributors.tsv"
-            # fetch_osf(osf_path, local_path, projectid="4szct")
-            build_contributors(project_root)
+            print("Building neuroview contributors page")
+            data = project_root / "data" / "acknowledgements.csv"
+            desc = project_root / "data" / "neuroview_contributors_descriptions.md"
+            target = project_root / "brainhack_book" / "neuroview_contributors.md"
+            build_contributors(desc, target, data)
         else:
             print("unsupported input")
     else:
