@@ -8,7 +8,9 @@ page header and other free text paragraph for
 acknowledgements and contributors page.
 
 Usage:
->> python brainhack_book/mdtable.py acknowledgements
+>> python brainhack_book/mdtable.py neuroview acknowledgments
+>> python brainhack_book/mdtable.py neuroview contributors
+>> python brainhack_book/mdtable.py acknowledgments
 >> python brainhack_book/mdtable.py contributors
 '''
 import os
@@ -216,22 +218,35 @@ def build_contributors(desc, target, data):
 
 if __name__ == '__main__':
     project_root = Path(__file__).parents[1]
+    neuroview = sys.argv[1] == "neuroview"
+    page_type = sys.argv[-1]
 
-    if len(sys.argv) == 2:
-        if sys.argv[1] == "acknowledgments":
+    if page_type == "acknowledgments":
+        if neuroview:
             # create acknowledgements page
             print("Building neuroview acknowledgements page")
-            data = project_root / "data" / "acknowledgments.csv"
+            data = project_root / "data" / "neuroview_acknowledgments.csv"
             desc = project_root / "data" / "neuroview_acknowledgements_descriptions.md"
             target = project_root / "brainhack_book" / "neuroview_acknowledgments.md"
-            build_acknowledgement(desc, target, data)
-        elif sys.argv[1] == "contributors":
+        else:
+            # create acknowledgements page
+            print("Building Jupyter Book acknowledgements page")
+            data = project_root / "data" / "acknowledgments.csv"
+            desc = project_root / "data" / "acknowledgments_descriptions.md"
+            target = project_root / "brainhack_book" / "acknowledgments.md"
+        build_acknowledgement(desc, target, data)
+
+    elif page_type == "contributors":
+        if neuroview:
             print("Building neuroview contributors page")
-            data = project_root / "data" / "contributors.tsv"
+            data = project_root / "data" / "neuroview_contributors.tsv"
             desc = project_root / "data" / "neuroview_contributors_descriptions.md"
             target = project_root / "brainhack_book" / "neuroview_contributors.md"
-            build_contributors(desc, target, data)
         else:
-            print("unsupported input")
+            print("Building Jupyter Book contributors page")
+            data = project_root / "data" / "contributors.tsv"
+            desc = project_root / "data" / "contributors_descriptions.md"
+            target = project_root / "brainhack_book" / "contributors.md"
+        build_contributors(desc, target, data)
     else:
-        print("require input: acknowledgments or contributors")
+        print("unsupported input: see script mdtable.py")
