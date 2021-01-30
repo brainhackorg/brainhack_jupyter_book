@@ -1,4 +1,4 @@
-# Acknowledgements
+# Acknowledgments
 
 We acknowledge all the individuals who contributed and will make ongoing contributions to the insights and resources included in this Jupyter Book.
 Moreover, we would like to acknowledge all Brainhack organizers, supporters, presenters, and participants for their contribution to growing and maintaining this community.

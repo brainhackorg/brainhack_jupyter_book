@@ -218,20 +218,20 @@ if __name__ == '__main__':
     project_root = Path(__file__).parents[1]
 
     if len(sys.argv) == 2:
-        if sys.argv[1] == "acknowledgements":
+        if sys.argv[1] == "acknowledgments":
             # create acknowledgements page
             print("Building neuroview acknowledgements page")
-            data = project_root / "data" / "acknowledgements.csv"
+            data = project_root / "data" / "acknowledgments.csv"
             desc = project_root / "data" / "neuroview_acknowledgements_descriptions.md"
-            target = project_root / "brainhack_book" / "neuroview_acknowledgements.md"
+            target = project_root / "brainhack_book" / "neuroview_acknowledgments.md"
             build_acknowledgement(desc, target, data)
         elif sys.argv[1] == "contributors":
             print("Building neuroview contributors page")
-            data = project_root / "data" / "contributors.csv"
+            data = project_root / "data" / "contributors.tsv"
             desc = project_root / "data" / "neuroview_contributors_descriptions.md"
             target = project_root / "brainhack_book" / "neuroview_contributors.md"
             build_contributors(desc, target, data)
         else:
             print("unsupported input")
     else:
-        print("require input: acknowledgements or contributors")
+        print("require input: acknowledgments or contributors")
