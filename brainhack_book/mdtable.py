@@ -225,7 +225,7 @@ if __name__ == '__main__':
         if neuroview:
             # create acknowledgements page
             print("Building neuroview acknowledgements page")
-            data = project_root / "data" / "neuroview_acknowledgments.csv"
+            data = project_root / "data" / "acknowledgments.csv"
             desc = project_root / "data" / "neuroview_acknowledgements_descriptions.md"
             target = project_root / "brainhack_book" / "neuroview_acknowledgments.md"
         else:
