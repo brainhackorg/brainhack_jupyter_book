@@ -4,6 +4,8 @@
     - file: overview
     - file: geographical_distribution
     - file: glossary
+    - file: contributors
+    - file: acknowledgments
 - part: Neuroview 2021
   chapters:
     - file: neuroview_manuscript
