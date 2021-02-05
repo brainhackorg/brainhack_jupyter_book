@@ -18,11 +18,9 @@ brainhack_book/contributors.md : data/contributors.tsv data/contributors_descrip
 brainhack_book/acknowledgments.md : data/acknowledgments.csv data/acknowledgements_descriptions.md brainhack_book/mdtable.py
 	python brainhack_book/mdtable.py acknowledgments; \
 
-preprint:
-	contributors brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_contributors.md
+preprint: contributors brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_contributors.md
 
-bookpage:
-	contributors brainhack_book/contributors.md brainhack_book/acknowledgments.md
+bookpage: contributors brainhack_book/contributors.md brainhack_book/acknowledgments.md
 
 book :
 	jupyter-book build brainhack_book
