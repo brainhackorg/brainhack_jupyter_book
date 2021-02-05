@@ -41,7 +41,7 @@ jobs:
         conda list
         conda activate brainhack-jb-env
         make preprint
-        make brainhack_book/contributors.md
+        make bookpages
         make book
 
     # Push the book's HTML to github-pages
