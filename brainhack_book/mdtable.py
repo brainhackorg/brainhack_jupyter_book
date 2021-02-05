@@ -226,13 +226,13 @@ if __name__ == '__main__':
             # create acknowledgements page
             print("Building preprint acknowledgements page")
             file = project_root / "data" / "acknowledgments.csv"
-            desc = project_root / "brainhack_book" / "preprint_acknowledgments.md"
+            desc = project_root / "brainhack_book" / "preprint_acknowledgements_descriptions.md"
             target = project_root / "brainhack_book" / "preprint_acknowledgments.md"
         else:
             # create acknowledgements page
             print("Building Jupyter Book acknowledgements page")
             file = project_root / "data" / "acknowledgments.csv"
-            desc = project_root / "brainhack_book" / "acknowledgments.md"
+            desc = project_root / "brainhack_book" / "acknowledgments_descriptions.md"
             target = project_root / "brainhack_book" / "acknowledgments.md"
         build_acknowledgement(desc, target, file)
 
@@ -240,12 +240,12 @@ if __name__ == '__main__':
         if preprint:
             print("Building preprint contributors page")
             file = project_root / "data" / "preprint_contributors.tsv"
-            desc = project_root / "brainhack_book" / "preprint_contributors.md"
+            desc = project_root / "brainhack_book" / "preprint_contributors_descriptions.md"
             target = project_root / "brainhack_book" / "preprint_contributors.md"
         else:
             print("Building Jupyter Book contributors page")
             file = project_root / "data" / "contributors.tsv"
-            desc = project_root / "brainhack_book" / "contributors.md"
+            desc = project_root / "brainhack_book" / "contributors_descriptions.md"
             target = project_root / "brainhack_book" / "contributors.md"
         build_contributors(desc, target, file)
     else:
