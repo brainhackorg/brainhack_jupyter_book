@@ -1,4 +1,4 @@
-# Preprint Acknowledgements
+# Preprint Acknowledgments
 
 _See the latest version of the acknowledgments page [here](/acknowledgments)._
 
