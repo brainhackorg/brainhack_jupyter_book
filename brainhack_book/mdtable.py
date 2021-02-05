@@ -120,7 +120,7 @@ def parse_affiliation(data):
     '''
     trimmed = [l[9:] for l in data[1:]]  # lazy attempt to remove irrelavant cells
 
-    for kw in ["Email", "psyarxiv"]:
+    for kw in ["Email", "manuscript"]:
         source_header = trimmed[1].copy()
         trimmed = drop_author_column(trimmed, source_header, kw)
 
@@ -199,16 +199,16 @@ def write_page(filename, md):
     with open(filename, "w") as f:
         f.write(md)
 
-def build_acknowledgement(desc, target, data):
-    table = read_tablefile(data, delimiter=",")
+def build_acknowledgement(desc, target, file):
+    table = read_tablefile(file, delimiter=",")
     desc = read_page_descriptions(desc)
 
     mder = MarkdownTable(table, desc)
     md = mder.generate()
     write_page(target, md)
 
-def build_contributors(desc, target, data):
-    aff = read_tablefile(data, delimiter="\t")
+def build_contributors(desc, target, file):
+    aff = read_tablefile(file, delimiter="\t")
     desc = read_page_descriptions(desc)
     aff = parse_affiliation(aff)
 
@@ -225,28 +225,28 @@ if __name__ == '__main__':
         if preprint:
             # create acknowledgements page
             print("Building preprint acknowledgements page")
-            data = project_root / "data" / "acknowledgments.csv"
+            file = project_root / "data" / "acknowledgments.csv"
             desc = project_root / "data" / "preprint_acknowledgements_descriptions.md"
             target = project_root / "brainhack_book" / "preprint_acknowledgments.md"
         else:
             # create acknowledgements page
             print("Building Jupyter Book acknowledgements page")
-            data = project_root / "data" / "acknowledgments.csv"
+            file = project_root / "data" / "acknowledgments.csv"
             desc = project_root / "data" / "acknowledgments_descriptions.md"
             target = project_root / "brainhack_book" / "acknowledgments.md"
-        build_acknowledgement(desc, target, data)
+        build_acknowledgement(desc, target, file)
 
     elif page_type == "contributors":
         if preprint:
             print("Building preprint contributors page")
-            data = project_root / "data" / "preprint_contributors.tsv"
+            file = project_root / "data" / "preprint_contributors.tsv"
             desc = project_root / "data" / "preprint_contributors_descriptions.md"
             target = project_root / "brainhack_book" / "preprint_contributors.md"
         else:
             print("Building Jupyter Book contributors page")
-            data = project_root / "data" / "contributors.tsv"
+            file = project_root / "data" / "contributors.tsv"
             desc = project_root / "data" / "contributors_descriptions.md"
             target = project_root / "brainhack_book" / "contributors.md"
-        build_contributors(desc, target, data)
+        build_contributors(desc, target, file)
     else:
         print("unsupported input: see script mdtable.py")

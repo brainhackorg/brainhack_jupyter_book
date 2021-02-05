@@ -1,4 +1,4 @@
-# Preprint
+# Preprint Manuscript
 
 ## Brainhack: developing a culture of open, inclusive, community-driven neuroscience
 
