@@ -226,7 +226,7 @@ if __name__ == '__main__':
             # create acknowledgements page
             print("Building preprint acknowledgements page")
             file = project_root / "data" / "acknowledgments.csv"
-            desc = project_root / "brainhack_book" / "preprint_acknowledgements_descriptions.md"
+            desc = project_root / "brainhack_book" / "preprint_acknowledgments_descriptions.md"
             target = project_root / "brainhack_book" / "preprint_acknowledgments.md"
         else:
             # create acknowledgements page

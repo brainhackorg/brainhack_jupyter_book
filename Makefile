@@ -6,7 +6,7 @@ contributors:
 	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/preprint_contributors.tsv; \
 	osf -p ${osfid} fetch ${osf_contributors} data/contributors.tsv
 
-brainhack_book/preprint_acknowledgments.md : data/preprint_acknowledgments.csv brainhack_book/preprint_acknowledgements_descriptions.md brainhack_book/mdtable.py
+brainhack_book/preprint_acknowledgments.md : data/preprint_acknowledgments.csv brainhack_book/preprint_acknowledgments_descriptions.md brainhack_book/mdtable.py
 	python brainhack_book/mdtable.py preprint acknowledgments; \
 
 brainhack_book/preprint_contributors.md : data/preprint_contributors.tsv brainhack_book/preprint_contributors_descriptions.md  brainhack_book/mdtable.py
