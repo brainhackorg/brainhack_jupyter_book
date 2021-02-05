@@ -8,8 +8,8 @@ page header and other free text paragraph for
 acknowledgements and contributors page.
 
 Usage:
->> python brainhack_book/mdtable.py neuroview acknowledgments
->> python brainhack_book/mdtable.py neuroview contributors
+>> python brainhack_book/mdtable.py preprint acknowledgments
+>> python brainhack_book/mdtable.py preprint contributors
 >> python brainhack_book/mdtable.py acknowledgments
 >> python brainhack_book/mdtable.py contributors
 '''
@@ -218,16 +218,16 @@ def build_contributors(desc, target, data):
 
 if __name__ == '__main__':
     project_root = Path(__file__).parents[1]
-    neuroview = sys.argv[1] == "neuroview"
+    preprint = sys.argv[1] == "preprint"
     page_type = sys.argv[-1]
 
     if page_type == "acknowledgments":
-        if neuroview:
+        if preprint:
             # create acknowledgements page
-            print("Building neuroview acknowledgements page")
+            print("Building preprint acknowledgements page")
             data = project_root / "data" / "acknowledgments.csv"
-            desc = project_root / "data" / "neuroview_acknowledgements_descriptions.md"
-            target = project_root / "brainhack_book" / "neuroview_acknowledgments.md"
+            desc = project_root / "data" / "preprint_acknowledgements_descriptions.md"
+            target = project_root / "brainhack_book" / "preprint_acknowledgments.md"
         else:
             # create acknowledgements page
             print("Building Jupyter Book acknowledgements page")
@@ -237,11 +237,11 @@ if __name__ == '__main__':
         build_acknowledgement(desc, target, data)
 
     elif page_type == "contributors":
-        if neuroview:
-            print("Building neuroview contributors page")
-            data = project_root / "data" / "neuroview_contributors.tsv"
-            desc = project_root / "data" / "neuroview_contributors_descriptions.md"
-            target = project_root / "brainhack_book" / "neuroview_contributors.md"
+        if preprint:
+            print("Building preprint contributors page")
+            data = project_root / "data" / "preprint_contributors.tsv"
+            desc = project_root / "data" / "preprint_contributors_descriptions.md"
+            target = project_root / "brainhack_book" / "preprint_contributors.md"
         else:
             print("Building Jupyter Book contributors page")
             data = project_root / "data" / "contributors.tsv"

@@ -4,10 +4,12 @@
     - file: overview
     - file: geographical_distribution
     - file: glossary
-- part: Neuroview 2021
+    - file: contributors
+    - file: acknowledgments
+- part: Preprint
   chapters:
-    - file: neuroview_manuscript
-    - file: neuroview_figure
-    - file: neuroview_contributors
-    - file: neuroview_acknowledgments
-    - file: neuroview_authorship-agreement
+    - file: preprint_manuscript
+    - file: preprint_figure
+    - file: preprint_contributors
+    - file: preprint_acknowledgments
+    - file: preprint_authorship-agreement
