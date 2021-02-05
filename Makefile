@@ -1,5 +1,3 @@
-neuroview: contributors brainhack_book/neuroview_acknowledgments.md brainhack_book/neuroview_contributors.md
-
 osfid=4szct
 osf_neuroviewcontributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_source.tsv
 osf_contributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_source.tsv
@@ -16,6 +14,8 @@ brainhack_book/neuroview_contributors.md : data/neuroview_contributors.tsv data/
 
 brainhack_book/contributors.md : data/contributors.tsv data/contributors_descriptions.md brainhack_book/mdtable.py data/contributors.tsv
 	python brainhack_book/mdtable.py contributors;
+
+neuroview: contributors brainhack_book/neuroview_acknowledgments.md brainhack_book/neuroview_contributors.md
 
 book :
 	jupyter-book build brainhack_book
