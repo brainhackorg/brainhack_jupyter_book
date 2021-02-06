@@ -5,7 +5,7 @@ Date: 23-01-2021
 Generate Markdown table from csv / tsv file and
 append to an existing markdown file containing
 page header and other free text paragraph for
-acknowledgements and contributors page.
+acknowledgments and contributors page.
 
 The original spreadsheets are stored/downloaded to `data`.
 The description paragraphs are stored in
@@ -210,7 +210,7 @@ def write_page(filename, md):
     with open(filename, "w") as f:
         f.write(md)
 
-def build_acknowledgement(desc, target, file):
+def build_acknowledgment(desc, target, file):
     table = read_tablefile(file, delimiter=",")
     desc = read_page_descriptions(desc)
 
@@ -234,18 +234,18 @@ if __name__ == '__main__':
 
     if page_type == "acknowledgments":
         if preprint:
-            # create acknowledgements page
-            print("Building preprint acknowledgements page")
+            # create acknowledgments page
+            print("Building preprint acknowledgments page")
             file = project_root / "data" / "acknowledgments.csv"
             desc = project_root / "brainhack_book" / "preprint_acknowledgments_descriptions.md"
             target = project_root / "brainhack_book" / "preprint_acknowledgments.md"
         else:
-            # create acknowledgements page
-            print("Building Jupyter Book acknowledgements page")
+            # create acknowledgments page
+            print("Building Jupyter Book acknowledgments page")
             file = project_root / "data" / "acknowledgments.csv"
             desc = project_root / "brainhack_book" / "acknowledgments_descriptions.md"
             target = project_root / "brainhack_book" / "acknowledgments.md"
-        build_acknowledgement(desc, target, file)
+        build_acknowledgment(desc, target, file)
 
     elif page_type == "contributors":
         if preprint:
