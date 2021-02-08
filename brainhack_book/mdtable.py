@@ -5,7 +5,7 @@ Date: 23-01-2021
 Generate Markdown table from csv / tsv file and
 append to an existing markdown file containing
 page header and other free text paragraph for
-acknowledgements and contributors page.
+acknowledgments and contributors page.
 
 The original spreadsheets are stored/downloaded to `data`.
 The description paragraphs are stored in
@@ -227,7 +227,6 @@ def build_markdown(args):
     mder = MarkdownTable(table, desc)
     md = mder.generate()
     write_page(target, md)
-
 
 def main():
     parser=argparse.ArgumentParser(description="csv/tsv to markdown table parser")
