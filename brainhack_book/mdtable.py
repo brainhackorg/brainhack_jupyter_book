@@ -26,6 +26,8 @@ Usage:
 '''
 import os
 import sys
+import argparse
+
 from pathlib import Path
 import csv
 
@@ -109,17 +111,19 @@ class MarkdownTable():
         '''
         return '\n'.join(table)
 
-def drop_author_column(data, header, keyword):
+def drop_column(data, header, keyword):
     '''
     lazy drop column with a certain keyword
     '''
     trimmed = data.copy()
     source_header = header.copy()
 
-    # remove the consent column the lazy way
-    idx_consent = [i for i, c in enumerate(source_header) if keyword in c][0]
-    for l in trimmed:
-        l.pop(idx_consent)
+    # remove the column the lazy way
+    idx_remove = [i for i, c in enumerate(source_header) if keyword in c]
+    if idx_remove:
+        i = idx_remove[0]
+        for l in trimmed:
+            l.pop(i)
     return trimmed
 
 def parse_affiliation(data):
@@ -133,13 +137,12 @@ def parse_affiliation(data):
 
     for kw in ["Email", "manuscript"]:
         source_header = trimmed[1].copy()
-        trimmed = drop_author_column(trimmed, source_header, kw)
+        trimmed = drop_column(trimmed, source_header, kw)
 
     orig_top, orig_header, orig_body = trimmed[0], trimmed[1], trimmed[2:]
 
     # rename top level header
     idx = {h: i for i, h in enumerate(orig_header)}  # header to index translator
-
     header = ["Name", "Affiliation"]
     idx_first_aff = idx[
         "Affiliation (please use the format: Department / Institution / City / Country)"
@@ -210,54 +213,42 @@ def write_page(filename, md):
     with open(filename, "w") as f:
         f.write(md)
 
-def build_acknowledgement(desc, target, file):
-    table = read_tablefile(file, delimiter=",")
+def build_markdown(args):
+    desc = args.descriptions
+    target = args.target
+    file = args.file
+    contributor = args.contributor
+    if contributor:
+        table = read_tablefile(file, delimiter="\t")
+        table = parse_affiliation(table)
+    else:
+        table = read_tablefile(file, delimiter=",")
     desc = read_page_descriptions(desc)
-
     mder = MarkdownTable(table, desc)
     md = mder.generate()
     write_page(target, md)
 
-def build_contributors(desc, target, file):
-    aff = read_tablefile(file, delimiter="\t")
-    desc = read_page_descriptions(desc)
-    aff = parse_affiliation(aff)
 
-    mder = MarkdownTable(aff, desc)
-    md = mder.generate()
-    write_page(target, md)
+def main():
+    parser=argparse.ArgumentParser(description="csv/tsv to markdown table parser")
+    parser.add_argument("-f", "--file",
+            help="Spreadsheet",
+            required=True)
+    parser.add_argument("-d", "--descriptions",
+            help="Description header in the page",
+            required=True)
+    parser.add_argument("-t", "--target",
+            help="Path to saved file",
+            required=True)
+    parser.add_argument('--contributor',
+            help="contributor file",
+            action='store_true')
+    parser.set_defaults(contributor=False)
 
-if __name__ == '__main__':
-    project_root = Path(__file__).parents[1]
-    preprint = sys.argv[1] == "preprint"
-    page_type = sys.argv[-1]
+    parser.set_defaults(func=build_markdown)
+    args=parser.parse_args()
+    args.func(args)
 
-    if page_type == "acknowledgments":
-        if preprint:
-            # create acknowledgements page
-            print("Building preprint acknowledgements page")
-            file = project_root / "data" / "acknowledgments.csv"
-            desc = project_root / "brainhack_book" / "preprint_acknowledgments_descriptions.md"
-            target = project_root / "brainhack_book" / "preprint_acknowledgments.md"
-        else:
-            # create acknowledgements page
-            print("Building Jupyter Book acknowledgements page")
-            file = project_root / "data" / "acknowledgments.csv"
-            desc = project_root / "brainhack_book" / "acknowledgments_descriptions.md"
-            target = project_root / "brainhack_book" / "acknowledgments.md"
-        build_acknowledgement(desc, target, file)
 
-    elif page_type == "contributors":
-        if preprint:
-            print("Building preprint contributors page")
-            file = project_root / "data" / "preprint_contributors.tsv"
-            desc = project_root / "brainhack_book" / "preprint_contributors_descriptions.md"
-            target = project_root / "brainhack_book" / "preprint_contributors.md"
-        else:
-            print("Building Jupyter Book contributors page")
-            file = project_root / "data" / "contributors.tsv"
-            desc = project_root / "brainhack_book" / "contributors_descriptions.md"
-            target = project_root / "brainhack_book" / "contributors.md"
-        build_contributors(desc, target, file)
-    else:
-        print("unsupported input: see script mdtable.py")
+if __name__ == "__main__":
+    main()

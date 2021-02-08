@@ -7,16 +7,24 @@ contributors:
 	osf -p ${osfid} fetch ${osf_contributors} data/contributors.tsv
 
 brainhack_book/preprint_acknowledgments.md : data/preprint_acknowledgments.csv brainhack_book/preprint_acknowledgments_descriptions.md brainhack_book/mdtable.py
-	python brainhack_book/mdtable.py preprint acknowledgments; \
+	python brainhack_book/mdtable.py -f data/acknowledgments.csv \
+		-d brainhack_book/preprint_acknowledgments_descriptions.md \
+		-t brainhack_book/preprint_acknowledgments.md --contributor;
 
 brainhack_book/preprint_contributors.md : data/preprint_contributors.tsv brainhack_book/preprint_contributors_descriptions.md  brainhack_book/mdtable.py
-	python brainhack_book/mdtable.py preprint contributors; \
+	python brainhack_book/mdtable.py -f data/preprint_contributors.tsv \
+		-d brainhack_book/preprint_contributors_descriptions.md \
+		-t brainhack_book/preprint_contributors.md --contributor;
 
 brainhack_book/contributors.md : data/contributors.tsv brainhack_book/contributors_descriptions.md brainhack_book/mdtable.py data/contributors.tsv
-	python brainhack_book/mdtable.py contributors;
+	python brainhack_book/mdtable.py -f data/contributors.tsv \
+		-d brainhack_book/contributors_descriptions.md \
+		-t brainhack_book/contributors.md --contributor;
 
 brainhack_book/acknowledgments.md : data/acknowledgments.csv brainhack_book/acknowledgments_descriptions.md brainhack_book/mdtable.py
-	python brainhack_book/mdtable.py acknowledgments; \
+	python brainhack_book/mdtable.py -f data/acknowledgments.csv \
+		-d brainhack_book/acknowledgments_descriptions.md \
+		-t brainhack_book/acknowledgments.md --contributor;
 
 preprint: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_contributors.md
 
