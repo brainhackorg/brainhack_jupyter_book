@@ -1,6 +1,11 @@
 #!/bin/bash
 # Original script: Stephanie Noble Feb 09 2021
 # Edited by Hao-Ting Wang Feb 10 2021
+# Cleaning the paper affiliation for authorarranger to generate author list
+# https://authorarranger.nci.nih.gov/#/user-guide
+# Add ranking order of affiliation and unique ID to each author for the ease of manual curation
+# Currated version is in `data` for book keeping
+#
 # Usage:
 # bash neuroview_affiliations_organizer.sh
 
@@ -30,7 +35,7 @@ sed 's: / :\t:g' aff3 > aff3_tmp
 awk -v OFS="\t" -F"\t" '{$1=""; $2=""; $3=""; print ;}' aff2_tmp > aff2_tmp2
 awk -v OFS="\t" -F"\t" '{$1=""; $2=""; $3=""; print ;}' aff3_tmp > aff3_tmp2
 
-# HTW - add line number to start of the line (NR-1: as subject ID) and affiliation order(1; 2; 3)
+# add line number to start of the line (NR-1: as subject ID) and affiliation order(1; 2; 3)
 awk -v OFS="\t" -F"\t" '{print NR-1,1,$s}' aff1_tmp > aff1_sep
 awk -v OFS="\t" -F"\t" '{print NR-1,2,$s}' aff2_tmp2 > aff2_sep
 awk -v OFS="\t" -F"\t" '{print NR-1,3,$s}' aff3_tmp2 > aff3_sep
@@ -44,7 +49,7 @@ sed '/[[:alpha:]]/!d' tmp > $out_file
 # remove line 2 and three
 sed -i '2d;3d' $out_file
 
-# replace some header labels to fit AutoArragne in line 1 (header)
+# replace some header labels to fit AuthorArranger in line 1 (header)
 sed -i '1!b;s/0/Author_ID/' $out_file
 sed -i '1!b;s/1/Aff_Order/' $out_file
 sed -i '1!b;s/1/Aff_Order/' $out_file
