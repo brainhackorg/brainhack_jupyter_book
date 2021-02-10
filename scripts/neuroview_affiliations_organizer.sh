@@ -52,7 +52,6 @@ sed -i '2d;3d' $out_file
 # replace some header labels to fit AuthorArranger in line 1 (header)
 sed -i '1!b;s/0/Author_ID/' $out_file
 sed -i '1!b;s/1/Aff_Order/' $out_file
-sed -i '1!b;s/1/Aff_Order/' $out_file
 sed -i '1!b;s/First name/First/' $out_file
 sed -i '1!b;s/Middle initial(s)/Middle/' $out_file
 sed -i '1!b;s/Last name/Last/' $out_file
