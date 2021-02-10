@@ -3,8 +3,10 @@ osf_neuroviewcontributors=affiliation_and_consent_for_the_brainhack_neuroview_pr
 osf_contributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 
 contributors:
-	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/preprint_contributors.tsv; \
-	osf -p ${osfid} fetch ${osf_contributors} data/contributors.tsv
+	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors} \
+	cp data/${osf_neuroviewcontributors} data/contributors.tsv
+	cp data/${osf_neuroviewcontributors} data/preprint_contributors.tsv
+	bash scripts/neuroview_affiliations_organizer.sh
 
 brainhack_book/preprint_contributors.md : data/preprint_contributors.tsv brainhack_book/preprint_contributors_descriptions.md  scripts/mdtable.py
 	python scripts/mdtable.py \
