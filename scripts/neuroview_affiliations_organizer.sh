@@ -4,7 +4,7 @@
 # Cleaning the paper affiliation for authorarranger to generate author list
 # https://authorarranger.nci.nih.gov/#/user-guide
 # Add ranking order of affiliation and unique ID to each author for the ease of manual curation
-# Currated version is in `data` for book keeping
+# Curated version is in `data` for book keeping
 #
 # Usage:
 # bash neuroview_affiliations_organizer.sh
