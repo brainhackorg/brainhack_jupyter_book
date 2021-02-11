@@ -38,8 +38,9 @@ preprint: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_con
 bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
 
 manuscript :
-	python scripts/neuroview_author_ranking.py
 	bash scripts/neuroview_affiliations_organizer.sh
+	python scripts/neuroview_author_ranking.py
+
 
 book :
 	jupyter-book build brainhack_book
