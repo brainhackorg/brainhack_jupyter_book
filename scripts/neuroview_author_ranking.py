@@ -6,7 +6,7 @@ This is ran AFTER
 `neuroview_affiliations_organizer.sh`
 and human curation
 
-Ranking spreadsheet was downloaded on 18:16 pm 02.11.2021
+Ranking spreadsheet was downloaded on 20:48 pm 02.11.2021 GMT +0
 The download of the file is not automated due to API aurthorization needed.
 
 1. Give ranking order
@@ -28,14 +28,14 @@ gsheet_file = "General and core team members - core team members.tsv"
 osf_file = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
 curated_file="./data/affiliations_curated.tsv"
 
-ranking = pd.read_csv(f"data/{gsheet_file}", sep="\t", skiprows=1)
+ranking = pd.read_csv(f"data/{gsheet_file}", sep="\t", skiprows=1, )
 osf = pd.read_csv(f"data/{osf_file}", sep="\t", header=[0, 1, 2])
 
 # give ranking in gsheet
 ranking["ranking"] = ranking.index + 1
 
 # fuzzy name match
-rename_gsheet = {'Unnamed: 3': "First", 'Unnamed: 4': "Last"}
+rename_gsheet = {'Unnamed: 1': "First", 'Unnamed: 2': "Last"}
 ranking = ranking.rename(columns=rename_gsheet)
 # sort osf sheet by last name and give ranking
 osf_last = osf.columns[10]
