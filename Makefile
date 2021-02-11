@@ -3,10 +3,9 @@ osf_neuroviewcontributors=affiliation_and_consent_for_the_brainhack_neuroview_pr
 osf_contributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 
 contributors:
-	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors}; \
-	cp data/${osf_neuroviewcontributors} data/contributors.tsv; \
-	cp data/${osf_neuroviewcontributors} data/preprint_contributors.tsv; \
-	bash scripts/neuroview_affiliations_organizer.sh
+	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors}
+	cp data/${osf_neuroviewcontributors} data/contributors.tsv
+	cp data/${osf_neuroviewcontributors} data/preprint_contributors.tsv
 
 brainhack_book/preprint_contributors.md : data/preprint_contributors.tsv brainhack_book/preprint_contributors_descriptions.md  scripts/mdtable.py
 	python scripts/mdtable.py \
@@ -37,6 +36,10 @@ brainhack_book/acknowledgments.md : data/acknowledgments.csv brainhack_book/ackn
 preprint: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_contributors.md
 
 bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
+
+manuscript :
+	python scripts/neuroview_author_ranking.py
+	bash scripts/neuroview_affiliations_organizer.sh
 
 book :
 	jupyter-book build brainhack_book
