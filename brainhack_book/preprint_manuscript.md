@@ -75,11 +75,11 @@ Brainhacks complement traditional academic settings and offer additional opportu
 
 ## Acknowledgments
 
-[View acknowledgments here](/neuroview_acknowledgments)
+[View acknowledgments here](/preprint_acknowledgments)
 
 ## Author Contributions
 
-[View contributions here](/neuroview_contributors)
+[View contributions here](/preprint_contributors)
 
 
 
