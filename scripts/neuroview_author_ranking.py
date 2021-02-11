@@ -72,7 +72,7 @@ for i, row in curated.iterrows():
     mask = osf[("", "", "Author_ID")] == row["Author_ID"]
     rank = osf[mask][("", "", "ranking")].tolist()[0]
     curated.loc[i, "ranking"] = rank
-# sort by rank, save
-curated = curated.sort_values("ranking")
+# sort by ranking first, and nested with afiliation order
+curated = curated.sort_values(["ranking", "Aff_Order"])
 curated.to_csv(f"data/affiliations_curated_ranked.tsv", index=False, sep="\t")
 
