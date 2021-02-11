@@ -1,7 +1,7 @@
-# Neuroview Authorship Agreement
+# Authorship Agreement
 
 In this document we describe the contribution and authorship guidelines for the
-Brainhack Neuro view paper that we collectively agreed on. 
+Brainhack Neuro view paper that we collectively agreed on.
 Specifically, we try
 to describe the motivations and processes used to define the different levels of
 contributions for this project.
@@ -10,10 +10,10 @@ For us it is important that nobody in the Brainhack community is excluded and we
 want to recognize that this community and what it has created is the result of a
 collective effort: we wanted our author list to recognize this and to be as
 inclusive as possible — e.g. having contributed by organizing an event is a
-sufficient condition to be an author. 
+sufficient condition to be an author.
 Nevertheless, based on the huge amount of
 people and their different input on this paper, we also agreed to define several
-different groups with minimal conditions for each. 
+different groups with minimal conditions for each.
 Please note that the
 authorship decisions described here were confirmed by majority vote open to all
 participants on Sept. 26 2020.
@@ -22,14 +22,14 @@ We used a form where each person could add their name, affiliation(s), contact
 details AND explicitly describe their contribution either by ticking boxes from
 a list of tasks and/or by giving a written description of what they did (this
 approach was in part inspired by the contribution system used by the Turing way
-project). 
+project).
 The contributors spreadsheet resulting from this form was then used to
 help us divide authors into core-team and non-core-team members and to rank
 authors within the core team while non-core team members were listed
 alphabetically.
 
 Our motivation to divide contributors that way was to highlight authors who took
-a more involved part in the creation of the paper itself. 
+a more involved part in the creation of the paper itself.
 Everybody in the community could join this group at any time to actively contribute content, help writing, creating figures, give feedback, help organizing or chair a meeting.
 
 ## Authors
@@ -97,7 +97,7 @@ Ticked any of the following “boxes” in our contribution list:
 Agreement on a ranking for the core team will be made in
 “bottom-up” fashion starting at the “sub-team” level and then aggregating the
 results. Ranking will also be informed by the “contributors” boxes they have
-ticked in the contributors spreadsheet. 
+ticked in the contributors spreadsheet.
 
 ## Acknowledgements
 
