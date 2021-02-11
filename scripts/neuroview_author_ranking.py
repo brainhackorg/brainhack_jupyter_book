@@ -2,6 +2,9 @@
 Author: Hao-Ting Wang 02.11.2021
 
 The current script add authorship ranking for the manuscript.
+This is ran AFTER
+`neuroview_affiliations_organizer.sh`
+and human curation
 
 Ranking spreadsheet was downloaded on 18:16 pm 02.11.2021
 The download of the file is not automated due to API aurthorization needed.
@@ -12,7 +15,6 @@ The download of the file is not automated due to API aurthorization needed.
 4. sort osf sheet
     - core member by ranking
     - general by alphabet of last name
-5. run `neuroview_affiliations_organizer.sh`
 6. copy the ranking to curated sheet
 
 Usage:
