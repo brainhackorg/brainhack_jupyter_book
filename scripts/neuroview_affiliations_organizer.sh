@@ -2,9 +2,9 @@
 # Original script: Stephanie Noble Feb 09 2021
 # Edited by Hao-Ting Wang Feb 10 2021
 # Cleaning the paper affiliation for authorarranger to generate author list
+# The file contain special charactors, so the final tsv needs to be saved as a xlsx file MANUALLY
+# authorarranger:
 # https://authorarranger.nci.nih.gov/#/user-guide
-# Add ranking order of affiliation and unique ID to each author for the ease of manual curation
-# Curated version is in `data` for book keeping
 #
 # Usage:
 # bash neuroview_affiliations_organizer.sh
@@ -59,3 +59,6 @@ sed -i '1!b;s/Last name/Last/' $out_file
 
 # you might want to clean up all those tmp* and aff* files - not all my tools support editing in place and I didn't want to mv everything
 rm *tmp*; rm aff?; rm aff?_sep
+
+echo "Now, manually save $out_file to a xlsx file, pass it to AuthorArrange"
+echo "https://authorarranger.nci.nih.gov/#/user-guide"
