@@ -20,7 +20,7 @@ class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/':
             self.path = 'index.html'
-        return http.server.SimpleHTTPRequestHandler.do_GET(self)
+        return super().do_GET()
 
 server = socketserver.TCPServer((HOST, PORT), HttpRequestHandler)
 server.allow_reuse_address = True
