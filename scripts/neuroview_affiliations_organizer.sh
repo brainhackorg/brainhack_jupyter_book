@@ -9,9 +9,10 @@
 # Usage:
 # bash neuroview_affiliations_organizer.sh
 
+cd data/
 # edit filename
-orig_file="./data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
-out_file="./data/affiliations_organized.tsv"
+orig_file="tmp_affiliations_curated_ranked.tsv"
+out_file="affiliations_organized.tsv"
 
 cut -f10-15 "$orig_file" > tmp
 

@@ -37,17 +37,18 @@ preprint: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_con
 
 bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
 
-manuscript :
-	bash scripts/neuroview_affiliations_organizer.sh
+manuscript : data/affiliations_curated.tsv data/coreteam_ranking.tsv
+ifeq (,$(wildcard data/${osf_neuroviewcontributors}))
+	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors}
+endif
 	python scripts/neuroview_author_ranking.py
-
+	bash scripts/neuroview_affiliations_organizer.sh
 
 book :
 	jupyter-book build brainhack_book
 
 clean :
 	rm -r brainhack_book/_build/
-	# rm data/*contributors.tsv
 	rm brainhack_book/preprint_acknowledgments.md
 	rm brainhack_book/preprint_contributors.md
 	rm brainhack_book/contributors.md
