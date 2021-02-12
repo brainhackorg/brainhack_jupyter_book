@@ -50,8 +50,6 @@ jobs:
         sudo apt-get install google-chrome-beta
         sudo rm /usr/bin/google-chrome
         sudo ln -s /usr/bin/google-chrome-beta /usr/bin/google-chrome
-        google-chrome --version
-        google-chrome-beta --version
         make tests
 
     # Push the book's HTML to github-pages
