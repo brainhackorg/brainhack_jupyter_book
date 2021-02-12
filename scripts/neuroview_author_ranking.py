@@ -31,7 +31,7 @@ import numpy as np
 GSHEET_RANK = "coreteam_ranking.tsv"
 OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
 AFF_CURATED = "affiliations_curated.tsv"
-err_message = """Curated sheet and OSF sheet has unmatched subject number.
+err_message = """Curated sheet and OSF sheet has unmatched number of auhtors.
 Have you update curated sheet?"""
 
 def assert_exit(condition, err_message):
@@ -45,7 +45,7 @@ osf = pd.read_csv(f"data/{OSF_RAW}", sep="\t", header=[0, 1, 2])
 curated = pd.read_csv(f"data/{AFF_CURATED}", sep="\t")
 curated = curated.fillna(" ")  # some authors has empty department info
 
-assert_exit(curated.shape[0]==osf.shape[0], err_message)
+assert_exit(curated["Author_ID"].unique().shape[0]==osf.shape[0], err_message)
 
 # give ranking in gsheet
 ranking["ranking"] = ranking.index + 1
