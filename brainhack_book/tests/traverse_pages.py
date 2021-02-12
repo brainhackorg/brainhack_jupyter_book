@@ -83,11 +83,11 @@ for log in logs:
 
 print('Failed requests')
 for d in failed_requests.values():
-    print(d['url'], d['status'])
+    print(d['url'], d['status'], file=sys.stderr)
 
 print('Failed anchors')
 for page, anchors in failed_anchors.items():
-    print(page, ", ".join(anchors))
+    print(page, ", ".join(anchors), file=sys.stderr)
 
 if failed_requests or failed_anchors:
     sys.exit(1)
