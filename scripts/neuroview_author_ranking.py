@@ -1,8 +1,8 @@
 """
 Author: Hao-Ting Wang 02.11.2021
 
-The current script add authorship ranking for the manuscript.
-and update OSF sheet with curated affiliation
+The current script add authorship ranking for the manuscript
+and update OSF sheet with curated affiliation.
 The output is passed to `neuroview_affiliations_organizer.sh`
 to generate Author Arrange suited format.
 
@@ -23,6 +23,7 @@ The download of the file is not automated due to API aurthorization needed.
 Usage:
 python neuroview_author_ranking.py
 """
+import sys
 import re
 import pandas as pd
 import numpy as np
@@ -30,11 +31,21 @@ import numpy as np
 GSHEET_RANK = "coreteam_ranking.tsv"
 OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
 AFF_CURATED = "affiliations_curated.tsv"
+err_message = """Curated sheet and OSF sheet has unmatched subject number.
+Have you update curated sheet?"""
+
+def assert_exit(condition, err_message):
+    try:
+        assert condition
+    except AssertionError as Error:
+        sys.exit(err_message)
 
 ranking = pd.read_csv(f"data/{GSHEET_RANK}", sep="\t", skiprows=1)
 osf = pd.read_csv(f"data/{OSF_RAW}", sep="\t", header=[0, 1, 2])
 curated = pd.read_csv(f"data/{AFF_CURATED}", sep="\t")
 curated = curated.fillna(" ")  # some authors has empty department info
+
+assert_exit(curated.shape[0]==osf.shape[0], err_message)
 
 # give ranking in gsheet
 ranking["ranking"] = ranking.index + 1
