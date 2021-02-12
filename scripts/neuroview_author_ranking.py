@@ -51,7 +51,7 @@ assert_exit(curated["Author_ID"].unique().shape[0]==osf.shape[0], err_message)
 ranking["ranking"] = ranking.index + 1
 
 # fuzzy name match between gsheet and osf
-rename_gsheet = {'Unnamed: 1': "First", 'Unnamed: 2': "Last"}
+rename_gsheet = {'Unnamed: 0': "joint_first", 'Unnamed: 1': "First", 'Unnamed: 2': "Last"}
 ranking = ranking.rename(columns=rename_gsheet)
 # sort osf sheet by last name and give ranking
 osf_last = osf.columns[10]
@@ -72,6 +72,7 @@ for i, row in ranking.iterrows():
         osf_idx = osf.index[osf_mask_first]
     else:
         osf_idx = osf.index[osf_mask_last]
+
     # copy ranking
     osf.loc[osf_idx, ("", "", "ranking")] = row["ranking"]
 

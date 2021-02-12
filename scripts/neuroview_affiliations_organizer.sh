@@ -12,7 +12,7 @@
 cd data/
 # edit filename
 orig_file="tmp_affiliations_curated_ranked.tsv"
-out_file="affiliations_organized.tsv"
+out_file="authors_affiliations.tsv"
 
 cut -f10-15 "$orig_file" > tmp
 
@@ -59,6 +59,7 @@ sed -i '1!b;s/Last name/Last/' $out_file
 
 # you might want to clean up all those tmp* and aff* files - not all my tools support editing in place and I didn't want to mv everything
 rm *tmp*; rm aff?; rm aff?_sep
-
+echo "======================================================================================"
 echo "Now, manually save $out_file to a xlsx file, pass it to AuthorArrange"
 echo "https://authorarranger.nci.nih.gov/#/user-guide"
+echo "======================================================================================"
