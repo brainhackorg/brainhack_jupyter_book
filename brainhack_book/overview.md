@@ -30,4 +30,4 @@ The Jupyter Book journey only begins… ✨🚀✨
 
 ---
 
-![Preprint Figure](static/preprint_figure.png)
+![Preprint Figure](static/preprint_figure-1.png)
