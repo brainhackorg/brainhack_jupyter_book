@@ -77,17 +77,24 @@ for log in logs:
         continue
 
     data = json.loads(log['message'])['message']['params']['response']
+
+    # Ignore vendors
+    if data['url'].startswith(f'{HTTP_ROOT}/_static/vendor'):
+        continue
+
     if data['status'] >= 400:
         failed_requests[data['url']] = data
 
 
-print('Failed requests')
-for d in failed_requests.values():
-    print(d['url'], d['status'], file=sys.stderr)
+if failed_requests:
+    print('Failed requests')
+    for d in failed_requests.values():
+        print(d['url'], d['status'], file=sys.stderr)
 
-print('Failed anchors')
-for page, anchors in failed_anchors.items():
-    print(page, ", ".join(anchors), file=sys.stderr)
+if failed_anchors:
+    print('Failed anchors')
+    for page, anchors in failed_anchors.items():
+        print(page, ", ".join(anchors), file=sys.stderr)
 
 if failed_requests or failed_anchors:
     sys.exit(1)
