@@ -1,7 +1,7 @@
 # Brainhack Glossary
 
 
-## **A**
+## A
 
 ---
 
@@ -27,7 +27,7 @@ Authors are considered as any active local or remote contributors to the project
 
 
 
-## **B**
+## B
 
 ---
 
@@ -54,7 +54,7 @@ Brainhack Global (BHG) is an umbrella term for all the hacking events run all ar
 
 
 
-## **C**
+## C
 
 ---
 ### Citation:
@@ -110,7 +110,7 @@ Everyone who has contributed something back to the project.
 Curriculum refers to the lessons and other training content taught in a school or in a specific course or program within a defined structure.
 
 
-## **D**
+## D
 
 ---
 ### Data
@@ -139,7 +139,7 @@ a unique alphanumeric string assigned by a registration agency (the Internationa
 ### Documentation
 Documentation is detailed information as well as background and methodological approach about the data or code (e.g., description of the project, variables, and measuring instruments).
 
-## **E**
+## E
 
 ---
 
@@ -156,7 +156,7 @@ Documentation is detailed information as well as background and methodological a
 Research ethics are the moral principles that govern how researchers should carry out their work. These principles are used to shape research regulations agreed by groups such as university governing bodies, communities or governments. All researchers should follow any regulations that apply to their work.
 
 
-## **F**
+## F
 
 ---
 ### FAIR Data
@@ -173,7 +173,7 @@ FAIR Data (according to FORCE11 principles and published in Nature Scientific Da
 
 
 
-## **G**
+## G
 
 ---
 
@@ -190,7 +190,7 @@ An online code hosting and version control service. It has a great many features
 GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
 
-## **H**
+## H
 
 ---
 
@@ -200,7 +200,7 @@ GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manag
 
 ### Hypothesis
 
-## **I**
+## I
 
 ---
 
@@ -219,7 +219,7 @@ GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manag
 A legal term that refers to creations of the mind. Examples of intellectual property include music, literature, paintings, sculpturing, video and other artistic works; discoveries and inventions; and phrases, symbols, and designs.
 
 
-## **J**
+## J
 
 ---
 ### Journal
@@ -227,12 +227,12 @@ A series of published research articles. Historically divided into volumes and i
 
 
 
-## **K**
+## K
 
 ---
 
 
-## **L**
+## L
 
 ---
 
@@ -246,7 +246,7 @@ This is a legal document that sets out the permissions for creative and academic
 ### Local event:
 
 
-## **M**
+## M
 
 ---
 
@@ -270,7 +270,7 @@ Metadata provides a basic description of the data, often including authorship, d
 
 ### Multidisciplinary
 
-## **N**
+## N
 
 ---
 
@@ -286,7 +286,7 @@ Metadata provides a basic description of the data, often including authorship, d
 
 
 
-## **O**
+## O
 
 ---
 
@@ -352,7 +352,7 @@ Availability of source code for a piece of software, along with an open source l
 
 
 
-## **P**
+## P
 
 ---
 
@@ -383,7 +383,7 @@ Project
 
 ### Publishing Venue
 
-## **R**
+## R
 
 ---
 ### Reliability
@@ -432,7 +432,7 @@ An institute, corporation or government body that provides financial assistance 
 ### Reuse
 
 
-## **S**
+## S
 
 ---
 
@@ -467,7 +467,7 @@ A form of business model whereby a fee is paid in order to gain access to a prod
 
 
 
-## **T**
+## T
 
 ---
 
@@ -494,7 +494,7 @@ A conventionally named, standardised delivery method that is applied by a traine
 ### Transparency
 
 
-## **U**
+## U
 
 ---
 
@@ -503,7 +503,7 @@ A conventionally named, standardised delivery method that is applied by a traine
 Unconventional
 
 
-## **V**
+## V
 
 ---
 
@@ -513,7 +513,7 @@ Version control is the management of changes to documents, computer programs, la
 ### Version control system
 
 
-## **W** 
+## W*
 
 ---
 
@@ -525,17 +525,17 @@ Version control is the management of changes to documents, computer programs, la
 
 
 
-## **Y**
+## Y
 
 ---
 
 
-## **Z**
+## Z
 
 ---
 
 
-## **References**
+## References
 
 [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/glossary)
 
