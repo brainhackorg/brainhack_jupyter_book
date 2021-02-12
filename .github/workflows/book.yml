@@ -47,7 +47,7 @@ jobs:
 
     - name: Test Book
       run: |
-        apt-get install google-chrome-beta
+        sudo apt-get install google-chrome-beta
         make tests
 
     # Push the book's HTML to github-pages
