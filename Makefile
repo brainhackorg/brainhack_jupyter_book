@@ -33,6 +33,9 @@ bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
 book :
 	jupyter-book build brainhack_book
 
+tests :
+	python brainhack_book/tests/traverse_pages.py
+
 clean :
 	rm -r brainhack_book/_build/
 	# rm data/*contributors.tsv

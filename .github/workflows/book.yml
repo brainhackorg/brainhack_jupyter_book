@@ -45,6 +45,11 @@ jobs:
         make bookpage
         make book
 
+    - name: Test Book
+      run: |
+        apt-get install google-chrome-beta
+        make tests
+
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.6.1
