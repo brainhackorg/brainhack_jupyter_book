@@ -10,8 +10,6 @@ kernelspec:
       url: https://github.com/brainhackorg/brainhack_jupyter_book
 ---
 
-![brainhack-logo](static/brainhack-logo.png)
-
 # Brainhack Book
 Since the first Brainhack in 2012, the Brainhack community has dynamically grown and inspired a culture of open, inclusive, community-driven neuroscience. In August 2020, Neuron invited a Brainhack Neuroview piece, and the Brainhack community has worked together on this manuscript that highlights the vision, features and impact of Brainhacks – for individual researchers, the community, and science in general.  
 
@@ -22,6 +20,9 @@ This Jupyter Book is a living and growing resource where the expanding community
 Come join us! 
 
 ## Feedback & Questions
-
+Please feel free to [open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new?assignees=&labels=&template=question.md&title=) to this book to get in touch with us for any questions or feedback.
 
 ## Thanks and Acknowledgment
+We acknowledge all the individuals who contributed and will make ongoing contributions to the insights and resources included in this Jupyter Book. Moreover, we would like to acknowledge all Brainhack organizers, supporters, presenters, and participants for their contribution to growing and maintaining this community. The benefits described in this book would not be possible without them. We also thank all institutions, labs, and organisations who have helped this community grow, meet in stimulating environments, and add an excellent educational resource pool and agenda. With an expanding community, Brainhack’s support network keeps growing and we thank all labs and individual researchers for their dedication and expertise offered to this community.  
+
+The current full list can be found in the [preprint acknowledgments table](http://brainhack.org/brainhack_jupyter_book/preprint_acknowledgments.html) and will keep growing here in the book.
