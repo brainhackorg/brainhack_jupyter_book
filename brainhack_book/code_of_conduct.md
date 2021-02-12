@@ -1,7 +1,6 @@
 # Code of Conduct
 
-As part of the open science community, we must promote and advocate inclusivity through a welcoming environment, giving voice to the under-represented and marginalized people, and creating means and tools in building up a healthy community. Understanding this assertion, this Code of Conduct is the expression of these values, and intend to foster a space of kindness, cooperation and empathy within this particular project and the 
-community itself.
+As part of the open science community, we must promote and advocate inclusivity through a welcoming environment, giving voice to underrepresented and marginalized people, and creating means and tools in building up a healthy community. Understanding this assertion, this Code of Conduct is the expression of these values, and intends to foster a space of kindness, cooperation and empathy within this particular project and the community itself.
 
 # Applicability and Scope
 
