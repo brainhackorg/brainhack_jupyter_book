@@ -14,7 +14,7 @@ kernelspec:
 
 The Brainhack Jupyter book has been written by the Brainhack community, as a continuously growing resource for the past and future of Brainhacks. Built together, it documents the achievements and organization of previous events around the world, and aims to instigate events and initiatives towards an open, inclusive, and community-driven neuroscience.
 
-Not subject to the same space restrictions as the NeuroView, the book can become a place where all our ideas can live, illustrated with several projects reflecting the colorful range of interests across the entire community.
+Not subject to the same space restrictions as a traditional journal article, the book can become a place where all our ideas can live, illustrated with several projects reflecting the colorful range of interests across the entire community.
 
 Over the next few months, we aim to write the book as a combination of elements from the short paper, the initial section drafts, the large pool of ideas from our brainstorming sessions, and the great variety of projects, born in Brainhacks and led by the team effort of numerous Brainhackers. Please join our efforts <3
 
