@@ -7,6 +7,8 @@ dependencies:
   - sphinx=2.4.4
   - pip
   - git
+  - selenium
+  - python-chromedriver-binary
   - bokeh=2.2.*
   - jupytext=1.7.*
   - geopandas=0.8.*
