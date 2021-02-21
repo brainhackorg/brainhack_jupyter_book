@@ -500,7 +500,7 @@ A conventionally named, standardised delivery method that is applied by a traine
 
 ### Unconference
 
-Unconventional
+An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization.More at https://en.wikipedia.org/wiki/Unconference.
 
 
 ## **V**
