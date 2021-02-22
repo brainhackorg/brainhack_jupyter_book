@@ -500,7 +500,7 @@ A conventionally named, standardised delivery method that is applied by a traine
 
 ### Unconference
 
-An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization.More at https://en.wikipedia.org/wiki/Unconference.
+An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization {cite}`wiki:unconference`. 
 
 
 ## **V**
@@ -536,9 +536,15 @@ Version control is the management of changes to documents, computer programs, la
 
 
 ## **References**
-
+<!-- 
 [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/glossary)
 
 [OSF Open Science Glossary](https://osf.io/xbcaz/)
 
-[Turing-Way Book Glossary](https://the-turing-way.netlify.app/afterword/glossary.html#) 
+[Turing-Way Book Glossary](https://the-turing-way.netlify.app/afterword/glossary.html#)
+-->
+
+```{bibliography} ./references.bib
+:all:
+:style: unsrt
+```
