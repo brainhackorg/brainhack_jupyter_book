@@ -74,7 +74,7 @@ A suite of standardized licences that allow copyright holders to grant some righ
 
 ### Code-oriented
 
-### Code readability
+### Code Readability
 
 ### COBIDAS
 
@@ -229,10 +229,10 @@ Metadata provides a basic description of the data, often including authorship, d
 ### Open Access
 Open Access refers to online, free of cost access to peer-reviewed scientific content with free reusability regarding copyright restrictions.
 
-### Open access publishing (gratis)
+### Open Access Publishing (gratis)
 The practice of making research publications available to anyone to read without charge.
 
-### Open access publishing (libre)
+### Open Access Publishing (libre)
 Libre open access is gratis, meaning the research is available free of charge, but it goes further by granting users the right to copy, reuse, and remix the publication
 
 ### Open Brain Consent
@@ -257,7 +257,7 @@ Sharing of research materials, for example, biological and geological samples, i
 ### Open Peer Review
 An umbrella term for a number of overlapping ways that peer review models can be adapted in line with the aims of Open Science, including making reviewer and author identities open, publishing review reports and enabling greater participation in the peer review process.
 
-### Open source project
+### Open Source Project
 A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
 
 ### Open Science
@@ -274,7 +274,7 @@ Availability of source code for a piece of software, along with an open source l
 
 ## P
 
-### P-hacking
+### P-Hacking
 Collecting or selecting data or statistical analyses until non-significant results become significant (a **questionable research practice**).
 
 ### Participant
@@ -310,7 +310,7 @@ Project
 ### Registered Report
 A published report describing the hypotheses and planned method of a study, before the data is collected. Also known as a ‘pre-registration’ or ‘pre-reg’.
 
-### Repeated data inspection
+### Repeated Data Inspection
 
 ### Replication
 Replication the repetition of a study’s method, to corroborate its results. An exact replication
@@ -323,7 +323,7 @@ A long-lived place on the internet where resources (be they data, software, publ
 ### Reproducibility
 The degree to which the same methods, results, and inferences of a study can be produced again. Methods reproducibility is the degree to which the methods described in a study report can be performed again. This may be limited by a vague description in the study report or lack of openness in the data. Results reproducibility is the degree to which the same results are produced, in a new study with the same method Inferential reproducibility is the degree to which the same inferences are drawn, either in a new study with the same method and results or in a re-analysis of the original study.
 
-### README file
+### README File
 File where you document your research data. The documentation should be sufficient to enable other researchers to understand, replicate or reproduce the data or reuse them in any other way.
 
 ### Reporting Bias
@@ -347,7 +347,7 @@ An institute, corporation or government body that provides financial assistance 
 
 ### Sample Size
 
-### Satellite events
+### Satellite Events
 
 ### Scholarly Communication
 The creation, transformation, dissemination, and preservation of knowledge related to teaching, research, and scholarly endeavors; the process of academics, scholars and researchers sharing and publishing their research findings so that they are available to the wider academic community. The creation, transformation, dissemination, and preservation of knowledge related to teaching, research, and scholarly endeavors; the process of academics, scholars and researchers sharing and publishing their research findings so that they are available to the wider academic community.
@@ -358,9 +358,9 @@ The creation, transformation, dissemination, and preservation of knowledge relat
 
 ### Self-organizing
 
-### Scientific approach
+### Scientific Approach
 
-### Scientific practice
+### Scientific Practice
 
 ### Sharing
 The joint use of a resource or space. A fundamental aspect of collaborative research. As most research is digitally-authored & digitally-published, the resulting digital content is non-rivalrous and can be shared without any loss to the original creator.
