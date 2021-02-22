@@ -261,7 +261,7 @@ An umbrella term for a number of overlapping ways that peer review models can be
 A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
 
 ### Open Science
- movement which aims to improve the strength of scientific inferences and the effectiveness of scientific communication, by reducing QUESTIONABLE RESEARCH PRACTICES, and making greater use of practices such as REPLICATION and PRE-PRINTS
+Movement which aims to improve the strength of scientific inferences and the effectiveness of scientific communication, by reducing **questionable research practices**, and making greater use of practices such as **replication and pre-prints**
 
 ### Open Science Framework
 
@@ -275,7 +275,7 @@ Availability of source code for a piece of software, along with an open source l
 ## P
 
 ### P-hacking
-collecting or selecting data or statistical analyses until non-significant results become significant (a QUESTIONABLE RESEARCH PRACTICE).
+Collecting or selecting data or statistical analyses until non-significant results become significant (a **questionable research practice**).
 
 ### Participant
 
@@ -366,7 +366,7 @@ The creation, transformation, dissemination, and preservation of knowledge relat
 The joint use of a resource or space. A fundamental aspect of collaborative research. As most research is digitally-authored & digitally-published, the resulting digital content is non-rivalrous and can be shared without any loss to the original creator.
 
 ### Subscription
-A form of business model whereby a fee is paid in order to gain access to a product or service - in this case, the outputs of scholarly research.
+A form of business model whereby a fee is paid in order to gain access to a product or service—in this case, the outputs of scholarly research.
 
 ### Study Protocol
 
