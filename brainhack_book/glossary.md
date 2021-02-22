@@ -485,7 +485,7 @@ Training is any organised activity that teaches, informs, or transfers skills or
 ### Training Format
 A conventionally named, standardised delivery method that is applied by a trainer and includes any number of the pedagogical tools necessary (i.e. motivation/demotivation, hands-on approaches, etc).
 
-### Traintrak
+### Traintrack
 
 ### Traditional
 
