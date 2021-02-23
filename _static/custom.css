@@ -1,0 +1,15 @@
+#brainhack-glossary h1::before { content: none; }
+
+/* Letters */
+#brainhack-glossary h2::before { content: none; }
+#brainhack-glossary h2 { margin: 0; font-weight: bold; border-bottom: 1px solid #CCC; padding: 1rem 0; position: relative; }
+#brainhack-glossary h2:first-child { padding-top: 0.2rem; }
+#brainhack-glossary h2:only-child {  margin-bottom: 2.5rem; color: #CCC !important; border: none; }
+#brainhack-glossary #references h2 { font-weight: 400; border-bottom: none; }
+
+/* Terms */
+#brainhack-glossary h3::before { content: none; }
+#brainhack-glossary h3 { position: relative; }
+#brainhack-glossary .section > .section:first-of-type > h3 { margin-top: 1.05rem; }
+#brainhack-glossary h3:only-child { margin-bottom: 4.75rem; }
+#brainhack-glossary h3:only-child:after { content: '⋯'; position: absolute; left: 0; right: 0; bottom: -2.5rem; text-align: center; color: #CCC; }
