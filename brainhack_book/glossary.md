@@ -1,10 +1,6 @@
 # Brainhack Glossary
 
-
-
-## **A**
-
----
+## A
 
 ### Academia
 The societal community of individuals and groups associated with education, research, scholarship, and learning, especially through university settings or research institutions. 
@@ -28,11 +24,7 @@ Most pertinently, unlike in other event formats, at Brainhack an attendee can we
 
 ### Availability
 
-
-
-## **B**
-
----
+## B
 
 ### Background
 
@@ -57,11 +49,9 @@ A session for collecting ideas on how to specify or address a problem.
 ### Brain Imaging Data Structure (BIDS)
 A peer-reviewed data structure (covering hierarchy, file naming, and file formatting conventions) which is commonly used for open data sharing, primarily in the field of neuroimaging.
 
+## C
 
-## **C**
-
----
-### Citation:
+### Citation
 A well-established measure of research impact; recognition or validation of research by others (Hersh and Plume, 2016).
 
 ### Community
@@ -92,7 +82,7 @@ A suite of standardized licences that allow copyright holders to grant some righ
 
 ### Code-oriented
 
-### Code readability
+### Code Readability
 
 ### COBIDAS
 An OHBM committee created in June 2014 to represent the “Committee on Best Practice in Data Analysis & Sharing” (COBIDAS).
@@ -106,10 +96,8 @@ Any individual who has contributed something back to the overall project. This i
 A collection of educational materials, lesson plans, or any other academic or training content taught as part of an educational course or program with a defined structure.
 
 
+## D
 
-## **D**
-
----
 ### Data
 All digitally available objects (simple or complex) that emerge or are the result of the research process. 
 
@@ -140,9 +128,7 @@ Detailed information about the background and methodological approaches about da
 
 
 
-## **E**
-
----
+## E
 
 ### Early Career Researcher (ECR)
 
@@ -155,11 +141,8 @@ Detailed information about the background and methodological approaches about da
 ### Ethics / Research ethics
 The moral principles that govern how researchers should carry out their work. These principles are used to shape research regulations agreed by groups such as university governing bodies, communities or governments. All researchers should follow these regulations that apply to their work.
 
+## F
 
-
-## **F**
-
----
 ### FAIR Data
 Findable, accessible, interoperable, and re-usable (FAIR) data, which facilitates knowledge discovery by assisting humans and machines in their discovery of, access to, integration and analysis of, task-appropriate scientific data and their associated algorithms and workflows. This definition is according with FORCE11 principles published in Nature Scientific Data.
 
@@ -167,7 +150,7 @@ Findable, accessible, interoperable, and re-usable (FAIR) data, which facilitate
 Relating to the concept of freedom (and not necessarily to the lack of cost).
 Free technologies such as free software are such technologies which preserve or enhance the freedom to operate for both users and developers.
 
-### Fully open
+### Fully Open
 
 ### Functional Magnetic Resonance Imaging (fMRI)
 An imaging technique which leverages temporally resolved recording of magnetic resonance signals in order to elucidate the function of dynamic systems.
@@ -175,16 +158,12 @@ Most often this technique is used to image animal brains, though other applicati
 
 ### Funding
 
-
-
-## **G**
-
----
+## G
 
 ### GDPR
 General Data Protection Regulation (GDPR) seeks to create a harmonised data protection law framework across the EU. It aims to restitute the control of personal data to citizens, whilst imposing strict rules on those hosting and 'processing' these data, anywhere in the world. The Regulation also introduces rules relating to the free movement of personal data within and outside the EU.
 
-### Geographically unbounded 
+### Geographically Unbounded
 
 ### Github
 An online code hosting and version control service. It has a great many features to aid collaboration between users, and hosts a large number of open source projects.
@@ -193,10 +172,7 @@ An online code hosting and version control service. It has a great many features
 A web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
 
-
-## **H**
-
----
+## H
 
 ### Hacking
 The process of liberal modification or remix of existing tools in order to address novel questions or implement new approaches for resolution.
@@ -209,11 +185,7 @@ The term hackathon is a portmanteau of “hacking” and “marathon”. Traditi
 
 ### Hypothesis
 
-
-
-## **I**
-
----
+## I
 
 ### Inclusivity
 The quality of being open and welcoming of people and ideas, regardless of differences or disagreement.
@@ -229,25 +201,14 @@ The quality of being open and welcoming of people and ideas, regardless of diffe
 ### Intellectual Property
 A legal term that refers to creations of the mind. Examples of intellectual property include music, literature, paintings, sculpturing, video and other artistic works; discoveries and inventions; and phrases, symbols, and designs.
 
+## J
 
-
-## **J**
-
----
 ### Journal
 A series of published research articles. Historically divided into volumes and issues.
 
+## K
 
-
-## **K**
-
----
-
-
-
-## **L**
-
----
+## L
 
 ### Lab
 
@@ -256,15 +217,10 @@ The quality of providing motivation, outlook, and conceptual guidelines for a pr
 
 ### Licence
 This is a legal document that sets out the permissions for creative and academic work. It explains copyright, ensures proper attribution and sets out how others can copy, distribute and make use of the works.
- 
-### Local event
 
+### Local Event
 
-
-## **M**
-
----
-
+## M
 
 ### Management
 The action of administrating and coordinating the execution of a project.
@@ -283,13 +239,9 @@ Metadata provides a basic description of the data, often including authorship, d
 
 ### Multidisciplinary
 
+## N
 
-
-## **N**
-
----
-
-### Neuroimaging pipeline framework
+### Neuroimaging Pipeline Framework
 
 ### Neuroscientist
 
@@ -298,11 +250,7 @@ Neurohackademy is a summer school in neuroimaging and data science, held at the 
 
 ### Networking
 
-
-
-## **O**
-
----
+## O
 
 ### OHBM
 The Organization for Human Brain Mapping (OHBM) is an international society dedicated to using neuroimaging to discover the organization of the human brain. The Society's main purpose is that of advancing the understanding of the anatomical and functional organization of the human brain, and promoting its medical and societal applications (https://www.humanbrainmapping.org/).
@@ -313,10 +261,10 @@ An open-access publishing platform publishing a broad range of research objects,
 ### Open Access
 Open Access refers to online, free of cost access to peer-reviewed scientific content with free reusability regarding copyright restrictions.
 
-### Open access publishing (gratis)
+### Open Access Publishing (gratis)
 The practice of making research publications available to anyone to read without charge.
 
-### Open access publishing (libre)
+### Open Access Publishing (libre)
 Libre open access is gratis, meaning the research is available free of charge, but it goes further by granting users the right to copy, reuse, and remix the publication
 
 ### Open Brain Consent
@@ -330,9 +278,9 @@ The development of a fair evaluation system or protocol for research proposals, 
 ### Open Lab Notebooks
 A concept of writing about research on a regular basis, such that research notes and data are accumulated and published online as soon as they are obtained.
 
-### Open license¶
+### Open License
 A license is a document that specifies what can and cannot be done with a work. It grants permissions and states restrictions. Broadly speaking, an open license is one that grants permission to access, re-use and redistribute a work with few or no restrictions.
- 
+
 ### Open Materials
 Sharing of research materials, for example, biological and geological samples, is another Open Science practice.
 
@@ -341,11 +289,11 @@ Sharing of research materials, for example, biological and geological samples, i
 ### Open Peer Review
 An umbrella term for a number of overlapping ways that peer review models can be adapted in line with the aims of Open Science, including making reviewer and author identities open, publishing review reports and enabling greater participation in the peer review process.
 
-### Open source project¶
+### Open Source Project
 A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
- 
+
 ### Open Science
-A movement which aims to improve the strength of scientific inferences and the effectiveness of scientific communication, by reducing QUESTIONABLE RESEARCH PRACTICES, and making greater use of practices such as REPLICATION and PRE-PRINTS
+Movement which aims to improve the strength of scientific inferences and the effectiveness of scientific communication, by reducing **questionable research practices**, and making greater use of practices such as **replication and pre-prints**
 
 ### Open Science Framework
 
@@ -359,13 +307,10 @@ The quality of having emerged from free human interaction, in the absence of ext
 The result of a process.
 A qualitative decision can be the outcome of applying a tool; a tool can be the outcome of executing a roadmap, or alternatively of organic interaction and free innovation, such as hacking.
 
+## P
 
-## **P**
-
----
-
-### P-hacking
-collecting or selecting data or statistical analyses until non-significant results become significant (a QUESTIONABLE RESEARCH PRACTICE).
+### P-Hacking
+Collecting or selecting data or statistical analyses until non-significant results become significant (a **questionable research practice**).
 
 ### Participant
 
@@ -385,17 +330,14 @@ Project
 
 ### Project Leader
 
-### Project Pitching 
+### Project Pitching
 
 ### Publication
 
 ### Publishing Venue
 
+## R
 
-
-## **R**
-
----
 ### Reliability
 
 ### Redistribution
@@ -436,15 +378,11 @@ An institute, corporation or government body that provides financial assistance 
 
 ### Reuse
 
-
-
-## **S**
-
----
+## S
 
 ### Sample Size
 
-### Satellite events
+### Satellite Events
 
 ### Scholarly Communication
 The creation, transformation, dissemination, and preservation of knowledge related to teaching, research, and scholarly endeavors; the process of academics, scholars and researchers sharing and publishing their research findings so that they are available to the wider academic community. The creation, transformation, dissemination, and preservation of knowledge related to teaching, research, and scholarly endeavors; the process of academics, scholars and researchers sharing and publishing their research findings so that they are available to the wider academic community.
@@ -455,23 +393,19 @@ The creation, transformation, dissemination, and preservation of knowledge relat
 
 ### Self-organizing
 
-### Scientific approach
+### Scientific Approach
 
-### Scientific practice
+### Scientific Practice
 
 ### Sharing
 The joint use of a resource or space. A fundamental aspect of collaborative research. As most research is digitally-authored & digitally-published, the resulting digital content is non-rivalrous and can be shared without any loss to the original creator.
 
 ### Subscription
-A form of business model whereby a fee is paid in order to gain access to a product or service - in this case, the outputs of scholarly research.
+A form of business model whereby a fee is paid in order to gain access to a product or service—in this case, the outputs of scholarly research.
 
 ### Study Protocol
 
-
-
-## **T**
-
----
+## T
 
 ### Tool
 
@@ -495,11 +429,7 @@ A series of educational talks or workshops that runs in parallel to the project 
 
 ### Transparency
 
-
-
-## **U**
-
----
+## U
 
 ### Unconference
 
@@ -507,22 +437,14 @@ A short session for participants to present their research, project work, or any
 
 ### Unconventional
 
-
-
-## **V**
-
----
+## V
 
 ### Version Control
 Version control is the management of changes to documents, computer programs, large web sites, and other collections of information in a logical and persistent manner, allowing for both track changes and the ability to revert a piece of information to a previous revision.
 
-### Version control system
+### Version Control System
 
-
-
-## **W** 
-
----
+## W
 
 ### Workshop
 
@@ -531,23 +453,16 @@ Version control is the management of changes to documents, computer programs, la
 ###  Workforce
 The labor pool of a given institution, company, state, or group. It can be formal or informal, but either way, its main function is to unite.
 
+## Y
 
-
-## **Y**
-
----
-
-
-
-## **Z**
+## Z
 
 ---
 
-
-## **References**
+## References
 
 [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/glossary)
 
 [OSF Open Science Glossary](https://osf.io/xbcaz/)
 
-[Turing-Way Book Glossary](https://the-turing-way.netlify.app/afterword/glossary.html#) 
+[Turing-Way Book Glossary](https://the-turing-way.netlify.app/afterword/glossary.html#)
