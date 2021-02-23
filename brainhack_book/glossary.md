@@ -23,8 +23,6 @@ The group that is addressed by intentional communication (e.g., those in attenda
 All active contributors, local or remote, who have contributed significantly to any part of the overall project at any stage, including participating in initial project planning & development, to creating written documentation of global efforts, and finally to finalizing and publishing the results.
 
 ### Attendee
-Any individual who attends or is present at the event, training, seminar, workshop, or activity (e.g., participant at Brainhack event, individual present at Brainhack workshop, etc.)
-
 A participant at an event not directly engaged in setting up the minimal framework offered by Brainhack events.
 Most pertinently, unlike in other event formats, at Brainhack an attendee can well be a person taking on a coordination role within one of the many projects set up inside the event framework.
 
@@ -57,8 +55,6 @@ A session for collecting ideas on how to specify or address a problem.
 ### Bottom-up
 
 ### Brain Imaging Data Structure (BIDS)
-A standard for organizing, annotating, and describing neuroimaging and behavioral data based on an agreed-upon, formalized structure for folders and files.
-
 A peer-reviewed data structure (covering hierarchy, file naming, and file formatting conventions) which is commonly used for open data sharing, primarily in the field of neuroimaging.
 
 
@@ -411,7 +407,7 @@ A published report describing the hypotheses and planned method of a study, befo
 
 ### Replication
 Replication the repetition of a study’s method, to corroborate its results. An exact replication
-is a repetition using exactly the same procedures as the original stud.
+is a repetition using exactly the same procedures as the original study.
 
 ### Repository
 A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
