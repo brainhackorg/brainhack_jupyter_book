@@ -16,25 +16,46 @@ on:
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
     steps:
-    - uses: actions/checkout@v2
-
-    # Install dependencies
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
+    - name: Checkout
+      uses: actions/checkout@v2
       with:
-        python-version: 3.7
+        persist-credentials: false
 
-    - name: Install dependencies
+    - name: Setup Miniconda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: brainhack-jb-env
+        environment-file: environment.yml
+        python-version: 3.7
+        channels: conda-forge
+        auto-activate-base: false
+        miniconda-version: 'latest'
+
+    - name: Build Book
       run: |
-        pip install -r requirements.txt
-    # Build the page
-    - name: Build the book
+        conda info
+        conda list
+        conda activate brainhack-jb-env
+        make contributors
+        make preprint
+        make bookpage
+        make book
+
+    - name: Test Book
       run: |
-        jupyter-book build brainhack_book/
+        sudo apt-get install google-chrome-beta
+        sudo rm /usr/bin/google-chrome
+        sudo ln -s /usr/bin/google-chrome-beta /usr/bin/google-chrome
+        make tests
+
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./brainhack_book/_build/html
+        publish_branch: gh-pages
