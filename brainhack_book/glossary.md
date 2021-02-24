@@ -408,7 +408,10 @@ A series of educational talks or workshops that runs in parallel to the project 
 ## U
 
 ### Unconference
-An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization {cite}`wiki:unconference`. 
+An unconference is a participant-driven meeting.
+The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization {cite}`wiki:unconference`.
+Commonly, participants present their research, project work, or any other topics of current interest in an informal setting to other participants.
+The content of an unconference is usually decided very shortly before or during the Brainhack event itself, often inspired by ongoing within-team discussions that could be of interest to the larger group.
 
 ### Unconventional
 
