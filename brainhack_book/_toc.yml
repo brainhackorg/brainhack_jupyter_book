@@ -2,13 +2,14 @@
 - part: Evolving Brainhack Book
   chapters:
     - file: overview
-    - file: geographical_distribution
+    - file: evolution_of_brainhack
     - file: glossary
     - file: contributors
     - file: acknowledgments
-- part: Neuroview 2021
+- part: Preprint
   chapters:
-    - file: neuroview_manuscript
-    - file: neuroview_figure
-    - file: neuroview_contributors
-    - file: neuroview_acknowledgments
+    - file: preprint_manuscript
+    - file: preprint_figure
+    - file: preprint_contributors
+    - file: preprint_acknowledgments
+    - file: preprint_authorship-agreement
