@@ -1,0 +1,10 @@
+bokeh
+geopandas
+ghp-import
+jupyter-book
+jupytext
+pandas
+pyshp
+osf
+selenium
+chromedriver-binary
