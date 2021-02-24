@@ -396,7 +396,7 @@ Training is any organised activity that teaches, informs, or transfers skills or
 ### Training Format
 A conventionally named, standardised delivery method that is applied by a trainer and includes any number of the pedagogical tools necessary (i.e. motivation/demotivation, hands-on approaches, etc).
 
-### Train Track
+### TrainTrack
 A series of educational talks or workshops that runs in parallel to the project tracks through which attendees collaboratively work on projects. The content of the TrainTrack can range from tutorials that teach hands-on skills needed for the projects in a Brainhack (e.g., like code version-control using Git) to software demos with much narrower applications.
 
 ### Traditional
