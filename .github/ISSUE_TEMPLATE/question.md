@@ -12,4 +12,3 @@ You would like to join our jupyter book efforts but are not sure where to start?
 
 **With respect to the preprint, we would like to kindly ask you to leave questions and feedback via the hypothesis plugin on PsyArXiv.**
 We will answer preprint related questions there.
-
