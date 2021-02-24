@@ -1,7 +1,6 @@
 # Code of Conduct
 
-As part of the open science community, we must promote and advocate inclusivity through a welcoming environment, giving voice to the under-represented and marginalized people, and creating means and tools in building up a healthy community. Understanding this assertion, this Code of Conduct is the expression of these values, and intend to foster a space of kindness, cooperation and empathy within this particular project and the 
-community itself.
+As part of the open science community, we must promote and advocate inclusivity through a welcoming environment, giving voice to underrepresented and marginalized people, and creating means and tools in building up a healthy community. Understanding this assertion, this Code of Conduct is the expression of these values, and intends to foster a space of kindness, cooperation and empathy within this particular project and the community itself.
 
 # Applicability and Scope
 
@@ -10,9 +9,7 @@ This Code of Conduct is applicable to all of the community spaces, including pub
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation, among others. 
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation, among others. 
 
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.
