@@ -40,4 +40,4 @@ We suggest using bullets (indicated by * or -) and filled checkboxes [x] here  -
 - [ ] Proofread
 - [ ] Request reviews
 - [ ] Address reviews
-- [ ] Merge to master branch.
+- [ ] Merge to the main branch
