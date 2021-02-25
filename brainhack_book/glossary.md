@@ -396,7 +396,7 @@ Training is any organised activity that teaches, informs, or transfers skills or
 ### Training Format
 A conventionally named, standardised delivery method that is applied by a trainer and includes any number of the pedagogical tools necessary (i.e. motivation/demotivation, hands-on approaches, etc).
 
-### TrainTrak
+### TrainTrack
 A series of educational talks or workshops that runs in parallel to the project tracks through which attendees collaboratively work on projects. The content of the TrainTrack can range from tutorials that teach hands-on skills needed for the projects in a Brainhack (e.g., like code version-control using Git) to software demos with much narrower applications.
 
 ### Traditional
@@ -408,8 +408,10 @@ A series of educational talks or workshops that runs in parallel to the project 
 ## U
 
 ### Unconference
-
-A short session for participants to present their research, project work, or any other topics of current interest in an informal setting to other participants. The content of an unconference is usually decided very shortly before or during the Brainhack event itself, often inspired by ongoing within-team discussions that could be of interest to the larger group.
+An unconference is a participant-driven meeting.
+The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization {cite}`wiki:unconference`.
+Commonly, participants present their research, project work, or any other topics of current interest in an informal setting to other participants.
+The content of an unconference is usually decided very shortly before or during the Brainhack event itself, often inspired by ongoing within-team discussions that could be of interest to the larger group.
 
 ### Unconventional
 
@@ -436,9 +438,15 @@ The labor pool of a given institution, company, state, or group. It can be forma
 ---
 
 ## References
-
+<!-- 
 [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/glossary)
 
 [OSF Open Science Glossary](https://osf.io/xbcaz/)
 
 [Turing-Way Book Glossary](https://the-turing-way.netlify.app/afterword/glossary.html#)
+-->
+
+```{bibliography} ./references.bib
+:all:
+:style: unsrt
+```
