@@ -1,6 +1,6 @@
 # Brainhack Book :book: 
 
-[Brainhack](brainhack.org) refers to a series of community events, that brings scientists from all around the world with a variety of expertise and disciplines together to facilitate neuroscience research for the community by creating tools, methodologies, techniques, ideas, and guidelines. 
+[Brainhack](brainhack.org) refers to a series of community events, that bring together scientists from all around the world with a variety of expertise and disciplines to facilitate neuroscience research for the community by creating tools, methodologies, techniques, ideas, and guidelines.
 
 Together with this book we aim to create a freely and openly accessible source for the community, that gives a gives a general overview about the aims, tools, and the outputs of the Brainhack events, that is open to the community's contributions. This book is also created by the Brainhack community as a supplement to the [Neuron, 2020 community paper](https://psyarxiv.com/rytjq/) 
 
@@ -15,7 +15,7 @@ This Brainhack Book aims to;
 * create a living and growing community source with the contributions from the any member of the community.
 
 
-### Instructions on Installing the Brainhack Book
+### Running the Brainhack Book
 
 This book was created with [Jupyter Book](https://jupyterbook.org/intro.html) as an open-source project for designing online interactive books.
 
@@ -30,14 +30,14 @@ Everything else is in the `Brainhack Book/` directory.
 ### Configuration
 
 - The table of contents (TOC) defines the order of chapters as they appear in the book.
-To change the TOC, please edit the `Brainhack Book/_toc.yml` file with correct information on filenames and their relative locations in this repository.
+To change the TOC, please edit `./brainhack_book/_toc.yml` with correct information of filenames and their relative locations in this repository.
 Documentation on controlling the TOC structure can be found on the [jupyter book website](https://jupyterbook.org/customize/toc.html).
-- Same applies for more general configuration using `Brainhack Book/_config.yml`.
+- Same applies for more general configuration using `./brainhack_book/_config.yml`.
 Documentation on configuring book settings can be found on the [jupyter book website](https://jupyterbook.org/customize/config.html).
 
 ### Deploying
 
-The site is built automatically using these two directories. All of the requirements are specified in `Brainhack Book/requirements.txt`.
+The site is built and deployed automatically using Github actions, from the `main` branch.
 
 #### Locally (Mac / Linux Only)
 
