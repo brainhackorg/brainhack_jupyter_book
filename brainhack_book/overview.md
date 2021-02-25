@@ -17,7 +17,7 @@ The Brainhack Jupyter book has been written by the Brainhack community, as a con
 
 Not subject to the same space restrictions as a traditional journal article, the book can become a place where all our ideas can live, illustrated with several projects reflecting the colorful range of interests across the entire community.
 
-Over the next few months, we aim to write the book as a combination of elements from the short paper, the initial section drafts, the large pool of ideas from our brainstorming sessions, and the great variety of projects, born in Brainhacks and led by the team effort of numerous Brainhackers. Please join our efforts <3.
+Over the next few months, we aim to write the book as a combination of elements from the short paper, the initial section drafts, the large pool of ideas from our brainstorming sessions, and the great variety of projects, born in Brainhacks and led by the team effort of numerous Brainhackers. Please join our efforts :heart:.
 
 We could draw inspiration from the structure of the short paper, which describes Brainhack features:
 
