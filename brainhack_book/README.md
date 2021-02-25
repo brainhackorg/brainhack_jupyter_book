@@ -41,37 +41,44 @@ The site is built and deployed automatically using Github actions, from the `mai
 
 #### Locally (Mac / Linux Only)
 
-To install jupyter-book etc.
+Clone the project:
 ```
-cd book/website
-pip install -r requirements.txt
+git clone git@github.com:brainhackorg/brainhack_jupyter_book.git
+cd brainhack_book
+```
+
+Install the dependencies using pip; or
+```
+pip install -r ./requirements.txt
+```
+
+Install the dependencies using conda:
+```
+conda env update -n brainhack-jb-env -f ./environment.yml
 ```
 
 Finally, to build the book and preview your changes locally you can run the following command:
 ```
-cd book/website
-jupyter-book build .
+jupyter-book build brainhack_book
 ```
-Now you can open the path provided by jupyter-book as output in your terminal.
+Now you can open the HTML path provided by jupyter-book as output in your terminal i.e. `brainhack_book/_build/html/index.html`.
 
 #### Clean up the recent build
 
 When you test your edits by building the book multiple times, it is better to clean up the last build before generating a new one.
-You can either manually delete the `book/website/_build` folder every time, or run this command:
+You can either manually delete the `brainhack_book/_build` folder every time, or run this command:
 ```
-cd book/website
-jupyter-book clean .
+jupyter-book clean brainhack_book
 ```
 More details on this process can be read on the [JupyterBook's GitHub repository](https://github.com/executablebooks/jupyter-book/blob/master/docs/advanced/advanced.md#clean-your-books-generated-files).
 
 #### Check external links in the book
 
-When editing or reviewing this book locally, you can run the Sphinx link checker with Jupyter Book to check if the external links mentioned in the book are valid.
+When editing or reviewing this book locally, you can run the link checker with Jupyter Book to check if the external links mentioned in the book are valid.
 To run the link checker, use the following command:
 
 ```
-cd book/website
-jupyter-book build . --builder linkcheck
+jupyter-book build brainhack_book --builder linkcheck
 ```
 
 The link checker checks if each link resolves and prints the status on your terminal so that you can check and resolve any incorrect links.
