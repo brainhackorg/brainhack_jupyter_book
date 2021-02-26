@@ -2,6 +2,9 @@ osfid=4szct
 osf_neuroviewcontributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 osf_contributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 
+pre: contributors preprint bookpage
+all: pre book
+
 contributors:
 	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors}
 	cp data/${osf_neuroviewcontributors} data/contributors.tsv
