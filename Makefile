@@ -6,7 +6,7 @@ pre: contributors preprint bookpage
 all: pre book
 
 contributors:
-	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors}
+	osf -p ${osfid} fetch -f ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors}
 	cp data/${osf_neuroviewcontributors} data/contributors.tsv
 	cp data/${osf_neuroviewcontributors} data/preprint_contributors.tsv
 
@@ -54,9 +54,8 @@ tests :
 	python brainhack_book/tests/traverse_pages.py
 
 clean :
-	rm -r brainhack_book/_build/
-	rm brainhack_book/preprint_acknowledgments.md
-	rm brainhack_book/preprint_contributors.md
-	rm brainhack_book/contributors.md
-	rm brainhack_book/acknowledgments.md
-
+	rm -fr brainhack_book/_build/
+	rm -f brainhack_book/preprint_acknowledgments.md
+	rm -f brainhack_book/preprint_contributors.md
+	rm -f brainhack_book/contributors.md
+	rm -f brainhack_book/acknowledgments.md
