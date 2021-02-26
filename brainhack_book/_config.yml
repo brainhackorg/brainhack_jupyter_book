@@ -9,7 +9,7 @@ title                       : "Everything Brainhack: past, present and future"  
 author                      :  The Brainhack community  # The author of the book
 copyright                   : "2020"  # Copyright year to be placed in the footer
 logo                        : "static/brainhack-logo.png"  # A path to the book logo
-exclude_patterns            : ["*descriptions.md", "geographical_distribution.ipynb"]  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
+exclude_patterns            : ["*descriptions.md", "geographical_distribution.ipynb", "README.md"]  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 
 #######################################################################################
 # Execution settings
