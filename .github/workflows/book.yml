@@ -42,7 +42,7 @@ jobs:
 
       - name: Test Book
         run: |
-          make tests
+          make test
 
   deploy-book:
     if: github.event_name == 'push'
