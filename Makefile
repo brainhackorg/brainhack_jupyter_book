@@ -59,3 +59,6 @@ clean :
 	rm -f brainhack_book/preprint_contributors.md
 	rm -f brainhack_book/contributors.md
 	rm -f brainhack_book/acknowledgments.md
+	rm -f data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
+	rm -f data/contributors.tsv
+	rm -f data/preprint_contributors.tsv
