@@ -50,8 +50,8 @@ endif
 book :
 	jupyter-book build brainhack_book
 
-tests :
-	python brainhack_book/tests/traverse_pages.py
+test :
+	jupyter-book build brainhack_book -W
 
 clean :
 	rm -fr brainhack_book/_build/
