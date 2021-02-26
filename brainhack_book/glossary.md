@@ -8,14 +8,24 @@ The societal community of individuals and groups associated with education, rese
 ### Across Field
 
 ### Accessibility
+R efers to the degree of access. Defined by an end-user basis, depending on their ability to understand or reuse content.
 
 ### Ad-hoc
+
+### Apache License
+A free software license by the Apache Software Foundation.
 
 ### Audience
 The group that is addressed by intentional communication (e.g., those in attendance of an Open Science training). The target audience is a group of individuals that will be addressed or affected by the activity, training, communication, or action.
 
 ### Author
 All active contributors, local or remote, who have contributed significantly to any part of the overall project at any stage, including participating in initial project planning & development, to creating written documentation of global efforts, and finally to finalizing and publishing the results.
+
+
+### Author Addendum
+An author addendum is a supplemental or added agreement to a publishing contract that defines or changes the terms of the contract, often focusing on the
+transfer of copyright ownership. For authors of scholarly works, an author addendum to a publisher’s standard publication contract may be necessary to help ensure that authors protect important rights, such as the right to post their articles online to a personal website or in a digital repository; the right to use their works within a classroom setting; or the right to use their works as the foundation for future research.
+
 
 ### Attendee
 Any individual who attends or is present at the event, training, seminar, workshop, or activity (e.g., participant at Brainhack event, individual present at Brainhack workshop, etc.)
@@ -46,7 +56,35 @@ A bootcamp that helps individuals acquire and solidify the statistical and compu
 ### Brain Imaging Data Structure (BIDS)
 A standard for organizing, annotating, and describing neuroimaging and behavioral data based on an agreed-upon, formalized structure for folders and files.
 
+### BSD (Berkeley Software Distribution)
+A family of UNIX-like operating systems.
+
 ## C
+
+
+### CC Attribution (BY)
+
+A licence clause that allows the reuse, sharing, and remixing of materials
+providing the original author is appropriately attributed. Aside from attribution the CC-BY
+licence has no other restrictions on copying. Compatible with free cultural works.
+
+### CC NonCommercial (NC)
+A licence clause allowing the reuse, sharing, and remixing of
+materials providing that it is for non-commercial purposes. Not compatible with free cultural
+works.
+
+### CC NoDerivatives (ND)
+A licence clause requiring that derivatives are not made of the
+original works. Not compatible with free cultural works.
+
+### CC ShareAlike (SA)
+A licence clause requiring that derivative works have the same licence as
+the original. Compatible with free cultural works.
+
+### CC 0 
+A waiver of copyright; no rights reserved. Places content as openly as possible in the
+public domain.
+
 
 ### Citation
 A well-established measure of research impact; recognition or validation of research by others (Hersh and Plume, 2016).
@@ -75,8 +113,6 @@ A suite of standardized licences that allow copyright holders to grant some righ
 
 ### Conventional
 
-### Cross-pollination
-
 ### Code-oriented
 
 ### Code Readability
@@ -88,6 +124,9 @@ An OHBM committee created in June 2014 to represent the “Committee on Best Pra
 
 ### Contributor
 Any individual who has contributed something back to the overall project. This is defined as any planning, organizing, writing, editing, brainstorming, suggesting, or contributing time to the project in any form.
+
+
+
  
 ### Curriculum
 A collection of educational materials, lesson plans, or any other academic or training content taught as part of an educational course or program with a defined structure.
@@ -162,6 +201,9 @@ An online code hosting and version control service. It has a great many features
 A web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
 
+### GNU GPL (General Public License)
+A free copyleft license for software and other kinds of works.
+
 ## H
 
 ### Hacking
@@ -219,7 +261,13 @@ Contributors who are responsible for driving the vision and managing the organiz
 ### Metadata
 Metadata provides a basic description of the data, often including authorship, dates, title, abstract, keywords, and license information. They serve first and foremost the findability of data (e.g. creator, time period, geographic location).
 
-### Methodology
+### Methodolog
+
+
+### MIT License
+An open and permissive software license.
+
+
 
 ### Model
 
@@ -444,6 +492,8 @@ The labor pool of a given institution, company, state, or group. It can be forma
 [OSF Open Science Glossary](https://osf.io/xbcaz/)
 
 [Turing-Way Book Glossary](https://the-turing-way.netlify.app/afterword/glossary.html#)
+
+[Open Glossary](https://blogs.egu.eu/network/palaeoblog/files/2015/02/OpenGlossary1.pdf)
 -->
 
 ```{bibliography} ./references.bib
