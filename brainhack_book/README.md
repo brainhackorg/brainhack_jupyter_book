@@ -1,6 +1,6 @@
 # Brainhack Book :book: 
 
-[Brainhack](brainhack.org) refers to a series of community events, that brings scientists from all around the world with a variety of expertise and disciplines together to facilitate neuroscience research for the community by creating tools, methodologies, techniques, ideas, and guidelines. 
+[Brainhack](brainhack.org) refers to a series of community events, that bring together scientists from all around the world with a variety of expertise and disciplines to facilitate neuroscience research for the community by creating tools, methodologies, techniques, ideas, and guidelines.
 
 Together with this book we aim to create a freely and openly accessible source for the community, that gives a gives a general overview about the aims, tools, and the outputs of the Brainhack events, that is open to the community's contributions. This book is also created by the Brainhack community as a supplement to the [Neuron, 2020 community paper](https://psyarxiv.com/rytjq/) 
 
@@ -15,7 +15,7 @@ This Brainhack Book aims to;
 * create a living and growing community source with the contributions from the any member of the community.
 
 
-### Instructions on Installing the Brainhack Book
+### Running the Brainhack Book
 
 This book was created with [Jupyter Book](https://jupyterbook.org/intro.html) as an open-source project for designing online interactive books.
 
@@ -30,48 +30,55 @@ Everything else is in the `Brainhack Book/` directory.
 ### Configuration
 
 - The table of contents (TOC) defines the order of chapters as they appear in the book.
-To change the TOC, please edit the `Brainhack Book/_toc.yml` file with correct information on filenames and their relative locations in this repository.
+To change the TOC, please edit `./brainhack_book/_toc.yml` with correct information of filenames and their relative locations in this repository.
 Documentation on controlling the TOC structure can be found on the [jupyter book website](https://jupyterbook.org/customize/toc.html).
-- Same applies for more general configuration using `Brainhack Book/_config.yml`.
+- Same applies for more general configuration using `./brainhack_book/_config.yml`.
 Documentation on configuring book settings can be found on the [jupyter book website](https://jupyterbook.org/customize/config.html).
 
 ### Deploying
 
-The site is built automatically using these two directories. All of the requirements are specified in `Brainhack Book/requirements.txt`.
+The site is built and deployed automatically using Github actions, from the `main` branch.
 
 #### Locally (Mac / Linux Only)
 
-To install jupyter-book etc.
+Clone the project:
 ```
-cd book/website
-pip install -r requirements.txt
+git clone git@github.com:brainhackorg/brainhack_jupyter_book.git
+cd brainhack_book
+```
+
+Install the dependencies using pip; or
+```
+pip install -r ./requirements.txt
+```
+
+Install the dependencies using conda:
+```
+conda env update -n brainhack-jb-env -f ./environment.yml
 ```
 
 Finally, to build the book and preview your changes locally you can run the following command:
 ```
-cd book/website
-jupyter-book build .
+jupyter-book build brainhack_book
 ```
-Now you can open the path provided by jupyter-book as output in your terminal.
+Now you can open the HTML path provided by jupyter-book as output in your terminal i.e. `brainhack_book/_build/html/index.html`.
 
 #### Clean up the recent build
 
 When you test your edits by building the book multiple times, it is better to clean up the last build before generating a new one.
-You can either manually delete the `book/website/_build` folder every time, or run this command:
+You can either manually delete the `brainhack_book/_build` folder every time, or run this command:
 ```
-cd book/website
-jupyter-book clean .
+jupyter-book clean brainhack_book
 ```
 More details on this process can be read on the [JupyterBook's GitHub repository](https://github.com/executablebooks/jupyter-book/blob/master/docs/advanced/advanced.md#clean-your-books-generated-files).
 
 #### Check external links in the book
 
-When editing or reviewing this book locally, you can run the Sphinx link checker with Jupyter Book to check if the external links mentioned in the book are valid.
+When editing or reviewing this book locally, you can run the link checker with Jupyter Book to check if the external links mentioned in the book are valid.
 To run the link checker, use the following command:
 
 ```
-cd book/website
-jupyter-book build . --builder linkcheck
+jupyter-book build brainhack_book --builder linkcheck
 ```
 
 The link checker checks if each link resolves and prints the status on your terminal so that you can check and resolve any incorrect links.
