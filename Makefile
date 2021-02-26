@@ -51,7 +51,7 @@ book :
 	jupyter-book build brainhack_book
 
 test :
-	jupyter-book build brainhack_book -W
+	jupyter-book build brainhack_book -W --builder linkcheck
 
 clean :
 	rm -fr brainhack_book/_build/
