@@ -40,9 +40,14 @@ an open-source project for designing online interactive books.
 [Open an issue]() on this repository and someone will try and get back to you as
 soon as possible!
 
+## You want to get in touch?
+
+You can find us on the
+[brainhack jupyter book channel](https://mattermost.brainhack.org/brainhack/channels/brainhack_paper_jupyterbook)
+of the Brainhack mattermost.
+
 ## "I want to help!"
 
-Awesome!!! 
+Awesome!!!
 
-Make sure to have a look at our
-[contributing guidelines](./CONTRIBUTING.md).
+Make sure to have a look at our [contributing guidelines](./CONTRIBUTING.md).
