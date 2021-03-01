@@ -32,7 +32,17 @@ This Brainhack Book aims to;
 This repository hosts the resources for the Jupyter Book "Everything Brainhack:
 past, present and future".
 
+This book was created with [Jupyter Book](https://jupyterbook.org/intro.html) as
+an open-source project for designing online interactive books.
+
 ## "I have some questions..."
 
 [Open an issue]() on this repository and someone will try and get back to you as
 soon as possible!
+
+## "I want to help!"
+
+Awesome!!! 
+
+Make sure to have a look at our
+[contributing guidelines](./CONTRIBUTING.md).

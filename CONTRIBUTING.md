@@ -18,28 +18,24 @@ to the repository of the
 suggestions and ideas are shared and contributed by the members of the
 community, this book will be a more beneficial source for the community.
 
-## Running the Brainhack Book
+## What, Where
 
-This book was created with [Jupyter Book](https://jupyterbook.org/intro.html) as
-an open-source project for designing online interactive books.
+- All the text for each chapter of the `book` lives inside the folder
+  `./Brainhack Book` directory.
 
-This is the README file for Brainhack book hosted online at
-[Brainhack Book](https://brainhack.org/brainhack_jupyter_book/) For the README
-file of the main repository please
-[follow this link](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/README.md).
+- All figures associated with the chapters are stored in and linked from the
+  `./Brainhack Book/figures` directory.
 
-All the text for each chapter of the `book` lives inside the folder
-`./Brainhack Book` directory. All figures associated with the chapters are
-stored in and linked from the `./Brainhack Book/figures` directory. Everything
-else is in the `Brainhack Book/` directory.
+- Everything else is in the `Brainhack Book/` directory.
 
-## Configuration
+### Configuration
 
 - The table of contents (TOC) defines the order of chapters as they appear in
   the book. To change the TOC, please edit `./brainhack_book/_toc.yml` with
   correct information of filenames and their relative locations in this
   repository. Documentation on controlling the TOC structure can be found on the
   [jupyter book website](https://jupyterbook.org/customize/toc.html).
+
 - Same applies for more general configuration using
   `./brainhack_book/_config.yml`. Documentation on configuring book settings can
   be found on the
@@ -47,29 +43,71 @@ else is in the `Brainhack Book/` directory.
 
 ## Deploying
 
-The site is built and deployed automatically using Github actions, from the
-`main` branch.
+The site is built and deployed automatically using a
+[Github action](.github/workflows/book.yml), from the `main` branch.
 
-### Locally (Mac / Linux Only)
+## Viewing the Brainhack Book
 
-Clone the project:
+You will need a recent version of Python to work on the book and view it
+locally. If you do not have Python on your computer, we warmly recommend the
+install instruction from the
+[datalad handbook](http://handbook.datalad.org/en/latest/intro/installation.html#python-3-all-operating-systems).
+
+If you are using an earlier version of Windows than Windows 10, you might want
+to check the install instruction for Python and bash from
+[this page from the neurohackademy](https://neurohackademy.org/setup/).
+
+Note the install procedure below requires you to have
+[git](https://git-scm.com/downloads) installed on your computer.
+
+### Clone the project:
 
 ```bash
 git clone git@github.com:brainhackorg/brainhack_jupyter_book.git
 cd brainhack_book
 ```
 
-Install the dependencies using pip; or
+### Installing Dependencies in a virtual environment
+
+[Virtual environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
+are a great way of isolating project-related dependencies from your system-level
+Python installation.
+
+For more details on virtual environments using a tool like `venv` in Python see
+[here](https://docs.python.org/3/tutorial/venv.html).
+
+You can also use Conda that acts both as a way to manage your environments and
+install packages. For more info about Conda, you can check this page of the
+[Turing Way project](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package.html).
+
+To use a virtual environment for building the book project, run the following
+from within the root folder of the brainhack jupyter book directory:
+
+1. If you are using `virtualenv`:
 
 ```bash
-pip install -r ./requirements.txt
+# create a virtual environment and "activate" it
+virtualenv brainhack
+source brainhack/bin/activate
+
+# install in this environment all the Python packages
+# listed in the requirements.txt file
+pip install -r requirements.txt
 ```
 
-Install the dependencies using conda:
+In case you want to use a specific python interpreter, specify the path as
+
+```bash
+virtualenv -p /usr/bin/python3.7 brainhack
+```
+
+2. If you are using conda:
 
 ```bash
 conda env update -n brainhack-jb-env -f ./environment.yml
 ```
+
+### Building the book locally
 
 Finally, to build the book and preview your changes locally you can run the
 following command:
@@ -109,29 +147,6 @@ terminal so that you can check and resolve any incorrect links. Read more about
 this on the
 [JupyterBook's GitHub repository](https://github.com/executablebooks/jupyter-book/blob/master/docs/advanced/advanced.md#check-external-links-in-your-book).
 
-### Installing Dependencies in a virtual environment
-
-Virtual environments are a great way of isolating project-related dependencies
-from your system-level Python installation. For more details on virtual
-environments in python see [here](https://docs.python.org/3/tutorial/venv.html).
-To use a virtual environment for building the book project, use
-
-```bash
-cd book/website
-virtualenv brainhack
-source brainhack/bin/activate
-pip install -r requirements.txt
-```
-
-In case you want to use a specific python interpreter, specify the path as
-
-```bash
-virtualenv -p /usr/bin/python3.7 brainhack
-```
-
-Now you can use the `jupyter-book build .` command inside `book/website`
-directory as explained above.
-
 <!--#### On Netlify
 
 Brainhack book is built and deployed online using [Netlify](https://www.netlify.com/).
@@ -153,20 +168,8 @@ from all the chapters exist in the `references.bib` file. More details can be
 read on th
 [CONTRIBUTING.md](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/contributing_guideline.md)
 file.
+
 <!-- I will create one once we decide on the contribution method and workflow -->
-
-## Content Templates
-
-Templates for different types of content can be created in the `templates`
-directory.
-
-As of now, the template section includes:
-
-- `case-study-template.ipynb` a template for including interactive case studies
-  in the book
-
-The template can be copied to create content relevant to a chapter in the
-`content` directory.
 
 ## How to Interact With This Book
 
