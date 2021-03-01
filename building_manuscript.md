@@ -29,12 +29,26 @@ consortium.
       virtual environment and install all dependencies.
 
     - Add the late comer to the bottom of those 2 files:
+
       - `data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv`
       - `data/affiliations_curated.tsv`
       - follow the format, check typo manually.
 
-Run python script Run bash script (step 3- 5 can be achived by make
-manuscript)\*\*
+    - Run the following commands
+
+```
+make manuscript
+```
+
+<!-- More detailed summary:
+
+1. Follow the read me to generate an virtual environment and install all dependecies
+2. add late comer to the bottom of affiliations_curated.tsv, follow the format, check typo, manually
+3. Download the affiliation file from osf, save to data/
+4. Run python script
+5. Run bash script
+
+(steps 3- 5 can be achieved by make manuscript)** -->
 
 ### Final cross-check
 
