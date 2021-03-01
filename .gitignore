@@ -1,1 +1,4 @@
 brainhack_book/_build
+
+# virtual env
+brainhack/*
