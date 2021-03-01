@@ -37,8 +37,8 @@ consortium.
 
     - Run the following command: `make manuscript`
 
-    - Use the generated `data/?????` (might need to be converted to and `.xlsx`
-      format) file as input in the online
+    - Use the generated `data/authors_affiliations.tsv` (MUST be converted to `.xlsx`
+      format to accomandate special characters) file as input in the online
       [NIH author arranger](https://authorarranger.nci.nih.gov/#/web-tool) to
       create the `authors_affiliations_preprint.docx` that contains the list of
       authors and affiliations.
