@@ -2,20 +2,20 @@
 Author: Hao-Ting Wang 02.11.2021
 
 The current script add authorship ranking for the manuscript
-and update OSF sheet with curated affiliation.
+and update raw.tsv sheet with curated affiliation.
 
 The curated affiliation "affiliations_curated.tsv" should be
 updated when there's new entry in osf file. The Author ID is
-should be continueous number starting from 1. All information
-should be condfined to the header.
+should be continuous number starting from 1. All information
+should be confined to the header.
 
 Ranking spreadsheet was downloaded on 20:48 pm 02.11.2021 GMT +0
-The download of the file is not automated due to API aurthorization needed.
+The download of the file is not automated due to API authorization needed.
 
 1. Give ranking order in gsheet
-2. fuzzy matching of names between gsheet and osf sheet
-3. copy ranking over to osf sheet
-4. Update osf sheet with curated file on name and affiliations
+2. fuzzy matching of names between gsheet and raw.tsv sheet
+3. copy ranking over to raw.tsv sheet
+4. Update raw.tsv sheet with curated file on name and affiliations
 
 The output is passed to `neuroview_affiliations_organizer.sh`
 to generate Author Arrange suited format.
