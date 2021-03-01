@@ -33,12 +33,36 @@ consortium.
       - `data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv`
       - `data/affiliations_curated.tsv`
       - follow the format, check typo manually.
+      - commit those changes to the repo.
 
-    - Run the following commands
+    - Run the following command: `make manuscript`
 
-```
-make manuscript
-```
+    - Use the generated `data/?????` (might need to be converted to and `.xlsx`
+      format) file as input in the online
+      [NIH author arranger](https://authorarranger.nci.nih.gov/#/web-tool) to
+      create the `authors_affiliations_preprint.docx` that contains the list of
+      authors and affiliations.
+
+    - Copy paste the relevant part of those lists in the
+      [google doc ofd the manuscript](https://docs.google.com/document/d/1Rfjyb2ueF0BX0EavK9oCd1SfjdNb1CiaXTl5AjFWy9Y/edit?usp=sharing)
+
+      - make sure to paste the "general team" members under the
+        `Brainhack consortium` section.
+
+    - Download the google doc as a PDF and upload the version of the preprint on
+      psyarxiv.
+
+## Updating the pages of the jupyter book with NeuroView related content
+
+Run the following command: `make bookpage`.
+
+## Final cross-check
+
+Make sure that the order of authors match:
+
+- on the OSF project
+- on the psyarxiv preprint
+- in the pdf document
 
 <!-- More detailed summary:
 
@@ -49,11 +73,3 @@ make manuscript
 5. Run bash script
 
 (steps 3- 5 can be achieved by make manuscript)** -->
-
-### Final cross-check
-
-Make sure that the order of authors match:
-
-- on the OSF project
-- on the psyarxiv preprint
-- in the pdf document
