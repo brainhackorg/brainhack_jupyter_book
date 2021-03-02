@@ -1,6 +1,4 @@
-osfid=4szct
-osf_neuroviewcontributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
-osf_contributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
+neuroviewcontributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 
 pre: contributors preprint bookpage
 all: pre book
@@ -41,8 +39,8 @@ preprint: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_con
 bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
 
 manuscript : data/affiliations_curated.tsv data/coreteam_ranking.tsv
-ifeq (,$(wildcard data/${osf_neuroviewcontributors}))
-	osf -p ${osfid} fetch ${osf_neuroviewcontributors} data/${osf_neuroviewcontributors}
+ifeq (,$(wildcard data/${neuroviewcontributors}))
+	osf -p ${osfid} fetch ${neuroviewcontributors} data/${neuroviewcontributors}
 endif
 	python scripts/neuroview_author_ranking.py
 	bash scripts/neuroview_affiliations_organizer.sh
