@@ -44,7 +44,7 @@ jobs:
         run: |
           make test
 
-      - name: Deploy book if success
+      - name: Deploy book on push
         if: ${{ success() && github.event_name == 'push' }}
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
