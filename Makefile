@@ -1,4 +1,8 @@
 neuroviewcontributors=affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
+osfid=4szct
+
+pre: contributors preprint bookpage
+all: pre book
 
 contributors:
 	cp data/${neuroviewcontributors} data/contributors.tsv
@@ -35,22 +39,18 @@ preprint: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_con
 bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
 
 manuscript : data/affiliations_curated.tsv data/coreteam_ranking.tsv
-ifeq (,$(wildcard data/${neuroviewcontributors}))
-	osf -p ${osfid} fetch ${neuroviewcontributors} data/${neuroviewcontributors}
-endif
 	python scripts/neuroview_author_ranking.py
 	bash scripts/neuroview_affiliations_organizer.sh
 
 book :
 	jupyter-book build brainhack_book
 
-tests :
-	python brainhack_book/tests/traverse_pages.py
+test :
+	jupyter-book build brainhack_book -W --builder linkcheck
 
 clean :
-	rm -r brainhack_book/_build/
-	rm brainhack_book/preprint_acknowledgments.md
-	rm brainhack_book/preprint_contributors.md
-	rm brainhack_book/contributors.md
-	rm brainhack_book/acknowledgments.md
-
+	rm -fr brainhack_book/_build/
+	rm -f brainhack_book/preprint_acknowledgments.md
+	rm -f brainhack_book/preprint_contributors.md
+	rm -f brainhack_book/contributors.md
+	rm -f brainhack_book/acknowledgments.md

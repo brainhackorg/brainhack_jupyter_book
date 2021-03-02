@@ -4,11 +4,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.7.*
-  - sphinx=2.4.4
+  - sphinx=3.5.1
   - pip
   - git
-  - selenium
-  - python-chromedriver-binary
   - bokeh=2.2.*
   - jupytext=1.7.*
   - geopandas=0.8.*
