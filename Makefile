@@ -34,7 +34,7 @@ brainhack_book/acknowledgments.md : data/acknowledgments.csv brainhack_book/ackn
 		-d brainhack_book/acknowledgments_descriptions.md \
 		-t brainhack_book/acknowledgments.md;
 
-pre: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_contributors.md
+preprint: brainhack_book/preprint_acknowledgments.md brainhack_book/preprint_contributors.md
 
 bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
 
