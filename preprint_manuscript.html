@@ -1,9 +1,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Preprint Manuscript &#8212; Everything Brainhack: past, present and future</title>
     
   <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
@@ -24,8 +25,8 @@
     href="_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
-    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.37f24b989f4638ff9c27c22dc7559d4f.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -40,13 +41,12 @@
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -174,21 +174,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -206,7 +206,7 @@
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -225,19 +225,19 @@
 </div>
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
             <i class="fas fa-list"></i> Contents
         </div>
@@ -312,6 +312,7 @@
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -356,24 +357,23 @@ The project-oriented structure of Brainhack enables everyone to be an active par
 <p>Alongside projects, educational activities lie at the heart of Brainhack events. Such activities include informal teaching between project teammates, theoretical discussions in self-organized groups, “unconference” presentations, and structured workshops on a particular tool or topic. A recent format for major Brainhack events is the <a class="reference internal" href="glossary.html"><span class="doc std std-doc"><strong>TrainTrack</strong></span></a>, entirely education-focused sessions that run all day, in parallel with work on projects (<a class="reference external" href="#figure-1">Fig. 1A-B</a>). This format lowers the entry barrier for new participants, enabling them to build relevant skills and familiarize themselves with the structure and environment of a Brainhack before diving into their first project. The variety of educational approaches supports different learning styles. Furthermore, the informal nature of these activities empowers participants to be proactive about learning and asking for help.</p>
 <p>Brainhack instructors strive to share their produced materials with the scientific community, including recorded presentations, slide decks, interactive tutorials, and more. For example, all the materials developed for the <a class="reference external" href="https://ohbm.github.io/hackathon2020/traintrack/">TrainTrack of OHBM Brainhack 2020</a> have been made publically available so as to encourage reuse, redistribution, and reproduction of the content. Educational content developed for Brainhacks cover a range of topics including analytical and statistical methods (e.g., machine learning, data preprocessing), reproducible workflows (e.g., automated pipelines, automated data standardization, software containers), and other relevant concepts (e.g., preregistration, p-hacking). Many featured tools are geared towards promoting more open and reproducible practices. The training sessions are designed to be hands-on and interactive as they typically feature small groups having active discussions. Participants are explicitly encouraged to adopt what they learned at a Brainhack event to their own context and to improve the teaching material with their own ideas.</p>
 <p>Skills learned at Brainhacks are not constrained to those of a technical nature; the event format provides a unique and safe opportunity for early career researchers to develop their teamwork and leadership skills. Project teams are often interdisciplinary, allowing participants to practice communicating beyond their own field. Everyone is encouraged to propose and lead their own projects, and the informal structure of the events often empowers more junior participants to also take on a leadership role. The growing pool of training materials provides a ready route to extend teaching opportunities to any member of the community, including trainees. Such experiences are rare for junior researchers, but crucial for their advancement. Altogether, the broad range of scientific and professional training opportunities equips participants with a skill set which is applicable across many domains and may therefore open up a greater range of career opportunities.</p>
-<p>(open-science-&amp;-collaborative-coding)=</p>
 </div>
 <div class="section" id="open-science-collaborative-coding">
-<h2>Open Science &amp; Collaborative Coding<a class="headerlink" href="#open-science-collaborative-coding" title="Permalink to this headline">¶</a></h2>
+<span id="id3"></span><h2>Open Science &amp; Collaborative Coding<a class="headerlink" href="#open-science-collaborative-coding" title="Permalink to this headline">¶</a></h2>
 <p>Despite the increasingly central role of programming in neuroscience research, formal training in coding is not common in the neuroscience curriculum. In addition, code is seldomly shared across more than a few labs, and too often seen and used by only a single individual. As a result, many scripts and workflows are hard to reuse and share, and can contain undiscovered errors (<a class="reference external" href="#references">Merali et al., 2010</a>).</p>
 <p>By putting cross-disciplinary collaboration at its heart, Brainhacks have brought awareness to the need for the usability, reusability and long-term maintenance of tools. This comes with a shift of efforts, from individuals creating tools for their own needs to a community actively contributing to an existing resource, solving the aforementioned issues. Practices such as writing good code and documentation, improving code readability, performing basic version control, working collaboratively on a code base on GitHub, GitLab, or BitBucket, and using appropriate open licences have become essential within the community. These open practices and tools facilitate community-driven development and ensure that tools are available to all researchers, fostering global inclusivity. Brainhacks have also highlighted the importance of a variety of “research objects’’ other than scientific papers (such as software, tutorials, workflows, and datasets), a concept that is increasingly endorsed by publishing venues such as F1000, RIO, eLife, Aperture, and others over the years.</p>
 <p>Mastering collaborative programming skills enables Brainhack participants to contribute to open research objects which impact the wider scientific community. It can also make them more efficient at conducting their own research, for example when skills like version control are transferred to their own research group and foster more seamless collaboration amongst lab members. The wider neuroscience community benefits from the creation of transparent, reproducible toolsets, and from researchers equipped with the skills to maintain and extend them.</p>
 </div>
 <div class="section" id="a-focus-on-reproducibility">
-<span id="id3"></span><h2>A Focus on Reproducibility<a class="headerlink" href="#a-focus-on-reproducibility" title="Permalink to this headline">¶</a></h2>
+<span id="id4"></span><h2>A Focus on Reproducibility<a class="headerlink" href="#a-focus-on-reproducibility" title="Permalink to this headline">¶</a></h2>
 <p>In line with their open, transparent and collaborative nature, Brainhacks have fostered an increased awareness of the importance of reproducible practices that integrate easily into research workflows. In addition to the coding practices mentioned above, an important aspect of reproducibility is data sharing. Public datasets feature extensively in Brainhack projects and training sessions, since they are ideal for testing out new ideas or learning how to use a new tool. First-time users thus experiment with these datasets and related tools under the guidance of expert users, which lowers the barrier to working with public data in the future. This approach establishes open data sharing as a standard practice and teaches participants how to curate their data and metadata in a way that will be accessible and reusable by others.</p>
 <p>Resources that help researchers handle their data in a reproducible fashion are integral to Brainhacks; many of these have been introduced to the Brainhack community through structured efforts from the Center for Reproducible Neuroimaging Computation (<a class="reference external" href="#references">Kennedy et al., 2019</a>). For example, many projects and trainings use <a class="reference external" href="https://www.datalad.org">DataLad</a>, a tool that not only lets participants version-control their own data, but also helps them find, access, share, and work with increasingly large publicly available datasets. Similarly, a growing number of projects build on the <a class="reference external" href="https://bids.neuroimaging.io">Brain Imaging Data Structure (BIDS</a>, <a class="reference external" href="#references">Gorgolewski et al., 2016</a>), a community standard for the organization of brain imaging data and metadata founded at the International Neuroinformatics Coordinating Facility (INCF). Introducing participants to data standards, such as BIDS, in the environment of a Brainhack allows them to experience the benefits of a unified data organisation and provides them with the skillset to use these formats in their own research. By creating a scientific culture around open and standardized data, metadata, and methods, as well as detailed documentation and reporting, Brainhacks promote fundamental building blocks of a more efficient and reliable scientific research process.</p>
 </div>
 <div class="section" id="building-and-bridging-communities">
-<span id="id4"></span><h2>Building and Bridging Communities<a class="headerlink" href="#building-and-bridging-communities" title="Permalink to this headline">¶</a></h2>
-<p>All aspects of Brainhacks discussed above build upon an active commitment to a diverse, inclusive, and non-hierarchically organized community. This commitment has been formalized in a Code of Conduct that aims to ensure a safe and welcoming environment for participants from all backgrounds. The <a class="reference external" href="https://brainhack.org/code-of-conduct.html#:~:text=Brainhack%20is%20dedicated%20to%20providing,event%20participants%20in%20any%20form.">Code of Conduct</a> is discussed at the beginning of a Brainhack and adherence is monitored throughout the event. While far from perfect or bias-free, we are pleased to witness that the Brainhack community is continuously growing more diverse in terms of race, gender, sexual orientation, career stage, and more. The enthusiastically inclusive culture helps members hold each other to a standard of mutual respect that empowers individuals from typically underrepresented groups to claim their space and take on central roles in the community.</p>
+<span id="id5"></span><h2>Building and Bridging Communities<a class="headerlink" href="#building-and-bridging-communities" title="Permalink to this headline">¶</a></h2>
+<p>All aspects of Brainhacks discussed above build upon an active commitment to a diverse, inclusive, and non-hierarchically organized community. This commitment has been formalized in a Code of Conduct that aims to ensure a safe and welcoming environment for participants from all backgrounds. The <a class="reference external" href="https://brainhack.org/code-of-conduct.html">Code of Conduct</a> is discussed at the beginning of a Brainhack and adherence is monitored throughout the event. While far from perfect or bias-free, we are pleased to witness that the Brainhack community is continuously growing more diverse in terms of race, gender, sexual orientation, career stage, and more. The enthusiastically inclusive culture helps members hold each other to a standard of mutual respect that empowers individuals from typically underrepresented groups to claim their space and take on central roles in the community.</p>
 <p>Brainhacks are designed to promote intensive networking. The project-oriented and decentralized setting puts participants on an equal footing regardless of backgrounds and career stage. Unconferences provide a unique opportunity for people interested in the same topic to meet and discuss, sometimes sparking new collaborations. Working in small groups during projects, workshops, and unconferences over the course of several days encourages frequent interactions that often go deeper than relatively short encounters at traditional conferences. These interactions frequently lead to lasting collaborations that bridge across disciplines, research contexts, career stages, and geographical areas. Sometimes they lead to job opportunities. Often they turn into friendships. We firmly believe that growing this diverse community and insisting on a culture of collaboration and inclusivity has untold benefits for the retention and well-being of all scientists doing brain research.</p>
-<p>The general format of project-oriented, community-building events has gained traction in the field of neuroscience and beyond. Brainhack Global is our major yearly event that has sparked numerous simultaneous events around the world since 2012; the focus on open collaboration through virtual spaces throughout the years meant that when events were compelled to go virtual in 2020, the community had the infrastructure and knowledge to readily organize and attend virtual events around the world. Large initiatives such as the <a class="reference external" href="https://www.humanbrainproject.eu/en/education/participatecollaborate/infrastructure-events-trainings">Human Brain Project</a>,  <a class="reference external" href="https://neurodatawithoutborders.github.io/nwb_hackathons">Neurodata Without Borders</a>, and the <a class="reference external" href="http://improvingpsych.org">Society for the Improvement of Psychological Science</a> have also chosen hackathons as a primary work format. Summer schools like the <a class="reference external" href="https://www.abcd-repronim.org/index.html">ABCD-ReproNim</a> course, <a class="reference external" href="https://neurohackademy.org/">NeuroHackademy</a>, and the <a class="reference external" href="https://Brainhackmtl.github.io/">Brainhack School</a> are based on the same principles as the original Brainhack events. Thus, a strong ecosystem has emerged that transports the benefits and values of the format far beyond any individual event. Brainhacks are spreading to an increasingly wide community, as the non-hierarchical, self-organising structure enables individuals to organize a Brainhack anywhere in the world (<a class="reference external" href="#figure-1">Fig. 1C</a>) and events are kept financially accessible. An online community with over 4000 members and 500 channels uses the <a class="reference external" href="https://mattermost.brainhack.org">Mattermost</a> messaging platform to provide continuity across time and space. Posts range from questions about a specific resource, to job openings and discussions about research ethics; and anyone can join regardless of having attended a Brainhack. The community evolves with every new member and their ideas, and many members become local advocates for the principles of open and collaborative science in their home institutions.</p>
+<p>The general format of project-oriented, community-building events has gained traction in the field of neuroscience and beyond. Brainhack Global is our major yearly event that has sparked numerous simultaneous events around the world since 2012; the focus on open collaboration through virtual spaces throughout the years meant that when events were compelled to go virtual in 2020, the community had the infrastructure and knowledge to readily organize and attend virtual events around the world. Large initiatives such as the <a class="reference external" href="https://www.humanbrainproject.eu/en/education/participatecollaborate/infrastructure-events-training/">Human Brain Project</a>,  <a class="reference external" href="https://neurodatawithoutborders.github.io/nwb_hackathons">Neurodata Without Borders</a>, and the <a class="reference external" href="http://improvingpsych.org">Society for the Improvement of Psychological Science</a> have also chosen hackathons as a primary work format. Summer schools like the <a class="reference external" href="https://www.abcd-repronim.org/index.html">ABCD-ReproNim</a> course, <a class="reference external" href="https://neurohackademy.org/">NeuroHackademy</a>, and the <a class="reference external" href="https://brainhackmtl.github.io/school2019/">Brainhack School</a> are based on the same principles as the original Brainhack events. Thus, a strong ecosystem has emerged that transports the benefits and values of the format far beyond any individual event. Brainhacks are spreading to an increasingly wide community, as the non-hierarchical, self-organising structure enables individuals to organize a Brainhack anywhere in the world (<a class="reference external" href="#figure-1">Fig. 1C</a>) and events are kept financially accessible. An online community with over 4000 members and 500 channels uses the <a class="reference external" href="https://mattermost.brainhack.org">Mattermost</a> messaging platform to provide continuity across time and space. Posts range from questions about a specific resource, to job openings and discussions about research ethics; and anyone can join regardless of having attended a Brainhack. The community evolves with every new member and their ideas, and many members become local advocates for the principles of open and collaborative science in their home institutions.</p>
 </div>
 <div class="section" id="conclusion-future-directions">
 <h2>Conclusion &amp; Future Directions<a class="headerlink" href="#conclusion-future-directions" title="Permalink to this headline">¶</a></h2>
@@ -423,15 +423,15 @@ The project-oriented structure of Brainhack enables everyone to be an active par
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="acknowledgments.html" title="previous page">Acknowledgments</a>
     <a class='right-next' id="next-link" href="preprint_figure.html" title="next page">Preprint Figure</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
