@@ -44,18 +44,9 @@ jobs:
         run: |
           make test
 
-  deploy-book:
-    if: github.event_name == 'push'
-    needs: build-book
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash -l {0}
-    steps:
-      # Push the book's HTML to github-pages
-      - name: GitHub Pages action
+      - name: Deploy book on push
+        if: ${{ success() && github.event_name == 'push' }}
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./brainhack_book/_build/html
-          publish_branch: gh-pages
