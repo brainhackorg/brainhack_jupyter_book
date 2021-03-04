@@ -89,7 +89,7 @@ Brainhacks complement traditional academic settings and offer additional opportu
 
 
 ## References
-Bannier, E., Barker, G., Borghesani, V., Broeckx, N., Clement, P., de la Iglesia Vaya, M., Emblem, K. E., Ghosh, S. S., Glerean, E., Gorgolewski, K. J., Havu, M., Halchenko, Y. O., Herholz, P., Hespel, A., Heunis, S., Hu, Y., Chuan-Peng, H., Huijser, D., Jancalek, R., … Zhu, H. (2020). The Open Brain Consent: Informing research participants and obtaining consent to share brain imaging data. Center for Open Science. https://doi.org/10.31234/osf.io/f6mnp
+Bannier, E., Barker, G., Borghesani, V., Broeckx, N., Clement, P., de la Iglesia Vaya, M., Emblem, K. E., Ghosh, S. S., Glerean, E., Gorgolewski, K. J., Havu, M., Halchenko, Y. O., Herholz, P., Hespel, A., Heunis, S., Hu, Y., Chuan-Peng, H., Huijser, D., Jancalek, R., … Zhu, H. (2021). The Open Brain Consent: Informing research participants and obtaining consent to share brain imaging data. Human Brain Mapping; 1– 10. https://doi.org/10.1002/hbm.25351
 
 Craddock, R. C., Margulies, D. S., Bellec, P., Nichols, B. N., Alcauter, S., Barrios, F. A., Burnod, Y., Cannistraci, C. J., Cohen-Adad, J., De Leener, B., Dery, S., Downar, J., Dunlop, K., Franco, A. R., Froehlich, C. S., Gerber, A. J., Ghosh, S. S., Grabowski, T. J., Hill, S., … Xu, T. (2016). Brainhack: a collaborative workshop for the open neuroscience community. GigaScience, 5(1). https://doi.org/10.1186/s13742-016-0121-x.
 
