@@ -105,4 +105,4 @@ Kennedy, D. N., Abraham, S. A., Bates, J. F., Crowley, A., Ghosh, S., Gillespie,
 
 Keshavan, A., Yeatman, J. D., & Rokem, A. (2019). Combining Citizen Science and Deep Learning to Amplify Expertise in Neuroimaging. Frontiers in Neuroinformatics, 13. https://doi.org/10.3389/fninf.2019.00029
 
-Merali, Z. Computational science: ...Error. Nature 467, 775-777 (2010) | doi:10.1038/467775a.)https://www.nature.com/news/2010/101013/full/467775a.html
+Merali, Z. (2010). Computational science: ...Error. Nature 467, 775-777 https://doi.org/10.1038/467775a
