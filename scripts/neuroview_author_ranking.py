@@ -121,5 +121,5 @@ for ca in revert_curate:
 osf = osf.sort_values(("", "", "ranking"))
 
 # string quote set to "+" because there are valid strings with " or '
-osf.to_csv("data/affiliations_curated_ranked.tsv",
+osf.to_csv("data/tmp_affiliations_curated_ranked.tsv",
            index=False, sep="\t", quotechar="+")

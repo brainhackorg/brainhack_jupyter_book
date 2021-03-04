@@ -11,7 +11,7 @@
 
 cd data/
 # edit filename
-orig_file="affiliations_curated_ranked.tsv"
+orig_file="tmp_affiliations_curated_ranked.tsv"
 out_file="authors_affiliations.tsv"
 
 cut -f10-15 "$orig_file" > tmp
