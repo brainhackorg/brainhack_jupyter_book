@@ -14,7 +14,7 @@ EXISTING typo in Neuroview paper author affiliation/name: `data/affiliations_cur
 EXISTING typo in Neuroview paper author information: `data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv`
 
 See here for more information on what is expected for pull requests:
-LINK TO CONTRIBUTION.md
+https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/CONTRIBUTING.md
 -->
 
 <!-- You can link a pull request to an issue to show that a fix is in progress.
