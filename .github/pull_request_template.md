@@ -8,9 +8,10 @@ Instruction to annotate the preprint: https://help.osf.io/hc/en-us/articles/3600
 
 The pages related to authors and sponsors are built form spreadsheets under `data`.
 Please update the following information accordingly:
-Acknowledgements: `data/acknowledgments.csv`
-EXISTING typo in author affiliation/name: `data/affiliations_curated.tsv`
-EXISTING typo in other author information: `data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv`
+Geenral acknowledgements: `data/acknowledgments.csv`
+Neuroview paper acknowledgements: `data/acknowledgments.csv`
+EXISTING typo in Neuroview paper author affiliation/name: `data/affiliations_curated.tsv`
+EXISTING typo in Neuroview paper author information: `data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv`
 
 See here for more information on what is expected for pull requests:
 LINK TO CONTRIBUTION.md
