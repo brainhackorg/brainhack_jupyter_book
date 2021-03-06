@@ -1,13 +1,13 @@
 # CONTRIBUTING
 
-## Open Issue on GitHub
+## Open Issue on GitHub :ticket:
 
 If you would like to contribute, make bug report/fix, participate in language
 translation work or if you have any other queries please do not hesitate to open
 an issue using one of the
 [issue templates](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose)
 
-## Making a PR
+## Making a PR 
 
 If you want to contribute with your ideas and suggestions please make a
 [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
@@ -18,7 +18,7 @@ to the repository of the
 suggestions and ideas are shared and contributed by the members of the
 community, this book will be a more beneficial source for the community.
 
-## What, Where
+## What, Where :mag_right:
 
 - All the text for each chapter of the `book` lives inside the folder
   `./Brainhack Book` directory.
@@ -28,7 +28,7 @@ community, this book will be a more beneficial source for the community.
 
 - Everything else is in the `Brainhack Book/` directory.
 
-### Configuration
+### Configuration :gear:
 
 - The table of contents (TOC) defines the order of chapters as they appear in
   the book. To change the TOC, please edit `./brainhack_book/_toc.yml` with
@@ -41,12 +41,12 @@ community, this book will be a more beneficial source for the community.
   be found on the
   [jupyter book website](https://jupyterbook.org/customize/config.html).
 
-## Deploying
+## Deploying :rocket:
 
 The site is built and deployed automatically using a
 [Github action](.github/workflows/book.yml), from the `main` branch.
 
-## Viewing the Brainhack Book
+## Viewing the Brainhack Book :eyes:
 
 You will need a recent version of Python to work on the book and view it
 locally. If you do not have Python on your computer, we warmly recommend the
@@ -60,14 +60,59 @@ to check the install instruction for Python and bash from
 Note the install procedure below requires you to have
 [git](https://git-scm.com/downloads) installed on your computer.
 
-### Clone the project:
+
+### [Fork](https://help.github.com/articles/fork-a-repo) the [Brainhack Jupyter Book repository](https://github.com/brainhackorg/brainhack_jupyter_book) to your Github account :trident:
+Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on GitHub. For more details on how to fork a repository see [this guide](https://help.github.com/articles/fork-a-repo/). 
+
+This is now your own unique copy of the  Brainhack Jupyter Book. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code! 
+
+Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork) with the master repository, otherwise, you can end up with lots of dreaded [merge conflicts](https://help.github.com/articles/syncing-a-fork).
+
+
+
+### [Clone](https://help.github.com/articles/cloning-a-repository) your forked  Brainhack Jupyter Book repository to your machine/computer. :arrow_down_small:
+
+While you can edit files [directly on Github](https://help.github.com/articles/editing-files-in-your-repository), sometimes the changes you want to make will be complex and you will want to use a [text editor](https://en.wikipedia.org/wiki/Text_editor) that you have installed on your local machine/computer. (One great text editor is [vscode](https://code.visualstudio.com/)).
+In order to work on the code locally, you must clone your forked repository. 
 
 ```bash
 git clone git@github.com:brainhackorg/brainhack_jupyter_book.git
 cd brainhack_book
 ```
 
-### Installing Dependencies in a virtual environment
+To keep up with the changes in the  Brainhack Jupyter Book repository, add the [Brainhack Jupyter Book repository](https://help.github.com/articles/configuring-a-remote-for-a-fork) as a remote to your locally cloned repository.
+
+
+`git remote add upstream https://github.com/brainhack_jupyter_book/brainhack_jupyter_book.git`
+
+
+Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork/) with the upstream repository.
+For example, to update your master branch on your local cloned repository:
+
+`git fetch upstream`
+`git checkout master`
+`git merge upstream/master`
+
+
+### Synchronize your master branch with the upstream master branch: :arrows_counterclockwise:
+
+`$ git checkout master`
+`$ git pull upstream master`
+
+
+### Installing Dependencies in a virtual environment :arrow_up:
+
+Before start, you might need to have these listed below ready.
+
+- [A python 3.6 or 3.7](https://www.python.org/downloads/)
+- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- If you are a Windows user for Unix commands and build functions to work properly you might either need
+    -  [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), 
+    -  [Gitbash](https://gitforwindows.org/),
+    -  [Cywin](https://www.cygwin.com/)
+
+For other requirements please have a look at our [requirements.txt](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/requirements.txt)
+
 
 [Virtual environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
 are a great way of isolating project-related dependencies from your system-level
@@ -84,6 +129,20 @@ To use a virtual environment for building the book project, run the following
 from within the root folder of the brainhack jupyter book directory:
 
 1. If you are using `virtualenv`:
+either use this 
+```bash
+# This line creates a virtual environment called 'venv'
+python3 -m venv venv 
+
+# This line activates the virtual environment On macOS and Linux:
+source venv/bin/activate 
+
+# This line activates the virtual environment On Windows
+
+source venv/bin/activate 
+
+```
+or you can use the following
 
 ```bash
 # create a virtual environment and "activate" it
@@ -107,10 +166,48 @@ virtualenv -p /usr/bin/python3.7 brainhack
 conda env update -n brainhack-jb-env -f ./environment.yml
 ```
 
-### Building the book locally
 
-Finally, to build the book and preview your changes locally you can run the
-following command:
+In order to leaving the virtual environment. If you want to switch projects or otherwise leave your virtual environment, simply run:
+
+`deactivate`
+
+
+Once the virtual environment is activated, packages will be installed in that environment, without interfering with your python system installation.  
+
+**HEADS UP**: if you close the terminal or deactivate `venv`, make sure to re-activate the virtual environment with `source venv/bin/activate` before typing any code.
+
+
+### Building the book locally :white_check_mark:
+
+The Brainhack book is build with [jupyter-book](https://pypi.org/project/jupyter-book/) package which helps with creating on-line book version of one of [Brainhack Book](https://github.com/brainhackorg/brainhack_jupyter_book).
+
+Install jupyter-book package
+
+The jupyter-book package can be pip-installed like this:
+
+```python
+pip install jupyter-book
+```
+
+Now, if you run:
+
+```bash
+pip list | grep jupyter-book
+```
+
+You should see something like this (version may change) printed to the terminal:
+
+```bash
+jupyter-book       0.8
+```
+
+Now open the terminal and navigate to the folder where you cloned the Brainhack Jupyter book by:
+
+```bash
+cd ../brainhack_jupyter_book/
+```
+
+To build the book and preview your changes locally you can run the following command:
 
 ```bash
 jupyter-book build brainhack_book
@@ -119,7 +216,7 @@ jupyter-book build brainhack_book
 Now you can open the HTML path provided by jupyter-book as output in your
 terminal i.e. `brainhack_book/_build/html/index.html`.
 
-### Clean up the recent build
+### Clean up the recent build :broom:
 
 When you test your edits by building the book multiple times, it is better to
 clean up the last build before generating a new one. You can either manually
@@ -132,7 +229,7 @@ jupyter-book clean brainhack_book
 More details on this process can be read on the
 [JupyterBook's GitHub repository](https://github.com/executablebooks/jupyter-book/blob/master/docs/advanced/advanced.md#clean-your-books-generated-files).
 
-### Check external links in the book
+### Check external links in the book :link:
 
 When editing or reviewing this book locally, you can run the link checker with
 Jupyter Book to check if the external links mentioned in the book are valid. To
@@ -161,7 +258,7 @@ Brainhack book is built and deployed online using [Netlify](https://www.netlify.
 
 You can find the build history or logs for Brainhack at https://app.netlify.com/sites/brainhack/deploys.-->
 
-## Bibliography
+## Bibliography :newspaper:
 
 In the directory `./Brainhack Book/_bibliography` a collection of bibliography
 from all the chapters exist in the `references.bib` file. More details can be
@@ -171,12 +268,12 @@ file.
 
 <!-- I will create one once we decide on the contribution method and workflow -->
 
-## How to Interact With This Book
+## How to Interact With This Book :arrows_clockwise:
 
 Below the interactive features of this Jupyter Book are explained in further
 detail.
 
-## Open Jupyter Notebook in the Cloud
+## Open Jupyter Notebook in the Cloud :newspaper:
 
 You can open most pages from this book in the cloud and run the code live. Hover
 over the rocket icon at the top of the page and click "Binder" to open a version
@@ -186,7 +283,7 @@ of the same page in the cloud.
 notebooks without any prior configuration or installation. It may take a few
 minutes for the Jupyter notebook to load, so be patient.
 
-## Download Jupyter Notebook
+## Download Jupyter Notebook :arrow_down_small:
 
 You can download any Jupyter notebook page from this book as a Jupyter notebook
 file (`.ipynb`). Hover over the download icon and click `".ipynb"`
@@ -194,22 +291,22 @@ file (`.ipynb`). Hover over the download icon and click `".ipynb"`
 **Attention!** To work with this `.ipynb` file, you will need to have Jupyter
 installed and running on your own computer.
 
-## Download PDF
+## Download PDF :page_with_curl:
 
 You can download any Jupyter notebook page from this book as a PDF file. Hover
 over the download icon and click ".pdf"
 
-## Make Full Screen
+## Make Full Screen :tv:
 
 To make any page from this book full screen, click the full screen icon at the
 top of the page.
 
-## Click to Show the Content
+## Click to Show the Content :newspaper:
 
 You can access to he content of the book by clicking "Click to Show" beneath the
 cell on the right.
 
-## Authors
+## Authors :black_nib:
 
 This book is built and maintained by the Brainhack community. The book is open
 and freely available to the community's contributions.

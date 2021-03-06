@@ -13,7 +13,7 @@ and the outputs of the Brainhack events, that is open to the community's
 contributions. This book is also created by the Brainhack community as a
 supplement to the [Neuron, 2020 community paper](https://psyarxiv.com/rytjq/)
 
-## Goals of the Book
+## Goals of the Book :dart:
 
 This Brainhack Book aims to;
 
@@ -27,7 +27,7 @@ This Brainhack Book aims to;
 - create a living and growing community source with the contributions from the
   any member of the community.
 
-## "What's in this repository?"
+## "What's in this repository?" :file_folder:
 
 This repository hosts the resources for the Jupyter Book "Everything Brainhack:
 past, present and future".
@@ -35,19 +35,18 @@ past, present and future".
 This book was created with [Jupyter Book](https://jupyterbook.org/intro.html) as
 an open-source project for designing online interactive books.
 
-## "I have some questions..."
+## "I have some questions..." **?**
 
-[Open an issue]() on this repository and someone will try and get back to you as
-soon as possible!
+[Open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) on this repository and someone will try and get back to you as soon as possible!
 
 ## You want to get in touch?
 
 You can find us on the
-[brainhack jupyter book channel](https://mattermost.brainhack.org/brainhack/channels/brainhack_paper_jupyterbook)
-of the Brainhack mattermost.
+[Brainhack Jupyter book channel](https://mattermost.brainhack.org/brainhack/channels/brainhack_paper_jupyterbook)
+of the Brainhack Mattermost.
 
 ## "I want to help!"
 
-Awesome!!!
+ Awesome!!! :rocket: Brainhack Book is open to any contributions! Please do not hesitate to [open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) to start a discussion, work towards a bug fix and adding content. 
 
-Make sure to have a look at our [contributing guidelines](./CONTRIBUTING.md).
+Before the starts make sure to have a look at our [contributing guidelines](./CONTRIBUTING.md).
