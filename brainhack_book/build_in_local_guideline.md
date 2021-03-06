@@ -22,14 +22,13 @@ Before start, you might need to have these listed below ready for building your 
 For other requirements please have a look at our [requirements.txt](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/requirements.txt)
 
 
-## Step by Step Guideline for Building the Brainhack Book at your Local,
+## Step by Step Guideline for Building the Brainhack Book at your Local
 
 Now, we will create the Brainhack book using the command line, step-by-step.
 
 ### Step 1:  [Fork](https://help.github.com/articles/fork-a-repo) the [Brainhack Jupyter Book repository](https://github.com/brainhackorg/brainhack_jupyter_book) to your Github account
 Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on GitHub. For more details on how to fork a repository see [this guide](https://help.github.com/articles/fork-a-repo/). This is now your own unique copy of the  Brainhack Jupyter Book. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code!
 Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork) with the master repository, otherwise, you can end up with lots of dreaded [merge conflicts](https://help.github.com/articles/syncing-a-fork).
-
 
 
 
@@ -72,11 +71,11 @@ It is always a good idea to create a virtual environment to isolate your depende
 cd /brainhack_jupyter_book/
 ```
 
-Once there, run this in the terminal to create the virtual environment following the 3 options below based on your operating sytem or choice:
+Once there, run this in the terminal to create the virtual environment following the 3 options below based on your operating system or choice:
 
 ```python=
 
-#create an virtual environment in your local copy and install related libraries with conda
+# create an virtual environment in your local copy and install related libraries with conda
 
 conda env create -f environment.yml --prefix ./envs
 conda activate ./envs
@@ -132,7 +131,6 @@ You should see something like this (version may change) printed to the terminal:
 ```bash
 jupyter-book       0.8
 ```
-
 
 
 ### Step 7: build the `html` files to deploy with `jupyter-book`

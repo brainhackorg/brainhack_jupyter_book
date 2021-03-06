@@ -170,16 +170,16 @@ To make any page from this book full screen, click the full screen icon at the t
 You can access to he content of the book by clicking "Click to Show" beneath the cell on the right.
 
 
-## Authors 
+## Authors :memo:
 
 This book is built and maintained by the Brainhack community. The book is open and freely available to the community's contributions.
 
 
-## Open Issue on GitHub 
+## Open Issue on GitHub :construction:
  If you would like to contribute, make bug report/fix, participate in language translation work or if you have any other queries please do not hesitate to open an issue using one of the [issue templates](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose)
 
  
 
-## Making a PR <!--I was not sure whether we will accept the contributions via PR or issues so I put the both-->
+## Making a PR <!--I was not sure whether we will accept the contributions via PR or issues so I put the both--> :arrow_up_small:
 
 If you want to contribute with your ideas and suggestions please make a [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) by following the [Template format](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) to the repository of the [book](https://github.com/brainhackorg/brainhack_jupyter_book). The more suggestions and ideas are shared and contributed by the members of the community, this book will be a more beneficial source for the community.
