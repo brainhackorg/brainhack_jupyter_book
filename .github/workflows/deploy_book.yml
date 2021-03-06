@@ -1,0 +1,52 @@
+name: book
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-book:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Setup Miniconda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: brainhack-jb-env
+          environment-file: environment.yml
+          python-version: 3.7
+          channels: conda-forge
+          auto-activate-base: false
+          miniconda-version: "latest"
+
+      - name: Build Book
+        run: |
+          conda info
+          conda list
+          conda activate brainhack-jb-env
+          make contributors
+          make preprint
+          make bookpage
+          make book
+
+      - name: Test Book
+        run: |
+          make test
+
+      - name: Deploy book on push
+        if: ${{ success() && github.event_name == 'push' }}
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./brainhack_book/_build/html

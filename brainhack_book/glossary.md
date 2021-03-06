@@ -483,8 +483,6 @@ The labor pool of a given institution, company, state, or group. It can be forma
 
 ## Z
 
----
-
 ## References
 <!-- 
 [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/glossary)
