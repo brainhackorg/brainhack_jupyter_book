@@ -83,8 +83,10 @@ cd brainhack_book
 To keep up with the changes in the  Brainhack Jupyter Book repository, add the [Brainhack Jupyter Book repository](https://help.github.com/articles/configuring-a-remote-for-a-fork) as a remote to your locally cloned repository.
 
 
-`git remote add upstream https://github.com/brainhack_jupyter_book/brainhack_jupyter_book.git`
-
+The first time you try to sync your fork, you may have to set the upstream branch:
+```bash
+git remote add upstream https://github.com/brainhack_jupyter_book/brainhack_jupyter_book.git
+git remote -v # Making sure the upstream repo is listed.
 
 Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork/) with the upstream repository.
 For example, to update your main branch on your local cloned repository:
