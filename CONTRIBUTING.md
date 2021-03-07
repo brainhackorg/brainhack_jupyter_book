@@ -66,7 +66,7 @@ Click on the ‘Fork’ button near the top of the page. This creates a copy of 
 
 This is now your own unique copy of the  Brainhack Jupyter Book. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code! 
 
-Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork) with the master repository, otherwise, you can end up with lots of dreaded [merge conflicts](https://help.github.com/articles/syncing-a-fork).
+Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork) with the upstream repository, otherwise, you can end up with lots of dreaded [merge conflicts](https://help.github.com/articles/syncing-a-fork).
 
 
 
