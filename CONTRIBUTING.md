@@ -90,7 +90,7 @@ Make sure to [keep your fork up to date](https://help.github.com/articles/syncin
 For example, to update your master branch on your local cloned repository:
 
 `git fetch upstream`
-`git checkout master`
+`git checkout main`
 `git merge upstream/master`
 
 
