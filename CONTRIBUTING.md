@@ -94,7 +94,7 @@ For example, to update your master branch on your local cloned repository:
 `git merge upstream/main`
 
 
-### Synchronize your master branch with the upstream master branch: :arrows_counterclockwise:
+### Synchronize your main branch with the upstream main branch: :arrows_counterclockwise:
 
 `$ git checkout master`
 `$ git pull upstream master`
