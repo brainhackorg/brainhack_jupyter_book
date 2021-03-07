@@ -91,7 +91,7 @@ For example, to update your master branch on your local cloned repository:
 
 `git fetch upstream`
 `git checkout main`
-`git merge upstream/master`
+`git merge upstream/main`
 
 
 ### Synchronize your master branch with the upstream master branch: :arrows_counterclockwise:
