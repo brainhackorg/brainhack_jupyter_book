@@ -128,7 +128,7 @@ install packages. For more info about Conda, you can check this page of the
 To use a virtual environment for building the book project, run the following
 from within the root folder of the brainhack jupyter book directory:
 
-1. If you are using `virtualenv`:
+1. If you are using `venv`:
 either use this 
 ```bash
 # This line creates a virtual environment called 'venv'
