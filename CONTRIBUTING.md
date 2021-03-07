@@ -76,7 +76,7 @@ While you can edit files [directly on Github](https://help.github.com/articles/e
 In order to work on the code locally, you must clone your forked repository. 
 
 ```bash
-git clone git@github.com:brainhackorg/brainhack_jupyter_book.git
+git clone git@github.com:YOURUSERNAME/brainhack_jupyter_book.git
 cd brainhack_book
 ```
 
