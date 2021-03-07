@@ -142,7 +142,7 @@ source venv/bin/activate
 source venv/bin/activate 
 
 ```
-or you can use the following
+or you can use the following with `virtualenv`
 
 ```bash
 # create a virtual environment and "activate" it
