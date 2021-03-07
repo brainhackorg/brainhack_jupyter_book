@@ -98,7 +98,8 @@ For example, to update your master branch on your local cloned repository:
 
 `$ git checkout master`
 `$ git pull upstream master`
-
+You can then create a new branch to work on an issue. Using a new branch allows you to follow the standard GitHub workflow when making changes. This [guide](https://guides.github.com/introduction/flow/) provides a useful overview of this workflow. Please keep the name of your branch short and self-explanatory.
+`git checkout -b MYBRANCH`
 
 ### Installing Dependencies in a virtual environment :arrow_up:
 
