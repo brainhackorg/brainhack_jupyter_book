@@ -87,7 +87,7 @@ To keep up with the changes in the  Brainhack Jupyter Book repository, add the [
 
 
 Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork/) with the upstream repository.
-For example, to update your master branch on your local cloned repository:
+For example, to update your main branch on your local cloned repository:
 
 `git fetch upstream`
 `git checkout main`
