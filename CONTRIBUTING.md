@@ -48,17 +48,23 @@ The site is built and deployed automatically using a
 
 ## Viewing the Brainhack Book :eyes:
 
-You will need a recent version of Python to work on the book and view it
-locally. If you do not have Python on your computer, we warmly recommend the
-install instruction from the
+Before start, you might need to have these listed below ready.
+
+- A recent version of Python ([Python 3.6 or 3.7](https://www.python.org/downloads/)) to work on the book and view it
+locally. If you do not have Python on your computer, we warmly recommend the install instruction from the
 [datalad handbook](http://handbook.datalad.org/en/latest/intro/installation.html#python-3-all-operating-systems).
 
 If you are using an earlier version of Windows than Windows 10, you might want
 to check the install instruction for Python and bash from
 [this page from the neurohackademy](https://neurohackademy.org/setup/).
 
-Note the install procedure below requires you to have
-[git](https://git-scm.com/downloads) installed on your computer.
+
+- Note the install procedure below requires you to have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your computer.
+
+- If you are a Windows user for Unix commands and build functions to work properly you might either need
+    -  [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), 
+    -  [Gitbash](https://gitforwindows.org/),
+    -  [Cywin](https://www.cygwin.com/)
 
 
 ### [Fork](https://help.github.com/articles/fork-a-repo) the [Brainhack Jupyter Book repository](https://github.com/brainhackorg/brainhack_jupyter_book) to your Github account :trident:
@@ -105,16 +111,7 @@ You can then create a new branch to work on an issue. Using a new branch allows 
 
 ### Installing Dependencies in a virtual environment :arrow_up:
 
-Before start, you might need to have these listed below ready.
-
-- [A python 3.6 or 3.7](https://www.python.org/downloads/)
-- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- If you are a Windows user for Unix commands and build functions to work properly you might either need
-    -  [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), 
-    -  [Gitbash](https://gitforwindows.org/),
-    -  [Cywin](https://www.cygwin.com/)
-
-For other requirements please have a look at our [requirements.txt](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/requirements.txt)
+For the requirements please have a look at our [requirements.txt](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/requirements.txt)
 
 
 [Virtual environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
@@ -163,6 +160,11 @@ In case you want to use a specific python interpreter, specify the path as
 virtualenv -p /usr/bin/python3.7 brainhack
 ```
 
+After you create your virtual environment using either way described above, then you can install the requirements for building the book by running 
+
+`pip install -r requirements.txt`
+
+
 2. If you are using conda:
 
 ```bash
@@ -183,14 +185,6 @@ Once the virtual environment is activated, packages will be installed in that en
 ### Building the book locally :white_check_mark:
 
 The Brainhack book is build with [jupyter-book](https://pypi.org/project/jupyter-book/) package which helps with creating on-line book version of one of [Brainhack Book](https://github.com/brainhackorg/brainhack_jupyter_book).
-
-Install jupyter-book package
-
-The jupyter-book package can be pip-installed like this:
-
-```python
-pip install jupyter-book
-```
 
 Now, if you run:
 
@@ -215,6 +209,14 @@ To build the book and preview your changes locally you can run the following com
 ```bash
 jupyter-book build brainhack_book
 ```
+
+or you can test your site locally by navigating into your book and running 
+
+`make serve` 
+
+or
+
+`make book`
 
 Now you can open the HTML path provided by jupyter-book as output in your
 terminal i.e. `brainhack_book/_build/html/index.html`.
