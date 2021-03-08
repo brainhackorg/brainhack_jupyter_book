@@ -93,6 +93,7 @@ The first time you try to sync your fork, you may have to set the upstream branc
 ```bash
 git remote add upstream https://github.com/brainhack_jupyter_book/brainhack_jupyter_book.git
 git remote -v # Making sure the upstream repo is listed.
+```
 
 Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork/) with the upstream repository.
 For example, to update your main branch on your local cloned repository:
@@ -104,8 +105,9 @@ For example, to update your main branch on your local cloned repository:
 
 ### Synchronize your main branch with the upstream main branch: :arrows_counterclockwise:
 
-`$ git checkout main`
-`$ git pull upstream main`
+`git checkout main`
+`git pull upstream main`
+
 You can then create a new branch to work on an issue. Using a new branch allows you to follow the standard GitHub workflow when making changes. This [guide](https://guides.github.com/introduction/flow/) provides a useful overview of this workflow. Please keep the name of your branch short and self-explanatory.
 `git checkout -b MYBRANCH`
 
