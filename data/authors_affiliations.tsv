@@ -1,16 +1,16 @@
 ranking	Aff_Order	First	Middle	Last	Department	Institute	City	Country
-1	1	Rémi	 	Gau	Institute of psychology	Université catholique de Louvain	Louvain la Neuve	Belgium
-2	1	Stephanie	 	Noble	Radiology & Biomedical Imaging	Yale University	New Haven CT	USA
-3	1	Katja	 	Heuer	Center for Research and Interdisciplinarity	Université Paris Descartes	Paris	France
+1	1	Rémi	 	Gau*	Institute of psychology	Université catholique de Louvain	Louvain la Neuve	Belgium
+2	1	Stephanie	 	Noble*	Radiology & Biomedical Imaging	Yale University	New Haven CT	USA
+3	1	Katja	 	Heuer*	Center for Research and Interdisciplinarity	Université Paris Descartes	Paris	France
 3	2				Department of Neuropsychology	Max Planck Institute for Human Cognitive and Brain Sciences	Leipzig	Germany
-4	1	Katherine	L.	Bottenhorn	Department of Psychology	Florida International University	Miami FL	USA
-5	1	Isil	P.	Bilgin	Biomedical Engineering,  Cybernetics	University of Reading	Reading	UK
+4	1	Katherine	L.	Bottenhorn*	Department of Psychology	Florida International University	Miami FL	USA
+5	1	Isil	P.	Bilgin*	Biomedical Engineering,  Cybernetics	University of Reading	Reading	UK
 5	2				Allied Health Professions	University of the West of England	Bristol	UK
-6	1	Yu-Fang	 	Yang	Department of Psychology	Würzburg University	Würzburg	Germany
-7	1	Julia	M.	Huntenburg	Systems Neuroscience Lab	Champalimaud Research	Lisbon	Portugal
-8	1	Johanna	 	Bayer	Faculty of Medicine, Dentistry and Health Sciences	University of Melbourne	Melbourne	Australia
+6	1	Yu-Fang	 	Yang*	Department of Psychology	Würzburg University	Würzburg	Germany
+7	1	Julia	M.	Huntenburg*	Systems Neuroscience Lab	Champalimaud Research	Lisbon	Portugal
+8	1	Johanna	 	Bayer*	Faculty of Medicine, Dentistry and Health Sciences	University of Melbourne	Melbourne	Australia
 8	2				 	Orygen Youth Health	Melbourne	Australia
-9	1	Richard	A.I.	Bethlehem	Autism Research Centre, Department of Psychiatry	University of Cambridge	Cambridge	UK
+9	1	Richard	A.I.	Bethlehem*	Autism Research Centre, Department of Psychiatry	University of Cambridge	Cambridge	UK
 9	2				Brain Mapping Unit, Department of Psychiatry	University of Cambridge	Cambridge	UK
 10	1	Shawn	A.	Rhoads	Psychology	Georgetown University	Washington D.C.	USA
 11	1	Christoph	 	Vogelbacher	Laboratory for Multimodal Neuroimaging,  Department of Psychiatry and Psychotherapy	University of Marburg	Marburg	Germany
