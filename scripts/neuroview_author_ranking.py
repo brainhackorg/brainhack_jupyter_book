@@ -29,8 +29,10 @@ import pandas as pd
 import numpy as np
 
 GSHEET_RANK = "coreteam_ranking.tsv"
-OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
-AFF_CURATED = "affiliations_curated.tsv"
+# OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
+# AFF_CURATED = "affiliations_curated.tsv"
+OSF_RAW = "tmp_tpt_merged_raw.tsv"
+AFF_CURATED = "tmp_tpt_merged_curated.tsv"
 err_message = """Curated sheet and OSF sheet has unmatched number of auhtors.
 Have you update curated sheet?"""
 

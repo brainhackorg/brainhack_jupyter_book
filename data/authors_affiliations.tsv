@@ -84,137 +84,186 @@ ranking	Aff_Order	First	Middle	Last	Department	Institute	City	Country
 56	2				 	University of the Basque Country (EHU UPV)	San Sebastián-Donostia	Spain
 57	1	Nasim	 	Anousheh	Intelligent Systems Engineering	Indiana University	Bloomington IN	USA
 58	1	Aurina	 	Arnatkeviciute	The Turner Institute for Brain and Mental Health, School of Psychological Sciences	Monash University	Victoria	Australia
-59	1	Pierre	 	Bellec	Psychology Department	University of Montréal	Montréal, Québec	Canada
-59	2				Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal	University of Montréal	Montréal, Québec	Canada
-60	1	R. Austin	 	Benn	 	Centro Nacional de Investigaciones Cardiovasculares (CNIC)	Madrid	Spain
-61	1	Saskia	 	Bollmann	Centre for Advanced Imaging	The University of Queensland	Brisbane	Australia
-62	1	Steffen	 	Bollmann	School of Information Technology and Electrical Engineering	The University of Queensland	Brisbane	Australia
-62	2				Centre for Advanced Imaging	The University of Queensland	Brisbane	Australia
-63	1	Claire	 	Bradley	Queensland Brain Institute	The University of Queensland	St Lucia	Australia
-64	1	Augusto	 	Buchweitz	Brain Institute of Rio Grande do Sul	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
-65	1	Micaela	Y.	Chan	Center for Vital Longevity, School of Behavioral and Brain Sciences	University of Texas at Dallas	Dallas TX	USA
-66	1	Bramsh	Q.	Chandio	Department of Intelligent Systems Engineering	Indiana University	Bloomington IN	USA
-67	1	Sidhant	 	Chopra	Turner Institute for Brain and Mental Health	Monash University	Melbourne	Australia
-68	1	Ai Wern	 	Chung	Fetal-Neonatal Neuroimaging and Developmental Science Center	Boston Children's Hospital, Harvard Medical School	Boston	USA
-69	1	Thomas	G.	Close	School of Biomedical Engineering	The University of Sydney	Sydney	Australia
-69	2				 	National Imaging Facility	Sydney	Australia
-70	1	Giorgia	 	Cona	Department of General Psychology	University of Padova	Padova	Italy
-71	1	R.	Todd	Constable	Yale MRRC	Yale University	New Haven CT	USA
-71	2				School of Medicine	Yale University	New Haven CT	USA
-72	1	Fabrizio	 	De Vico Fallani	ARAMIS team	Inria	Paris	France
-72	2				Paris Brain Institute	Sorbonne Universites	Paris	France
-73	1	Erin	W.	Dickie	Krembil Centre from Neuroinformatics	Centre for Addiction and Mental Health	Toronto	Canada
-73	2				Department of Psychiatry	University of Toronto	Toronto	Canada
-74	1	Lena	 	Dorfschmidt	Brain Mapping Unit, Department of Psychiatry	University of Cambridge	Cambridge	UK
-75	1	Eugene	P.	Duff	 	University of Oxford	Oxford	UK
-76	1	Elizabeth	 	DuPre	NeuroDataScience - ORIGAMI laboratory	McGill University	Montréal, Québec	Canada
-77	1	Nathalia	B.	Esper	Neuroimaging of Human Cognition	Brain Institute of Rio Grande do Sul	Porto Alegre	Brazil
-78	1	Oscar	 	Esteban	Department of Radiology	Lausanne University Hospital, University of Lausanne	Lausanne	Switzerland
-79	1	Shreyas	 	Fadnavis	 	Indiana University	Bloomington IN	USA
-80	1	Stephanie	J.	Forkel	CNRS UMR 5293 Institut des Maladies Neurodégénératives	 	Bordeaux	France
-80	2				Department Neuroimaging,  Institute of Psychiatry, Psychology and Neurosciences	King's College London	London	UK
-81	1	Alexandre	R.	Franco	Center for Biomedical Imaging and Neuromodulation	Nathan Kline Institute	Orangeburg NY	USA
-81	2				Center for the Developing Brain	Child Mind Institute	New York City	USA
-81	3				Department of Psychiatry	NYU Grossman School of Medicine	New York City	USA
-82	1	Saampras	 	Ganesan	Systems Neuroscience	Melbourne Neuropsychiatry Centre	Melbourne	Australia
-82	2				Department of Biomedical Engineering	The University of Melbourne	Melbourne	Australia
-83	1	José	C.	García Alanis	Department of Psychology	Philipps Universität	Marburg	Germany
-84	1	Eleftherios	 	Garyfallidis	Intelligent Systems Engineering	Indiana University	Bloomington IN	USA
-85	1	Tristan	 	Glatard	Department of Computer Science and Software Engineering  	Concordia University	Montréal, Québec	Canada
-86	1	Cassandra	D	Gould van Praag	Wellcome Centre for Integrative Neuroimaging	University of Oxford	Oxford	UK
-86	2				Department of Psychiatry	University of Oxford	Oxford	UK
-87	1	Geetika	 	Gupta	Department of Psychology	Western University	London ON	Canada
-87	2				Brain and Mind Institute	Western University	London ON	Canada
-88	1	Thomas	S.	Hartmann	 	Philipps Universität	Marburg	Germany
-89	1	Valérie	 	Hayot-Sasson	Department of Computer Science and Software Engineering  	Concordia University	Montréal, Québec	Canada
-90	1	Stephan	 	Heunis	Department of Electrical Engineering	Eindhoven University of Technology	Eindhoven	The Netherlands
-91	1	Felix	 	Hoffstaedter	Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7)	Research Centre Jülich	Jülich	Germany
-91	2				Institute of Systems Neuroscience, Medical Faculty	Heinrich-Heine University Duesseldorf	Duesseldorf	Germany
-92	1	Daniela	M	Hohmann	Department of Psychiatry and Psychotherapy 	Philipps Universität	 Marburg	Germany
-93	1	Horea-Ioan	 	Ioanas	Biological Engineering	MIT	Cambridge	USA
-93	2				D-ITET	ETH Zurich	Zurich	Switzerland
-94	1	Jason	 	Kai	Department of Medical Biophysics	University of Western Ontario	London ON	Canada
-95	1	Agah	 	Karakuzu	NeuroPoly Lab	Institute of Biomedical Engineering	Montréal, Québec	Canada
-95	2				Montreal Heart Institute	University of Montréal	Montréal, Québec	Canada
-96	1	Anisha	 	Keshavan	 	Octave Bioscience	 	USA
-96	2				eScience Institute	University of Washington	Seattle WA	USA
-96	3				Institute for Learning and Brain Science	University of Washington	Seattle WA	USA
-97	1	Gregory	 	Kiar	Montréal Neurological Institute	McGill University	Montréal, Québec	Canada
-98	1	P. Christiaan	 	Klink	Department of Vision & Cognition	Netherlands Institute for Neuroscience	Amsterdam	The Netherlands
-99	1	Serge	 	Koudoro	 	Indiana University	Bloomington IN	USA
-100	1	Angela	R.	Laird	Department of Physics	Florida International University	Miami FL	USA
-101	1	Georg	 	Langs	CIR Department of Biomedical Imaging and Image-guided Therapy	Medical University of Vienna	Vienna	Austria
-101	2				CSAIL	MIT	Cambridge	USA
-102	1	Roxane	 	Licandro	 	Medical University of Vienna	Vienna	Austria
-102	2				 	TU Wien	Vienna	Austria
-103	1	Sook-Lei	 	Liew	Stevens Neuroimaging and Informatics Institute	University of Southern California	Los Angeles CA	USA
-104	1	Tomislav	 	Lipic	Laboratory for Machine Learning and Knowledge Representation	Ruder Boskovic Institute	Zagreb	Croatia
-105	1	Daniel	J	Lurie	Department of Psychology	University of California, Berkeley	Berkeley	USA
-106	1	Christopher	R.	Madan	Psychology	University of Nottingham	Nottingham	UK
-107	1	Lea-Theresa	 	Mais	 	University of Marburg	Marburg	Germany
-108	1	Sina	 	Mansour L.	Department of Biomedical Engineering	The University of Melbourne	Melbourne	Australia
-109	1	J.P.	 	Manzano-Patron	Radiological Sciences & Sir Peter Mansfield Imaging Centre	University of Nottingham	Nottingham	UK
-110	1	Dimitra	 	Maoutsa	Institute of Software Engineering and Theoretical Computer Science	Technical University of Berlin	Berlin	Germany
-111	1	Matheus	 	Marcon	School of Technology	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
-112	1	Daniel	 	Margulies	Frontlab	Institut du Cerveau et de la Moelle épinière	Paris	France
-113	1	Camille	 	Maumet	Empenn ERL U 1228   IRISA UMR 6074	Univ Rennes, Inria, CNRS, Inserm	Rennes	France
-114	1	Felipe	 	Meneguzzi	School of Technology	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
-115	1	Kathryn	L.	Mills	Department of Psychology	University of Oregon	Eugene	USA
-115	2				PROMENTA Research Center, Department of Psychology	University of Oslo	Oslo	Norway
-116	1	Davide	 	Momi	Department of Neuroscience, Imaging and Clinical Sciences	University "G. d'Annunzio" of Chieti	Chieti	Italy
-117	1	Clara	A.	Moreau	 	Pasteur Institute	Paris	France
-117	2				 	University of Montréal	Montréal, Québec	Canada
-118	1	Aysha	 	Motala	Department of Psychology	University of Western Ontario	London ON	Canada
-119	1	Iska	 	Moxon-Emre	Child, Youth and Family Service	Centre for Addiction and Mental Health	Toronto	Canada
-120	1	Thomas	E.	Nichols	Big Data Institute	University of Oxford	Oxford	UK
-120	2				WIN-FMRIB	University of Oxford	Oxford	UK
-121	1	Gustav	 	Nilsonne	Department of Clinical Neuroscience	Karolinska Institutet	Stockholm	Sweden
-121	2				Department of Psychology	Stockholm University	Stockholm	Sweden
-122	1	Lindsay	D.	Oliver	 	Centre for Addiction and Mental Health	Toronto	Canada
-123	1	Edwina	R.	Orchard	Turner Institute for Brain and Mental Health	Monash University	Melbourne	Australia
-124	1	Patrick	J.	Park	Engineering	University of Western Ontario	London ON	Canada
-125	1	Mahboobeh 	MahParsa	Parsapoor	Computer Science Department	University of Toronto	Toronto	Canada
-125	2				 	Vector Institute for Artificial Intelligence 	 	 
-125	3				 	Women in Artificial Intelligence & Machine Learning (WinAIML)	 	 
-126	1	Cyril	R.	Pernet	Centre for Clinical Brain Sciences	University of Edinburgh	Edinburgh	UK
-127	1	Rudolph	 	Pienaar	Radiology	Boston Children's Hospital, Harvard Medical School	Boston	USA
-127	2				Radiology	Harvard Medical School	Boston	USA
-128	1	Jean-Baptiste	 	Poline	Neurology and Neurosurgery	McGill University	Montréal, Québec	Canada
-128	2				Helen Wills Neuroscience Institute	University of California, Berkley	Berkeley	USA
-129	1	Anqi	 	Qiu	Department of Biomedical Engineering	National University of Singapore	Singapore	Singapore
-130	1	Tiago	 	Quendera	 	Champalimaud Research	Lisbon	Portugal
-131	1	Laura	C.	Rice	Neuroscience	American University	Washington D.C.	USA
-131	2				Neurology	Johns Hopkins University	Baltimore MD	USA
-132	1	Mathias	 	Scharinger	German Linguistics & Fine Arts Science,  Institute of German Linuguistics	University of Marburg	Marburg	Germany
-133	1	Thomas	B.	Shaw	Centre for Advanced Imaging	The University of Queensland	Brisbane	Australia
-134	1	Nikoloz	 	Sirmpilatze	Functional Imaging Laboratory	German Primate Center - Leibniz Institute for Primate Research	Göttingen	Germany
-135	1	Julia	 	Sprenger	Institut de Neurosciences de la Timone	CNRS - Aix-Marseille University	Marseille	France
-136	1	Andrija	 	Stajduhar	Croatian Institute for Brain Research, School of Medicine	University of Zagreb	Zagreb	Croatia
-136	2				Andrija Stampar School of Public Health, School of Medicine	University of Zagreb	Zagreb	Croatia
-137	1	Sylvain	 	Takerkart	Institut de Neurosciences de la Timone	CNRS - Aix-Marseille University	Marseille	France
-138	1	Angela	 	Tam	 	Perceiv Research Inc.	Montréal, Québec	Canada
-139	1	Link	 	Tejavibulya	Interdepartmental Neuroscience Program	Yale University	New Haven CT	USA
-140	1	Michel	 	Thiebaut de Schotten	Brain Connectivity and Behaviour Laboratory	Sorbonne Universities	Paris	France
-140	2				Groupe d’Imagerie Neurofonctionnelle, Institut des Maladies Neurodégénératives- UMR 5293, CNRS	CEA University of Bordeaux	Bordeaux	France
-141	1	Ina	 	Thome	Department of Psychiatry and Psychotherapy	Philipps Universität	Marburg	Germany
-142	1	Laura	 	Tomaz da Silva	School of Technology	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
-143	1	Nicolas	 	Traut	Human Genetics and Cognitive Functions	Institut Pasteur	Paris	France
-143	2				Center for Research and Interdisciplinarity	Université Paris Descartes	Paris	France
-144	1	Lucina	Q.	Uddin	Department of Psychology	University of Miami	Florida	USA
-145	1	Antonino	 	Vallesi	Department of Neuroscience & Padova Neuroscience Center	University of Padova	Padova	Italy
-145	2				Brain Imaging and Neural Dynamics Research Group	IRCCS San Camillo Hospital	Venice	Italy
-146	1	John	W.	VanMeter	Department of Neurology	Georgetown University	Washington D.C.	USA
-146	2				Center for Functional and Molecular Imaging	Georgetown University Medical Center	Washington D.C.	USA
-147	1	Matteo	 	Visconti di Oleggio Castello	Helen Wills Neuroscience Institute	University of California, Berkley	Berkeley	USA
-148	1	Jakub	 	Vohryzek	Department of Psychiatry	University of Oxford	Oxford	UK
-149	1	Jakša	 	Vukojević	 	University psychiatric hospital Vrače	Zagreb	Croatia
-150	1	Kirstie	Jane	Whitaker	Tools, Practices and Systems Research Programme	Alan Turing Institute	London	UK
-151	1	Steve	 	Wideman	NBL	University of Alabama at Birmingham	Birmingham AL	USA
-151	2				CNC	University of Alabama at Birmingham	Birmingham AL	USA
-152	1	Suzanne	T.	Witt	BrainsCAN	University of Western Ontario	London ON	Canada
-153	1	Ting	 	Xu	Center for the Developing Brain	Child Mind Institute	New York	USA
-154	1	Chao-Gan	 	Yan	CAS Key Laboratory of Behavioral Science	Institute of Psychology	Beijing	China
-154	2				International Big-Data Center for Depression Research	Chinese Academy of Sciences	Beijing	China
-155	1	Xi-Nian	 	Zuo	State Key Laboratory of Cognitive Neuroscience and Learning	Beijing Normal University	Beijing	China
-155	2				National Basic Public Science Data Center	Chinese Academy of Sciences	Beijing	China
-155	3				School of Education Sciences	Nanning Normal University	Nanning	China
+59	1	Dipankar	 	Bachar	Institut de Neurosciences de la Timone	CNRS - Aix-Marseille University	Marseille	France
+60	1	Elise	 	Bannier	CHU Rennes, Radiology Department	Univ Rennes, CNRS, Inria, Inserm, IRISA UMR 6074, Empenn - ERL U 1228, F-35000 Rennes, France	 	 	 
+61	1	Arshitha	 	Basavaraj	National Institute of Mental Health	 	 	 
+62	1	Marco	 	Bedini	Center for Mind/Brain Sciences, University of Trento	 	 	 
+63	1	Pierre	 	Bellec	Psychology Department	University of Montréal	Montréal, Québec	Canada
+63	2				Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal	University of Montréal	Montréal, Québec	Canada
+64	1	R. Austin	 	Benn	 	Centro Nacional de Investigaciones Cardiovasculares (CNIC)	Madrid	Spain
+65	1	Saskia	 	Bollmann	Centre for Advanced Imaging	The University of Queensland	Brisbane	Australia
+66	1	Steffen	 	Bollmann	School of Information Technology and Electrical Engineering	The University of Queensland	Brisbane	Australia
+66	2				Centre for Advanced Imaging	The University of Queensland	Brisbane	Australia
+67	1	Claire	 	Bradley	Queensland Brain Institute	The University of Queensland	St Lucia	Australia
+68	1	Augusto	 	Buchweitz	Brain Institute of Rio Grande do Sul	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
+69	1	Patrick	 	Callahan	Memory and Aging Center, UCSF	 	 	 
+70	1	Micaela	Y.	Chan	Center for Vital Longevity, School of Behavioral and Brain Sciences	University of Texas at Dallas	Dallas TX	USA
+71	1	Bramsh	Q.	Chandio	Department of Intelligent Systems Engineering	Indiana University	Bloomington IN	USA
+72	1	Sidhant	 	Chopra	Turner Institute for Brain and Mental Health	Monash University	Melbourne	Australia
+73	1	Ai Wern	 	Chung	Fetal-Neonatal Neuroimaging and Developmental Science Center	Boston Children's Hospital, Harvard Medical School	Boston	USA
+74	1	Thomas	G.	Close	School of Biomedical Engineering	The University of Sydney	Sydney	Australia
+74	2				 	National Imaging Facility	Sydney	Australia
+75	1	Giorgia	 	Cona	Department of General Psychology	University of Padova	Padova	Italy
+76	1	R.	Todd	Constable	Yale MRRC	Yale University	New Haven CT	USA
+76	2				School of Medicine	Yale University	New Haven CT	USA
+77	1	Claire	 	Cury	Empenn ERL U 1228 IRISA UMR 6074, Univ Rennes, Inria, CNRS, Inserm, Rennes, France	 	 	 
+78	1	Kamalaker	 	Dadi	INRIA	 	 	 
+79	1	Pablo	F.	Damasceno	Center for Intelligent Imaging	University of California	San Francisco	USA
+80	1	Fabrizio	 	De Vico Fallani	ARAMIS team	Inria	Paris	France
+80	2				Paris Brain Institute	Sorbonne Universites	Paris	France
+81	1	Krista	 	DeStasio	University of Oregon	 	 	 
+82	1	Erin	W.	Dickie	Krembil Centre from Neuroinformatics	Centre for Addiction and Mental Health	Toronto	Canada
+82	2				Department of Psychiatry	University of Toronto	Toronto	Canada
+83	1	Lena	 	Dorfschmidt	Brain Mapping Unit, Department of Psychiatry	University of Cambridge	Cambridge	UK
+84	1	Eugene	P.	Duff	 	University of Oxford	Oxford	UK
+85	1	Elizabeth	 	DuPre	NeuroDataScience - ORIGAMI laboratory	McGill University	Montréal, Québec	Canada
+86	1	Sarah	 	Dziura	Department of Psychology, University of Maryland, College Park, MD, USA	 	 	 
+87	1	Nathalia	B.	Esper	Neuroimaging of Human Cognition	Brain Institute of Rio Grande do Sul	Porto Alegre	Brazil
+88	1	Oscar	 	Esteban	Department of Radiology	Lausanne University Hospital, University of Lausanne	Lausanne	Switzerland
+89	1	Shreyas	 	Fadnavis	 	Indiana University	Bloomington IN	USA
+90	1	Guillaume	 	Flandin	Wellcome Centre for Human Neuroimaging	University College London	London	UK
+91	1	Jessica	E.	Flannery	University of North Carolina, Chapel Hill	 	 	 
+92	1	John	 	Flournoy	Department of Psychology, Harvard University, Cambridge, MA, USA	 	 	 
+93	1	Stephanie	J.	Forkel	CNRS UMR 5293 Institut des Maladies Neurodégénératives	 	Bordeaux	France
+93	2				Department Neuroimaging,  Institute of Psychiatry, Psychology and Neurosciences	King's College London	London	UK
+94	1	Alexandre	R.	Franco	Center for Biomedical Imaging and Neuromodulation	Nathan Kline Institute	Orangeburg NY	USA
+94	2				Center for the Developing Brain	Child Mind Institute	New York City	USA
+94	3				Department of Psychiatry	NYU Grossman School of Medicine	New York City	USA
+95	1	Saampras	 	Ganesan	Systems Neuroscience	Melbourne Neuropsychiatry Centre	Melbourne	Australia
+95	2				Department of Biomedical Engineering	The University of Melbourne	Melbourne	Australia
+96	1	Siyuan	 	Gao	Yale University	 	 	 
+97	1	José	C.	García Alanis	Department of Psychology	Philipps Universität	Marburg	Germany
+98	1	Eleftherios	 	Garyfallidis	Intelligent Systems Engineering	Indiana University	Bloomington IN	USA
+99	1	Tristan	 	Glatard	Department of Computer Science and Software Engineering  	Concordia University	Montréal, Québec	Canada
+100	1	Enrico	 	Glerean	Department of Neuroscience and Biomedical Engineering, Aalto University, Espoo, Finland; International Laboratory of Social Neurobiology, Institute of Cognitive Neuroscience, National Research University Higher School of Economics, Moscow, Russia	 	 	 
+101	1	Javier	 	Gonzalez-Castillo	NIH	 	 	 
+102	1	Cassandra	D	Gould van Praag	Wellcome Centre for Integrative Neuroimaging	University of Oxford	Oxford	UK
+102	2				Department of Psychiatry	University of Oxford	Oxford	UK
+103	1	Geetika	 	Gupta	Department of Psychology	Western University	London ON	Canada
+103	2				Brain and Mind Institute	Western University	London ON	Canada
+104	1	Catherine	Alice	Hahn	Department of Radiology and Biomedical Imaging, Yale School of Medicine	 	 	 
+105	1	Yaroslav	O.	Halchenko	Center for Open Neuroscience, Department of Psychological and Brain Sciences, Dartmouth College, Hanover, NH, USA	 	 	 
+106	1	Daniel	 	Handwerker	Section on Functional Imaging Methods, National Institute of Mental Health, Bethesda, MD, USA	 	 	 
+107	1	Thomas	S.	Hartmann	 	Philipps Universität	Marburg	Germany
+108	1	Valérie	 	Hayot-Sasson	Department of Computer Science and Software Engineering  	Concordia University	Montréal, Québec	Canada
+109	1	Stephan	 	Heunis	Department of Electrical Engineering	Eindhoven University of Technology	Eindhoven	The Netherlands
+110	1	Joscelin	Rocha	Hidalgo	Georgetown University	 	 	 
+111	1	Felix	 	Hoffstaedter	Institute of Neuroscience and Medicine, Brain & Behaviour (INM-7)	Research Centre Jülich	Jülich	Germany
+111	2				Institute of Systems Neuroscience, Medical Faculty	Heinrich-Heine University Duesseldorf	Duesseldorf	Germany
+112	1	Daniela	M	Hohmann	Department of Psychiatry and Psychotherapy 	Philipps Universität	 Marburg	Germany
+113	1	Corey	 	Horien	Interdepartmental Neuroscience Program, Yale School of Medicine, New Haven, CT, USA	 	 	 
+114	1	Horea-Ioan	 	Ioanas	Biological Engineering	MIT	Cambridge	USA
+114	2				D-ITET	ETH Zurich	Zurich	Switzerland
+115	1	Michael	 	Joseph	Campbell Family Mental Health Research Institute	The Centre for Addiction and Mental Health	Toronto	Canada
+116	1	Jason	 	Kai	Department of Medical Biophysics	University of Western Ontario	London ON	Canada
+117	1	Agah	 	Karakuzu	NeuroPoly Lab	Institute of Biomedical Engineering	Montréal, Québec	Canada
+117	2				Montreal Heart Institute	University of Montréal	Montréal, Québec	Canada
+118	1	Anisha	 	Keshavan	 	Octave Bioscience	 	USA
+118	2				eScience Institute	University of Washington	Seattle WA	USA
+118	3				Institute for Learning and Brain Science	University of Washington	Seattle WA	USA
+119	1	Ali	R.	Khan	Robarts Research Institute	Western University	London	Canada
+120	1	Gregory	 	Kiar	Montréal Neurological Institute	McGill University	Montréal, Québec	Canada
+121	1	P. Christiaan	 	Klink	Department of Vision & Cognition	Netherlands Institute for Neuroscience	Amsterdam	The Netherlands
+122	1	Vincent	 	Koppelmans	Department of Psychiatry, University of Utah, Salt Lake City, UT, USA	 	 	 
+123	1	Serge	 	Koudoro	 	Indiana University	Bloomington IN	USA
+124	1	Angela	R.	Laird	Department of Physics	Florida International University	Miami FL	USA
+125	1	Georg	 	Langs	CIR Department of Biomedical Imaging and Image-guided Therapy	Medical University of Vienna	Vienna	Austria
+125	2				CSAIL	MIT	Cambridge	USA
+126	1	Marissa	 	Laws	Center for the Study of Learning	Georgetown University Medical Center	Washington DC	USA
+127	1	Roxane	 	Licandro	 	Medical University of Vienna	Vienna	Austria
+127	2				 	TU Wien	Vienna	Austria
+128	1	Sook-Lei	 	Liew	Stevens Neuroimaging and Informatics Institute	University of Southern California	Los Angeles CA	USA
+129	1	Tomislav	 	Lipic	Laboratory for Machine Learning and Knowledge Representation	Ruder Boskovic Institute	Zagreb	Croatia
+130	1	Krisanne	 	Litinas	Functional MRI Laboratory	University of Michigan	Ann Arbor	USA
+131	1	Daniel	J	Lurie	Department of Psychology	University of California, Berkeley	Berkeley	USA
+132	1	Désirée	 	Lussier	Centre de recherche de l'Institut universitaire de gériatrie de Montréal	 	 	 
+133	1	Christopher	R.	Madan	Psychology	University of Nottingham	Nottingham	UK
+134	1	Lea-Theresa	 	Mais	 	University of Marburg	Marburg	Germany
+135	1	Sina	 	Mansour L.	Department of Biomedical Engineering	The University of Melbourne	Melbourne	Australia
+136	1	J.P.	 	Manzano-Patron	Radiological Sciences & Sir Peter Mansfield Imaging Centre	University of Nottingham	Nottingham	UK
+137	1	Dimitra	 	Maoutsa	Institute of Software Engineering and Theoretical Computer Science	Technical University of Berlin	Berlin	Germany
+138	1	Matheus	 	Marcon	School of Technology	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
+139	1	Daniel	 	Margulies	Frontlab	Institut du Cerveau et de la Moelle épinière	Paris	France
+140	1	Giorgio	 	Marinato	CIMeC	University of Trento	Trento	Italy
+141	1	Daniele	 	Marinazzo	Department of Data Analysis, Ghent University, Belgium	 	 	 
+142	1	Christopher	J.	Markiewicz	Department of Psychology, Stanford University, Stanford, CA, USA	 	 	 
+143	1	Camille	 	Maumet	Empenn ERL U 1228   IRISA UMR 6074	Univ Rennes, Inria, CNRS, Inserm	Rennes	France
+144	1	Felipe	 	Meneguzzi	School of Technology	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
+145	1	David	 	Meunier	Institut de Neurosciences de la Timone	CNRS - Aix-Marseille University	Marseille	France
+146	1	Kathryn	L.	Mills	Department of Psychology	University of Oregon	Eugene	USA
+146	2				PROMENTA Research Center, Department of Psychology	University of Oslo	Oslo	Norway
+147	1	Davide	 	Momi	Department of Neuroscience, Imaging and Clinical Sciences	University "G. d'Annunzio" of Chieti	Chieti	Italy
+148	1	Clara	A.	Moreau	 	Pasteur Institute	Paris	France
+148	2				 	University of Montréal	Montréal, Québec	Canada
+149	1	Aysha	 	Motala	Department of Psychology	University of Western Ontario	London ON	Canada
+150	1	Iska	 	Moxon-Emre	Child, Youth and Family Service	Centre for Addiction and Mental Health	Toronto	Canada
+151	1	Thomas	E.	Nichols	Big Data Institute	University of Oxford	Oxford	UK
+151	2				WIN-FMRIB	University of Oxford	Oxford	UK
+152	1	Dylan	M.	Nielson	Section on Clinical and Computational Psychiatry, National Institute of Mental Health, National Institutes of Health, Bethesda, Maryland	 	 	 
+153	1	Gustav	 	Nilsonne	Department of Clinical Neuroscience	Karolinska Institutet	Stockholm	Sweden
+153	2				Department of Psychology	Stockholm University	Stockholm	Sweden
+154	1	Lisa	 	Novello	Center for Mind/Brain Sciences (CIMeC)	University of Trento	Rovereto (Trento)	Italy
+155	1	Caroline	 	O'Brien	Department of Neuroscience, Georgetown University, Washington, DC, United States	 	 	 
+156	1	Emily	 	Olafson	Department of Neuroscience	Weill Cornell Medicine	New York City	USA
+157	1	Lindsay	D.	Oliver	 	Centre for Addiction and Mental Health	Toronto	Canada
+158	1	John	A.	Onofrey	Departments of Radiology & Biomedical Imaging and of Urology	Yale School of Medicine	New Haven	USA
+159	1	Edwina	R.	Orchard	Turner Institute for Brain and Mental Health	Monash University	Melbourne	Australia
+160	1	Kendra	 	Oudyk	Montreal Neurological Institute	McGill University	Montreal	Canada
+161	1	Patrick	J.	Park	Engineering	University of Western Ontario	London ON	Canada
+162	1	Mahboobeh 	MahParsa	Parsapoor	Computer Science Department	University of Toronto	Toronto	Canada
+162	2				 	Vector Institute for Artificial Intelligence 	 	 
+162	3				 	Women in Artificial Intelligence & Machine Learning (WinAIML)	 	 
+163	1	Lorenzo	 	Pasquini	Neurology Department, Memory and Aging Center, University of California San Francisco	 	 	 
+164	1	Scott	 	Peltier	Functional MRI Laboratory	University of Michigan	Ann Arbor	USA
+165	1	Cyril	R.	Pernet	Centre for Clinical Brain Sciences	University of Edinburgh	Edinburgh	UK
+166	1	Rudolph	 	Pienaar	Radiology	Boston Children's Hospital, Harvard Medical School	Boston	USA
+166	2				Radiology	Harvard Medical School	Boston	USA
+167	1	Pedro	 	Pinheiro-Chagas	Stanford University	 	 	 
+168	1	Jean-Baptiste	 	Poline	Neurology and Neurosurgery	McGill University	Montréal, Québec	Canada
+168	2				Helen Wills Neuroscience Institute	University of California, Berkley	Berkeley	USA
+169	1	Anqi	 	Qiu	Department of Biomedical Engineering	National University of Singapore	Singapore	Singapore
+170	1	Tiago	 	Quendera	 	Champalimaud Research	Lisbon	Portugal
+171	1	Laura	C.	Rice	Neuroscience	American University	Washington D.C.	USA
+171	2				Neurology	Johns Hopkins University	Baltimore MD	USA
+172	1	Mathias	 	Scharinger	German Linguistics & Fine Arts Science,  Institute of German Linuguistics	University of Marburg	Marburg	Germany
+173	1	Deena	 	Shariq	University of Maryland, College Park	 	 	 
+174	1	Thomas	B.	Shaw	Centre for Advanced Imaging	The University of Queensland	Brisbane	Australia
+175	1	Viviana	 	Siless	Athinoula A. Martinos Center for Biomedical Imaging, Harvard Medical School, MGH	 	 	 
+176	1	Molly	 	Simmonite	Department of Psychology	University of Michigan	Ann Arbor	USA
+177	1	Nikoloz	 	Sirmpilatze	Functional Imaging Laboratory	German Primate Center - Leibniz Institute for Primate Research	Göttingen	Germany
+178	1	Hayli	 	Spence	Section on Molecular Neurobiology	National Institute of Child and Human Development	Bethesda	MD
+179	1	Julia	 	Sprenger	Institut de Neurosciences de la Timone	CNRS - Aix-Marseille University	Marseille	France
+180	1	Andrija	 	Stajduhar	Croatian Institute for Brain Research, School of Medicine	University of Zagreb	Zagreb	Croatia
+180	2				Andrija Stampar School of Public Health, School of Medicine	University of Zagreb	Zagreb	Croatia
+181	1	Martin	 	Szinte	Institut de Neurosciences de la Timone	CNRS - Aix-Marseille University	Marseille	France
+182	1	Sylvain	 	Takerkart	Institut de Neurosciences de la Timone	CNRS - Aix-Marseille University	Marseille	France
+183	1	Angela	 	Tam	 	Perceiv Research Inc.	Montréal, Québec	Canada
+184	1	Link	 	Tejavibulya	Interdepartmental Neuroscience Program	Yale University	New Haven CT	USA
+185	1	Michel	 	Thiebaut de Schotten	Brain Connectivity and Behaviour Laboratory	Sorbonne Universities	Paris	France
+185	2				Groupe d’Imagerie Neurofonctionnelle, Institut des Maladies Neurodégénératives- UMR 5293, CNRS	CEA University of Bordeaux	Bordeaux	France
+186	1	Ina	 	Thome	Department of Psychiatry and Psychotherapy	Philipps Universität	Marburg	Germany
+187	1	Laura	 	Tomaz da Silva	School of Technology	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
+188	1	Nicolas	 	Traut	Human Genetics and Cognitive Functions	Institut Pasteur	Paris	France
+188	2				Center for Research and Interdisciplinarity	Université Paris Descartes	Paris	France
+189	1	Lucina	Q.	Uddin	Department of Psychology	University of Miami	Florida	USA
+190	1	Antonino	 	Vallesi	Department of Neuroscience & Padova Neuroscience Center	University of Padova	Padova	Italy
+190	2				Brain Imaging and Neural Dynamics Research Group	IRCCS San Camillo Hospital	Venice	Italy
+191	1	John	W.	VanMeter	Department of Neurology	Georgetown University	Washington D.C.	USA
+191	2				Center for Functional and Molecular Imaging	Georgetown University Medical Center	Washington D.C.	USA
+192	1	Nandita	 	Vijayakumar	School of Psychology	Deakin University	Melbourne	Australia
+193	1	Matteo	 	Visconti di Oleggio Castello	Helen Wills Neuroscience Institute	University of California, Berkley	Berkeley	USA
+194	1	Jakub	 	Vohryzek	Department of Psychiatry	University of Oxford	Oxford	UK
+195	1	Jakša	 	Vukojević	 	University psychiatric hospital Vrače	Zagreb	Croatia
+196	1	Kirstie	Jane	Whitaker	Tools, Practices and Systems Research Programme	Alan Turing Institute	London	UK
+197	1	Lucy	 	Whitmore	Department of Psychology, University of Oregon, Eugene OR	 	 	 
+198	1	Steve	 	Wideman	NBL	University of Alabama at Birmingham	Birmingham AL	USA
+198	2				CNC	University of Alabama at Birmingham	Birmingham AL	USA
+199	1	Suzanne	T.	Witt	BrainsCAN	University of Western Ontario	London ON	Canada
+200	1	Ting	 	Xu	Center for the Developing Brain	Child Mind Institute	New York	USA
+201	1	Chao-Gan	 	Yan	CAS Key Laboratory of Behavioral Science	Institute of Psychology	Beijing	China
+201	2				International Big-Data Center for Depression Research	Chinese Academy of Sciences	Beijing	China
+202	1	Fang-Cheng	 	Yeh	University of Pittsburgh	 	 	 
+203	1	B.T.	Thomas	Yeo	Department of Electrical and Computer Engineering, Centre for Sleep & Cognition & Centre for Translational MR Research, National University of Singapore, Singapore, Singapore	 	 	 
+204	1	Xi-Nian	 	Zuo	State Key Laboratory of Cognitive Neuroscience and Learning	Beijing Normal University	Beijing	China
+204	2				National Basic Public Science Data Center	Chinese Academy of Sciences	Beijing	China
+204	3				School of Education Sciences	Nanning Normal University	Nanning	China
