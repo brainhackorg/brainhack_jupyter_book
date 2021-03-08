@@ -29,8 +29,10 @@ import pandas as pd
 import numpy as np
 
 GSHEET_RANK = "coreteam_ranking.tsv"
-OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
-AFF_CURATED = "affiliations_curated.tsv"
+# OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
+# AFF_CURATED = "affiliations_curated.tsv"
+OSF_RAW = "tmp_tpt_merged_raw.tsv"
+AFF_CURATED = "tmp_tpt_merged_curated.tsv"
 err_message = """Curated sheet and OSF sheet has unmatched number of auhtors.
 Have you update curated sheet?"""
 
@@ -75,6 +77,7 @@ for i, row in ranking.iterrows():
 
     # copy ranking
     osf.loc[osf_idx, ("", "", "ranking")] = row["ranking"]
+    osf.loc[osf_idx, ("", "", "joint_first")] = row["joint_first"]
 
 # add serial id with ame generation principal the author ID in organised file
 osf = osf.sort_index()
@@ -114,8 +117,14 @@ for ca in revert_curate:
             osf_idx = osf[mask].index
         elif "affiliation" in key:
             osf.loc[osf_idx, label_matcher[key]] = " / ".join(item.values())
+        elif "Last" in key:
+            if "*" in osf.loc[osf_idx, ("", "", "joint_first")].tolist():
+                item += "*"
+                print(item)
+            osf.loc[osf_idx, label_matcher[key]] = item
         else:
             osf.loc[osf_idx, label_matcher[key]] = item
+
 
 # sort the final result by ranking
 osf = osf.sort_values(("", "", "ranking"))
