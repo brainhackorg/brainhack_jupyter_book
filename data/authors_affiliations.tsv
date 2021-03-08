@@ -183,7 +183,8 @@ ranking	Aff_Order	First	Middle	Last	Department	Institute	City	Country
 136	1	J.P.	 	Manzano-Patron	Radiological Sciences & Sir Peter Mansfield Imaging Centre	University of Nottingham	Nottingham	UK
 137	1	Dimitra	 	Maoutsa	Institute of Software Engineering and Theoretical Computer Science	Technical University of Berlin	Berlin	Germany
 138	1	Matheus	 	Marcon	School of Technology	Pontifical Catholic University of Rio Grande do Sul	Porto Alegre	Brazil
-139	1	Daniel	 	Margulies	Frontlab	Institut du Cerveau et de la Moelle épinière	Paris	France
+139	1	Daniel	S.	Margulies	 	Centre National de la Recherche Scientifique (CNRS)	 	France
+139	2				INCC UMR 8002	Université de Paris	Paris	France
 140	1	Giorgio	 	Marinato	CIMeC	University of Trento	Trento	Italy
 141	1	Daniele	 	Marinazzo	Department of Data Analysis, Ghent University, Belgium	 	 	 
 142	1	Christopher	J.	Markiewicz	Department of Psychology, Stanford University, Stanford, CA, USA	 	 	 
@@ -210,7 +211,7 @@ ranking	Aff_Order	First	Middle	Last	Department	Institute	City	Country
 159	1	Edwina	R.	Orchard	Turner Institute for Brain and Mental Health	Monash University	Melbourne	Australia
 160	1	Kendra	 	Oudyk	Montreal Neurological Institute	McGill University	Montreal	Canada
 161	1	Patrick	J.	Park	Engineering	University of Western Ontario	London ON	Canada
-162	1	Mahboobeh 	MahParsa	Parsapoor	Computer Science Department	University of Toronto	Toronto	Canada
+162	1	Mahboobeh 	 	Parsapoor	Computer Science Department	University of Toronto	Toronto	Canada
 162	2				 	Vector Institute for Artificial Intelligence 	 	 
 162	3				 	Women in Artificial Intelligence & Machine Learning (WinAIML)	 	 
 163	1	Lorenzo	 	Pasquini	Neurology Department, Memory and Aging Center, University of California San Francisco	 	 	 
