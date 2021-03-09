@@ -1,8 +1,10 @@
 # Brainhack Book :book:
 
+[![book](https://github.com/brainhackorg/brainhack_jupyter_book/workflows/book/badge.svg?branch=main)](https://github.com/brainhackorg/brainhack_jupyter_book/actions/workflows/deploy_book.yml?query=branch%3Amain)
+
 > Everything Brainhack: past, present and future
 
-[Brainhack](brainhack.org) refers to a series of community events, that bring
+[Brainhack](https://brainhack.org) refers to a series of community events, that bring
 together scientists from all around the world with a variety of expertise and
 disciplines to facilitate neuroscience research for the community by creating
 tools, methodologies, techniques, ideas, and guidelines.
