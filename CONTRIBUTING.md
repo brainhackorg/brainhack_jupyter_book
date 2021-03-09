@@ -311,7 +311,7 @@ installed and running on your own computer.
 You can download any Jupyter notebook page from this book as a PDF file. Hover
 over the download icon and click ".pdf"
 
-## Make Full Screen :tv:
+## Make it Full Screen :tv:
 
 To make any page from this book full screen, click the full screen icon at the
 top of the page.
