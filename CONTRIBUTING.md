@@ -7,7 +7,7 @@ translation work or if you have any other queries please do not hesitate to open
 an issue using one of the
 [issue templates](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose)
 
-## Making a PR 
+## Making a PR :fountain_pen:
 
 If you want to contribute with your ideas and suggestions please make a
 [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
