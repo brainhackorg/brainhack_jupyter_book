@@ -200,13 +200,7 @@ You should see something like this (version may change) printed to the terminal:
 jupyter-book       0.8
 ```
 
-Now open the terminal and navigate to the folder where you cloned the Brainhack Jupyter book by:
-
-```bash
-cd ../brainhack_jupyter_book/
-```
-
-To build the book and preview your changes locally you can run the following command:
+To build the book and preview your changes locally, you can run the following command in the repository root directory:
 
 ```bash
 jupyter-book build brainhack_book
