@@ -281,8 +281,6 @@ read on th
 [CONTRIBUTING.md](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/contributing_guideline.md)
 file.
 
-<!-- I will create one once we decide on the contribution method and workflow -->
-
 ## How to Interact With This Book :arrows_clockwise:
 
 Below the interactive features of this Jupyter Book are explained in further
