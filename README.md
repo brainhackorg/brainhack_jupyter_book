@@ -51,4 +51,4 @@ of the Brainhack Mattermost.
 
  Awesome!!! :rocket: Brainhack Book is open to any contributions! Please do not hesitate to [open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) to start a discussion, work towards a bug fix and adding content. 
 
-Before the starts make sure to have a look at our [contributing guidelines](./CONTRIBUTING.md).
+Before starting, make sure to have a look at our [contributing guidelines](./CONTRIBUTING.md).
