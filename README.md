@@ -37,7 +37,7 @@ past, present and future".
 This book was created with [Jupyter Book](https://jupyterbook.org/intro.html) as
 an open-source project for designing online interactive books.
 
-## "I have some questions..." **?**
+## "I have some questions..." :grey_question:
 
 [Open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) on this repository and someone will try and get back to you as soon as possible!
 
