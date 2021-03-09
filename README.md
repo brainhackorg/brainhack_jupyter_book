@@ -41,7 +41,7 @@ an open-source project for designing online interactive books.
 
 [Open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) on this repository and someone will try and get back to you as soon as possible!
 
-## You want to get in touch?
+## You want to get in touch? :speech_balloon:
 
 You can find us on the
 [Brainhack Jupyter book channel](https://mattermost.brainhack.org/brainhack/channels/brainhack_paper_jupyterbook)
