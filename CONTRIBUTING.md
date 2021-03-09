@@ -76,7 +76,7 @@ Make sure to [keep your fork up to date](https://help.github.com/articles/syncin
 
 
 
-### [Clone](https://help.github.com/articles/cloning-a-repository) your forked  Brainhack Jupyter Book repository to your machine/computer. :arrow_down_small:
+### [Clone](https://help.github.com/articles/cloning-a-repository) your forked Brainhack Jupyter Book repository to your machine/computer. :arrow_down_small:
 
 While you can edit files [directly on Github](https://help.github.com/articles/editing-files-in-your-repository), sometimes the changes you want to make will be complex and you will want to use a [text editor](https://en.wikipedia.org/wiki/Text_editor) that you have installed on your local machine/computer. (One great text editor is [vscode](https://code.visualstudio.com/)).
 In order to work on the code locally, you must clone your forked repository. 
