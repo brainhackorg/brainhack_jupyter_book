@@ -9,8 +9,8 @@ together scientists from all around the world with a variety of expertise and
 disciplines to facilitate neuroscience research for the community by creating
 tools, methodologies, techniques, ideas, and guidelines.
 
-Together with this book we aim to create a freely and openly accessible source
-for the community, that gives a gives a general overview about the aims, tools,
+Together with this book, we aim to create a freely and openly accessible source
+for the community, that gives a general overview about the aims, tools,
 and the outputs of the Brainhack events, that is open to the community's
 contributions. This book is also created by the Brainhack community as a
 supplement to the [Neuron, 2020 community paper](https://psyarxiv.com/rytjq/)
