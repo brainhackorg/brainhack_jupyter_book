@@ -301,5 +301,4 @@ cell on the right.
 
 ## Authors :black_nib:
 
-This book is built and maintained by the Brainhack community. The book is open
-and freely available to the community's contributions.
+This book is built by the Brainhack community and it is open to the community's contributions.
