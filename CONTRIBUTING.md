@@ -21,12 +21,12 @@ community, this book will be a more beneficial source for the community.
 ## What, Where :mag_right:
 
 - All the text for each chapter of the `book` lives inside the folder
-  `./Brainhack Book` directory.
+  `./brainhack_book` directory.
 
 - All figures associated with the chapters are stored in and linked from the
-  `./Brainhack Book/figures` directory.
+  `./brainhack_book/static` directory.
 
-- Everything else is in the `Brainhack Book/` directory.
+- Everything else is in the `brainhack_book/` directory.
 
 ### Configuration :gear:
 
@@ -46,7 +46,7 @@ community, this book will be a more beneficial source for the community.
 The site is built and deployed automatically using a
 [Github action](.github/workflows/book.yml), from the `main` branch.
 
-## Viewing the Brainhack Book :eyes:
+## Viewing the brainhack_book :eyes:
 
 Before start, you might need to have these listed below ready.
 
@@ -186,7 +186,7 @@ Once the virtual environment is activated, packages will be installed in that en
 
 ### Building the book locally :white_check_mark:
 
-The Brainhack book is build with [jupyter-book](https://pypi.org/project/jupyter-book/) package which helps with creating on-line book version of one of [Brainhack Book](https://github.com/brainhackorg/brainhack_jupyter_book).
+The brainhack_book is build with [jupyter-book](https://pypi.org/project/jupyter-book/) package which helps with creating on-line book version of one of [brainhack_book](https://github.com/brainhackorg/brainhack_jupyter_book).
 
 Now, if you run:
 
@@ -261,7 +261,7 @@ this on the
 
 <!--#### On Netlify
 
-Brainhack book is built and deployed online using [Netlify](https://www.netlify.com/).
+brainhack_book is built and deployed online using [Netlify](https://www.netlify.com/).
 
 //If you want to deploy the book on Netlify, you'll need the following settings:
 
@@ -275,7 +275,7 @@ You can find the build history or logs for Brainhack at https://app.netlify.com/
 
 ## Bibliography :newspaper:
 
-In the directory `./Brainhack Book/_bibliography` a collection of bibliography
+In the directory `./brainhack_book/_bibliography` a collection of bibliography
 from all the chapters exist in the `references.bib` file. More details can be
 read on th
 [CONTRIBUTING.md](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/contributing_guideline.md)
