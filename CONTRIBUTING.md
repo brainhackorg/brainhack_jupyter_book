@@ -253,20 +253,6 @@ terminal so that you can check and resolve any incorrect links. Read more about
 this on the
 [JupyterBook's GitHub repository](https://github.com/executablebooks/jupyter-book/blob/master/docs/advanced/advanced.md#check-external-links-in-your-book).
 
-<!--#### On Netlify
-
-brainhack_book is built and deployed online using [Netlify](https://www.netlify.com/).
-
-//If you want to deploy the book on Netlify, you'll need the following settings:
-
-//- Base directory: `book/website`
-//- Build command: `pip install -r requirements.txt && jupyter-book build .`
-//- Publish directory: `book/website/_build/html`
-
-//Netlify is smart and will find your requirements.txt to do the install for //you. :slightly_smiling_face:
-
-You can find the build history or logs for Brainhack at https://app.netlify.com/sites/brainhack/deploys.-->
-
 ## Bibliography :newspaper:
 
 In the directory `./brainhack_book/_bibliography` a collection of bibliography
