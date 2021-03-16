@@ -28,11 +28,13 @@ import re
 import pandas as pd
 import numpy as np
 
-GSHEET_RANK = "coreteam_ranking.tsv"
-# OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
-# AFF_CURATED = "affiliations_curated.tsv"
+
 OSF_RAW = "tmp_tpt_merged_raw.tsv"
 AFF_CURATED = "tmp_tpt_merged_curated.tsv"
+
+GSHEET_RANK = "coreteam_ranking.tsv"
+OUTPUT = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw_ranked.tsv"
+
 err_message = """Curated sheet and OSF sheet has unmatched number of auhtors.
 Have you update curated sheet?"""
 
@@ -42,9 +44,9 @@ def assert_exit(condition, err_message):
     except AssertionError as Error:
         sys.exit(err_message)
 
-ranking = pd.read_csv(f"data/{GSHEET_RANK}", sep="\t", skiprows=1)
-osf = pd.read_csv(f"data/{OSF_RAW}", sep="\t", header=[0, 1, 2])
-curated = pd.read_csv(f"data/{AFF_CURATED}", sep="\t")
+ranking = pd.read_csv(f"data/contributors/neuroview/{GSHEET_RANK}", sep="\t", skiprows=1)
+osf = pd.read_csv(f"data/contributors/neuroview/{OSF_RAW}", sep="\t", header=[0, 1, 2])
+curated = pd.read_csv(f"data/contributors/neuroview/{AFF_CURATED}", sep="\t")
 curated = curated.fillna(" ")  # some authors has empty department info
 
 assert_exit(curated["Author_ID"].unique().shape[0]==osf.shape[0], err_message)
@@ -130,5 +132,5 @@ for ca in revert_curate:
 osf = osf.sort_values(("", "", "ranking"))
 
 # string quote set to "+" because there are valid strings with " or '
-osf.to_csv("data/affiliations_curated_ranked.tsv",
+osf.to_csv(f"data/contributors/neuroview/{OUTPUT}",
            index=False, sep="\t", quotechar="+")
