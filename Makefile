@@ -7,7 +7,7 @@ brainhack_book/preprint_contributors.md : data/contributors/preprint_contributor
 		-d brainhack_book/preprint_contributors_descriptions.md \
 		-t brainhack_book/preprint_contributors.md ;
 
-brainhack_book/contributors.md : data/contributors/contributors.tsv brainhack_book/contributors_descriptions.md scripts/mdtable.py data/contributors.tsv
+brainhack_book/contributors.md : data/contributors/contributors.tsv brainhack_book/contributors_descriptions.md scripts/mdtable.py
 	python scripts/mdtable.py \
 		-f data/contributors/contributors.tsv \
 		-d brainhack_book/contributors_descriptions.md \
