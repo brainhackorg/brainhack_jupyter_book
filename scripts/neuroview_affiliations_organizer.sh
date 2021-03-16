@@ -1,17 +1,23 @@
 #!/bin/bash
 # Original script: Stephanie Noble Feb 09 2021
-# Edited by Hao-Ting Wang Feb 10 2021
+# Edited by Hao-Ting Wang Mar 16 2021
 # Cleaning the paper affiliation for authorarranger to generate author list
 # The file contain special charactors, so the final tsv needs to be saved as a xlsx file MANUALLY
 # authorarranger:
 # https://authorarranger.nci.nih.gov/#/user-guide
 #
 # Usage:
-# bash neuroview_affiliations_organizer.sh
+# When new trippetto entry added (shouldn't be needed after Mar 16 2021)
+# $ bash neuroview_affiliations_organizer.sh update
+#
+# Generate the version without email address
+# $ bash neuroview_affiliations_organizer.sh no-email
 
 
-python scripts/trippetto_to_curated.py
-python scripts/neuroview_author_ranking.py
+if [[ $1 == "update" ]]; then
+    python scripts/trippetto_to_curated.py
+    python scripts/neuroview_author_ranking.py
+fi
 
 cd data/contributors/neuroview/
 # edit filename
@@ -62,6 +68,16 @@ sed -i '1!b;s/1/Aff_Order/' $out_file
 sed -i '1!b;s/First name/First/' $out_file
 sed -i '1!b;s/Middle initial(s)/Middle/' $out_file
 sed -i '1!b;s/Last name/Last/' $out_file
+
+
+if [[ $1 == "no-email" ]]; then
+    cut -f1-5 "$out_file" > tmp1
+    cut -f7-10 "$out_file" > tmp2
+
+    paste -d '\t' tmp1 tmp2 > tmp_no_email.tsv
+    rm $out_file
+    mv tmp_no_email.tsv $out_file
+fi
 
 # you might want to clean up all those tmp* and aff* files - not all my tools support editing in place and I didn't want to mv everything
 rm *tmp*; rm aff?; rm aff?_sep
