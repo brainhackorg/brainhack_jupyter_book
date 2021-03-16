@@ -3,14 +3,14 @@ all: pre book
 
 brainhack_book/preprint_contributors.md : data/contributors/preprint_contributors.tsv brainhack_book/preprint_contributors_descriptions.md  scripts/mdtable.py
 	python scripts/mdtable.py \
-		-f data/neuroview/preprint_contributors.tsv \
+		-f data/contributors/preprint_contributors.tsv \
 		-d brainhack_book/preprint_contributors_descriptions.md \
 		-t brainhack_book/preprint_contributors.md \
 		--contributor;
 
 brainhack_book/contributors.md : data/contributors/contributors.tsv brainhack_book/contributors_descriptions.md scripts/mdtable.py data/contributors.tsv
 	python scripts/mdtable.py \
-		-f data/neuroview/contributors.tsv \
+		-f data/contributors/contributors.tsv \
 		-d brainhack_book/contributors_descriptions.md \
 		-t brainhack_book/contributors.md \
 		--contributor;
