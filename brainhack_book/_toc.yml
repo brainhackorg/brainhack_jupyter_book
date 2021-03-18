@@ -2,7 +2,7 @@
 - part: Evolving Brainhack Book
   chapters:
     - file: overview
-    - file: geographical_distribution
+    - file: evolution_of_brainhack
     - file: glossary
     - file: contributors
     - file: acknowledgments
