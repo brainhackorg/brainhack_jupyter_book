@@ -8,7 +8,7 @@ Instruction to annotate the preprint: https://help.osf.io/hc/en-us/articles/3600
 
 The pages related to authors and sponsors are built form spreadsheets under `data`.
 Please update the following information accordingly:
-Genral acknowledgements: `data/acknowledgments/acknowledgments.csv`
+General acknowledgements: `data/acknowledgments/acknowledgments.csv`
 Author information: `data/contributors/contributors.tsv`
 We do not accept changes to files prepended with `preprint` as the project has ended.
 
@@ -22,7 +22,7 @@ https://help.github.com/articles/closing-issues-using-keywords -->
 Closes # .
 
 <!-- Please give a brief overview of what has changed in the PR.
-If you're not sure what to write, consider it a note to the is to indicate
+If you're not sure what to write, consider it a note to the reviewers to indicate
 what they should be looking for when they review the pull request. -->
 Changes proposed in this pull request:
 
