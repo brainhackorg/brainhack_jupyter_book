@@ -215,11 +215,14 @@ def build_markdown(args):
     target = args.target
     file = args.file
     contributor = args.contributor
-    if contributor:
-        table = read_tablefile(file, delimiter="\t")
-        table = parse_affiliation(table)
+    filetype = file.split(".") [-1]
+
+    if filetype == "tsv":
+        delimiter = "\t"
+    elif filetype == "csv":
+        delimiter = ","
     else:
-        table = read_tablefile(file, delimiter=",")
+        raise("File type not implemented")
     desc = read_page_descriptions(desc)
     mder = MarkdownTable(table, desc)
     md = mder.generate()
