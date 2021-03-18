@@ -28,9 +28,13 @@ import re
 import pandas as pd
 import numpy as np
 
+
+OSF_RAW = "tmp_tpt_merged_raw.tsv"
+AFF_CURATED = "tmp_tpt_merged_curated.tsv"
+
 GSHEET_RANK = "coreteam_ranking.tsv"
-OSF_RAW = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv"
-AFF_CURATED = "affiliations_curated.tsv"
+OUTPUT = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw_ranked.tsv"
+
 err_message = """Curated sheet and OSF sheet has unmatched number of auhtors.
 Have you update curated sheet?"""
 
@@ -40,9 +44,9 @@ def assert_exit(condition, err_message):
     except AssertionError as Error:
         sys.exit(err_message)
 
-ranking = pd.read_csv(f"data/{GSHEET_RANK}", sep="\t", skiprows=1)
-osf = pd.read_csv(f"data/{OSF_RAW}", sep="\t", header=[0, 1, 2])
-curated = pd.read_csv(f"data/{AFF_CURATED}", sep="\t")
+ranking = pd.read_csv(f"data/contributors/neuroview/{GSHEET_RANK}", sep="\t", skiprows=1)
+osf = pd.read_csv(f"data/contributors/neuroview/{OSF_RAW}", sep="\t", header=[0, 1, 2])
+curated = pd.read_csv(f"data/contributors/neuroview/{AFF_CURATED}", sep="\t")
 curated = curated.fillna(" ")  # some authors has empty department info
 
 assert_exit(curated["Author_ID"].unique().shape[0]==osf.shape[0], err_message)
@@ -75,6 +79,7 @@ for i, row in ranking.iterrows():
 
     # copy ranking
     osf.loc[osf_idx, ("", "", "ranking")] = row["ranking"]
+    osf.loc[osf_idx, ("", "", "joint_first")] = row["joint_first"]
 
 # add serial id with ame generation principal the author ID in organised file
 osf = osf.sort_index()
@@ -114,12 +119,18 @@ for ca in revert_curate:
             osf_idx = osf[mask].index
         elif "affiliation" in key:
             osf.loc[osf_idx, label_matcher[key]] = " / ".join(item.values())
+        elif "Last" in key:
+            if "*" in osf.loc[osf_idx, ("", "", "joint_first")].tolist():
+                item += "*"
+                print(item)
+            osf.loc[osf_idx, label_matcher[key]] = item
         else:
             osf.loc[osf_idx, label_matcher[key]] = item
+
 
 # sort the final result by ranking
 osf = osf.sort_values(("", "", "ranking"))
 
 # string quote set to "+" because there are valid strings with " or '
-osf.to_csv("data/affiliations_curated_ranked.tsv",
+osf.to_csv(f"data/contributors/neuroview/{OUTPUT}",
            index=False, sep="\t", quotechar="+")

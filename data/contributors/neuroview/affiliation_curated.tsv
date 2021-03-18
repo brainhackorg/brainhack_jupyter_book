@@ -29,7 +29,7 @@ Author_ID	Aff_Order	First	Middle	Last	Department	Institute	City	Country
 19	2				Developmental and Educational Psychology	Leiden University	Leiden	The Netherlands
 20	1	Eleftherios		Garyfallidis	Intelligent Systems Engineering	Indiana University	Bloomington IN	USA
 21	1	Davide		Poggiali	Padova Neuroscience Center	University of Padova	Padova	Italy
-22	1	Shawn	A.	Rhoads	Psychology	Georgetown University	Washington D.C.	USA
+22	1	Shawn	A.	Rhoads	Department of Psychology	Georgetown University	Washington D.C.	USA
 23	1	Stephanie		Noble	Radiology & Biomedical Imaging	Yale University	New Haven CT	USA
 24	1	Angela	R.	Laird	Department of Physics	Florida International University	Miami FL	USA
 25	1	Nasim		Anousheh	Intelligent Systems Engineering	Indiana University	Bloomington IN	USA
@@ -208,12 +208,13 @@ Author_ID	Aff_Order	First	Middle	Last	Department	Institute	City	Country
 146	1	Malin	S.	Sandström	INCF	Karolinska Institute	Stockholm	Sweden
 147	1	Anqi		Qiu	Department of Biomedical Engineering	National University of Singapore	Singapore	Singapore
 148	1	Daniel	J	Lurie	Department of Psychology	University of California, Berkeley	Berkeley	USA
-149	1	Mahboobeh 	MahParsa	Parsapoor	Computer Science Department	University of Toronto	Toronto	Canada
+149	1	Mahboobeh 		Parsapoor	Computer Science Department	University of Toronto	Toronto	Canada
 149	2					Vector Institute for Artificial Intelligence 		
 149	3					Women in Artificial Intelligence & Machine Learning (WinAIML)		
 150	1	Ting		Xu	Center for the Developing Brain	Child Mind Institute	New York	USA
 151	1	Tristan		Glatard	Department of Computer Science and Software Engineering  	Concordia University	Montréal, Québec	Canada
 152	1	Daniela	M	Hohmann	Department of Psychiatry and Psychotherapy 	Philipps Universität	 Marburg	Germany
 153	1	Cassandra	D	Gould van Praag	Wellcome Centre for Integrative Neuroimaging	University of Oxford	Oxford	UK
-154	1	Daniel		Margulies	Frontlab	Institut du Cerveau et de la Moelle épinière	Paris	France
+154	1	Daniel	S.	Margulies		Centre National de la Recherche Scientifique (CNRS)		France
+154	2				INCC UMR 8002	Université de Paris	Paris	France
 155	1	Valérie		Hayot-Sasson	Department of Computer Science and Software Engineering  	Concordia University	Montréal, Québec	Canada

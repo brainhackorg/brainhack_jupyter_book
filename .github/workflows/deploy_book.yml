@@ -35,7 +35,6 @@ jobs:
           conda info
           conda list
           conda activate brainhack-jb-env
-          make contributors
           make preprint
           make bookpage
           make book
