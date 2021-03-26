@@ -35,7 +35,7 @@ jobs:
           conda info
           conda list
           conda activate brainhack-jb-env
-          make preprint
+          make neuroview
           make bookpage
           make book
 
