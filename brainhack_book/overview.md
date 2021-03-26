@@ -31,4 +31,4 @@ The Jupyter Book journey only begins… ✨🚀✨
 
 ---
 
-![Preprint Figure](static/preprint_figure-1.png)
+![Neuroview Figure](static/neuroview_figure-1.png)
