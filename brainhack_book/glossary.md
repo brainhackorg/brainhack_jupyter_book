@@ -10,6 +10,7 @@ The societal community of individuals and groups associated with education, rese
 ### Accessibility
 
 ### Ad-hoc
+An impromptu solution or framework for addressing a specific technological or research challenge.
 
 ### Audience
 The group that is addressed by intentional communication (e.g., those in attendance of an Open Science training). The target audience is a group of individuals that will be addressed or affected by the activity, training, communication, or action.
@@ -18,7 +19,8 @@ The group that is addressed by intentional communication (e.g., those in attenda
 All active contributors, local or remote, who have contributed significantly to any part of the overall project at any stage, including participating in initial project planning & development, to creating written documentation of global efforts, and finally to finalizing and publishing the results.
 
 ### Attendee
-Any individual who attends or is present at the event, training, seminar, workshop, or activity (e.g., participant at Brainhack event, individual present at Brainhack workshop, etc.)
+A participant at an event not directly engaged in setting up the minimal framework offered by Brainhack events.
+Most pertinently, unlike in other event formats, at Brainhack an attendee can well be a person taking on a coordination role within one of the many projects set up inside the event framework.
 
 ### Availability
 
@@ -40,11 +42,12 @@ An umbrella term that describes all hackathons and hacking events that fall unde
 A bootcamp that helps individuals acquire and solidify the statistical and computational skills required to translate neuroimaging data into neuroscience knowledge. Generally, the Brainhack School consists of two weeks of active, open, and collaborative hands-on work on small-to-medium size projects. 
 
 ### Brainstorming
+A session for collecting ideas on how to specify or address a problem.
 
 ### Bottom-up
 
 ### Brain Imaging Data Structure (BIDS)
-A standard for organizing, annotating, and describing neuroimaging and behavioral data based on an agreed-upon, formalized structure for folders and files.
+A peer-reviewed data structure (covering hierarchy, file naming, and file formatting conventions) which is commonly used for open data sharing, primarily in the field of neuroimaging.
 
 ## C
 
@@ -101,6 +104,7 @@ All digitally available objects (simple or complex) that emerge or are the resul
 ### Dataset
 
 ### DataLad
+An application for data distribution which is based on version control technologies.
 
 ### Data Mining
 An analytic process designed to explore data in search of consistent patterns or systematic relationships between variables, transforming data into information for future use.
@@ -110,11 +114,14 @@ An analytic process designed to explore data in search of consistent patterns or
 ### Data Structuring Standards
 
 ### Decentralized
+Lacking a centralized gate-keeper, certification body, or distributor.
+A decentralized system is one which cannot be controlled — in either input or output — by a single entity, and is therefore robust to paternalism and censorship.
 
 ### Digital Object Identifier (DOI)
 A unique alphanumeric string assigned by a registration agency (the International DOI Foundation) to identify content  such as journal articles, data sets or open source software releases  and provide a persistent link to its location on the Internet (American Psychological Association, 2018).
 
 ### Diversity
+The presence of people, ideas, or tools, which feature strong variability in salient characteristics.
 
 ### Documentation
 Detailed information about the background and methodological approaches about data or code (e.g., description of the project, variables, and measuring instruments).
@@ -140,11 +147,14 @@ The moral principles that govern how researchers should carry out their work. Th
 Findable, accessible, interoperable, and re-usable (FAIR) data, which facilitates knowledge discovery by assisting humans and machines in their discovery of, access to, integration and analysis of, task-appropriate scientific data and their associated algorithms and workflows. This definition is according with FORCE11 principles published in Nature Scientific Data.
 
 ### Free
+Relating to the concept of freedom (and not necessarily to the lack of cost).
+Free technologies such as free software are such technologies which preserve or enhance the freedom to operate for both users and developers.
 
 ### Fully Open
 
 ### Functional Magnetic Resonance Imaging (fMRI)
-A neuroscience method that indirectly measures brain activity by detecting changes in blood flow associated with brain activity through the blood-oxygen-level-dependent (BOLD) signal. 
+An imaging technique which leverages temporally resolved recording of magnetic resonance signals in order to elucidate the function of dynamic systems.
+Most often this technique is used to image animal brains, though other applications such as cardiac imaging are popular.
 
 ### Funding
 
@@ -165,7 +175,8 @@ A web-based DevOps lifecycle tool that provides a Git-repository manager providi
 ## H
 
 ### Hacking
-In this context, hacking does not refer to trying to break through the security of a computer system. Instead, it is understood as tinkering with a system to understand how it works, selecting a problem to learn how to solve it, or working with a process to gain knowledge on how to improve it. 
+The process of liberal modification or remix of existing tools in order to address novel questions or implement new approaches for resolution.
+Hacking specifically emphasizes the use of tools for purposes extending beyond their original scope.
 
 ### Hackathon
 The term hackathon is a portmanteau of “hacking” and “marathon”. Traditionally, it is an event where both individuals people and teams gather to collaboratively work on projects over the course of multiple days. These events often feature competitions between teams; however, Brainhacks do not have this feature and instead emphasize collaboration.
@@ -177,6 +188,7 @@ The term hackathon is a portmanteau of “hacking” and “marathon”. Traditi
 ## I
 
 ### Inclusivity
+The quality of being open and welcoming of people and ideas, regardless of differences or disagreement.
 
 ### Informal
 
@@ -201,6 +213,7 @@ A series of published research articles. Historically divided into volumes and i
 ### Lab
 
 ### Leadership
+The quality of providing motivation, outlook, and conceptual guidelines for a project.
 
 ### Licence
 This is a legal document that sets out the permissions for creative and academic work. It explains copyright, ensures proper attribution and sets out how others can copy, distribute and make use of the works.
@@ -210,6 +223,7 @@ This is a legal document that sets out the permissions for creative and academic
 ## M
 
 ### Management
+The action of administrating and coordinating the execution of a project.
 
 ### Maintainers
 Contributors who are responsible for driving the vision and managing the organizational aspects of the project. They may also be authors and/or owners of the project.
@@ -284,11 +298,14 @@ Movement which aims to improve the strength of scientific inferences and the eff
 ### Open Science Framework
 
 ### Open Source
-Availability of source code for a piece of software, along with an open source license permitting reuse, adaptation, and further distribution.
+Availability of human-readable source code for a piece of software, along with an open source license permitting reuse, adaptation, and further distribution.
 
 ### Organic
+The quality of having emerged from free human interaction, in the absence of extraneous incentives aimed towards a specific outcome.
 
 ### Outcome
+The result of a process.
+A qualitative decision can be the outcome of applying a tool; a tool can be the outcome of executing a roadmap, or alternatively of organic interaction and free innovation, such as hacking.
 
 ## P
 
@@ -327,6 +344,12 @@ Project
 
 ### Registered Report
 A published report describing the hypotheses and planned method of a study, before the data is collected. Also known as a ‘pre-registration’ or ‘pre-reg’.
+ 
+### Repeated data inspection
+
+### Replication
+Replication the repetition of a study’s method, to corroborate its results. An exact replication
+is a repetition using exactly the same procedures as the original study.
 
 ### Repository
 A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
@@ -334,8 +357,9 @@ A long-lived place on the internet where resources (be they data, software, publ
 ### Reproducibility
 The degree to which the same methods, results, and inferences of a study can be produced again. Methods reproducibility is the degree to which the methods described in a study report can be performed again. This may be limited by a vague description in the study report or lack of openness in the data. Results reproducibility is the degree to which the same results are produced, in a new study with the same method Inferential reproducibility is the degree to which the same inferences are drawn, either in a new study with the same method and results or in a re-analysis of the original study.
 
-### README File
-File where you document your research data. The documentation should be sufficient to enable other researchers to understand, replicate or reproduce the data or reuse them in any other way.
+### README file
+A file which documents an electronic resource, such as data or software.
+The documentation should be sufficient to enable other researchers to understand, and use the resource.
 
 ### Reporting Bias
 Reporting bias occurs when certain aspects of a study are systematically not reported transparently, creating wastage and redundancy through selective reporting or non-publishing.
