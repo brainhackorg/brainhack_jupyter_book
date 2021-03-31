@@ -1,4 +1,4 @@
-# Preprint Contributors
+# Neuroview Contributors
 _See the latest version of the contributors page [here](/contributors)._
 
 We thank all the individuals who contributed to the creation of the manuscript and the support of Brainhack community towards this project.
@@ -7,4 +7,4 @@ As the Jupyter Book continues to grow with new content and the Brainhack communi
 
 To see the full contributor information, please refer to the [OSF project](https://osf.io/4szct/).
 
-Our crediting system is described [here](/preprint_authorship-agreement).
+Our crediting system is described [here](/neuroview_authorship-agreement).

@@ -1,4 +1,4 @@
-# Preprint Manuscript
+# Neuroview Manuscript
 
 ## Brainhack: developing a culture of open, inclusive, community-driven neuroscience
 
@@ -23,7 +23,7 @@ The Conflict of Interest (COI) assertion is made on behalf of all the authors li
 
 Social factors play a crucial role in the advancement of science. New findings are discussed and theories emerge through social interactions, which largely take place in individual research groups, and at academic events such as conferences, seminars or workshops. This system tends to amplify the voices of a select subset of the community—especially more established researchers—thus limiting opportunities for the larger community to contribute and connect. [Brainhack](https://brainhack.org) events (or Brainhacks for short) complement these formats in neuroscience with decentralized gatherings in which participants from all backgrounds and career stages collaborate and learn from each other in an informal setting. The Brainhack format was introduced in a previous publication ([Craddock et al., 2016;](#references) [Fig. 1A&B](#figure-1)). It is inspired by the [**hackathon**](./glossary) model (see Glossary), which originated in software development and has gained traction in science as a way to bring people together for collaborative work and educational courses. Unlike many hackathons, Brainhacks welcome participants from all disciplines and with any level of experience—from those who have never written a line of code to software developers and expert neuroscientists. Brainhacks additionally feature informal dissemination of research through [**unconferences**](./glossary), and replace the sometimes competitive context of traditional hackathons with a purely collaborative one. <a id="figure-1" name="figure-1"></a>
 
-![Figure-1](static/preprint_figure-1.png)
+![Figure-1](static/neuroview_figure-1.png)
 
 *Figure 1. Brainhack in time and space.*  (A) Anatomy of a Brainhack shows how the components of Brainhack events relate to overarching topics that lead to scientific and professional opportunities in neuroscience. (B) Timeline of a Single Event describes the typical daily schedule throughout a brainhack. Project work and educational activities occur simultaneously interspersed with unconferences. (C) Brainhack Cartography displays cities across the world that have hosted a Brainhack. Marker color indicates the year in which each city hosted its first Brainhack, and marker size indicates the number of events hosted in each city. (D) The Brainhack Timeline displays the number of events per month since the inaugural Brainhack in September 2012, along with notable happenings throughout the years. Months are only denoted in the first year with a single letter; this ordering is repeated for all subsequent years.
 
@@ -80,11 +80,11 @@ Brainhacks complement traditional academic settings and offer additional opportu
 
 ## Acknowledgments
 
-[View acknowledgments here](preprint_acknowledgments)
+[View acknowledgments here](neuroview_acknowledgments)
 
 ## Author Contributions
 
-[View contributions here](preprint_contributors)
+[View contributions here](neuroview_contributors)
 
 
 
