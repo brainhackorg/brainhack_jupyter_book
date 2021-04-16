@@ -27,23 +27,23 @@ tpt["Affiliation"] = tpt["Affiliation"].str.split(", ")
 
 # merge the raw
 for i, row in tpt.iterrows():
-    curate_ix = (i + curated.shape[0])
+    # curate_ix = (i + curated.shape[0])
     raw_ix = (i + raw.shape[0])
     if len(row["First and Last Name"]) == 2:
-        curated.loc[curate_ix, ["First", "Last"]] = row["First and Last Name"]
+        # curated.loc[curate_ix, ["First", "Last"]] = row["First and Last Name"]
         raw.loc[raw_ix, [raw.columns[9], raw.columns[10]]] = row["First and Last Name"]
     else:
-        curated.loc[curate_ix, ["First", "Middle","Last"]] = row["First and Last Name"]
+        # curated.loc[curate_ix, ["First", "Middle","Last"]] = row["First and Last Name"]
         raw.loc[raw_ix, [raw.columns[9], raw.columns[11], raw.columns[10]]] = row["First and Last Name"]
 
-    if len(row["Affiliation"]) == 4:
-        curated.loc[curate_ix, ["Department", "Institute", "City", "Country"]] = row["Affiliation"]
-    else:
-        curated.loc[curate_ix, "Department"] = ", ".join(row["Affiliation"])
+    # if len(row["Affiliation"]) == 4:
+    #     curated.loc[curate_ix, ["Department", "Institute", "City", "Country"]] = row["Affiliation"]
+    # else:
+    #     curated.loc[curate_ix, "Department"] = ", ".join(row["Affiliation"])
     if emails:
         raw.loc[raw_ix, raw.columns[-1]] = row["Email address"]
-    curated.loc[curate_ix, "Author_ID"] = 156 + i
-    curated.loc[curate_ix, "Aff_Order"] = 1
+    # curated.loc[curate_ix, "Author_ID"] = 156 + i
+    # curated.loc[curate_ix, "Aff_Order"] = 1
 
 raw.to_csv(f"{DATA_DIR}/tmp_tpt_merged_raw.tsv", sep="\t", index=False)
-curated.to_csv(f"{DATA_DIR}/tmp_tpt_merged_curated.tsv", sep="\t", index=False)
+# curated.to_csv(f"{DATA_DIR}/tmp_tpt_merged_curated.tsv", sep="\t", index=False)
