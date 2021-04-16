@@ -5,7 +5,7 @@ emails = False
 
 DATA_DIR = "data/contributors/neuroview"
 
-curated = pd.read_csv(f"{DATA_DIR}/affiliation_curated.tsv", sep="\t")
+# curated = pd.read_csv(f"{DATA_DIR}/affiliation_curated.tsv", sep="\t")
 raw = pd.read_csv(f"{DATA_DIR}/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv", sep="\t", header=[0, 1, 2])
 tpt = pd.read_csv(f"{DATA_DIR}/affiliation_consent_and_contributions_for_the_brainhack_consortium_tripetto_raw.csv")
 
