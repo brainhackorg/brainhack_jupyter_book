@@ -188,8 +188,8 @@ Author_ID	Aff_Order	First	Middle	Last	Department	Institute	City	Country
 133	1	Alexandre	R.	Franco	Center for Biomedical Imaging and Neuromodulation	Nathan Kline Institute	Orangeburg, NY	USA	
 133	2				Center for the Developing Brain	Child Mind Institute	New York City, NY	USA	
 133	3				Department of Psychiatry	NYU Grossman School of Medicine	New York City, NY	USA	
-134	1	Simon		Schwab		University of Zurich	Zurich	Switzerland	
-135	1	Thomas	E.	Nichols	Department of Biostatistics & Center for Reproducible Research	University of Oxford	Oxford	UK	
+134	1	Simon		Schwab	Department of Biostatistics & Center for Reproducible Research	University of Zurich	Zurich	Switzerland	
+135	1	Thomas	E.	Nichols	Big Data Institute	University of Oxford	Oxford	UK	
 135	2				WIN-FMRIB	University of Oxford	Oxford	UK	
 136	1	Aurina		Arnatkeviciute	The Turner Institute for Brain and Mental Health, School of Psychological Sciences	Monash University	Victoria	Australia	
 137	1	Sidhant		Chopra	Turner Institute for Brain and Mental Health	Monash University	Melbourne	Australia	
@@ -215,7 +215,7 @@ Author_ID	Aff_Order	First	Middle	Last	Department	Institute	City	Country
 151	1	Tristan		Glatard	Department of Computer Science and Software Engineering	Concordia University	Montréal, QC	Canada	
 152	1	Daniela	M.	Hohmann	Department of Psychiatry and Psychotherapy	Philipps Universität	Marburg	Germany	
 153	1	Cassandra	D.	Gould van Praag	Wellcome Centre for Integrative Neuroimaging	University of Oxford	Oxford	UK	
-154	1	Daniel	S.	Margulies		Centre National de la Recherche Scientifique (CNRS)	Paris	France	
+154	1	Daniel	S.	Margulies		CNRS	Paris	France	
 154	2				INCC UMR 8002	Université de Paris	Paris	France	
 155	1	Valérie		Hayot-Sasson	Department of Computer Science and Software Engineering	Concordia University	Montréal, QC	Canada	
 156	1	Kathryn		Berluti	Department of Psychology	Georgetown University	Washington D.C.	USA	
