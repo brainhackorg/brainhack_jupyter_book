@@ -30,7 +30,7 @@ import numpy as np
 
 
 OSF_RAW = "tmp_tpt_merged_raw.tsv"
-AFF_CURATED = "tmp_tpt_merged_curated.tsv"
+AFF_CURATED = "affiliation_curated.tsv"
 
 GSHEET_RANK = "coreteam_ranking.tsv"
 OUTPUT = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw_ranked.tsv"
