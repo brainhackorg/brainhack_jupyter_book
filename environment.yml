@@ -15,5 +15,5 @@ dependencies:
   - ghp-import
   - matplotlib
   - pip:
-    - jupyter-book>=0.7.0b
+    - jupyter-book==0.10.2
     - osfclient>=0.0.4
