@@ -10,8 +10,10 @@ dependencies:
   - bokeh=2.2.*
   - jupytext=1.7.*
   - geopandas=0.8.*
+  - nbval
   - pandas>=1.1.*
   - pyshp
+  - pytest
   - ghp-import
   - matplotlib
   - pip:
