@@ -10,3 +10,6 @@ data/contributors/neuroview/*source*
 brainhack/*
 env/
 venv/
+
+# working with files
+**/*.xlsx

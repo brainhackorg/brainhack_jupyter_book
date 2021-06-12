@@ -2,7 +2,7 @@
 name: Translation Request
 about: Start the discussions about a new language
 title: ''
-labels: ''
+labels: 'content'
 assignees: ''
 
 ---
@@ -26,7 +26,7 @@ Please complete the following sections when you want to propose the translation 
 <!-- Please make sure you read the project description listed in this [issue](https://github.com/brainhackorg/global2020/issues/130) and the workflow described in this [discussion](https://github.com/brainhackorg/global2020/issues/130#issuecomment-784173475). If you did so please check the checkbox below. -->
 
 - [ ] I read and understood the project description.
-- [ ] I read and understood the workflow for the translation work. 
+- [ ] I read and understood the workflow for the translation work.
 
 
 
