@@ -30,6 +30,10 @@ jobs:
           auto-activate-base: false
           miniconda-version: "latest"
 
+      - name: Test Notebooks
+        run: |
+          pytest --nbval-lax -v
+
       - name: Build Book
         run: |
           conda info
