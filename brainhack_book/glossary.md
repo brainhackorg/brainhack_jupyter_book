@@ -25,6 +25,7 @@ Any individual who attends or is present at the event, training, seminar, worksh
 ## B
 
 ### Background
+The multitude of past experiences a person has, which can include characteristics about their upbringing, country of origin, socioeconomic status, education, scientific training, and more.
 
 ### Brainhack
 A hackathon that brings researchers together from a variety of neuroscience subfields and diverse research backgrounds to share open science practices and encourage the transfer of knowledge across the community in a collaborative way.
@@ -173,6 +174,7 @@ The term hackathon is a portmanteau of “hacking” and “marathon”. Traditi
 ### Hands-on
 
 ### Hypothesis
+A proposed explanation for observed phenomenon that can be tested through various forms of investigation.
 
 ## I
 
@@ -183,6 +185,7 @@ The term hackathon is a portmanteau of “hacking” and “marathon”. Traditi
 ### INCF
 
 ### Innovative
+New ways of thinking or doing that are a departure in some way from how they were done previously.
 
 ### Institute
 
@@ -344,7 +347,7 @@ Reporting bias occurs when certain aspects of a study are systematically not rep
 The infrastructure and corresponding service that allows for the persistent, efficient and sustainable storage of digital objects (such as documents, data and code).
 
 ### Reproducible Research
-Reproducibility is a spectrum and instructors should choose the definition most used by their audience. Generally speaking, reproducible research makes it possible to obtain similar results of a study or experiment and independent results obtained with the same methods but under different conditions (i.e., pertains to results). Some break the definition into levels of reproducibility, including computationally reproducible (also called "reproducible"): where code and data can be analyzed in a similar manner as in the original research to achieve the same results, and empirically reproducible (also called “replicable”): where an independent researcher can repeat a study using the same methods but creating new data.
+Reproducibility is a spectrum and instructors should choose the definition most used by their audience. Generally speaking, reproducible research makes it possible to obtain similar results of a study or experiment and independent results obtained with the same methods but under different conditions (i.e., pertains to results). Some break the definition into levels of reproducibility, including computationally reproducible (also called "reproducible"): where code and data can be analyzed in a similar manner as in the original research to achieve the same results, and empirically reproducible (also called “replicable”): where an independent researcher can repeat a study using the same methods but creating new data. Generally speaking, when discussing reproducibility it is important to specify the changing conditions across which measurement/findings are being reproduced. Computational reproducibility, cross-sample reproducibility, and cross-site reproducibility and other forms all specify the changing conditions under which reproducibility is being measured.
 
 ### Research Impact
 Involve academic, economic and societal aspects, or some combination of all three. Impact is the demonstrable contribution that research makes in shifting understanding and advancing scientific, method, theory and application across and within disciplines, and the broader role that this plays outside of the research system.
