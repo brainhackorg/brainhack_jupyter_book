@@ -8,8 +8,10 @@ The societal community of individuals and groups associated with education, rese
 ### Across Field
 
 ### Accessibility
+The extent to which communities with different backgrounds, experiences, training, perspectives, and locations can interact with a project and gain something from it.
 
 ### Ad-hoc
+Decided after the fact. Often used when something was not taken into consideration ahead of time.
 
 ### Audience
 The group that is addressed by intentional communication (e.g., those in attendance of an Open Science training). The target audience is a group of individuals that will be addressed or affected by the activity, training, communication, or action.
@@ -25,6 +27,7 @@ Any individual who attends or is present at the event, training, seminar, worksh
 ## B
 
 ### Background
+The multitude of past experiences a person has, which can include characteristics about their upbringing, country of origin, socioeconomic status, education, scientific training, and more.
 
 ### Brainhack
 A hackathon that brings researchers together from a variety of neuroscience subfields and diverse research backgrounds to share open science practices and encourage the transfer of knowledge across the community in a collaborative way.
@@ -42,6 +45,7 @@ A bootcamp that helps individuals acquire and solidify the statistical and compu
 ### Brainstorming
 
 ### Bottom-up
+Organizing and structure created through people working in the lower levels of an organization or community. Often compared to top-down, where structure is imposed from a few individuals at the top of a hierarchy.
 
 ### Brain Imaging Data Structure (BIDS)
 A standard for organizing, annotating, and describing neuroimaging and behavioral data based on an agreed-upon, formalized structure for folders and files.
@@ -60,6 +64,7 @@ A group of people who share a common characteristic, goal, interest, ideal, or a
 The aspect of intellectual property that grants creators the right to permit (or not permit) the reproduction of their creations. It is distinct from trademark rights or moral rights.
 
 ### Consent
+Permission given for something to happen, and can be removed at any time.
 
 ### Code of Conduct
 Guidelines that establish the expected behavior of those in the community, outlining what is considered a violation of proper behavior, describing the process by which violations of the guidelines will be addressed, and stating who will be in charge of enforcing them.
@@ -72,6 +77,7 @@ A suite of standardized licences that allow copyright holders to grant some righ
 ### Collaboration
 
 ### Community-driven
+A way of describing how change can be envisioned, created, and implemented by an interconnected group of individuals.  See Bottom-Up.
 
 ### Conventional
 
@@ -106,6 +112,7 @@ All digitally available objects (simple or complex) that emerge or are the resul
 An analytic process designed to explore data in search of consistent patterns or systematic relationships between variables, transforming data into information for future use.
 
 ### Data Science
+An interdisciplinary field focused on understanding how to glean insight from structured and unstructured data. Sits at the intersection of computer science, statistics, and domain specific fields.
 
 ### Data Structuring Standards
 
@@ -124,6 +131,7 @@ Detailed information about the background and methodological approaches about da
 ## E
 
 ### Early Career Researcher (ECR)
+Non-tenuered researchers including undergraduates, research assistants, graduate students, postdocs, and junior faculty.
 
 ### Educational Materials
 
@@ -173,16 +181,19 @@ The term hackathon is a portmanteau of “hacking” and “marathon”. Traditi
 ### Hands-on
 
 ### Hypothesis
+A proposed explanation for observed phenomenon that can be tested through various forms of investigation.
 
 ## I
 
 ### Inclusivity
+The practice of providing equal access to all regardless of minority group status and actively seeking the engagement and contribution from these groups.
 
 ### Informal
 
 ### INCF
 
 ### Innovative
+New ways of thinking or doing that are a departure in some way from how they were done previously.
 
 ### Institute
 
@@ -230,6 +241,7 @@ Metadata provides a basic description of the data, often including authorship, d
 ### Neuroimaging Pipeline Framework
 
 ### Neuroscientist
+A person who studies the function of the nervous system. 
 
 ### Neurohackademy
 Neurohackademy is a summer school in neuroimaging and data science, held at the University of Washington eScience Institute (https://neurohackademy.org/).
@@ -271,6 +283,7 @@ A license is a document that specifies what can and cannot be done with a work. 
 Sharing of research materials, for example, biological and geological samples, is another Open Science practice.
 
 ### Open Neuro
+A free neuroinformatics platform for sharing neuroimaging data.
 
 ### Open Peer Review
 An umbrella term for a number of overlapping ways that peer review models can be adapted in line with the aims of Open Science, including making reviewer and author identities open, publishing review reports and enabling greater participation in the peer review process.
@@ -322,6 +335,7 @@ Project
 ## R
 
 ### Reliability
+Typically defined as the ratio of within-subject variability to between-subject variability (ie. Intraclass correlation coefficient).
 
 ### Redistribution
 
@@ -332,7 +346,7 @@ A published report describing the hypotheses and planned method of a study, befo
 A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
 
 ### Reproducibility
-The degree to which the same methods, results, and inferences of a study can be produced again. Methods reproducibility is the degree to which the methods described in a study report can be performed again. This may be limited by a vague description in the study report or lack of openness in the data. Results reproducibility is the degree to which the same results are produced, in a new study with the same method Inferential reproducibility is the degree to which the same inferences are drawn, either in a new study with the same method and results or in a re-analysis of the original study.
+The degree to which the same methods, results, and inferences of a study can be produced again. Methods reproducibility is the degree to which the methods described in a study report can be performed again. This may be limited by a vague description in the study report or lack of openness in the data. Results reproducibility is the degree to which the same results are produced, in a new study with the same method Inferential reproducibility is the degree to which the same inferences are drawn, either in a new study with the same method and results or in a re-analysis of the original study. Generally speaking, when discussing reproducibility it is important to specify the changing conditions across which measurement/findings are being reproduced. Computational reproducibility, cross-sample reproducibility, and cross-site reproducibility and other forms all specify the changing conditions under which reproducibility is being measured.
 
 ### README File
 File where you document your research data. The documentation should be sufficient to enable other researchers to understand, replicate or reproduce the data or reuse them in any other way.
@@ -357,6 +371,7 @@ An institute, corporation or government body that provides financial assistance 
 ## S
 
 ### Sample Size
+The number of individuals observed in a given analysis.
 
 ### Satellite Events
 
