@@ -10,8 +10,8 @@
 # When new trippetto entry added (shouldn't be needed after Mar 16 2021)
 # $ bash neuroview_affiliations_organizer.sh update
 #
-# Generate the version without email address
-# $ bash neuroview_affiliations_organizer.sh no-email
+# Generate the version with email address
+# $ bash neuroview_affiliations_organizer.sh email
 
 
 if [[ $1 == "update" ]]; then
@@ -70,17 +70,19 @@ sed -i '1!b;s/Middle initial(s)/Middle/' $out_file
 sed -i '1!b;s/Last name/Last/' $out_file
 
 
-if [[ $1 == "no-email" ]]; then
+if [[ $1 == "email" ]]; then
+    rm *tmp*; rm aff?; rm aff?_sep
+else
     cut -f1-5 "$out_file" > tmp1
     cut -f7-10 "$out_file" > tmp2
 
     paste -d '\t' tmp1 tmp2 > tmp_no_email.tsv
     rm $out_file
     mv tmp_no_email.tsv $out_file
+    rm *tmp*; rm aff?; rm aff?_sep
 fi
 
 # you might want to clean up all those tmp* and aff* files - not all my tools support editing in place and I didn't want to mv everything
-rm *tmp*; rm aff?; rm aff?_sep
 echo "======================================================================================"
 echo "Now, manually save data/contributors/neuroview/$out_file to a xlsx file, pass it to AuthorArrange"
 echo "https://authorarranger.nci.nih.gov/#/user-guide"
