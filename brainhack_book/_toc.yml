@@ -6,6 +6,9 @@
     - file: glossary
     - file: contributors
     - file: acknowledgments
+- part: Practical Guilde to brainhack
+  chapters:
+    - file : host_an_event
 - part: Neuroview
   chapters:
     - file: neuroview_manuscript
