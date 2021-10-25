@@ -1,5 +1,6 @@
 # Brainhack Starter Kit
 
+The Brainhack Starter Kit should provide you with the necessary resources to host a successful Brainhack event.
 
 ## Find some people to organise things with you
 
@@ -14,6 +15,7 @@
 ## Advertisement
 
 - Make a webpage including when, where, schedule, and cost (if applicable)
+
 <!-- Example of a very minimal local event
 https://www.ynic.york.ac.uk/events/brainhack
 
@@ -29,6 +31,7 @@ https://brainhack.org/global2017/index.html#schedule -->
 ## Projects
 
 - For small or first time event, provide a potential list of projects
+
 <!--
 Project idea: look at old projects:
 Neurohackademy has a lot of project more or less independent from existing large code base
