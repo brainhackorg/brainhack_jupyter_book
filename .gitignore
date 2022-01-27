@@ -11,5 +11,9 @@ brainhack/*
 env/
 venv/
 
+# vs code stuff
+.vscode
+
 # working with files
 **/*.xlsx
+data/.~lock.brainhack-timeline.csv#
