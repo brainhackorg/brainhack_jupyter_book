@@ -1,17 +1,20 @@
 format: jb-book
 root: index
 parts:
-- caption: Evolving Brainhack Book
-  chapters:
-  - file: overview
-  - file: evolution_of_brainhack
-  - file: glossary
-  - file: contributors
-  - file: acknowledgments
-- caption: Neuroview
-  chapters:
-  - file: neuroview_manuscript
-  - file: neuroview_figure
-  - file: neuroview_contributors
-  - file: neuroview_acknowledgments
-  - file: neuroview_authorship-agreement
+  - caption: Evolving Brainhack Book
+    chapters:
+      - file: overview
+      - file: evolution_of_brainhack
+      - file: contributors
+      - file: acknowledgments
+  - caption: Neuroview
+    chapters:
+      - file: neuroview_manuscript
+      - file: neuroview_figure
+      - file: neuroview_contributors
+      - file: neuroview_acknowledgments
+      - file: neuroview_authorship-agreement
+  - caption: Glossaries
+    chapters:
+      - file: glossary_en
+      - file: glossary_tr
