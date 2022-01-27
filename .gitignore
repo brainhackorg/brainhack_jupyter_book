@@ -6,6 +6,8 @@ brainhack_book/acknowledgments.md
 data/contributors/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 data/contributors/neuroview/*source*
 
+.ipynb_checkpoints
+
 # virtual env
 brainhack/*
 env/
@@ -16,4 +18,4 @@ venv/
 
 # working with files
 **/*.xlsx
-data/.~lock.brainhack-timeline.csv#
+.~*.csv#
