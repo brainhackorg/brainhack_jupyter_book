@@ -49,14 +49,14 @@ participants from all backgrounds and career stages collaborate and learn from
 each other in an informal setting. The Brainhack format was introduced in a
 previous publication ([Craddock et al., 2016;](#references)
 [Fig. 1A&B](#figure-1)). It is inspired by the
-[**hackathon**](./glossary_en#hackathon) model (see Glossary), which originated
+[**hackathon**](./glossary_en) model (see Glossary), which originated
 in software development and has gained traction in science as a way to bring
 people together for collaborative work and educational courses. Unlike many
 hackathons, Brainhacks welcome participants from all disciplines and with any
 level of experience—from those who have never written a line of code to software
 developers and expert neuroscientists. Brainhacks additionally feature informal
 dissemination of research through
-[**unconferences**](./glossary_en#unconferences), and replace the sometimes
+[**unconferences**](./glossary_en), and replace the sometimes
 competitive context of traditional hackathons with a purely collaborative one.
 <a id="figure-1" name="figure-1"></a>
 
@@ -93,7 +93,7 @@ which encourages inclusivity and seamless collaboration between researchers at
 different career stages. Altogether, Brainhacks and similar formats are
 increasingly recognized as a new way of doing science that extends traditional
 academic settings. These events foster a new research culture that demands
-[**open science**](./glossary_en#open-science) and celebrates diversity,
+[**open science**](./glossary_en) and celebrates diversity,
 unlocking opportunities for scientific progress.
 
 (a-project-oriented-approach)=
@@ -189,7 +189,7 @@ Alongside projects, educational activities lie at the heart of Brainhack events.
 Such activities include informal teaching between project teammates, theoretical
 discussions in self-organized groups, “unconference” presentations, and
 structured workshops on a particular tool or topic. A recent format for major
-Brainhack events is the [**TrainTrack**](./glossary_en#traintrack), entirely
+Brainhack events is the [**TrainTrack**](./glossary_en), entirely
 education-focused sessions that run all day, in parallel with work on projects
 ([Fig. 1A-B](#figure-1)). This format lowers the entry barrier for new
 participants, enabling them to build relevant skills and familiarize themselves
