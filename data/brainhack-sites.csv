@@ -1,0 +1,90 @@
+Continent,Country,City,lat,lon
+Asia,China,Beijing,39.9041999,116.4073963
+Asia,China,Nanning,22.817002,108.366543
+Asia,China,Shanghai,31.230416,121.473701
+Asia,India,Hyderabad,17.385044,78.486671
+Asia,Japan,Wako,35.7813326,139.6058063
+Asia,Singapore,Singapore,1.352083,103.819836
+Asia,Turkey,Ankara,39.898517,32.858177
+Australia,Australia,Brisbane online,-27.4697707,153.0251235
+Europe,Austria,Vienna,48.2081743,16.3738189
+Europe,Belgium,Ghent,51.0543422,3.7174243
+Europe,Belgium,Louvain,50.8803886,4.7045856
+Europe,Croatia,Zagreb,45.8150108,15.9819189
+Europe,Finland,Espoo,60.2054911,24.6559
+Europe,France,Marseille,43.296482,5.36978
+Europe,France,Paris,48.856614,2.3522219
+Europe,France,Rennes,48.117266,-1.6777926
+Europe,Germany,Berlin,52.5200066,13.404954
+Europe,Germany,Leipzig,51.3396955,12.3730747
+Europe,Germany,Magdeburg,52.1205333,11.6276237
+Europe,Germany,Marburg,50.8021728,8.7667933
+Europe,Germany,Munich,48.1351253,11.5819805
+Europe,Ireland,Avoca,52.861044,-6.211254
+Europe,Ireland,Dublin,53.3498053,-6.2603097
+Europe,Italy,Padova,45.4064349,11.8767611
+Europe,Italy,Rome,41.9027835,12.4963655
+Europe,Netherlands,Amsterdam,52.3675734,4.9041389
+Europe,Netherlands,Leiden,52.1601144,4.4970097
+Europe,Netherlands,Nijmegen,51.8448837,5.8428281
+Europe,Netherlands,Rotterdam,51.9244201,4.4777326
+Europe,Poland,Toruń,53.0137902,18.5984437
+Europe,Poland,Warsaw,52.2296756,21.0122287
+Europe,Portugal,Lisbon,38.7222524,-9.1393366
+Europe,Spain,Bilbao,43.2630126,-2.9349852
+Europe,Spain,Madrid,40.4167754,-3.7037902
+Europe,Spain,San Sebastian,43.318334,-1.9812313
+Europe,Sweden,Stockholm,59.3293235,18.0685808
+Europe,Switzerland,Geneva,46.2043907,6.1431577
+Europe,Switzerland,Lausanne,46.5196535,6.6322734
+Europe,Switzerland,Zurich,47.3768866,8.541694
+Europe,United Kingdom of Great Britain and Northern Ireland,Cambridge,52.205337,0.121817
+Europe,United Kingdom of Great Britain and Northern Ireland,Coventry,52.406822,-1.519693
+Europe,United Kingdom of Great Britain and Northern Ireland,London-UK,51.5073509,-0.1277583
+Europe,United Kingdom of Great Britain and Northern Ireland,York,53.9599651,-1.0872979
+North America,Canada,London-Canada,42.9849233,-81.2452768
+North America,Canada,Montreal,45.5016889,-73.567256
+North America,Canada,Ontario online,45.1171246,-76.1144971
+North America,Canada,Toronto,43.653226,-79.3831843
+North America,Canada,Vancouver,49.2827291,-123.1207375
+North America,Mexico,Queretaro,20.5887932,-100.3898881
+North America,United States of America,Albuquerque,35.0843859,-106.650422
+North America,United States of America,Ann Arbor,42.2808256,-83.7430378
+North America,United States of America,Atlanta,33.7489954,-84.3879824
+North America,United States of America,Austin,30.267153,-97.7430608
+North America,United States of America,Baltimore,39.2903848,-76.6121893
+North America,United States of America,Berkeley,37.8715226,-122.273042
+North America,United States of America,Bethesda,38.984652,-77.0947092
+North America,United States of America,Birmingham,33.5185892,-86.8103567
+North America,United States of America,Bloomington,39.165325,-86.5263857
+North America,United States of America,Boston,42.3600825,-71.0588801
+North America,United States of America,Dallas,32.7766642,-96.7969879
+North America,United States of America,Detroit,42.331427,-83.0457538
+North America,United States of America,Durham,35.9940329,-78.898619
+North America,United States of America,Eugene,44.0520691,-123.0867536
+North America,United States of America,Hanover,43.7022451,-72.2895526
+North America,United States of America,Honolulu,21.3069444,-157.8583333
+North America,United States of America,Iowa,41.8780025,-93.097702
+North America,United States of America,Los Angeles,34.0522342,-118.2436849
+North America,United States of America,Madison,43.0730517,-89.4012302
+North America,United States of America,Miami,25.7616798,-80.1917902
+North America,United States of America,New Haven,41.308274,-72.9278835
+North America,United States of America,New York City,40.7127753,-74.0059728
+North America,United States of America,NYC online,40.7153737,-74.0042596
+North America,United States of America,Pittsburgh,40.4427615,-79.9941937
+North America,United States of America,Princeton,40.3572976,-74.6672226
+North America,United States of America,Princeton online,40.3070705,-74.6652101
+North America,United States of America,San Francisco,37.7749295,-122.4194155
+North America,United States of America,Seattle,47.6062095,-122.3320708
+North America,United States of America,St. Louis,38.6270025,-90.1994042
+North America,United States of America,Urbana,40.1105875,-88.2072697
+North America,United States of America,Washington D.C.,38.8899389,-77.0090505
+South America,Brazil,Porto Alegre,-30.0346471,-51.2176584
+South America,Campinas,Brazil,-22.822486,-47.065815
+South America,Chile,Valparaíso,-33.047238,-71.6126885
+North America,United States of America,New Haven,41.3171463,-72.92204269
+Asia,Taiwan,Taipei,25.01747659,121.539751
+Asia,Australia,Sydney,-33.88836369367,151.1873131074
+North America,United States of America,Charlottesville,38.03376,-78.50841
+Asia,Australasia,Australasia,-37.7982,144.961
+Europe,Denmark,Copehangen,55.67,12.56
