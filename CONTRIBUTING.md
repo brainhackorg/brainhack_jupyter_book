@@ -1,147 +1,209 @@
 # CONTRIBUTING
 
-## Open Issue on GitHub :ticket:
+<!--## Open Issue on GitHub :ticket:-->
+<details>
+  <summary>
+    <h4>Open Issue on GitHub :ticket:</h4>
+  </summary>
 
-If you would like to contribute, make bug report/fix, participate in language
-translation work or if you have any other queries please do not hesitate to open
-an issue using one of the
-[issue templates](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose)
+  If you would like to contribute, make bug report/fix, participate in language translation work or if you have any other queries please do not hesitate to open an issue using one of the [issue templates](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose)
 
-## Making a PR :fountain_pen:
+</details>
 
-If you want to contribute with your ideas and suggestions please make a
-[pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-by following the
-[Template format](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose)
-to the repository of the
-[book](https://github.com/brainhackorg/brainhack_jupyter_book). The more
-suggestions and ideas are shared and contributed by the members of the
-community, this book will be a more beneficial source for the community.
+<!--## Making a PR :fountain_pen:-->
+<details>
+  <summary>
+    <h4>Making a PR :fountain_pen:</h4>
+  </summary>
 
-## What, Where :mag_right:
+  If you want to contribute with your ideas and suggestions please make a [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) by following the [Template format](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) to the repository of the [book](https://github.com/brainhackorg/brainhack_jupyter_book). The more suggestions and ideas are shared and contributed by the members of the community, this book will be a more beneficial source for the community.
 
-- All the text for each chapter of the `book` lives inside the folder
-  `./brainhack_book` directory.
+</details>
 
-- All figures associated with the chapters are stored in and linked from the
-  `./brainhack_book/static` directory.
+<!--## What, Where :mag_right:-->
+<details>
+  <summary>
+    <h4>What, Where :mag_right:</h4>
+  </summary>
 
-- Everything else is in the `brainhack_book/` directory.
+  <ul>
+    <li>All the text for each chapter of the `book` lives inside the folder
+  `./brainhack_book` directory. <br/><br/>
+    </li>
 
-### Configuration :gear:
+    <li>All figures associated with the chapters are stored in and linked from the
+  `./brainhack_book/static` directory. <br/><br/>
+    </li>
 
-- The table of contents (TOC) defines the order of chapters as they appear in
-  the book. To change the TOC, please edit `./brainhack_book/_toc.yml` with
-  correct information of filenames and their relative locations in this
-  repository. Documentation on controlling the TOC structure can be found on the
-  [jupyter book website](https://jupyterbook.org/customize/toc.html).
+    <li>Everything else is in the `brainhack_book/` directory.<br/><br/>
+    </li>
+  </ul>
 
-- Same applies for more general configuration using
-  `./brainhack_book/_config.yml`. Documentation on configuring book settings can
-  be found on the
-  [jupyter book website](https://jupyterbook.org/customize/config.html).
+</details>
 
-## Deploying :rocket:
+<!--### Configuration :gear:-->
 
-The site is built and deployed automatically using a
-[Github action](.github/workflows/book.yml), from the `main` branch.
+<details>
 
-## Viewing the brainhack_book :eyes:
+  <summary>
+    <h5>Configuration :gear:</h5>
+  </summary>
 
-Before start, you might need to have these listed below ready.
+  <ul>
+    <li> The table of contents (TOC) defines the order of chapters as they appear in the book. To change the TOC, please edit `./brainhack_book/_toc.yml` with correct information of filenames and their relative locations in this repository. Documentation on controlling the TOC structure can be found on the [jupyter book website](https://jupyterbook.org/customize/toc.html).<br/><br>
+    </li>
 
-- A recent version of Python ([Python 3.6 or 3.7](https://www.python.org/downloads/)) to work on the book and view it
-locally. If you do not have Python on your computer, we warmly recommend the install instruction from the
-[datalad handbook](http://handbook.datalad.org/en/latest/intro/installation.html#python-3-all-operating-systems).
+    <li>Same applies for more general configuration using
+  `./brainhack_book/_config.yml`. Documentation on configuring book settings can be found on the
+  [jupyter book website](https://jupyterbook.org/customize/config.html).<br/><br/>
+    </li>
+  </ul>
 
-If you are using an earlier version of Windows than Windows 10, you might want
-to check the install instruction for Python and bash from
-[this page from the neurohackademy](https://neurohackademy.org/setup/).
+</details>
+
+<!--## Deploying :rocket:-->
+
+<details>
+  <summary>
+    <h4>Deploying :rocket:</h4>
+    </summary>
+
+    The site is built and deployed automatically using a [Github action](.github/workflows/book.yml), from the `main` branch.
+
+</details>
+
+<!--## Viewing the brainhack_book :eyes:-->
+
+<details>
+  <summary>
+    <h4>Viewing the brainhack_book :eyes:</h4>
+    </summary>
+
+    <details>
+      <summary>Before you start
+        </summary>
+        Before start, you might need to have these listed below ready.
+
+  <ul>
+    <li> A recent version of Python ([Python 3.6 or 3.7](https://www.python.org/downloads/)) to work on the book and view it locally. If you do not have Python on your computer, we warmly recommend the install instruction from the [datalad handbook](http://handbook.datalad.org/en/latest/intro/installation.html#python-3-all-operating-systems). <br/><br/>
+      </li>
+
+      If you are using an earlier version of Windows than Windows 10, you might want to check the install instruction for Python and bash from [this page from the neurohackademy](https://neurohackademy.org/setup/).<br/><br/>
+  </li>
 
 
-- Note the install procedure below requires you to have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your computer.
+  <li>Note the install procedure below requires you to have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your computer.<br/><br/>
+    </li>
 
-- If you are a Windows user for Unix commands and build functions to work properly you might either need
-    -  [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), 
-    -  [Gitbash](https://gitforwindows.org/),
-    -  [Cywin](https://www.cygwin.com/)
+    <li> If you are a Windows user for Unix commands and build functions to work properly you might either need </li>
+    <ul>
+      <li>[Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
+      <li>[Gitbash](https://gitforwindows.org/),
+      <li>[Cywin](https://www.cygwin.com/)
+    </ul>
+</ul>
 
+</details>
+<!--### [Fork](https://help.github.com/articles/fork-a-repo) the [Brainhack Jupyter Book repository](https://github.com/brainhackorg/brainhack_jupyter_book) to your Github account :trident:-->
 
-### [Fork](https://help.github.com/articles/fork-a-repo) the [Brainhack Jupyter Book repository](https://github.com/brainhackorg/brainhack_jupyter_book) to your Github account :trident:
-Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on GitHub. For more details on how to fork a repository see [this guide](https://help.github.com/articles/fork-a-repo/). 
+<details>
+  <summary>[Fork](https://help.github.com/articles/fork-a-repo) the [Brainhack Jupyter Book repository](https://github.com/brainhackorg/brainhack_jupyter_book) to your Github account :trident:
+    </summary>
 
-This is now your own unique copy of the  Brainhack Jupyter Book. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code! 
+<p>Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on GitHub. For more details on how to fork a repository see [this guide](https://help.github.com/articles/fork-a-repo/).</p>
 
-Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork) with the upstream repository, otherwise, you can end up with lots of dreaded [merge conflicts](https://help.github.com/articles/syncing-a-fork).
+<p>This is now your own unique copy of the  Brainhack Jupyter Book. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code!</p>
 
+<p>Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork) with the upstream repository, otherwise, you can end up with lots of dreaded [merge conflicts](https://help.github.com/articles/syncing-a-fork).</p>
 
+</details>
 
-### [Clone](https://help.github.com/articles/cloning-a-repository) your forked Brainhack Jupyter Book repository to your machine/computer. :arrow_down_small:
+<!--### [Clone](https://help.github.com/articles/cloning-a-repository) your forked Brainhack Jupyter Book repository to your machine/computer. :arrow_down_small:-->
 
-While you can edit files [directly on Github](https://help.github.com/articles/editing-files-in-your-repository), sometimes the changes you want to make will be complex and you will want to use a [text editor](https://en.wikipedia.org/wiki/Text_editor) that you have installed on your local machine/computer. (One great text editor is [vscode](https://code.visualstudio.com/)).
-In order to work on the code locally, you must clone your forked repository. 
+<details>
+  <summary>[Clone](https://help.github.com/articles/cloning-a-repository) your forked Brainhack Jupyter Book repository to your machine/computer. :arrow_down_small:
+    </summary>
+
+<p>While you can edit files [directly on Github](https://help.github.com/articles/editing-files-in-your-repository), sometimes the changes you want to make will be complex and you will want to use a [text editor](https://en.wikipedia.org/wiki/Text_editor) that you have installed on your local machine/computer. (One great text editor is [vscode](https://code.visualstudio.com/)).
+In order to work on the code locally, you must clone your forked repository.</p>
 
 ```bash
 git clone git@github.com:YOURUSERNAME/brainhack_jupyter_book.git
 cd brainhack_book
 ```
 
-To keep up with the changes in the  Brainhack Jupyter Book repository, add the [Brainhack Jupyter Book repository](https://help.github.com/articles/configuring-a-remote-for-a-fork) as a remote to your locally cloned repository.
+<p>To keep up with the changes in the  Brainhack Jupyter Book repository, add the [Brainhack Jupyter Book repository](https://help.github.com/articles/configuring-a-remote-for-a-fork) as a remote to your locally cloned repository.</p>
 
 
-The first time you try to sync your fork, you may have to set the upstream branch:
+<p>The first time you try to sync your fork, you may have to set the upstream branch:</p>
+
 ```bash
 git remote add upstream https://github.com/brainhack_jupyter_book/brainhack_jupyter_book.git
 git remote -v # Making sure the upstream repo is listed.
 ```
 
-Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork/) with the upstream repository.
-For example, to update your main branch on your local cloned repository:
+<p>Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork/) with the upstream repository.</p>
+<p>For example, to update your main branch on your local cloned repository:</p>
 
 `git fetch upstream`
 `git checkout main`
 `git merge upstream/main`
 
 
-### Synchronize your main branch with the upstream main branch: :arrows_counterclockwise:
+</details>
+
+<!--### Synchronize your main branch with the upstream main branch: :arrows_counterclockwise:-->
+
+<details>
+  <summary>Synchronize your main branch with the upstream main branch: :arrows_counterclockwise:
+    </summary>
+
 
 `git checkout main`
 `git pull upstream main`
 
-You can then create a new branch to work on an issue. Using a new branch allows you to follow the standard GitHub workflow when making changes. This [guide](https://guides.github.com/introduction/flow/) provides a useful overview of this workflow. Please keep the name of your branch short and self-explanatory.
+
+<p>You can then create a new branch to work on an issue. Using a new branch allows you to follow the standard GitHub workflow when making changes. This [guide](https://guides.github.com/introduction/flow/) provides a useful overview of this workflow. Please keep the name of your branch short and self-explanatory.</p>
 `git checkout -b MYBRANCH`
 
-### Installing Dependencies in a virtual environment :arrow_up:
-
-For the requirements please have a look at our [requirements.txt](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/requirements.txt)
+</details>
 
 
-[Virtual environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
-are a great way of isolating project-related dependencies from your system-level
-Python installation.
+<!--### Installing Dependencies in a virtual environment :arrow_up:-->
 
-For more details on virtual environments using a tool like `venv` in Python see
-[here](https://docs.python.org/3/tutorial/venv.html).
+<details>
+  <summary>Installing Dependencies in a virtual environment :arrow_up:
+    </summary>
 
-You can also use Conda that acts both as a way to manage your environments and
-install packages. For more info about Conda, you can check this page of the
-[The Turing Way project](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package.html).
 
-To use a virtual environment for building the book project, run the following
-from within the root folder of the brainhack jupyter book directory:
+<p>For the requirements please have a look at our [requirements.txt](https://github.com/brainhackorg/brainhack_jupyter_book/blob/main/requirements.txt)</p>
+
+
+<p>[Virtual environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
+are a great way of isolating project-related dependencies from your system-level Python installation.</p>
+
+<p>For more details on virtual environments using a tool like `venv` in Python see
+[here](https://docs.python.org/3/tutorial/venv.html).</p>
+
+<p>You can also use Conda that acts both as a way to manage your environments and install packages. For more info about Conda, you can check this page of the
+[The Turing Way project](https://the-turing-way.netlify.app/reproducible-research/renv/renv-package.html).</p>
+
+<p>To use a virtual environment for building the book project, run the following
+from within the root folder of the brainhack jupyter book directory:</p>
 
 1. If you are using `venv`:
-either use this 
+either use this
+
 ```bash
 # This line creates a virtual environment called 'venv'
-python3 -m venv venv 
+python3 -m venv venv
 
 # This line activates the virtual environment On macOS and Linux:
-source venv/bin/activate 
+source venv/bin/activate
 
 # This line activates the virtual environment On Windows
 
-source venv/bin/activate 
+source venv/bin/activate
 
 ```
 or you can use the following with `virtualenv`
@@ -162,7 +224,7 @@ In case you want to use a specific python interpreter, specify the path as
 virtualenv -p /usr/bin/python3.7 brainhack
 ```
 
-After you create your virtual environment using either way described above, then you can install the requirements for building the book by running 
+After you create your virtual environment using either way described above, then you can install the requirements for building the book by running
 
 `pip install -r requirements.txt`
 
@@ -183,6 +245,8 @@ Once the virtual environment is activated, packages will be installed in that en
 
 **HEADS UP**: if you close the terminal or deactivate `venv`, make sure to re-activate the virtual environment with `source venv/bin/activate` before typing any code.
 
+</details>
+</details>
 
 ### Building the book locally :white_check_mark:
 
@@ -206,9 +270,9 @@ To build the book and preview your changes locally, you can run the following co
 jupyter-book build brainhack_book
 ```
 
-or you can test your site locally by navigating into your book and running 
+or you can test your site locally by navigating into your book and running
 
-`make serve` 
+`make serve`
 
 or
 
