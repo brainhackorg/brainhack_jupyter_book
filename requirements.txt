@@ -1,5 +1,4 @@
 bokeh>=2.2,<2.3
-chromedriver-binary>=89.0
 geopandas>=0.8,<0.9
 ghp-import==1.0.1
 jupytext>=1.8,<1.9
@@ -8,8 +7,6 @@ nbval
 pandas>=1.1
 pyshp==2.1.3
 pytest
-selenium==3.141.0
 sphinx==3.5.1
-
 jupyter-book>=0.11.3
 osfclient>=0.0.4
