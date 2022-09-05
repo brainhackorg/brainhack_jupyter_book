@@ -1,25 +1,27 @@
-contributors.md:127: [redirected permanently] http://orcid.org/0000-0001-8794-5055 to https://orcid.org/0000-0001-8794-5055
-contributors.md:162: [redirected permanently] http://orcid.org/0000-0003-3549-6168 to https://orcid.org/0000-0003-3549-6168
 contributors.md:87: [redirected permanently] http://orcid.org/0000-0002-4160-2134 to https://orcid.org/0000-0002-4160-2134
+contributors.md:162: [redirected permanently] http://orcid.org/0000-0003-3549-6168 to https://orcid.org/0000-0003-3549-6168
+contributors.md:151: [redirected permanently] http://osf.io/4tqns to https://osf.io/4tqns/
+neuroview_manuscript.md:333: [redirected permanently] http://improvingpsych.org to https://improvingpsych.org/
+contributors.md:127: [redirected permanently] http://orcid.org/0000-0001-8794-5055 to https://orcid.org/0000-0001-8794-5055
+contributors.md:55: [redirected permanently] http://osf.io/85skm to https://osf.io/85skm/
 contributors.md:112: [redirected permanently] http://osf.io/8f2vt to https://osf.io/8f2vt/
 contributors.md:142: [redirected permanently] http://osf.io/bux4q to https://osf.io/bux4q/
-contributors.md:151: [redirected permanently] http://osf.io/4tqns to https://osf.io/4tqns/
-contributors.md:55: [redirected permanently] http://osf.io/85skm to https://osf.io/85skm/
 contributors.md:216: [redirected permanently] http://osf.io/fd8ks to https://osf.io/fd8ks/
 contributors.md:27: [redirected permanently] http://osf.io/nxb93 to https://osf.io/nxb93/
 contributors.md:196: [redirected permanently] http://osf.io/k8u5b to https://osf.io/k8u5b/
-contributors.md:149: [redirected permanently] http://osf.io/ukpv7 to https://osf.io/ukpv7/
 contributors.md:46: [redirected permanently] http://osf.io/svw73 to https://osf.io/svw73/
+contributors.md:149: [redirected permanently] http://osf.io/ukpv7 to https://osf.io/ukpv7/
 contributors.md:165: [redirected permanently] http://osf.io/vmyxp to https://osf.io/vmyxp/
 contributors.md:208: [redirected permanently] http://osf.io/v8dfn to https://osf.io/v8dfn/
-contributors.md:36: [redirected permanently] http://osf.io/wu5tk to https://osf.io/wu5tk/
 contributors.md:190: [redirected permanently] http://osf.io/yuzs8 to https://osf.io/yuzs8/
+contributors.md:36: [redirected permanently] http://osf.io/wu5tk to https://osf.io/wu5tk/
 contributors.md:127: [redirected permanently] http://osf.io/x6rg4 to https://osf.io/x6rg4/
-neuroview_manuscript.md:92: [redirected permanently] https://doi.org/10.31234/osf.io/f6mnp to https://psyarxiv.com/f6mnp/
-neuroview_manuscript.md:96: [redirected with Found] https://doi.org/10.1038/sdata.2016.44 to https://www.nature.com/articles/sdata201644
-neuroview_manuscript.md:100: [redirected with Found] https://doi.org/10.1038/s41467-019-08944-1 to https://www.nature.com/articles/s41467-019-08944-1
-neuroview_manuscript.md:104: [redirected permanently] https://doi.org/10.3389/fninf.2019.00001 to https://www.frontiersin.org/articles/10.3389/fninf.2019.00001/full
-neuroview_manuscript.md:106: [redirected permanently] https://doi.org/10.3389/fninf.2019.00029 to https://www.frontiersin.org/articles/10.3389/fninf.2019.00029/full
+neuroview_manuscript.md:404: [redirected permanently] https://doi.org/10.1038/sdata.2016.44 to https://www.nature.com/articles/sdata201644
+neuroview_manuscript.md:415: [redirected permanently] https://doi.org/10.1038/s41467-019-08944-1 to https://www.nature.com/articles/s41467-019-08944-1
+neuroview_manuscript.md:390: [redirected permanently] https://doi.org/10.31234/osf.io/f6mnp to https://psyarxiv.com/f6mnp/
 index.md:24: [redirected with Found] https://github.com/brainhackorg/brainhack_jupyter_book/issues/new?assignees=&labels=&template=question.md&title= to https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbrainhackorg%2Fbrainhack_jupyter_book%2Fissues%2Fnew%3Fassignees%3D%26labels%3D%26template%3Dquestion.md%26title%3D
-neuroview_manuscript.md:98: [redirected permanently] https://doi.org/10.3897/rio.2.e9113 to https://riojournal.com/articles.php?journal_name=rio&id=9113
-glossary.md:254: [redirected with Found] https://www.humanbrainmapping.org/ to https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=1
+neuroview_manuscript.md:424: [redirected permanently] https://doi.org/10.3389/fninf.2019.00001 to https://www.frontiersin.org/articles/10.3389/fninf.2019.00001/full
+neuroview_manuscript.md:431: [redirected permanently] https://doi.org/10.3389/fninf.2019.00029 to https://www.frontiersin.org/articles/10.3389/fninf.2019.00029/full
+neuroview_manuscript.md:411: [redirected permanently] https://doi.org/10.3897/rio.2.e9113 to https://riojournal.com/articles.php?journal_name=rio&id=9113
+contributors.md:6: [redirected with Found] https://osf.io/4szct/ to https://accounts.osf.io/login?service=https://osf.io/4szct/
+glossary_en.md:399: [redirected with Found] https://www.humanbrainmapping.org/ to https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=1
