@@ -146,7 +146,7 @@ YYYY-MM-DD,City,Theme/title/topic
 2019-12-13,Lisbon,Brainhack Lisbon
 2019-12-15,Nanning,Brainhack Nanning
 2020-01-21,Nijmegen,OpenMR Benelux
-2020-02-20,San Francisco,"Brainhack SF: Follow the tracts, dive deep!"
+"2020-02-20,San Francisco,""Brainhack SF: Follow the tracts, dive deep!"""
 2020-06-16,Ankara online,OHBM Brainhack 2020 - Europe. Middle East and Africa hub
 2020-06-16,Austin online,OHBM Brainhack 2020 - Americas hub
 2020-06-16,Beijing online,OHBM Brainhack 2020 - Asia Pacific hub
@@ -191,3 +191,5 @@ YYYY-MM-DD,City,Theme/title/topic
 2021-12-06,Boston,Brainhack Boston
 2021-11-29,New York City,Brainhack NYC
 2021-12-06,Montreal,Brainhack Montreal
+2022-06-16,Glasgow,OHBM Brainhack 2022
+2021-06-16,Online,OHBM Brainhack 2021
