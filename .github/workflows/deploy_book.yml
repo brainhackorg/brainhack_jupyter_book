@@ -30,6 +30,9 @@ jobs:
 
       - name: Test Notebooks
         run: |
+          conda info
+          conda list
+          conda activate brainhack-jb-env
           pytest --nbval-lax -v
 
       - name: Build Book
