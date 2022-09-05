@@ -3,19 +3,18 @@ channels:
   - default
   - conda-forge
 dependencies:
-  - python=3.7.*
-  - sphinx=3.5.1
+  - python=3.8.*
   - pip
   - git
-  - bokeh=2.2.*
-  - jupytext=1.7.*
-  - geopandas=0.8.*
+  - bokeh
+  - geopandas
+  - ghp-import
+  - jupytext
+  - matplotlib
   - nbval
-  - pandas>=1.1.*
+  - pandas
   - pyshp
   - pytest
-  - ghp-import
-  - matplotlib
   - pip:
-    - jupyter-book==0.11.3
-    - osfclient>=0.0.4
+    - jupyter-book
+    - osfclient
