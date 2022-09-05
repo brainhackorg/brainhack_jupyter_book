@@ -38,24 +38,32 @@ OUTPUT = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw_ranke
 err_message = """Curated sheet and OSF sheet has unmatched number of auhtors.
 Have you update curated sheet?"""
 
+
 def assert_exit(condition, err_message):
     try:
         assert condition
     except AssertionError as Error:
         sys.exit(err_message)
 
-ranking = pd.read_csv(f"data/contributors/neuroview/{GSHEET_RANK}", sep="\t", skiprows=1)
+
+ranking = pd.read_csv(
+    f"data/contributors/neuroview/{GSHEET_RANK}", sep="\t", skiprows=1
+)
 osf = pd.read_csv(f"data/contributors/neuroview/{OSF_RAW}", sep="\t", header=[0, 1, 2])
 curated = pd.read_csv(f"data/contributors/neuroview/{AFF_CURATED}", sep="\t")
 curated = curated.fillna(" ")  # some authors has empty department info
 
-assert_exit(curated["Author_ID"].unique().shape[0]==osf.shape[0], err_message)
+assert_exit(curated["Author_ID"].unique().shape[0] == osf.shape[0], err_message)
 
 # give ranking in gsheet
 ranking["ranking"] = ranking.index + 1
 
 # fuzzy name match between gsheet and osf
-rename_gsheet = {'Unnamed: 0': "joint_first", 'Unnamed: 1': "First", 'Unnamed: 2': "Last"}
+rename_gsheet = {
+    "Unnamed: 0": "joint_first",
+    "Unnamed: 1": "First",
+    "Unnamed: 2": "Last",
+}
 ranking = ranking.rename(columns=rename_gsheet)
 # sort osf sheet by last name and give ranking
 osf_last = osf.columns[10]
@@ -92,23 +100,27 @@ revert_curate = []
 for id in author_ID:  # some people's name are not capitalised etc so use ID
     mask_lines = curated["Author_ID"] == id
     lines = curated[mask_lines]
-    author = {"Author_ID": id,
-              "First": lines["First"].iloc[0],
-              "Middle": lines["Middle"].iloc[0],
-              "Last": lines["Last"].iloc[0]}
+    author = {
+        "Author_ID": id,
+        "First": lines["First"].iloc[0],
+        "Middle": lines["Middle"].iloc[0],
+        "Last": lines["Last"].iloc[0],
+    }
     aff = lines.loc[:, "Department":"Country"]
     for i in range(lines.shape[0]):
         author[f"affiliation_{i + 1}"] = aff.iloc[i].to_dict()
     revert_curate.append(author)
 
 # dictionary to translate curated data and osf file
-label_matcher = {"Author_ID": ("", "", "Author_ID"),
-                 "First": osf.columns[9],
-                 "Middle": osf.columns[11],
-                 "Last": osf.columns[10],
-                 "affiliation_1": osf.columns[12],
-                 "affiliation_2": osf.columns[13],
-                 "affiliation_3": osf.columns[14]}
+label_matcher = {
+    "Author_ID": ("", "", "Author_ID"),
+    "First": osf.columns[9],
+    "Middle": osf.columns[11],
+    "Last": osf.columns[10],
+    "affiliation_1": osf.columns[12],
+    "affiliation_2": osf.columns[13],
+    "affiliation_3": osf.columns[14],
+}
 
 # update osf sheet with curated content
 for ca in revert_curate:
@@ -132,5 +144,6 @@ for ca in revert_curate:
 osf = osf.sort_values(("", "", "ranking"))
 
 # string quote set to "+" because there are valid strings with " or '
-osf.to_csv(f"data/contributors/neuroview/{OUTPUT}",
-           index=False, sep="\t", quotechar="+")
+osf.to_csv(
+    f"data/contributors/neuroview/{OUTPUT}", index=False, sep="\t", quotechar="+"
+)

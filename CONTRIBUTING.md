@@ -62,15 +62,15 @@ to check the install instruction for Python and bash from
 - Note the install procedure below requires you to have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your computer.
 
 - If you are a Windows user for Unix commands and build functions to work properly you might either need
-    -  [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10), 
+    -  [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
     -  [Gitbash](https://gitforwindows.org/),
     -  [Cywin](https://www.cygwin.com/)
 
 
 ### [Fork](https://help.github.com/articles/fork-a-repo) the [Brainhack Jupyter Book repository](https://github.com/brainhackorg/brainhack_jupyter_book) to your Github account :trident:
-Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on GitHub. For more details on how to fork a repository see [this guide](https://help.github.com/articles/fork-a-repo/). 
+Click on the ‘Fork’ button near the top of the page. This creates a copy of the code under your account on GitHub. For more details on how to fork a repository see [this guide](https://help.github.com/articles/fork-a-repo/).
 
-This is now your own unique copy of the  Brainhack Jupyter Book. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code! 
+This is now your own unique copy of the  Brainhack Jupyter Book. Changes here won't affect anyone else's work, so it's a safe space to explore edits to the code!
 
 Make sure to [keep your fork up to date](https://help.github.com/articles/syncing-a-fork) with the upstream repository, otherwise, you can end up with lots of dreaded [merge conflicts](https://help.github.com/articles/syncing-a-fork).
 
@@ -79,7 +79,7 @@ Make sure to [keep your fork up to date](https://help.github.com/articles/syncin
 ### [Clone](https://help.github.com/articles/cloning-a-repository) your forked Brainhack Jupyter Book repository to your machine/computer. :arrow_down_small:
 
 While you can edit files [directly on Github](https://help.github.com/articles/editing-files-in-your-repository), sometimes the changes you want to make will be complex and you will want to use a [text editor](https://en.wikipedia.org/wiki/Text_editor) that you have installed on your local machine/computer. (One great text editor is [vscode](https://code.visualstudio.com/)).
-In order to work on the code locally, you must clone your forked repository. 
+In order to work on the code locally, you must clone your forked repository.
 
 ```bash
 git clone git@github.com:YOURUSERNAME/brainhack_jupyter_book.git
@@ -131,17 +131,17 @@ To use a virtual environment for building the book project, run the following
 from within the root folder of the brainhack jupyter book directory:
 
 1. If you are using `venv`:
-either use this 
+either use this
 ```bash
 # This line creates a virtual environment called 'venv'
-python3 -m venv venv 
+python3 -m venv venv
 
 # This line activates the virtual environment On macOS and Linux:
-source venv/bin/activate 
+source venv/bin/activate
 
 # This line activates the virtual environment On Windows
 
-source venv/bin/activate 
+source venv/bin/activate
 
 ```
 or you can use the following with `virtualenv`
@@ -162,7 +162,7 @@ In case you want to use a specific python interpreter, specify the path as
 virtualenv -p /usr/bin/python3.7 brainhack
 ```
 
-After you create your virtual environment using either way described above, then you can install the requirements for building the book by running 
+After you create your virtual environment using either way described above, then you can install the requirements for building the book by running
 
 `pip install -r requirements.txt`
 
@@ -179,7 +179,7 @@ In order to leaving the virtual environment. If you want to switch projects or o
 `deactivate`
 
 
-Once the virtual environment is activated, packages will be installed in that environment, without interfering with your python system installation.  
+Once the virtual environment is activated, packages will be installed in that environment, without interfering with your python system installation.
 
 **HEADS UP**: if you close the terminal or deactivate `venv`, make sure to re-activate the virtual environment with `source venv/bin/activate` before typing any code.
 
@@ -206,9 +206,9 @@ To build the book and preview your changes locally, you can run the following co
 jupyter-book build brainhack_book
 ```
 
-or you can test your site locally by navigating into your book and running 
+or you can test your site locally by navigating into your book and running
 
-`make serve` 
+`make serve`
 
 or
 

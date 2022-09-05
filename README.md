@@ -49,6 +49,6 @@ of the Brainhack Mattermost.
 
 ## "I want to help!" :raising_hand_woman:
 
- Awesome!!! :rocket: Brainhack Book is open to any contributions! Please do not hesitate to [open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) to start a discussion, work towards a bug fix and adding content. 
+ Awesome!!! :rocket: Brainhack Book is open to any contributions! Please do not hesitate to [open an issue](https://github.com/brainhackorg/brainhack_jupyter_book/issues/new/choose) to start a discussion, work towards a bug fix and adding content.
 
 Before starting, make sure to have a look at our [contributing guidelines](./CONTRIBUTING.md).
