@@ -1,4 +1,4 @@
-name: book
+name: test notebook
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build-book:
+  test-notebook:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -36,19 +36,6 @@ jobs:
           python --version
           pip list
 
-      - name: Build Book
+      - name: Test Notebook
         run: |
-          make neuroview
-          make bookpage
-          make book
-
-      - name: Test Book
-        run: |
-          make test
-
-      - name: Deploy book on push
-        if: ${{ success() && github.event_name == 'push' }}
-        uses: peaceiris/actions-gh-pages@v3.6.1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./brainhack_book/_build/html
+          pytest --nbval-lax -v
