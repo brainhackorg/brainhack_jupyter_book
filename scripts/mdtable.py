@@ -21,13 +21,11 @@ In `brainhack_book/_toc`, the refereced file are the compiled markdown file.
 Usage see:
 >> 	python brainhack_book/mdtable.py --help
 """
+import argparse
+import csv
 import os
 import sys
-import argparse
-
 from pathlib import Path
-import csv
-
 
 div_h = "-"
 div_v = "|"

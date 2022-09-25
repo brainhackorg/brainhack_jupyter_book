@@ -23,11 +23,11 @@ to generate Author Arrange suited format.
 Usage:
 python neuroview_author_ranking.py
 """
-import sys
 import re
-import pandas as pd
-import numpy as np
+import sys
 
+import numpy as np
+import pandas as pd
 
 OSF_RAW = "tmp_tpt_merged_raw.tsv"
 AFF_CURATED = "affiliation_curated.tsv"
