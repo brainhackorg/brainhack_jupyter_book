@@ -9,7 +9,7 @@ import requests
 from rich import print
 
 USERNAME = "Remi-Gau"
-TOKEN = "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"
+TOKEN = ""
 
 REPOSITORIES = {
     "ohbm_2019": {
