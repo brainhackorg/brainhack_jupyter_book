@@ -1,8 +1,8 @@
 YYYY-MM-DD,City,Theme/title/topic
 2012-09-01,Leipzig,Brainhack & Unconference
-2013-06-16,Seattle,OHBM Hackathon
+2013-06-16,Seattle,OHBM Hackathon 2013
 2013-10-23,Paris,Brainhack Paris
-2014-07-05,Berlin,OHBM Hackathon
+2014-07-05,Berlin,OHBM Hackathon 2014
 2014-10-18,Ann Arbor,Brainhack EDT
 2014-10-18,Boston,Brainhack EDT
 2014-10-18,Miami,Brainhack EDT
@@ -11,7 +11,7 @@ YYYY-MM-DD,City,Theme/title/topic
 2014-10-18,Porto Alegre,Brainhack EDT
 2014-10-18,Toronto,Brainhack EDT
 2014-10-18,Washington D.C.,Brainhack EDT
-2015-06-12,Honolulu,OHBM Hackathon
+2015-06-12,Honolulu,OHBM Hackathon 2015
 2015-07-27,Montreal,Brainhack Montreal
 2015-10-23,Ann Arbor,Brainhack Americas
 2015-10-23,Berkeley,Brainhack Americas
@@ -22,7 +22,7 @@ YYYY-MM-DD,City,Theme/title/topic
 2015-10-23,Querétaro,Brainhack Americas
 2015-10-23,Seattle,Brainhack Americas
 2016-02-24,Paris,Brainhack Paris
-2016-06-23,Lausanne,OHBM Hackathon
+2016-06-23,Lausanne,OHBM Hackathon 2016
 2016-09-18,Vienna,Brainhack: Reliability&Reproducibility in Connectomics
 2016-11-10,Los Angeles,Brainhack: Big Data Tools for Connectomics
 2017-03-02,Albuquerque,Brainhack Global Albuquerque
@@ -106,16 +106,16 @@ YYYY-MM-DD,City,Theme/title/topic
 2018-05-07,Ghent,Brainhack Global Ghent
 2018-06-01,Miami,Brainhack Global Miami
 2018-06-09,Paris,Brainhack Networks
-2018-06-14,Singapore,OHBM Hackathon
+2018-06-14,Singapore,OHBM Hackathon 2018
 2018-10-17,Brazil,São Paulo-Alberta Brainhack
 2018-10-24,Zurich,Brainhack Zurich
 2018-11-18,Los Angeles,Brainhack LA
 2018-12-05,Padova,Brainhack Evolution
-2019-01-16,Leiden,OpenMR Benelux
+2019-01-16,Leiden,OpenMR Benelux 2019
 2019-03-22,Geneva,Brainhack Open Geneva
 2019-05-05,San Sebastian,Brainhack Donostia
 2019-05-21,Toronto,CAN-ACN BrainHack
-2019-06-06,Rome,OHBM Hackathon
+2019-06-06,Rome,OHBM Hackathon 2019
 2019-09-07,London-UK,Brainhack: Comparative MRI
 2019-11-03,Zurich,Brainhack Global Zurich
 2019-11-07,Geneva,Brainhack Global Geneva
@@ -146,7 +146,7 @@ YYYY-MM-DD,City,Theme/title/topic
 2019-12-13,Lisbon,Brainhack Lisbon
 2019-12-15,Nanning,Brainhack Nanning
 2020-01-21,Nijmegen,OpenMR Benelux
-"2020-02-20,San Francisco,""Brainhack SF: Follow the tracts, dive deep!"""
+2020-02-20,San Francisco,Brainhack SF: Follow the tracts - dive deep!
 2020-06-16,Ankara online,OHBM Brainhack 2020 - Europe. Middle East and Africa hub
 2020-06-16,Austin online,OHBM Brainhack 2020 - Americas hub
 2020-06-16,Beijing online,OHBM Brainhack 2020 - Asia Pacific hub

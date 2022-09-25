@@ -10,6 +10,10 @@ from rich import print
 
 USERNAME = "Remi-Gau"
 TOKEN = ""
+# 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
+
+# TODO: some ohbm and brainhack global from previous years have repos or websites
+# that can be scraped for info
 
 REPOSITORIES = {
     "ohbm_2019": {
