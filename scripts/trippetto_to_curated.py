@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 emails = False
 
 DATA_DIR = "data/contributors/neuroview"

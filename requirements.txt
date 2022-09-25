@@ -9,3 +9,5 @@ pyshp
 pytest
 jupyter-book
 osfclient
+rich
+requests
