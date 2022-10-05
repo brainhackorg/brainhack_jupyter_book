@@ -94,8 +94,11 @@ def main():
     topics = []
     event = []
     site = []
+    date = []
 
     for this_hackathon in HACKATHONS:
+
+        print(f"{this_hackathon}")
 
         with open(data_dir.joinpath(f"projects_{this_hackathon}.json"), "r") as f:
 
@@ -109,11 +112,10 @@ def main():
                 tmp = [x for x in labels if "bhg" in x]
                 if tmp != []:
                     for key in sites:
-                        if tmp[0] == sites[i]["label"]:
+                        if tmp[0] == sites[key]["label"]:
                             this_project["site"] = key
+                            print(this_project["site"])
                             break
-
-                print(this_project["site"])
 
                 for i in labels_to_remove:
                     if i in labels:
@@ -125,6 +127,7 @@ def main():
 
                 event.append(HACKATHONS[this_hackathon]["name"])
                 name.append(this_project["title"].lstrip())
+                date.append(this_project["created_at"])
                 site.append(this_project["site"].lstrip())
                 url.append(this_project["url"])
                 topics.append(",".join(labels))
@@ -133,6 +136,7 @@ def main():
         "name": name,
         "site": site,
         "event": event,
+        "date": date,
         "topics": topics,
         "url": url,
     }
