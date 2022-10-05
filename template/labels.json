@@ -1,0 +1,272 @@
+[
+  {
+    "id": 3536546867,
+    "node_id": "LA_kwDOGDgFD87Sy2wz",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:boston_usa_1",
+    "name": "bhg:boston_usa_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Boston event"
+  },
+  {
+    "id": 3536573693,
+    "node_id": "LA_kwDOGDgFD87Sy9T9",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:copenhagen_dnk_1",
+    "name": "bhg:copenhagen_dnk_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Nordic event"
+  },
+  {
+    "id": 3536544424,
+    "node_id": "LA_kwDOGDgFD87Sy2Ko",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:donostia_esp_1",
+    "name": "bhg:donostia_esp_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Donostia event"
+  },
+  {
+    "id": 3536552747,
+    "node_id": "LA_kwDOGDgFD87Sy4Mr",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:geneva_che_1",
+    "name": "bhg:geneva_che_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Geneva event"
+  },
+  {
+    "id": 3536578225,
+    "node_id": "LA_kwDOGDgFD87Sy-ax",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:london_can_1",
+    "name": "bhg:london_can_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Western event"
+  },
+  {
+    "id": 3536553605,
+    "node_id": "LA_kwDOGDgFD87Sy4aF",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:marseille_fra_1",
+    "name": "bhg:marseille_fra_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Marseille event"
+  },
+  {
+    "id": 3536596437,
+    "node_id": "LA_kwDOGDgFD87SzC3V",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:melbourne_aus_1",
+    "name": "bhg:melbourne_aus_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Australasia event"
+  },
+  {
+    "id": 3536554944,
+    "node_id": "LA_kwDOGDgFD87Sy4vA",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:mtl_can_1",
+    "name": "bhg:mtl_can_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Montreal event"
+  },
+  {
+    "id": 3536562088,
+    "node_id": "LA_kwDOGDgFD87Sy6eo",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:nyc_usa_1",
+    "name": "bhg:nyc_usa_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 NYC event"
+  },
+  {
+    "id": 3536564833,
+    "node_id": "LA_kwDOGDgFD87Sy7Jh",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:sydney_aus_1",
+    "name": "bhg:sydney_aus_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Sydney event"
+  },
+  {
+    "id": 3536568827,
+    "node_id": "LA_kwDOGDgFD87Sy8H7",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:toronto_can_1",
+    "name": "bhg:toronto_can_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Toronto event"
+  },
+  {
+    "id": 3536567218,
+    "node_id": "LA_kwDOGDgFD87Sy7uy",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:washingtondc_usa_1",
+    "name": "bhg:washingtondc_usa_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Washington DC event"
+  },
+  {
+    "id": 3536590134,
+    "node_id": "LA_kwDOGDgFD87SzBU2",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:zagreb_hrv_1",
+    "name": "bhg:zagreb_hrv_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Zagreb event"
+  },
+  {
+    "id": 3536563872,
+    "node_id": "LA_kwDOGDgFD87Sy66g",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bhg:zurich_che_1",
+    "name": "bhg:zurich_che_1",
+    "color": "d4c5f9",
+    "default": false,
+    "description": "BHG 2021 Zurich event"
+  },
+  {
+    "id": 3352526272,
+    "node_id": "MDU6TGFiZWwzMzUyNTI2Mjcy",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/bug",
+    "name": "bug",
+    "color": "d73a4a",
+    "default": true,
+    "description": "Something isn't working"
+  },
+  {
+    "id": 3352526278,
+    "node_id": "MDU6TGFiZWwzMzUyNTI2Mjc4",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/documentation",
+    "name": "documentation",
+    "color": "0075ca",
+    "default": true,
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "id": 3352526283,
+    "node_id": "MDU6TGFiZWwzMzUyNTI2Mjgz",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/duplicate",
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "default": true,
+    "description": "This issue or pull request already exists"
+  },
+  {
+    "id": 3352526286,
+    "node_id": "MDU6TGFiZWwzMzUyNTI2Mjg2",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/enhancement",
+    "name": "enhancement",
+    "color": "a2eeef",
+    "default": true,
+    "description": "New feature or request"
+  },
+  {
+    "id": 3399090929,
+    "node_id": "LA_kwDOGDgFD87KmgLx",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/git_skills:0_none",
+    "name": "git_skills:0_none",
+    "color": "bfdadc",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3399091002,
+    "node_id": "LA_kwDOGDgFD87KmgM6",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/git_skills:1_commit_push",
+    "name": "git_skills:1_commit_push",
+    "color": "bfdadc",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3399091037,
+    "node_id": "LA_kwDOGDgFD87KmgNd",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/git_skills:2_branches_PRs",
+    "name": "git_skills:2_branches_PRs",
+    "color": "bfdadc",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3399091038,
+    "node_id": "LA_kwDOGDgFD87KmgNe",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/git_skills:3_continuous_integration",
+    "name": "git_skills:3_continuous_integration",
+    "color": "bfdadc",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3352526290,
+    "node_id": "MDU6TGFiZWwzMzUyNTI2Mjkw",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/good%20first%20issue",
+    "name": "good first issue",
+    "color": "7057ff",
+    "default": true,
+    "description": "Good for newcomers"
+  },
+  {
+    "id": 3352526295,
+    "node_id": "MDU6TGFiZWwzMzUyNTI2Mjk1",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/help%20wanted",
+    "name": "help wanted",
+    "color": "008672",
+    "default": true,
+    "description": "Extra attention is needed"
+  },
+  {
+    "id": 3394090887,
+    "node_id": "LA_kwDOGDgFD87KTbeH",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/HIGH%20PRIORITY",
+    "name": "HIGH PRIORITY",
+    "color": "B60205",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3352526298,
+    "node_id": "MDU6TGFiZWwzMzUyNTI2Mjk4",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/invalid",
+    "name": "invalid",
+    "color": "e4e669",
+    "default": true,
+    "description": "This doesn't seem right"
+  },
+  {
+    "id": 3399091039,
+    "node_id": "LA_kwDOGDgFD87KmgNf",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/modality:behavioral",
+    "name": "modality:behavioral",
+    "color": "1d76db",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3399090988,
+    "node_id": "LA_kwDOGDgFD87KmgMs",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/modality:DWI",
+    "name": "modality:DWI",
+    "color": "1d76db",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3399090990,
+    "node_id": "LA_kwDOGDgFD87KmgMu",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/modality:ECG",
+    "name": "modality:ECG",
+    "color": "1d76db",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 3399091010,
+    "node_id": "LA_kwDOGDgFD87KmgNC",
+    "url": "https://api.github.com/repos/brainhackorg/global2021/labels/modality:ECOG",
+    "name": "modality:ECOG",
+    "color": "1d76db",
+    "default": false,
+    "description": ""
+  }
+]
