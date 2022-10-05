@@ -1,722 +1,603 @@
 [
   {
-    "id": 3536546867,
     "name": "boston_usa",
     "color": "d4c5f9",
     "description": "Boston event"
   },
   {
-    "id": 3536573693,
     "name": "copenhagen_dnk",
     "color": "d4c5f9",
     "description": "Nordic event"
   },
   {
-    "id": 3536544424,
     "name": "donostia_esp",
     "color": "d4c5f9",
     "description": "Donostia event"
   },
   {
-    "id": 3536552747,
     "name": "geneva_che",
     "color": "d4c5f9",
     "description": "Geneva event"
   },
   {
-    "id": 3536578225,
     "name": "london_can",
     "color": "d4c5f9",
     "description": "Western event"
   },
   {
-    "id": 3536553605,
     "name": "marseille_fra",
     "color": "d4c5f9",
     "description": "Marseille event"
   },
   {
-    "id": 3536596437,
     "name": "melbourne_aus",
     "color": "d4c5f9",
     "description": "Australasia event"
   },
   {
-    "id": 3536554944,
     "name": "mtl_can",
     "color": "d4c5f9",
     "description": "Montreal event"
   },
   {
-    "id": 3536562088,
     "name": "nyc_usa",
     "color": "d4c5f9",
     "description": "NYC event"
   },
   {
-    "id": 3536564833,
     "name": "sydney_aus",
     "color": "d4c5f9",
     "description": "Sydney event"
   },
   {
-    "id": 3536568827,
     "name": "toronto_can",
     "color": "d4c5f9",
     "description": "Toronto event"
   },
   {
-    "id": 3536567218,
     "name": "washingtondc_usa",
     "color": "d4c5f9",
     "description": "Washington DC event"
   },
   {
-    "id": 3536590134,
     "name": "zagreb_hrv",
     "color": "d4c5f9",
     "description": "Zagreb event"
   },
   {
-    "id": 3536563872,
     "name": "zurich_che",
     "color": "d4c5f9",
     "description": "Zurich event"
   },
   {
-    "id": 3352526272,
     "name": "bug",
     "color": "d73a4a",
     "default": true,
     "description": "Something isn't working"
   },
   {
-    "id": 3352526278,
     "name": "documentation",
     "color": "0075ca",
     "default": true,
     "description": "Improvements or additions to documentation"
   },
   {
-    "id": 3352526283,
     "name": "duplicate",
     "color": "cfd3d7",
     "default": true,
     "description": "This issue or pull request already exists"
   },
   {
-    "id": 3352526286,
     "name": "enhancement",
     "color": "a2eeef",
     "default": true,
     "description": "New feature or request"
   },
   {
-    "id": 3399090929,
     "name": "git_skills:0_none",
     "color": "bfdadc",
     "description": ""
   },
   {
-    "id": 3399091002,
     "name": "git_skills:1_commit_push",
     "color": "bfdadc",
     "description": ""
   },
   {
-    "id": 3399091037,
     "name": "git_skills:2_branches_PRs",
     "color": "bfdadc",
     "description": ""
   },
   {
-    "id": 3399091038,
     "name": "git_skills:3_continuous_integration",
     "color": "bfdadc",
     "description": ""
   },
   {
-    "id": 3352526290,
     "name": "good first issue",
     "color": "7057ff",
     "default": true,
     "description": "Good for newcomers"
   },
   {
-    "id": 3352526295,
     "name": "help wanted",
     "color": "008672",
     "default": true,
     "description": "Extra attention is needed"
   },
   {
-    "id": 3394090887,
     "name": "HIGH PRIORITY",
     "color": "B60205",
     "description": ""
   },
   {
-    "id": 3352526298,
     "name": "invalid",
     "color": "e4e669",
     "default": true,
     "description": "This doesn't seem right"
   },
   {
-    "id": 3399091039,
     "name": "modality:behavioral",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399090988,
     "name": "modality:DWI",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399090990,
     "name": "modality:ECG",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091010,
     "name": "modality:ECOG",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091035,
     "name": "modality:EEG",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091008,
     "name": "modality:eye_tracking",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091042,
     "name": "modality:fMRI",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091004,
     "name": "modality:fNIRS",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091044,
     "name": "modality:MEG",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091036,
     "name": "modality:MRI",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091033,
     "name": "modality:PET",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091034,
     "name": "modality:TDCS",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3399091031,
     "name": "modality:TMS",
     "color": "1d76db",
     "description": ""
   },
   {
-    "id": 3364132584,
     "name": "operational",
     "color": "bfdadc",
     "description": "issues related to the operational tasks."
   },
   {
-    "id": 3364133355,
     "name": "outreach",
     "color": "9AD022",
     "description": "issues related to the outreach tasks"
   },
   {
-    "id": 3399091043,
     "name": "programming:C++",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090931,
     "name": "programming:containerization",
     "color": "5319e7",
     "description": "Docker, Singularity"
   },
   {
-    "id": 3399090933,
     "name": "programming:documentation",
     "color": "5319e7",
     "description": "Markdown, Sphinx"
   },
   {
-    "id": 3592307245,
     "name": "programming:html_css",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090930,
     "name": "programming:Java",
     "color": "5319e7",
     "description": "Java"
   },
   {
-    "id": 3592337670,
     "name": "programming:Javascript",
     "color": "5319E7",
     "description": "Javascript"
   },
   {
-    "id": 3399090932,
     "name": "programming:Julia",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090969,
     "name": "programming:Matlab",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090947,
     "name": "programming:none",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090997,
     "name": "programming:Python",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090986,
     "name": "programming:R",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090941,
     "name": "programming:shell_scripting",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090999,
     "name": "programming:Unix_command_line",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090982,
     "name": "programming:Web",
     "color": "5319e7",
     "description": ""
   },
   {
-    "id": 3399090962,
     "name": "project",
     "color": "f9bc70",
     "description": ""
   },
   {
-    "id": 3399090993,
     "name": "project_development_status:0_concept_no_content",
     "color": "bfd4f2",
     "description": ""
   },
   {
-    "id": 3399090943,
     "name": "project_development_status:1_basic structure",
     "color": "bfd4f2",
     "description": ""
   },
   {
-    "id": 3399090970,
     "name": "project_development_status:2_releases_existing",
     "color": "bfd4f2",
     "description": ""
   },
   {
-    "id": 3399090966,
     "name": "project_tools_skills:comfortable",
     "color": "c2e0c6",
     "description": ""
   },
   {
-    "id": 3399090960,
     "name": "project_tools_skills:expert",
     "color": "c2e0c6",
     "description": ""
   },
   {
-    "id": 3399090959,
     "name": "project_tools_skills:familiar",
     "color": "c2e0c6",
     "description": ""
   },
   {
-    "id": 3399090961,
     "name": "project_tools_skills:none",
     "color": "c2e0c6",
     "description": ""
   },
   {
-    "id": 3399090971,
     "name": "project_type:coding_methods",
     "color": "c5def5",
     "description": ""
   },
   {
-    "id": 3399090940,
     "name": "project_type:data_management",
     "color": "c5def5",
     "description": "involves programming"
   },
   {
-    "id": 3399091005,
     "name": "project_type:documentation",
     "color": "c5def5",
     "description": ""
   },
   {
-    "id": 3399090983,
     "name": "project_type:method_development",
     "color": "c5def5",
     "description": ""
   },
   {
-    "id": 3399090944,
     "name": "project_type:pipeline_development",
     "color": "c5def5",
     "description": ""
   },
   {
-    "id": 3399090980,
     "name": "project_type:tutorial_recording",
     "color": "c5def5",
     "description": ""
   },
   {
-    "id": 3399091046,
     "name": "project_type:visualisation",
     "color": "c5def5",
     "description": ""
   },
   {
-    "id": 3352526301,
     "name": "question",
     "color": "d876e3",
     "default": true,
     "description": "Further information is requested"
   },
   {
-    "id": 3399090938,
     "name": "status:published",
     "color": "0e8a16",
     "description": ""
   },
   {
-    "id": 3399090996,
     "name": "status:requested_changes",
     "color": "0e8a16",
     "description": ""
   },
   {
-    "id": 3399090974,
     "name": "status:web_ready",
     "color": "0e8a16",
     "description": ""
   },
   {
-    "id": 3399091000,
     "name": "tools:AFNI",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090953,
     "name": "tools:ANTs",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090968,
     "name": "tools:BIDS",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090976,
     "name": "tools:Brainstorm",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090946,
     "name": "tools:CPAC",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090991,
     "name": "tools:Datalad",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090972,
     "name": "tools:DIPY",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090954,
     "name": "tools:FieldTrip",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090992,
     "name": "tools:fMRIPrep",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090949,
     "name": "tools:Freesurfer",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090979,
     "name": "tools:FSL",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090950,
     "name": "tools:Jupyter",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090995,
     "name": "tools:MNE",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090977,
     "name": "tools:MRtrix",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399091011,
     "name": "tools:Nipype",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090973,
     "name": "tools:NWB",
     "color": "0052cc",
     "description": "Neurodata Without Borders"
   },
   {
-    "id": 3399090956,
     "name": "tools:SPM",
     "color": "0052cc",
     "description": ""
   },
   {
-    "id": 3399090945,
     "name": "topic:Bayesian_approaches",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090978,
     "name": "topic:causality",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399091009,
     "name": "topic:connectome",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090957,
     "name": "topic:data_visualisation",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090958,
     "name": "topic:deep_learning",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399091032,
     "name": "topic:diffusion",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090955,
     "name": "topic:diversity_inclusivity_equality",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399091040,
     "name": "topic:EEG_EventRelatedResponseModelling",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399091003,
     "name": "topic:EEG_source_modelling",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399091006,
     "name": "topic:Granger_causality",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090951,
     "name": "topic:hypothesis_testing",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090965,
     "name": "topic:ICA",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090975,
     "name": "topic:information_theory",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090948,
     "name": "topic:machine_learning",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090937,
     "name": "topic:MR_methodologies",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399091007,
     "name": "topic:neural_decoding",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090981,
     "name": "topic:neural_encoding",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090939,
     "name": "topic:neural_networks",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399091001,
     "name": "topic:PCA",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090936,
     "name": "topic:physiology",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090994,
     "name": "topic:reinforcement_learning",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090989,
     "name": "topic:reproducible_scientific_methods",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090942,
     "name": "topic:single_neuron_models",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090967,
     "name": "topic:statistical_modelling",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090998,
     "name": "topic:systems_neuroscience",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3399090952,
     "name": "topic:tractography",
     "color": "006b75",
     "description": ""
   },
   {
-    "id": 3364134684,
     "name": "website",
     "color": "ED8911",
     "description": "issues related to the website tasks."
   },
   {
-    "id": 3352526305,
     "name": "wontfix",
     "color": "ffffff",
     "default": true,
