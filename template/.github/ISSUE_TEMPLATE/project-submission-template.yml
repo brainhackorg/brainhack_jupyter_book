@@ -1,0 +1,175 @@
+name: Project submission template
+
+# See the json schema to help you create / update this form
+# https://json.schemastore.org/github-issue-forms.json
+
+description: template to submit a project
+
+labels: ["project"]
+
+# assignees:
+#   - octocat
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        "use this template to submit a project and help label the issue automatically"
+
+
+  # ----------------------------------------------------------------------------
+  # LABELS
+  # ----------------------------------------------------------------------------
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Project labels
+
+        These labels can help match your project with the attendees' interests.
+
+  - type: dropdown
+    attributes:
+      label: Type
+      multiple: true
+      options:
+        - coding_methods
+        - data_management
+        - documentation
+        - method_development
+        - pipeline_development
+        - tutorial_recording
+        - visualization
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Development status
+      multiple: false
+      options:
+        - 0_concept_no_content
+        - 1_basic structure
+        - 2_releases_existing
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Topic
+      multiple: true
+      options:
+        - bayesian_approaches
+        - causality
+        - connectome
+        - data_visualisation
+        - deep_learning
+        - diffusion
+        - diversity_inclusivity_equality
+        - EEG_EventRelatedResponseModelling
+        - EEG_source_modelling
+        - Granger_causality
+        - hypothesis_testing
+        - ICA
+        - information_theory
+        - machine_learning
+        - MR_methodologies
+        - neural_decoding
+        - neural_encoding
+        - neural_networks
+        - PCA
+        - physiology
+        - reinforcement_learning
+        - reproducible_scientific_methods
+        - single_neuron_models
+        - statistical_modelling
+        - systems_neuroscience
+        - tractography
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Tools
+      multiple: true
+      options:
+        - AFNI
+        - ANTs
+        - BIDS
+        - Brainstorm
+        - CPAC
+        - Datalad
+        - DIPY
+        - FieldTrip
+        - fMRIPrep
+        - Freesurfer
+        - FSL
+        - Jupyter
+        - MNE
+        - MRtrix
+        - Nipype
+        - NWB
+        - SPM
+        - other
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Programming language
+      multiple: true
+      options:
+        - C++
+        - containerization
+        - documentation
+        - Java
+        - Julia
+        - Matlab
+        - Python
+        - "`R`"
+        - shell_scripting
+        - unix_command_line
+        - html_css
+        - javascript
+        - other
+        - not_applicable
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Modalities
+      multiple: true
+      options:
+        - behavioral
+        - DWI
+        - ECG
+        - ECOG
+        - EEG
+        - eye_tracking
+        - fMRI
+        - fNIRS
+        - MEG
+        - MRI
+        - PET
+        - TDCS
+        - TMS
+        - other
+        - not_applicable
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Git skills
+      multiple: true
+      options:
+        - 0_no_git_skills
+        - 1_commit_push
+        - 2_branches_PRs
+        - 3_continuous_integration
+        - 4_not_applicable
+    validations:
+      required: true
