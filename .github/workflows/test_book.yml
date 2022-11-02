@@ -1,4 +1,4 @@
-name: deploy book
+name: test book
 
 on:
   push:
@@ -40,11 +40,7 @@ jobs:
         run: |
           make neuroview
           make bookpage
-          make book
 
-      - name: Deploy book on push
-        if: ${{ success() && github.event_name == 'push' }}
-        uses: peaceiris/actions-gh-pages@v3.9.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./brainhack_book/_build/html
+      - name: Test Book
+        run: |
+          make test
