@@ -13,3 +13,5 @@ rich
 black
 isort
 requests
+ruamel.yaml
+cffconvert

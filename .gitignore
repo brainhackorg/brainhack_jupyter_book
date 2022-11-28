@@ -18,3 +18,6 @@ venv/
 
 # working with files
 .~*.csv#
+
+# python
+__pycache__/

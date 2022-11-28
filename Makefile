@@ -35,6 +35,9 @@ book :
 test :
 	jupyter-book build brainhack_book -W --builder linkcheck
 
+validate_citation_cff: CITATION.cff
+	cffconvert --validate
+
 clean :
 	rm -fr brainhack_book/_build/
 	rm -f brainhack_book/neuroview_acknowledgments.md

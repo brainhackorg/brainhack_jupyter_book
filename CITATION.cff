@@ -1,0 +1,28 @@
+# schema: https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
+
+cff-version: 1.2.0
+
+title: "brainhack - A Jupyter Book"
+
+abstract: "A Jupyter Book of everything Brainhack: past, present and future."
+
+version: v0.1.0-dev
+
+license: BSD-3-Clause
+
+repository-code: https://github.com/brainhackorg/brainhack_jupyter_book.git
+
+message: Please cite it as below.
+
+identifiers:
+  - description: brainhack neuroview
+    type: doi
+    value: 10.1016/j.neuron.2021.04.001
+
+keywords:
+  - brainhack
+  - hackathon
+
+authors:
+  - given-names: Aaron
+    family-names: Oliver-Taylor
