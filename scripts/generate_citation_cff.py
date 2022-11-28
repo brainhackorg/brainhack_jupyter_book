@@ -13,7 +13,9 @@ def return_author_list_for_cff(contributors):
     for _, row in contributors.iterrows():
 
         given_names = row["First name"].strip()
-        if row["Middle initial(s)"] not in ["", " "]:
+        if isinstance(row["Middle initial(s)"], (str)) and row[
+            "Middle initial(s)"
+        ] not in ["", " "]:
             given_names += " " + row["Middle initial(s)"].strip()
 
         author = {
@@ -23,7 +25,8 @@ def return_author_list_for_cff(contributors):
             .strip()
             .replace(" /", ",")
             .replace(",  , ", ", ")
-            .replace(",  ,", ""),
+            .replace(",  ,", "")
+            .replace("/ ", ""),
         }
         if not pd.isna(row["orcid"]):
             author["orcid"] = f"https://orcid.org/{row['orcid'].strip()}"
@@ -44,11 +47,22 @@ def main():
 
     citation_file = root_dir().joinpath("CITATION.cff")
     citation = load_citation(citation_file)
-
     citation["authors"] = return_author_list_for_cff(contributors)
-
     write_citation(citation_file, citation)
+    citation = create_citation(infile=citation_file, url=None)
+    validate_or_write_output(
+        outfile=None, outputformat=None, validate_only=True, citation=citation
+    )
 
+    contributors_file = root_dir().joinpath(
+        "data", "contributors", "neuroview_contributors.tsv"
+    )
+    contributors = pd.read_csv(contributors_file, sep="\t")
+
+    citation = load_citation(citation_file)
+    citation["authors"] = return_author_list_for_cff(contributors)
+    citation_file = citation_file.parent.joinpath(citation_file.stem + "_neuroview.CFF")
+    write_citation(citation_file, citation)
     citation = create_citation(infile=citation_file, url=None)
     validate_or_write_output(
         outfile=None, outputformat=None, validate_only=True, citation=citation
