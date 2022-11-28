@@ -54,6 +54,9 @@ def main():
         outfile=None, outputformat=None, validate_only=True, citation=citation
     )
 
+    contributors.drop(columns=["affiliation", "orcid"], inplace=True)
+    contributors.to_csv(contributors_file, sep="\t", index=False)
+
     contributors_file = root_dir().joinpath(
         "data", "contributors", "neuroview_contributors.tsv"
     )
@@ -67,6 +70,9 @@ def main():
     validate_or_write_output(
         outfile=None, outputformat=None, validate_only=True, citation=citation
     )
+
+    contributors.drop(columns=["affiliation", "orcid"], inplace=True)
+    contributors.to_csv(contributors_file, sep="\t", index=False)
 
 
 if __name__ == "__main__":
