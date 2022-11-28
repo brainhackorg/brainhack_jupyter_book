@@ -1,4 +1,9 @@
 #!/bin/bash
+
+echo "Not needed since the paper is now published"
+
+exit
+
 # Original script: Stephanie Noble Feb 09 2021
 # Edited by Hao-Ting Wang Mar 16 2021
 # Cleaning the paper affiliation for authorarranger to generate author list

@@ -29,9 +29,6 @@ neuroview: brainhack_book/neuroview_acknowledgments.md brainhack_book/neuroview_
 
 bookpage: brainhack_book/contributors.md brainhack_book/acknowledgments.md
 
-manuscript : data/contributors/neuroview/affiliation_curated.tsv data/contributors/neuroview/coreteam_ranking.tsv
-	bash scripts/neuroview_affiliations_organizer.sh no-email
-
 book :
 	jupyter-book build brainhack_book
 
