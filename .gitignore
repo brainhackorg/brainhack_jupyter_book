@@ -17,5 +17,4 @@ venv/
 .vscode
 
 # working with files
-**/*.xlsx
 .~*.csv#

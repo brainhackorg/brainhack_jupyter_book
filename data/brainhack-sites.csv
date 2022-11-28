@@ -34,7 +34,7 @@ Europe,Portugal,Lisbon,38.7222524,-9.1393366
 Europe,Scotland,Glasgow,55.873831,-4.291438
 Europe,Spain,Bilbao,43.2630126,-2.9349852
 Europe,Spain,Madrid,40.4167754,-3.7037902
-Europe,Spain,San Sebastian,43.318334,-1.9812313
+Europe,Spain,Donostia,43.318334,-1.9812313
 Europe,Sweden,Stockholm,59.3293235,18.0685808
 Europe,Switzerland,Geneva,46.2043907,6.1431577
 Europe,Switzerland,Lausanne,46.5196535,6.6322734
@@ -89,3 +89,4 @@ Asia,Australia,Sydney,-33.88836369367,151.1873131074
 North America,United States of America,Charlottesville,38.03376,-78.50841
 Asia,Australasia,Australasia,-37.7982,144.961
 Europe,Denmark,Copehangen,55.67,12.56
+Australia,Australia,Melbourne,-37.8136,144.9631
