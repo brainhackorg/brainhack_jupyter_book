@@ -1,0 +1,2 @@
+[submodule "template"]
+	datalad-url = https://github.com/brainhackorg/template_repo_for_projects_labelling.git
