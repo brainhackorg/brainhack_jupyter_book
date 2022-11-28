@@ -1,606 +1,996 @@
 [
-  {
-    "name": "boston_usa",
-    "color": "d4c5f9",
-    "description": "Boston event"
-  },
-  {
-    "name": "copenhagen_dnk",
-    "color": "d4c5f9",
-    "description": "Nordic event"
-  },
-  {
-    "name": "donostia_esp",
-    "color": "d4c5f9",
-    "description": "Donostia event"
-  },
-  {
-    "name": "geneva_che",
-    "color": "d4c5f9",
-    "description": "Geneva event"
-  },
-  {
-    "name": "london_can",
-    "color": "d4c5f9",
-    "description": "Western event"
-  },
-  {
-    "name": "marseille_fra",
-    "color": "d4c5f9",
-    "description": "Marseille event"
-  },
-  {
-    "name": "melbourne_aus",
-    "color": "d4c5f9",
-    "description": "Australasia event"
-  },
-  {
-    "name": "mtl_can",
-    "color": "d4c5f9",
-    "description": "Montreal event"
-  },
-  {
-    "name": "nyc_usa",
-    "color": "d4c5f9",
-    "description": "NYC event"
-  },
-  {
-    "name": "sydney_aus",
-    "color": "d4c5f9",
-    "description": "Sydney event"
-  },
-  {
-    "name": "toronto_can",
-    "color": "d4c5f9",
-    "description": "Toronto event"
-  },
-  {
-    "name": "washingtondc_usa",
-    "color": "d4c5f9",
-    "description": "Washington DC event"
-  },
-  {
-    "name": "zagreb_hrv",
-    "color": "d4c5f9",
-    "description": "Zagreb event"
-  },
-  {
-    "name": "zurich_che",
-    "color": "d4c5f9",
-    "description": "Zurich event"
-  },
-  {
-    "name": "bug",
-    "color": "d73a4a",
-    "default": true,
-    "description": "Something isn't working"
-  },
-  {
-    "name": "documentation",
-    "color": "0075ca",
-    "default": true,
-    "description": "Improvements or additions to documentation"
-  },
-  {
-    "name": "duplicate",
-    "color": "cfd3d7",
-    "default": true,
-    "description": "This issue or pull request already exists"
-  },
-  {
-    "name": "enhancement",
-    "color": "a2eeef",
-    "default": true,
-    "description": "New feature or request"
-  },
-  {
-    "name": "git_skills:0_none",
-    "color": "bfdadc",
-    "description": ""
-  },
-  {
-    "name": "git_skills:1_commit_push",
-    "color": "bfdadc",
-    "description": ""
-  },
-  {
-    "name": "git_skills:2_branches_PRs",
-    "color": "bfdadc",
-    "description": ""
-  },
-  {
-    "name": "git_skills:3_continuous_integration",
-    "color": "bfdadc",
-    "description": ""
-  },
-  {
-    "name": "good first issue",
-    "color": "7057ff",
-    "default": true,
-    "description": "Good for newcomers"
-  },
-  {
-    "name": "help wanted",
-    "color": "008672",
-    "default": true,
-    "description": "Extra attention is needed"
-  },
-  {
-    "name": "HIGH PRIORITY",
-    "color": "B60205",
-    "description": ""
-  },
-  {
-    "name": "invalid",
-    "color": "e4e669",
-    "default": true,
-    "description": "This doesn't seem right"
-  },
-  {
-    "name": "modality:behavioral",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:DWI",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:ECG",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:ECOG",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:EEG",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:eye_tracking",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:fMRI",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:fNIRS",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:MEG",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:MRI",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:PET",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:TDCS",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "modality:TMS",
-    "color": "1d76db",
-    "description": ""
-  },
-  {
-    "name": "operational",
-    "color": "bfdadc",
-    "description": "issues related to the operational tasks."
-  },
-  {
-    "name": "outreach",
-    "color": "9AD022",
-    "description": "issues related to the outreach tasks"
-  },
-  {
-    "name": "programming:C++",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:containerization",
-    "color": "5319e7",
-    "description": "Docker, Singularity"
-  },
-  {
-    "name": "programming:documentation",
-    "color": "5319e7",
-    "description": "Markdown, Sphinx"
-  },
-  {
-    "name": "programming:html_css",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:Java",
-    "color": "5319e7",
-    "description": "Java"
-  },
-  {
-    "name": "programming:Javascript",
-    "color": "5319E7",
-    "description": "Javascript"
-  },
-  {
-    "name": "programming:Julia",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:Matlab",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:none",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:Python",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:R",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:shell_scripting",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:Unix_command_line",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "programming:Web",
-    "color": "5319e7",
-    "description": ""
-  },
-  {
-    "name": "project",
-    "color": "f9bc70",
-    "description": ""
-  },
-  {
-    "name": "project_development_status:0_concept_no_content",
-    "color": "bfd4f2",
-    "description": ""
-  },
-  {
-    "name": "project_development_status:1_basic structure",
-    "color": "bfd4f2",
-    "description": ""
-  },
-  {
-    "name": "project_development_status:2_releases_existing",
-    "color": "bfd4f2",
-    "description": ""
-  },
-  {
-    "name": "project_tools_skills:comfortable",
-    "color": "c2e0c6",
-    "description": ""
-  },
-  {
-    "name": "project_tools_skills:expert",
-    "color": "c2e0c6",
-    "description": ""
-  },
-  {
-    "name": "project_tools_skills:familiar",
-    "color": "c2e0c6",
-    "description": ""
-  },
-  {
-    "name": "project_tools_skills:none",
-    "color": "c2e0c6",
-    "description": ""
-  },
-  {
-    "name": "project_type:coding_methods",
-    "color": "c5def5",
-    "description": ""
-  },
-  {
-    "name": "project_type:data_management",
-    "color": "c5def5",
-    "description": "involves programming"
-  },
-  {
-    "name": "project_type:documentation",
-    "color": "c5def5",
-    "description": ""
-  },
-  {
-    "name": "project_type:method_development",
-    "color": "c5def5",
-    "description": ""
-  },
-  {
-    "name": "project_type:pipeline_development",
-    "color": "c5def5",
-    "description": ""
-  },
-  {
-    "name": "project_type:tutorial_recording",
-    "color": "c5def5",
-    "description": ""
-  },
-  {
-    "name": "project_type:visualisation",
-    "color": "c5def5",
-    "description": ""
-  },
-  {
-    "name": "question",
-    "color": "d876e3",
-    "default": true,
-    "description": "Further information is requested"
-  },
-  {
-    "name": "status:published",
-    "color": "0e8a16",
-    "description": ""
-  },
-  {
-    "name": "status:requested_changes",
-    "color": "0e8a16",
-    "description": ""
-  },
-  {
-    "name": "status:web_ready",
-    "color": "0e8a16",
-    "description": ""
-  },
-  {
-    "name": "tools:AFNI",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:ANTs",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:BIDS",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:Brainstorm",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:CPAC",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:Datalad",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:DIPY",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:FieldTrip",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:fMRIPrep",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:Freesurfer",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:FSL",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:Jupyter",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:MNE",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:MRtrix",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:Nipype",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "tools:NWB",
-    "color": "0052cc",
-    "description": "Neurodata Without Borders"
-  },
-  {
-    "name": "tools:SPM",
-    "color": "0052cc",
-    "description": ""
-  },
-  {
-    "name": "topic:Bayesian_approaches",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:causality",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:connectome",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:data_visualisation",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:deep_learning",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:diffusion",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:diversity_inclusivity_equality",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:EEG_EventRelatedResponseModelling",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:EEG_source_modelling",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:Granger_causality",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:hypothesis_testing",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:ICA",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:information_theory",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:machine_learning",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:MR_methodologies",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:neural_decoding",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:neural_encoding",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:neural_networks",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:PCA",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:physiology",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:reinforcement_learning",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:reproducible_scientific_methods",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:single_neuron_models",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:statistical_modelling",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:systems_neuroscience",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "topic:tractography",
-    "color": "006b75",
-    "description": ""
-  },
-  {
-    "name": "website",
-    "color": "ED8911",
-    "description": "issues related to the website tasks."
-  },
-  {
-    "name": "wontfix",
-    "color": "ffffff",
-    "default": true,
-    "description": "This will not be worked on"
-  }
+    {
+        "name": "boston_usa",
+        "color": "d4c5f9",
+        "description": "Boston event"
+    },
+    {
+        "name": "bug",
+        "color": "d73a4a",
+        "default": true,
+        "description": "Something isn't working"
+    },
+    {
+        "name": "documentation",
+        "color": "0075ca",
+        "default": true,
+        "description": "Improvements or additions to documentation"
+    },
+    {
+        "name": "duplicate",
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists"
+    },
+    {
+        "name": "enhancement",
+        "color": "a2eeef",
+        "default": true,
+        "description": "New feature or request"
+    },
+    {
+        "name": "git_skills:0_none",
+        "color": "bfdadc",
+        "description": ""
+    },
+    {
+        "name": "git_skills:1_commit_push",
+        "color": "bfdadc",
+        "description": ""
+    },
+    {
+        "name": "git_skills:2_branches_PRs",
+        "color": "bfdadc",
+        "description": ""
+    },
+    {
+        "name": "git_skills:3_continuous_integration",
+        "color": "bfdadc",
+        "description": ""
+    },
+    {
+        "name": "good first issue",
+        "color": "7057ff",
+        "default": true,
+        "description": "Good for newcomers"
+    },
+    {
+        "name": "help wanted",
+        "color": "008672",
+        "default": true,
+        "description": "Extra attention is needed"
+    },
+    {
+        "name": "HIGH PRIORITY",
+        "color": "B60205",
+        "description": ""
+    },
+    {
+        "name": "invalid",
+        "color": "e4e669",
+        "default": true,
+        "description": "This doesn't seem right"
+    },
+    {
+        "name": "modality:behavioral",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:DWI",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:ECG",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:ECOG",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:EEG",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:eye_tracking",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:fMRI",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:fNIRS",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:MEG",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:MRI",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:PET",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:TDCS",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "modality:TMS",
+        "color": "1d76db",
+        "description": ""
+    },
+    {
+        "name": "operational",
+        "color": "bfdadc",
+        "description": "issues related to the operational tasks."
+    },
+    {
+        "name": "outreach",
+        "color": "9AD022",
+        "description": "issues related to the outreach tasks"
+    },
+    {
+        "name": "programming:C++",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:containerization",
+        "color": "5319e7",
+        "description": "Docker, Singularity"
+    },
+    {
+        "name": "programming:documentation",
+        "color": "5319e7",
+        "description": "Markdown, Sphinx"
+    },
+    {
+        "name": "programming:html_css",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:Java",
+        "color": "5319e7",
+        "description": "Java"
+    },
+    {
+        "name": "programming:Javascript",
+        "color": "5319E7",
+        "description": "Javascript"
+    },
+    {
+        "name": "programming:Julia",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:Matlab",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:none",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:Python",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:R",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:shell_scripting",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:Unix_command_line",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "programming:Web",
+        "color": "5319e7",
+        "description": ""
+    },
+    {
+        "name": "project",
+        "color": "f9bc70",
+        "description": ""
+    },
+    {
+        "name": "project_development_status:0_concept_no_content",
+        "color": "bfd4f2",
+        "description": ""
+    },
+    {
+        "name": "project_development_status:1_basic structure",
+        "color": "bfd4f2",
+        "description": ""
+    },
+    {
+        "name": "project_development_status:2_releases_existing",
+        "color": "bfd4f2",
+        "description": ""
+    },
+    {
+        "name": "project_tools_skills:comfortable",
+        "color": "c2e0c6",
+        "description": ""
+    },
+    {
+        "name": "project_tools_skills:expert",
+        "color": "c2e0c6",
+        "description": ""
+    },
+    {
+        "name": "project_tools_skills:familiar",
+        "color": "c2e0c6",
+        "description": ""
+    },
+    {
+        "name": "project_tools_skills:none",
+        "color": "c2e0c6",
+        "description": ""
+    },
+    {
+        "name": "project_type:coding_methods",
+        "color": "c5def5",
+        "description": ""
+    },
+    {
+        "name": "project_type:data_management",
+        "color": "c5def5",
+        "description": "involves programming"
+    },
+    {
+        "name": "project_type:documentation",
+        "color": "c5def5",
+        "description": ""
+    },
+    {
+        "name": "project_type:method_development",
+        "color": "c5def5",
+        "description": ""
+    },
+    {
+        "name": "project_type:pipeline_development",
+        "color": "c5def5",
+        "description": ""
+    },
+    {
+        "name": "project_type:tutorial_recording",
+        "color": "c5def5",
+        "description": ""
+    },
+    {
+        "name": "project_type:visualisation",
+        "color": "c5def5",
+        "description": ""
+    },
+    {
+        "name": "question",
+        "color": "d876e3",
+        "default": true,
+        "description": "Further information is requested"
+    },
+    {
+        "name": "status:published",
+        "color": "0e8a16",
+        "description": ""
+    },
+    {
+        "name": "status:requested_changes",
+        "color": "0e8a16",
+        "description": ""
+    },
+    {
+        "name": "status:web_ready",
+        "color": "0e8a16",
+        "description": ""
+    },
+    {
+        "name": "tools:AFNI",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:ANTs",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:BIDS",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:Brainstorm",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:CPAC",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:Datalad",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:DIPY",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:FieldTrip",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:fMRIPrep",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:Freesurfer",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:FSL",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:Jupyter",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:MNE",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:MRtrix",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:Nipype",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "tools:NWB",
+        "color": "0052cc",
+        "description": "Neurodata Without Borders"
+    },
+    {
+        "name": "tools:SPM",
+        "color": "0052cc",
+        "description": ""
+    },
+    {
+        "name": "topic:Bayesian_approaches",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:causality",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:connectome",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:data_visualisation",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:deep_learning",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:diffusion",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:diversity_inclusivity_equality",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:EEG_EventRelatedResponseModelling",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:EEG_source_modelling",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:Granger_causality",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:hypothesis_testing",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:ICA",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:information_theory",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:machine_learning",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:MR_methodologies",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:neural_decoding",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:neural_encoding",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:neural_networks",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:PCA",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:physiology",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:reinforcement_learning",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:reproducible_scientific_methods",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:single_neuron_models",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:statistical_modelling",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:systems_neuroscience",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "topic:tractography",
+        "color": "006b75",
+        "description": ""
+    },
+    {
+        "name": "website",
+        "color": "ED8911",
+        "description": "issues related to the website tasks."
+    },
+    {
+        "name": "wontfix",
+        "color": "ffffff",
+        "default": true,
+        "description": "This will not be worked on"
+    },
+    {
+        "name": "beijing_china",
+        "desciption": "Beijing event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "nanning_china",
+        "desciption": "Nanning event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "shanghai_china",
+        "desciption": "Shanghai event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "hyderabad_india",
+        "desciption": "Hyderabad event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "wako_japan",
+        "desciption": "Wako event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "singapore_singapore",
+        "desciption": "Singapore event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "ankara_turkey",
+        "desciption": "Ankara event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "brisbaneonline_australia",
+        "desciption": "Brisbane online event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "vienna_austria",
+        "desciption": "Vienna event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "ghent_belgium",
+        "desciption": "Ghent event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "louvain_belgium",
+        "desciption": "Louvain event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "zagreb_croatia",
+        "desciption": "Zagreb event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "espoo_finland",
+        "desciption": "Espoo event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "marseille_france",
+        "desciption": "Marseille event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "paris_france",
+        "desciption": "Paris event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "rennes_france",
+        "desciption": "Rennes event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "berlin_germany",
+        "desciption": "Berlin event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "leipzig_germany",
+        "desciption": "Leipzig event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "magdeburg_germany",
+        "desciption": "Magdeburg event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "marburg_germany",
+        "desciption": "Marburg event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "munich_germany",
+        "desciption": "Munich event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "avoca_ireland",
+        "desciption": "Avoca event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "dublin_ireland",
+        "desciption": "Dublin event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "padova_italy",
+        "desciption": "Padova event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "rome_italy",
+        "desciption": "Rome event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "amsterdam_netherlands",
+        "desciption": "Amsterdam event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "leiden_netherlands",
+        "desciption": "Leiden event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "nijmegen_netherlands",
+        "desciption": "Nijmegen event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "rotterdam_netherlands",
+        "desciption": "Rotterdam event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "toru\u0144_poland",
+        "desciption": "Toru\u0144 event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "warsaw_poland",
+        "desciption": "Warsaw event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "lisbon_portugal",
+        "desciption": "Lisbon event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "glasgow_scotland",
+        "desciption": "Glasgow event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "bilbao_spain",
+        "desciption": "Bilbao event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "madrid_spain",
+        "desciption": "Madrid event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "sansebastian_spain",
+        "desciption": "San Sebastian event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "stockholm_sweden",
+        "desciption": "Stockholm event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "geneva_switzerland",
+        "desciption": "Geneva event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "lausanne_switzerland",
+        "desciption": "Lausanne event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "zurich_switzerland",
+        "desciption": "Zurich event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "cambridge_uk",
+        "desciption": "Cambridge event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "coventry_uk",
+        "desciption": "Coventry event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "london-uk_uk",
+        "desciption": "London-UK event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "york_uk",
+        "desciption": "York event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "london-canada_canada",
+        "desciption": "London-Canada event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "montreal_canada",
+        "desciption": "Montreal event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "ontarioonline_canada",
+        "desciption": "Ontario online event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "toronto_canada",
+        "desciption": "Toronto event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "vancouver_canada",
+        "desciption": "Vancouver event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "queretaro_mexico",
+        "desciption": "Queretaro event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "albuquerque_usa",
+        "desciption": "Albuquerque event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "annarbor_usa",
+        "desciption": "Ann Arbor event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "atlanta_usa",
+        "desciption": "Atlanta event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "austin_usa",
+        "desciption": "Austin event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "baltimore_usa",
+        "desciption": "Baltimore event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "berkeley_usa",
+        "desciption": "Berkeley event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "bethesda_usa",
+        "desciption": "Bethesda event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "birmingham_usa",
+        "desciption": "Birmingham event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "bloomington_usa",
+        "desciption": "Bloomington event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "dallas_usa",
+        "desciption": "Dallas event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "detroit_usa",
+        "desciption": "Detroit event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "durham_usa",
+        "desciption": "Durham event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "eugene_usa",
+        "desciption": "Eugene event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "hanover_usa",
+        "desciption": "Hanover event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "honolulu_usa",
+        "desciption": "Honolulu event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "iowa_usa",
+        "desciption": "Iowa event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "losangeles_usa",
+        "desciption": "Los Angeles event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "madison_usa",
+        "desciption": "Madison event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "miami_usa",
+        "desciption": "Miami event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "newhaven_usa",
+        "desciption": "New Haven event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "newyorkcity_usa",
+        "desciption": "New York City event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "nyconline_usa",
+        "desciption": "NYC online event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "pittsburgh_usa",
+        "desciption": "Pittsburgh event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "princeton_usa",
+        "desciption": "Princeton event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "princetononline_usa",
+        "desciption": "Princeton online event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "sanfrancisco_usa",
+        "desciption": "San Francisco event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "seattle_usa",
+        "desciption": "Seattle event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "stlouis_usa",
+        "desciption": "St. Louis event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "urbana_usa",
+        "desciption": "Urbana event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "portoalegre_brazil",
+        "desciption": "Porto Alegre event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "brazil_campinas",
+        "desciption": "Brazil event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "valpara\u00edso_chile",
+        "desciption": "Valpara\u00edso event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "newhaven_usa",
+        "desciption": "New Haven event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "taipei_taiwan",
+        "desciption": "Taipei event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "sydney_australia",
+        "desciption": "Sydney event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "charlottesville_usa",
+        "desciption": "Charlottesville event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "australasia_australasia",
+        "desciption": "Australasia event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "copehangen_denmark",
+        "desciption": "Copehangen event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "donostia_spain",
+        "desciption": "Donostia event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "washingtondc_usa",
+        "desciption": "Washington D.C. event",
+        "color": "d4c5f9"
+    },
+    {
+        "name": "melbourne_australia",
+        "desciption": "Melbourne event",
+        "color": "d4c5f9"
+    }
 ]

@@ -1,5 +1,7 @@
-This folder contains files, scripts, and other resources that can be used for
-new event repositories to:
+# template_repo_for_projects_labelling
+
+This repo contains a template that can be used to create a new repo to host issues
+for a brainhack event and label its porject issues:
 
 - help tag projects with specific labels
 
