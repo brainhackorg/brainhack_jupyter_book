@@ -1,7 +1,7 @@
 # template_repo_for_projects_labelling
 
 This repo contains a template that can be used to create a new repo to host issues
-for a brainhack event and label its porject issues:
+for a brainhack event and label its project issues:
 
 - help tag projects with specific labels
 

@@ -33,7 +33,7 @@ for site in sites["City"]:
 
     this_site = {
         "name": f"{format_label(row['City'])}_{format_label(row['Country'])}",
-        "desciption": f"{row['City'].values[0]} event",
+        "description": f"{row['City'].values[0]} event",
         "color": label_color,
     }
 

@@ -208,16 +208,12 @@ jupyter-book build brainhack_book
 
 or you can test your site locally by navigating into your book and running
 
-`make serve`
-
-or
-
 `make book`
 
 
-Make is a useful reproducability tool to help you to automatize the process of building
+Make is a useful reproducibility tool to help you to automate the process of building
 file/s from file/s they are dependent on. In order to get a better grasp of the whole concept and
-learn more about its use in the reproducability research we recommend you to read
+learn more about its use in the reproducibility research we recommend you to read
 [The Turing Way's dedicated chapter for Make](https://the-turing-way.netlify.app/reproducible-research/make.html).
 
 Now you can open the HTML path provided by jupyter-book as output in your
