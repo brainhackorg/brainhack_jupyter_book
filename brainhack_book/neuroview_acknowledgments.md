@@ -19,6 +19,6 @@ this community.
 
 These include (in alphabetical order):
 
-```{include} acknowledgments_table.md
+```{include} neuroview_acknowledgments_table.md
 
 ```

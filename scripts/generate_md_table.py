@@ -84,6 +84,11 @@ def main():
     contributors_file = root_dir().joinpath("data", "contributors", "contributors.tsv")
     process_file(contributors_file)
 
+    contributors_file = root_dir().joinpath(
+        "data", "contributors", "neuroview_contributors.tsv"
+    )
+    process_file(contributors_file)
+
     acknowledgments_file = root_dir().joinpath(
         "data", "acknowledgments", "acknowledgments.csv"
     )
