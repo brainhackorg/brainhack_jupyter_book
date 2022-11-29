@@ -4,7 +4,26 @@ import pandas as pd
 from utils import root_dir
 
 
+def turn_twitter_handle_into_link(df):
+    prefix = "https://twitter.com/"
+    df["twitter"] = f"[twitter]({prefix}" + df["twitter"].astype(str) + ")"
+    df.replace("[twitter](https://twitter.com/nan)", " ", inplace=True)
+    return df
+
+
+def turn_osf_id_into_link(df):
+    return turn_into_link(df, "osf_id", "osf", "https://osf.io/")
+
+
+def turn_into_link(df, col, content, prefix):
+    df[col] = f"[{content}]({prefix}" + df[col].astype(str) + ")"
+    df.replace(f"[{content}]({prefix}nan)", " ", inplace=True)
+    return df
+
+
 def merge_name_columns(df):
+
+    df["Middle initial(s)"] = df["Middle initial(s)"].fillna("")
 
     df["Name"] = (
         df["First name"] + " " + df["Middle initial(s)"] + " " + df["Last name"]
@@ -54,7 +73,9 @@ def process_file(file: Path):
     contributors = drop_columns(contributors)
     contributors = rename_colums(contributors)
     contributors = merge_name_columns(contributors)
-    # contributors = contributors.fillna(' ', inplace=True)
+    contributors = turn_twitter_handle_into_link(contributors)
+    contributors = turn_osf_id_into_link(contributors)
+    contributors = contributors.fillna(" ")
     contributors.to_markdown(buf=output_file, mode="wt", index=False)
 
 
