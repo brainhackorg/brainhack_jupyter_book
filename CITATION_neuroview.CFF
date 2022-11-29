@@ -2,9 +2,13 @@
 
 cff-version: 1.2.0
 
-title: brainhack - A Jupyter Book
+title: "Brainhack: Developing a culture of open, inclusive, community-driven neuroscience"
 
-abstract: 'A Jupyter Book of everything Brainhack: past, present and future.'
+abstract: |
+  Brainhack is an innovative meeting format that promotes scientific collaboration
+  and education in an open, inclusive environment.
+  This NeuroView describes the myriad benefits for participants and the research community
+  and how Brainhacks complement conventional formats to augment scientific progress.
 
 version: v0.1.0-dev
 
@@ -20,8 +24,16 @@ identifiers:
     value: 10.1016/j.neuron.2021.04.001
 
 keywords:
-  - brainhack
+  - Brainhack
+  - best practices
+  - collaboration
+  - community building
   - hackathon
+  - inclusivity
+  - neuroscience
+  - open science
+  - reproducibility
+  - training
 
 authors:
   - given-names: Nasim
