@@ -1,3 +1,5 @@
+"""Not needed since the paper is now published"""
+
 import pandas as pd
 
 emails = False
