@@ -27,7 +27,7 @@ fi
 cd data/contributors/neuroview/
 # edit filename
 orig_file="affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw_ranked.tsv"
-out_file="manscript_affiliation.tsv"
+out_file="manuscript_affiliation.tsv"
 
 cut -f10-15 "$orig_file" > tmp_auth
 cat "$orig_file" | rev | cut -f 4 | rev > tmp_email
