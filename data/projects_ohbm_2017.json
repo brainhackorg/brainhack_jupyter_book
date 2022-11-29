@@ -1,0 +1,108 @@
+[
+    {
+        "url": "https://api.github.com/repos/ohbm/hackathon2017/issues/3",
+        "repository_url": "https://api.github.com/repos/ohbm/hackathon2017",
+        "labels_url": "https://api.github.com/repos/ohbm/hackathon2017/issues/3/labels{/name}",
+        "comments_url": "https://api.github.com/repos/ohbm/hackathon2017/issues/3/comments",
+        "events_url": "https://api.github.com/repos/ohbm/hackathon2017/issues/3/events",
+        "html_url": "https://github.com/ohbm/hackathon2017/issues/3",
+        "id": 1413122476,
+        "node_id": "I_kwDOBQxdAs5UOoms",
+        "number": 3,
+        "title": "pySTATIS",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4686713426,
+                "node_id": "LA_kwDOBQxdAs8AAAABF1mSUg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2017/labels/git_skills:0_none",
+                "name": "git_skills:0_none",
+                "color": "bfdadc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686713483,
+                "node_id": "LA_kwDOBQxdAs8AAAABF1mSiw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2017/labels/project_development_status:1_basic%20structure",
+                "name": "project_development_status:1_basic structure",
+                "color": "bfd4f2",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686713509,
+                "node_id": "LA_kwDOBQxdAs8AAAABF1mSpQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2017/labels/topic:connectome",
+                "name": "topic:connectome",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686713515,
+                "node_id": "LA_kwDOBQxdAs8AAAABF1mSqw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2017/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686713568,
+                "node_id": "LA_kwDOBQxdAs8AAAABF1mS4A",
+                "url": "https://api.github.com/repos/ohbm/hackathon2017/labels/project_type:coding_methods",
+                "name": "project_type:coding_methods",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-10-18T12:20:33Z",
+        "updated_at": "2022-10-18T12:20:45Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "### Project Description\n\n## [pySTATIS]: Multivariate analysis of individual differences in connectivity\r\n\r\nMarcel Falkiewicz\r\n\r\n* **Project homepage**: https://github.com/mfalkiewicz/pySTATIS\r\n* **Description**: Data-driven, individual-level decompositions of connectomes \r\nlead to different solutions for each subject. The goal is to implement \r\nmethodology that makes these individual-level maps comparable.\r\n* **TODO**: Documentation, tutorials, testing/validation\n\n### Type\n\ncoding_methods\n\n### Development status\n\n1_basic structure\n\n### Topic\n\nconnectome\n\n### Tools\n\nother\n\n### Programming language\n\nother\n\n### Modalities\n\nother\n\n### Git skills\n\n0_no_git_skills",
+        "reactions": {
+            "url": "https://api.github.com/repos/ohbm/hackathon2017/issues/3/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/ohbm/hackathon2017/issues/3/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    }
+]

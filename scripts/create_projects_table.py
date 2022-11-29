@@ -6,17 +6,30 @@ from rich import print
 from utils import load_repositories_info, root_dir
 
 sites = {
-    "Marseille": {"label": "bhg:marseille_fra_1"},
-    "New York City": {"label": "bhg:nyc_usa_1"},
-    "Toronto": {"label": "bhg:toronto_can_1"},
-    "ontario": {"label": "bhg:ontario_can_1"},
-    "Washington D.C.": {"label": "bhg:washingtondc_usa_1"},
-    "Montreal": {"label": "bhg:mtl_can_1"},
-    "Ankara": {"label": "bhg:ankara_tur_1"},
-    "micro2macro": {"label": "bhg:micro2macro_gbr_1"},
-    "Bilbao": {"label": "bhg:donostia_esp_1"},
-    "Pittsburgh": {"label": "bhg:pittsburgh_usa_1"},
-    "Melbourne": {"label": "bhg:melbourne_aus_1"},
+    "Marseille": {"labels": ["bhg:marseille_fra_1", "marseille_fra"]},
+    "Boston": {"labels": ["bhg:boston_usa_1"]},
+    "New York City": {"labels": ["bhg:nyc_usa_1"]},
+    "Toronto": {"labels": ["bhg:toronto_can_1"]},
+    "Ontario": {"labels": ["bhg:ontario_can_1"]},
+    "Washington D.C.": {"labels": ["bhg:washingtondc_usa_1"]},
+    "Montreal": {"labels": ["bhg:mtl_can_1"]},
+    "Ankara": {"labels": ["bhg:ankara_tur_1"]},
+    "micro2macro": {"labels": ["bhg:micro2macro_gbr_1"]},
+    "Donostia": {"labels": ["bhg:donostia_esp_1", "donostia_esp"]},
+    "Pittsburgh": {"labels": ["bhg:pittsburgh_usa_1"]},
+    "Melbourne": {"labels": ["bhg:melbourne_aus_1"]},
+    "Rome": {"labels": ["rome_italy"]},
+    "Vancouver": {"labels": ["vancouver_canada"]},
+    "Singapore": {"labels": ["singapore_singapore"]},
+    "Glasgow": {"labels": ["glasgow_scotland"]},
+    "EMEA hub": {"labels": ["EMEA hub"]},
+    "Apac hub": {"labels": ["Apac hub"]},
+    "Americas hub": {"labels": ["Americas hub"]},
+    "Sydney": {"labels": ["australasia_aus"]},
+    "PhysioPy": {"labels": ["physiopy_gathertown"]},
+    "Bay Area": {"labels": ["bay_area_usa"]},
+    "Atlantis": {"labels": ["Atlantis"]},
+    "Rising sun": {"labels": ["Rising sun"]},
 }
 
 LABELS_TO_REMOVE = [
@@ -35,6 +48,38 @@ LABELS_TO_REMOVE = [
 ]
 
 
+def get_project_labels(this_project):
+    return [x["name"] for x in this_project["labels"]]
+
+
+def find_this_site_name(site, sites):
+    return next((key for key in sites if site in sites[key]["labels"]), None)
+
+
+def find_site_in_labels(sites, labels):
+    for key in sites:
+        if set(sites[key]["labels"]) & set(labels):
+            return key
+
+
+def get_project_site(this_hackathon, sites, labels):
+
+    site = this_hackathon.get("site", None)
+    if site is not None:
+        site = find_this_site_name(site, sites)
+
+    if site is None:
+        site = find_site_in_labels(sites, labels)
+
+    if site is None:
+        print(f"Could not find site for {this_hackathon['name']}")
+        print(labels)
+        print(this_hackathon)
+        site = "n/a"
+
+    return site
+
+
 def main():
 
     repositories_info = load_repositories_info()
@@ -43,7 +88,7 @@ def main():
 
     labels_to_remove = LABELS_TO_REMOVE
     for i in sites:
-        labels_to_remove.append(sites[i]["label"])
+        labels_to_remove.extend(sites[i]["labels"])
 
     name = []
     url = []
@@ -62,16 +107,10 @@ def main():
 
             for this_project in projects:
 
-                labels = [x["name"] for x in this_project["labels"]]
-
-                this_project["site"] = "n/a"
-                tmp = [x for x in labels if "bhg" in x]
-                if tmp != []:
-                    for key in sites:
-                        if tmp[0] == sites[key]["label"]:
-                            this_project["site"] = key
-                            print(this_project["site"])
-                            break
+                labels = get_project_labels(this_project)
+                this_project["site"] = get_project_site(
+                    repositories_info[this_hackathon], sites, labels
+                )
 
                 for i in labels_to_remove:
                     if i in labels:

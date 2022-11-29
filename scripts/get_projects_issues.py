@@ -7,58 +7,24 @@ from pathlib import Path
 
 import requests
 from rich import print
+from utils import load_repositories_info, root_dir
 
 USERNAME = "Remi-Gau"
+
+verbose = False
 
 with open(Path(__file__).parent.joinpath("token.txt")) as f:
     TOKEN = f.read().strip()
 
-REPOSITORIES = {
-    "ohbm_2019": {
-        "owner": "ohbm",
-        "repo": "hackathon2019",
-        "project_label": ["Hackathon Project"],
-    },
-    "ohbm_2020": {
-        "owner": "ohbm",
-        "repo": "hackathon2020",
-        "project_label": ["Hackathon project"],
-    },
-    "ohbm_2021": {
-        "owner": "ohbm",
-        "repo": "hackathon2021",
-        "project_label": ["Atlantis", "Rising sun"],
-    },
-    "ohbm_2022": {
-        "owner": "ohbm",
-        "repo": "hackathon2022",
-        "project_label": ["Hackathon Project"],
-    },
-    "brainhack_global_2020": {
-        "owner": "brainhackorg",
-        "repo": "global2020",
-        "project_label": ["project"],
-    },
-    "brainhack_global_2021": {
-        "owner": "brainhackorg",
-        "repo": "global2021",
-        "project_label": ["project"],
-    },
-    "brainhack_global_2022": {
-        "owner": "brainhackorg",
-        "repo": "global2022",
-        "project_label": ["project"],
-    },
-}
 
-
-def get_gh_issues(owner, repo, auth_username=None, auth_token=None):
+def get_gh_issues(gh_username, repo, auth_username=None, auth_token=None):
 
     issues = None
 
-    print(f"\n\n[red]getting issues: {owner, repo}[/red]")
+    print(f"\n[red]getting issues: {gh_username, repo}[/red]")
 
-    url = f"https://api.github.com/repos/{owner}/{repo}/issues"
+    url = f"https://api.github.com/repos/{gh_username}/{repo}/issues"
+    print(url)
 
     auth = None
     if auth_username is not None and auth_token is not None:
@@ -76,15 +42,15 @@ def get_gh_issues(owner, repo, auth_username=None, auth_token=None):
 
 def main():
 
-    root_dir = Path(__file__).parents[1]
+    data_dir = root_dir().joinpath("data")
 
-    data_dir = root_dir.joinpath("data")
+    repositories_info = load_repositories_info()
 
-    for this_repo in REPOSITORIES:
+    for this_repo in repositories_info:
 
-        owner = REPOSITORIES[this_repo]["owner"]
-        repository_name = REPOSITORIES[this_repo]["repo"]
-        issues = get_gh_issues(owner, repository_name, USERNAME, TOKEN)
+        gh_username = repositories_info[this_repo]["gh_username"]
+        repository_name = repositories_info[this_repo]["repo"]
+        issues = get_gh_issues(gh_username, repository_name, USERNAME, TOKEN)
 
         if issues is None:
             continue
@@ -98,10 +64,13 @@ def main():
 
                 labels = [x["name"] for x in this_issue["labels"]]
 
-                if any(x in labels for x in REPOSITORIES[this_repo]["project_label"]):
+                if any(
+                    x in labels for x in repositories_info[this_repo]["project_label"]
+                ):
 
-                    print(f"{this_issue['title']}")
-                    print(f"{labels}")
+                    if verbose:
+                        print(f"{this_issue['title']}")
+                        print(f"{labels}")
 
                     project_issues.append(this_issue)
 

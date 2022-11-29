@@ -1,5 +1,174 @@
 [
     {
+        "url": "https://api.github.com/repos/brainhackorg/global2022/issues/110",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2022",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2022/issues/110/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2022/issues/110/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2022/issues/110/events",
+        "html_url": "https://github.com/brainhackorg/global2022/issues/110",
+        "id": 1467997487,
+        "node_id": "I_kwDOH48Pi85Xf90v",
+        "number": 110,
+        "title": "Strategies for modelling sub-cortical processes with RNNs",
+        "user": {
+            "login": "tclose",
+            "id": 1054870,
+            "node_id": "MDQ6VXNlcjEwNTQ4NzA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1054870?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tclose",
+            "html_url": "https://github.com/tclose",
+            "followers_url": "https://api.github.com/users/tclose/followers",
+            "following_url": "https://api.github.com/users/tclose/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tclose/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/tclose/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tclose/subscriptions",
+            "organizations_url": "https://api.github.com/users/tclose/orgs",
+            "repos_url": "https://api.github.com/users/tclose/repos",
+            "events_url": "https://api.github.com/users/tclose/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/tclose/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4620076994,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DHwg",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/australasia_aus",
+                "name": "australasia_aus",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Australasia event"
+            },
+            {
+                "id": 4620077011,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH0w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/git_skills:1_commit_push",
+                "name": "git_skills:1_commit_push",
+                "color": "bfdadc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077027,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH4w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/programming:documentation",
+                "name": "programming:documentation",
+                "color": "5319e7",
+                "default": false,
+                "description": "Markdown, Sphinx"
+            },
+            {
+                "id": 4620077034,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH6g",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077039,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH7w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/programming:Python",
+                "name": "programming:Python",
+                "color": "5319e7",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077047,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH9w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077071,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIDw",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project_development_status:0_concept_no_content",
+                "name": "project_development_status:0_concept_no_content",
+                "color": "bfd4f2",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077076,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIFA",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/topic:deep_learning",
+                "name": "topic:deep_learning",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077077,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIFQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/status:web_ready",
+                "name": "status:web_ready",
+                "color": "0e8a16",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077087,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIHw",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/topic:machine_learning",
+                "name": "topic:machine_learning",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077093,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIJQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/topic:neural_networks",
+                "name": "topic:neural_networks",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077101,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DILQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/topic:systems_neuroscience",
+                "name": "topic:systems_neuroscience",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-11-29T12:38:36Z",
+        "updated_at": "2022-11-29T13:31:32Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "### Title\n\nStrategies for modelling sub-cortical processes with RNNs\n\n### Leaders\n\nTom Close (Twitter: @tomgclose, Mattermost: @tclose, Mastodon: @tclose@fediscience.org)\n\n### Collaborators\n\n_No response_\n\n### Brainhack Global 2022 Event\n\nBrainhack Australasia\n\n### Project Description\n\nThis project is currently at the thought-bubble stage, but I am interested in different ways recurrent neural networks (RNNs) can be used to model interactions between sub-cortical structures such as the basal-ganglia, thalamus, red nucleus and cerebellum. Inspired by [recent work](https://proceedings.neurips.cc/paper/2021/hash/3ffebb08d23c609875d7177ee769a3e9-Abstract.html) proposing using cutting-edge RNNs to model interactions between sub-cortical structures I would like to explore how RNNs could be used to model other aspects of sub-cortical functions.\r\n\r\nWhile there have been a number of analogies made between cortical regions and non-recurrent ANNs (e.g. convolutional neural networks and visual cortex), RNNs are almost certainly required to recapitulate the state changes and motor output driven by sub-cortical regions.\r\n\r\nAs this this project is just at conception, please feel free to find me at the Australian BrainHack to sit down and spit-ball some ideas.\r\n\n\n### Link to project repository/sources\n\nhttps://github.com/tclose/bhg-subcortical-rnn\n\n### Goals for Brainhack Global\n\n* Identify hypothesised sub-cortical functions that would be good candidates for modelling\r\n* Identify the best tools to develop such models (e.g. PyTorch)\r\n* Come up with a collection of generic Python scripts/modules that can be used as a starting point for such projects\r\n* Publish some strategies and learnings on the process\n\n### Good first issues\n\n1. issue one: Read/bring some interesting papers to discuss\r\n\r\n2. issue two: Bring knowledge of a particular sub-cortical pathway or cool new RNN architecture\r\n\n\n### Communication channels\n\nhttps://mattermost.brainhack.org/brainhack/channels/bhg-subcortical-rnn\n\n### Skills\n\n- Python: intermediate\r\n- ANNs concepts: intermediate\r\n- Brain anatomy: basic\n\n### Onboarding documentation\n\nSorry, don't have this yet\n\n### What will participants learn?\n\nHopefully something about RNNs and sub-cortical anatomy/function\n\n### Data to use\n\nN/A\n\n### Number of collaborators\n\nmore\n\n### Credit to collaborators\n\nContributors to the code repository will be listed in the AUTHORS file (when it is created) and ideally a paper could come out of this project eventually.\n\n### Image\n\nLeave this text if you don't have an image yet.\n\n### Type\n\nother\n\n### Development status\n\n0_concept_no_content\n\n### Topic\n\ndeep_learning, machine_learning, neural_networks, systems_neuroscience\n\n### Tools\n\nother\n\n### Programming language\n\nPython\n\n### Modalities\n\nnot_applicable\n\n### Git skills\n\n1_commit_push\n\n### Anything else?\n\n_No response_\n\n### Things to do after the project is submitted and ready to review.\n\n- [ ] Add a comment below the main post of your issue saying: `Hi @brainhackorg/project-monitors my project is ready!`\n- [ ] Twitter-sized summary of your project pitch.",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2022/issues/110/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2022/issues/110/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
         "url": "https://api.github.com/repos/brainhackorg/global2022/issues/107",
         "repository_url": "https://api.github.com/repos/brainhackorg/global2022",
         "labels_url": "https://api.github.com/repos/brainhackorg/global2022/issues/107/labels{/name}",

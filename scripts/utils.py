@@ -25,3 +25,9 @@ def load_repositories_info():
     repositories_file = root_dir().joinpath("data", "repositories.json")
     with open(repositories_file, "r", encoding="utf8") as input_file:
         return json.load(input_file)
+
+
+def load_site_labels():
+    sites_file = root_dir().joinpath("template", "labels.json")
+    with open(sites_file, "r", encoding="utf8") as input_file:
+        return json.load(input_file)

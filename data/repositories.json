@@ -1,11 +1,30 @@
 {
+    "ohbm_2017": {
+        "name": "OHBM Brainhack 2017",
+        "gh_username": "ohbm",
+        "repo": "hackathon2017",
+        "project_label": [
+            "project"
+        ],
+        "site": "vancouver_canada"
+    },
+    "ohbm_2018": {
+        "name": "OHBM Brainhack 2018",
+        "gh_username": "ohbm",
+        "repo": "hackathon2018",
+        "project_label": [
+            "project"
+        ],
+        "site": "singapore_singapore"
+    },
     "ohbm_2019": {
         "name": "OHBM Brainhack 2019",
         "gh_username": "ohbm",
         "repo": "hackathon2019",
         "project_label": [
             "Hackathon Project"
-        ]
+        ],
+        "site": "rome_italy"
     },
     "ohbm_2020": {
         "name": "OHBM Brainhack 2020",
@@ -30,7 +49,8 @@
         "repo": "hackathon2022",
         "project_label": [
             "Hackathon Project"
-        ]
+        ],
+        "site": "glasgow_scotland"
     },
     "brainhack_global_2020": {
         "name": "Brainhack Global 2020",

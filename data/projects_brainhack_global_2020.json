@@ -4247,6 +4247,15 @@
                 "color": "bfd4f2",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 2525962760,
+                "node_id": "MDU6TGFiZWwyNTI1OTYyNzYw",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:ankara_tur_1",
+                "name": "bhg:ankara_tur_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
             }
         ],
         "state": "open",
@@ -4296,7 +4305,7 @@
         "milestone": null,
         "comments": 7,
         "created_at": "2020-12-03T20:34:44Z",
-        "updated_at": "2020-12-07T19:52:35Z",
+        "updated_at": "2022-11-29T13:35:28Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
@@ -4584,6 +4593,33 @@
                 "color": "bfd4f2",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 2525962760,
+                "node_id": "MDU6TGFiZWwyNTI1OTYyNzYw",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:ankara_tur_1",
+                "name": "bhg:ankara_tur_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 2525964262,
+                "node_id": "MDU6TGFiZWwyNTI1OTY0MjYy",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:ontario_can_1",
+                "name": "bhg:ontario_can_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 2525964772,
+                "node_id": "MDU6TGFiZWwyNTI1OTY0Nzcy",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:marseille_fra_1",
+                "name": "bhg:marseille_fra_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
             }
         ],
         "state": "open",
@@ -4633,7 +4669,7 @@
         "milestone": null,
         "comments": 5,
         "created_at": "2020-12-02T17:39:36Z",
-        "updated_at": "2020-12-03T04:02:30Z",
+        "updated_at": "2022-11-29T13:36:21Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
@@ -4739,6 +4775,15 @@
                 "color": "bfd4f2",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 2525964772,
+                "node_id": "MDU6TGFiZWwyNTI1OTY0Nzcy",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:marseille_fra_1",
+                "name": "bhg:marseille_fra_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
             }
         ],
         "state": "open",
@@ -4788,7 +4833,7 @@
         "milestone": null,
         "comments": 3,
         "created_at": "2020-12-02T12:39:31Z",
-        "updated_at": "2020-12-03T04:02:09Z",
+        "updated_at": "2022-11-29T13:38:02Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
@@ -7326,211 +7371,6 @@
             "eyes": 0
         },
         "timeline_url": "https://api.github.com/repos/brainhackorg/global2020/issues/40/timeline",
-        "performed_via_github_app": null,
-        "state_reason": null
-    },
-    {
-        "url": "https://api.github.com/repos/brainhackorg/global2020/issues/39",
-        "repository_url": "https://api.github.com/repos/brainhackorg/global2020",
-        "labels_url": "https://api.github.com/repos/brainhackorg/global2020/issues/39/labels{/name}",
-        "comments_url": "https://api.github.com/repos/brainhackorg/global2020/issues/39/comments",
-        "events_url": "https://api.github.com/repos/brainhackorg/global2020/issues/39/events",
-        "html_url": "https://github.com/brainhackorg/global2020/issues/39",
-        "id": 733341299,
-        "node_id": "MDU6SXNzdWU3MzMzNDEyOTk=",
-        "number": 39,
-        "title": "Physiopy/phys2bids: Tackling good first issues",
-        "user": {
-            "login": "62442katieb",
-            "id": 14095475,
-            "node_id": "MDQ6VXNlcjE0MDk1NDc1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/14095475?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/62442katieb",
-            "html_url": "https://github.com/62442katieb",
-            "followers_url": "https://api.github.com/users/62442katieb/followers",
-            "following_url": "https://api.github.com/users/62442katieb/following{/other_user}",
-            "gists_url": "https://api.github.com/users/62442katieb/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/62442katieb/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/62442katieb/subscriptions",
-            "organizations_url": "https://api.github.com/users/62442katieb/orgs",
-            "repos_url": "https://api.github.com/users/62442katieb/repos",
-            "events_url": "https://api.github.com/users/62442katieb/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/62442katieb/received_events",
-            "type": "User",
-            "site_admin": false
-        },
-        "labels": [
-            {
-                "id": 2371784960,
-                "node_id": "MDU6TGFiZWwyMzcxNzg0OTYw",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/project",
-                "name": "project",
-                "color": "f9bc70",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2376869779,
-                "node_id": "MDU6TGFiZWwyMzc2ODY5Nzc5",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/status:published",
-                "name": "status:published",
-                "color": "0e8a16",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403108761,
-                "node_id": "MDU6TGFiZWwyNDAzMTA4NzYx",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/topic:physiology",
-                "name": "topic:physiology",
-                "color": "006b75",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403111214,
-                "node_id": "MDU6TGFiZWwyNDAzMTExMjE0",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/modality:ECG",
-                "name": "modality:ECG",
-                "color": "1d76db",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403112714,
-                "node_id": "MDU6TGFiZWwyNDAzMTEyNzE0",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/modality:fMRI",
-                "name": "modality:fMRI",
-                "color": "1d76db",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403116780,
-                "node_id": "MDU6TGFiZWwyNDAzMTE2Nzgw",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/tools:BIDS",
-                "name": "tools:BIDS",
-                "color": "0052cc",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403118865,
-                "node_id": "MDU6TGFiZWwyNDAzMTE4ODY1",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/programming:Python",
-                "name": "programming:Python",
-                "color": "5319e7",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403123054,
-                "node_id": "MDU6TGFiZWwyNDAzMTIzMDU0",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/programming:containerization",
-                "name": "programming:containerization",
-                "color": "5319e7",
-                "default": false,
-                "description": "Docker, Singularity"
-            },
-            {
-                "id": 2403123394,
-                "node_id": "MDU6TGFiZWwyNDAzMTIzMzk0",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/programming:documentation",
-                "name": "programming:documentation",
-                "color": "5319e7",
-                "default": false,
-                "description": "Markdown, Sphinx"
-            },
-            {
-                "id": 2403124201,
-                "node_id": "MDU6TGFiZWwyNDAzMTI0MjAx",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/project_tools_skills:none",
-                "name": "project_tools_skills:none",
-                "color": "c2e0c6",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403124441,
-                "node_id": "MDU6TGFiZWwyNDAzMTI0NDQx",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/project_tools_skills:familiar",
-                "name": "project_tools_skills:familiar",
-                "color": "c2e0c6",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403125095,
-                "node_id": "MDU6TGFiZWwyNDAzMTI1MDk1",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/git_skills:0_none",
-                "name": "git_skills:0_none",
-                "color": "bfdadc",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403126137,
-                "node_id": "MDU6TGFiZWwyNDAzMTI2MTM3",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/project_type:coding_methods",
-                "name": "project_type:coding_methods",
-                "color": "c5def5",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403126797,
-                "node_id": "MDU6TGFiZWwyNDAzMTI2Nzk3",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/project_type:documentation",
-                "name": "project_type:documentation",
-                "color": "c5def5",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2403128515,
-                "node_id": "MDU6TGFiZWwyNDAzMTI4NTE1",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/project_development_status:2_releases_existing",
-                "name": "project_development_status:2_releases_existing",
-                "color": "bfd4f2",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 2429631268,
-                "node_id": "MDU6TGFiZWwyNDI5NjMxMjY4",
-                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:donostia_esp_1",
-                "name": "bhg:donostia_esp_1",
-                "color": "d4c5f9",
-                "default": false,
-                "description": ""
-            }
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "assignees": [],
-        "milestone": null,
-        "comments": 10,
-        "created_at": "2020-10-30T16:50:11Z",
-        "updated_at": "2020-12-03T03:50:22Z",
-        "closed_at": null,
-        "author_association": "CONTRIBUTOR",
-        "active_lock_reason": null,
-        "body": "## Project info\r\n\r\n**Title:**\r\nPhysiopy/phys2bids: Tackling good first issues\r\n\r\n**Project lead:**\r\nKatie Bottenhorn @62442katieb\r\n\r\n**Project collaborators:**\r\nStefano Moia @smoia \r\nFran\u00e7ois Lespinasse @sangfrois\r\n\r\n**Registered Brainhack Global 2020 Event:**\r\nBrainhack Donostia 2020, San Sebasti\u00e1n-Donostia\r\n\r\n**Project Description:**\r\nThe aim of this project is to address some issues in [phys2bids](https://github.com/physiopy/phys2bids/). Specifically, we'd like to address some [good first issues](https://github.com/physiopy/phys2bids/labels/Good%20first%20issue), including small refactoring to-dos, bug fixes, and improvements. If would like to help us grow this collection of BIDS-friendly, semi-automated tools for better integrating physio data into your research consider joining! You can find more information at any of the above links and on the [phys2bids website](https://phys2bids.readthedocs.io/).\r\n\r\n**Data to use:**\r\n<!-- If your project uses data, add a short description of the data and a link to its source. -->\r\n\r\n**Link to project repository/sources:**\r\nhttps://github.com/physiopy/phys2bids\r\nhttps://phys2bids.readthedocs.io/\r\n\r\n**Goals for Brainhack Global 2020:**\r\nAddress some \"Good First Issues\", address some refactoring issues therein. \r\n\r\n**Good first issues:**\r\n[See labeled issues here.](https://github.com/physiopy/phys2bids/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22)\r\n\r\n**Skills:**\r\nAny of the following:\r\n- Interest in, knowledge of, and/or familiarity with physiological recordings\r\n- Python skills of all levels\r\n\r\n**Communication channels:**\r\n<!-- Mattermost: [~bhd-physopy] (https://us02web.zoom.us/j/83492568671https://mattermost.brainhack.org/brainhack/channels/physiopy)--> \r\n\r\n\r\n<!-- [ ] Video channel: https://meet.jit.si/phys2bid s --> \r\n\r\nphysiopy follows the [all-contributors](https://allcontributors.org/docs/en/specification) guidelines for recognizing contribution. You can find more information [here](https://phys2bids.readthedocs.io/en/latest/contributorfile.html).\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [x] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n<!--- [x] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).-->\r\n<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2020 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required:\r\nWith lots of independent tasks, this project could support any number of participants.\r\n- [ ] Twitter-size summary of your project pitch.\r\n- [x] Provide an image of your project for the Brainhack Global 2020 website. \r\n<!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->\r\n![phys2bids logo](https://raw.githubusercontent.com/physiopy/phys2bids/master/docs/_static/physiopy_logo_1280x640.png)\r\n\r\nWe would like to think about how you will credit and onboard new members to your project. If you\u2019d like to share your thoughts with future project participants, you can include information about:\r\n\r\n- [x] Specify how you will acknowledge contributions (e.g. listing members on a contributing page).\r\n- [x] Provide links to onboarding documents if you have some\r\n\r\n**Project labels**\r\n<!-- Please prepend a hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets or by ticking it after submission). Please make sure that you stick by the labels listed for each topic below, rather than adding any new one, for further actions to work properly on the issue labels.\r\n\r\n- Type of project:\r\n#coding_methods, data_management, #documentation, method_development,\r\npipeline_development, tutorial_recording, visualization\r\n\r\n- Project development status:\r\n0_concept_no_content, 1_basic structure, #2_releases_existing\r\n\r\n- Topic of the projet:\r\nBayesian_approaches, causality, connectome, data_visualisation, deep_learning,\r\ndiffusion, diversity_inclusivity_equality, EEG_EventRelatedResponseModelling,\r\nEEG_source_modelling, Granger_causality, hypothesis_testing, ICA, information_theory,\r\nmachine_learning, MR_methodologies, neural_decoding, neural_encoding, neural_networks,\r\nPCA, #physiology, reinforcement_learning, reproducible_scientific_methods, single_neuron_models,\r\nstatistical_modelling, systems_neuroscience, tractography\r\n\r\n- Tools used in the project:\r\nAFNI, ANTs, #BIDS, Brainstorm, CPAC, Datalad, DIPY, FieldTrip, fMRIPrep, Freesurfer,\r\nFSL, Jupyter, MNE, MRtrix, Nipype, NWB, SPM\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\ncomfortable, expert, #familiar, #no_skills_required\r\n\r\n- Programming language used in the project:\r\nno_programming_involved, C++, #containerization, documentation, Java, Julia, Matlab,\r\n#Python, R, shell_scripting, Unix_command_line, Web, workflows\r\n\r\n- Modalities involved in the project (if any):\r\nbehavioral, DWI, #ECG, ECOG, EEG, eye_tracking, #fMRI, fNIRS, MEG, MRI, PET, TDCS, TMS\r\n\r\n- Git skills reuired to enter the project (more than one possible):\r\n#0_no_git_skills, 1_commit_push, 2_branches_PRs, 3_continuous_integration\r\n-->\r\n\r\n- [x] I added all of the labels I want an associate to my project",
-        "reactions": {
-            "url": "https://api.github.com/repos/brainhackorg/global2020/issues/39/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-        },
-        "timeline_url": "https://api.github.com/repos/brainhackorg/global2020/issues/39/timeline",
         "performed_via_github_app": null,
         "state_reason": null
     }
