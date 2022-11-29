@@ -38,7 +38,7 @@ class MarkdownTable:
     ------
     table:
         table loaded through csv.reader
-        Each row is a list and have the same lenght
+        Each row is a list and have the same length
         e.g.:
         table = [["a", "b", "c"],
             ["d", "e", "f"],
@@ -79,7 +79,7 @@ class MarkdownTable:
     @staticmethod
     def header_div(header):
         """
-        add markdown table horizontal divider bellow header
+        add markdown table horizontal divider below header
         """
         col_widths = [len(cell) for cell in header]
         horizs = ["-" * w for w in col_widths]
@@ -91,7 +91,7 @@ class MarkdownTable:
         """
         assemble header, divider and table body as
         a markdown table
-        prepend with exisiting .md file
+        prepend with existing .md file
         """
         table = title_part + [header, horiz, *body]
         return [row.rstrip() for row in table]
@@ -122,7 +122,7 @@ def drop_column(data, header, keyword):
 def parse_affiliation(data):
     """
     A very lazy affiliation table trimmer
-    collaspe name
+    collapse name
     trimm off url part of ORCID
     email hyperlink to name
     """
@@ -234,7 +234,7 @@ def main():
     parser.add_argument("-t", "--target", help="Path to saved file", required=True)
     parser.add_argument(
         "--contributor",
-        help="Use this flag if buidling contributor file",
+        help="Use this flag if building contributor file",
         action="store_true",
     )
     parser.set_defaults(contributor=False)

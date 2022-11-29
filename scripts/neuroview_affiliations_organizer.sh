@@ -7,7 +7,7 @@ exit
 # Original script: Stephanie Noble Feb 09 2021
 # Edited by Hao-Ting Wang Mar 16 2021
 # Cleaning the paper affiliation for authorarranger to generate author list
-# The file contain special charactors, so the final tsv needs to be saved as a xlsx file MANUALLY
+# The file contain special characters, so the final tsv needs to be saved as a xlsx file MANUALLY
 # authorarranger:
 # https://authorarranger.nci.nih.gov/#/user-guide
 #

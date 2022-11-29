@@ -540,457 +540,457 @@
     },
     {
         "name": "beijing_china",
-        "desciption": "Beijing event",
+        "description": "Beijing event",
         "color": "d4c5f9"
     },
     {
         "name": "nanning_china",
-        "desciption": "Nanning event",
+        "description": "Nanning event",
         "color": "d4c5f9"
     },
     {
         "name": "shanghai_china",
-        "desciption": "Shanghai event",
+        "description": "Shanghai event",
         "color": "d4c5f9"
     },
     {
         "name": "hyderabad_india",
-        "desciption": "Hyderabad event",
+        "description": "Hyderabad event",
         "color": "d4c5f9"
     },
     {
         "name": "wako_japan",
-        "desciption": "Wako event",
+        "description": "Wako event",
         "color": "d4c5f9"
     },
     {
         "name": "singapore_singapore",
-        "desciption": "Singapore event",
+        "description": "Singapore event",
         "color": "d4c5f9"
     },
     {
         "name": "ankara_turkey",
-        "desciption": "Ankara event",
+        "description": "Ankara event",
         "color": "d4c5f9"
     },
     {
         "name": "brisbaneonline_australia",
-        "desciption": "Brisbane online event",
+        "description": "Brisbane online event",
         "color": "d4c5f9"
     },
     {
         "name": "vienna_austria",
-        "desciption": "Vienna event",
+        "description": "Vienna event",
         "color": "d4c5f9"
     },
     {
         "name": "ghent_belgium",
-        "desciption": "Ghent event",
+        "description": "Ghent event",
         "color": "d4c5f9"
     },
     {
         "name": "louvain_belgium",
-        "desciption": "Louvain event",
+        "description": "Louvain event",
         "color": "d4c5f9"
     },
     {
         "name": "zagreb_croatia",
-        "desciption": "Zagreb event",
+        "description": "Zagreb event",
         "color": "d4c5f9"
     },
     {
         "name": "espoo_finland",
-        "desciption": "Espoo event",
+        "description": "Espoo event",
         "color": "d4c5f9"
     },
     {
         "name": "marseille_france",
-        "desciption": "Marseille event",
+        "description": "Marseille event",
         "color": "d4c5f9"
     },
     {
         "name": "paris_france",
-        "desciption": "Paris event",
+        "description": "Paris event",
         "color": "d4c5f9"
     },
     {
         "name": "rennes_france",
-        "desciption": "Rennes event",
+        "description": "Rennes event",
         "color": "d4c5f9"
     },
     {
         "name": "berlin_germany",
-        "desciption": "Berlin event",
+        "description": "Berlin event",
         "color": "d4c5f9"
     },
     {
         "name": "leipzig_germany",
-        "desciption": "Leipzig event",
+        "description": "Leipzig event",
         "color": "d4c5f9"
     },
     {
         "name": "magdeburg_germany",
-        "desciption": "Magdeburg event",
+        "description": "Magdeburg event",
         "color": "d4c5f9"
     },
     {
         "name": "marburg_germany",
-        "desciption": "Marburg event",
+        "description": "Marburg event",
         "color": "d4c5f9"
     },
     {
         "name": "munich_germany",
-        "desciption": "Munich event",
+        "description": "Munich event",
         "color": "d4c5f9"
     },
     {
         "name": "avoca_ireland",
-        "desciption": "Avoca event",
+        "description": "Avoca event",
         "color": "d4c5f9"
     },
     {
         "name": "dublin_ireland",
-        "desciption": "Dublin event",
+        "description": "Dublin event",
         "color": "d4c5f9"
     },
     {
         "name": "padova_italy",
-        "desciption": "Padova event",
+        "description": "Padova event",
         "color": "d4c5f9"
     },
     {
         "name": "rome_italy",
-        "desciption": "Rome event",
+        "description": "Rome event",
         "color": "d4c5f9"
     },
     {
         "name": "amsterdam_netherlands",
-        "desciption": "Amsterdam event",
+        "description": "Amsterdam event",
         "color": "d4c5f9"
     },
     {
         "name": "leiden_netherlands",
-        "desciption": "Leiden event",
+        "description": "Leiden event",
         "color": "d4c5f9"
     },
     {
         "name": "nijmegen_netherlands",
-        "desciption": "Nijmegen event",
+        "description": "Nijmegen event",
         "color": "d4c5f9"
     },
     {
         "name": "rotterdam_netherlands",
-        "desciption": "Rotterdam event",
+        "description": "Rotterdam event",
         "color": "d4c5f9"
     },
     {
         "name": "toru\u0144_poland",
-        "desciption": "Toru\u0144 event",
+        "description": "Toru\u0144 event",
         "color": "d4c5f9"
     },
     {
         "name": "warsaw_poland",
-        "desciption": "Warsaw event",
+        "description": "Warsaw event",
         "color": "d4c5f9"
     },
     {
         "name": "lisbon_portugal",
-        "desciption": "Lisbon event",
+        "description": "Lisbon event",
         "color": "d4c5f9"
     },
     {
         "name": "glasgow_scotland",
-        "desciption": "Glasgow event",
+        "description": "Glasgow event",
         "color": "d4c5f9"
     },
     {
         "name": "bilbao_spain",
-        "desciption": "Bilbao event",
+        "description": "Bilbao event",
         "color": "d4c5f9"
     },
     {
         "name": "madrid_spain",
-        "desciption": "Madrid event",
+        "description": "Madrid event",
         "color": "d4c5f9"
     },
     {
         "name": "sansebastian_spain",
-        "desciption": "San Sebastian event",
+        "description": "San Sebastian event",
         "color": "d4c5f9"
     },
     {
         "name": "stockholm_sweden",
-        "desciption": "Stockholm event",
+        "description": "Stockholm event",
         "color": "d4c5f9"
     },
     {
         "name": "geneva_switzerland",
-        "desciption": "Geneva event",
+        "description": "Geneva event",
         "color": "d4c5f9"
     },
     {
         "name": "lausanne_switzerland",
-        "desciption": "Lausanne event",
+        "description": "Lausanne event",
         "color": "d4c5f9"
     },
     {
         "name": "zurich_switzerland",
-        "desciption": "Zurich event",
+        "description": "Zurich event",
         "color": "d4c5f9"
     },
     {
         "name": "cambridge_uk",
-        "desciption": "Cambridge event",
+        "description": "Cambridge event",
         "color": "d4c5f9"
     },
     {
         "name": "coventry_uk",
-        "desciption": "Coventry event",
+        "description": "Coventry event",
         "color": "d4c5f9"
     },
     {
         "name": "london-uk_uk",
-        "desciption": "London-UK event",
+        "description": "London-UK event",
         "color": "d4c5f9"
     },
     {
         "name": "york_uk",
-        "desciption": "York event",
+        "description": "York event",
         "color": "d4c5f9"
     },
     {
         "name": "london-canada_canada",
-        "desciption": "London-Canada event",
+        "description": "London-Canada event",
         "color": "d4c5f9"
     },
     {
         "name": "montreal_canada",
-        "desciption": "Montreal event",
+        "description": "Montreal event",
         "color": "d4c5f9"
     },
     {
         "name": "ontarioonline_canada",
-        "desciption": "Ontario online event",
+        "description": "Ontario online event",
         "color": "d4c5f9"
     },
     {
         "name": "toronto_canada",
-        "desciption": "Toronto event",
+        "description": "Toronto event",
         "color": "d4c5f9"
     },
     {
         "name": "vancouver_canada",
-        "desciption": "Vancouver event",
+        "description": "Vancouver event",
         "color": "d4c5f9"
     },
     {
         "name": "queretaro_mexico",
-        "desciption": "Queretaro event",
+        "description": "Queretaro event",
         "color": "d4c5f9"
     },
     {
         "name": "albuquerque_usa",
-        "desciption": "Albuquerque event",
+        "description": "Albuquerque event",
         "color": "d4c5f9"
     },
     {
         "name": "annarbor_usa",
-        "desciption": "Ann Arbor event",
+        "description": "Ann Arbor event",
         "color": "d4c5f9"
     },
     {
         "name": "atlanta_usa",
-        "desciption": "Atlanta event",
+        "description": "Atlanta event",
         "color": "d4c5f9"
     },
     {
         "name": "austin_usa",
-        "desciption": "Austin event",
+        "description": "Austin event",
         "color": "d4c5f9"
     },
     {
         "name": "baltimore_usa",
-        "desciption": "Baltimore event",
+        "description": "Baltimore event",
         "color": "d4c5f9"
     },
     {
         "name": "berkeley_usa",
-        "desciption": "Berkeley event",
+        "description": "Berkeley event",
         "color": "d4c5f9"
     },
     {
         "name": "bethesda_usa",
-        "desciption": "Bethesda event",
+        "description": "Bethesda event",
         "color": "d4c5f9"
     },
     {
         "name": "birmingham_usa",
-        "desciption": "Birmingham event",
+        "description": "Birmingham event",
         "color": "d4c5f9"
     },
     {
         "name": "bloomington_usa",
-        "desciption": "Bloomington event",
+        "description": "Bloomington event",
         "color": "d4c5f9"
     },
     {
         "name": "dallas_usa",
-        "desciption": "Dallas event",
+        "description": "Dallas event",
         "color": "d4c5f9"
     },
     {
         "name": "detroit_usa",
-        "desciption": "Detroit event",
+        "description": "Detroit event",
         "color": "d4c5f9"
     },
     {
         "name": "durham_usa",
-        "desciption": "Durham event",
+        "description": "Durham event",
         "color": "d4c5f9"
     },
     {
         "name": "eugene_usa",
-        "desciption": "Eugene event",
+        "description": "Eugene event",
         "color": "d4c5f9"
     },
     {
         "name": "hanover_usa",
-        "desciption": "Hanover event",
+        "description": "Hanover event",
         "color": "d4c5f9"
     },
     {
         "name": "honolulu_usa",
-        "desciption": "Honolulu event",
+        "description": "Honolulu event",
         "color": "d4c5f9"
     },
     {
         "name": "iowa_usa",
-        "desciption": "Iowa event",
+        "description": "Iowa event",
         "color": "d4c5f9"
     },
     {
         "name": "losangeles_usa",
-        "desciption": "Los Angeles event",
+        "description": "Los Angeles event",
         "color": "d4c5f9"
     },
     {
         "name": "madison_usa",
-        "desciption": "Madison event",
+        "description": "Madison event",
         "color": "d4c5f9"
     },
     {
         "name": "miami_usa",
-        "desciption": "Miami event",
+        "description": "Miami event",
         "color": "d4c5f9"
     },
     {
         "name": "newhaven_usa",
-        "desciption": "New Haven event",
+        "description": "New Haven event",
         "color": "d4c5f9"
     },
     {
         "name": "newyorkcity_usa",
-        "desciption": "New York City event",
+        "description": "New York City event",
         "color": "d4c5f9"
     },
     {
         "name": "nyconline_usa",
-        "desciption": "NYC online event",
+        "description": "NYC online event",
         "color": "d4c5f9"
     },
     {
         "name": "pittsburgh_usa",
-        "desciption": "Pittsburgh event",
+        "description": "Pittsburgh event",
         "color": "d4c5f9"
     },
     {
         "name": "princeton_usa",
-        "desciption": "Princeton event",
+        "description": "Princeton event",
         "color": "d4c5f9"
     },
     {
         "name": "princetononline_usa",
-        "desciption": "Princeton online event",
+        "description": "Princeton online event",
         "color": "d4c5f9"
     },
     {
         "name": "sanfrancisco_usa",
-        "desciption": "San Francisco event",
+        "description": "San Francisco event",
         "color": "d4c5f9"
     },
     {
         "name": "seattle_usa",
-        "desciption": "Seattle event",
+        "description": "Seattle event",
         "color": "d4c5f9"
     },
     {
         "name": "stlouis_usa",
-        "desciption": "St. Louis event",
+        "description": "St. Louis event",
         "color": "d4c5f9"
     },
     {
         "name": "urbana_usa",
-        "desciption": "Urbana event",
+        "description": "Urbana event",
         "color": "d4c5f9"
     },
     {
         "name": "portoalegre_brazil",
-        "desciption": "Porto Alegre event",
+        "description": "Porto Alegre event",
         "color": "d4c5f9"
     },
     {
         "name": "brazil_campinas",
-        "desciption": "Brazil event",
+        "description": "Brazil event",
         "color": "d4c5f9"
     },
     {
         "name": "valpara\u00edso_chile",
-        "desciption": "Valpara\u00edso event",
+        "description": "Valpara\u00edso event",
         "color": "d4c5f9"
     },
     {
         "name": "newhaven_usa",
-        "desciption": "New Haven event",
+        "description": "New Haven event",
         "color": "d4c5f9"
     },
     {
         "name": "taipei_taiwan",
-        "desciption": "Taipei event",
+        "description": "Taipei event",
         "color": "d4c5f9"
     },
     {
         "name": "sydney_australia",
-        "desciption": "Sydney event",
+        "description": "Sydney event",
         "color": "d4c5f9"
     },
     {
         "name": "charlottesville_usa",
-        "desciption": "Charlottesville event",
+        "description": "Charlottesville event",
         "color": "d4c5f9"
     },
     {
         "name": "australasia_australasia",
-        "desciption": "Australasia event",
+        "description": "Australasia event",
         "color": "d4c5f9"
     },
     {
         "name": "copehangen_denmark",
-        "desciption": "Copehangen event",
+        "description": "Copehangen event",
         "color": "d4c5f9"
     },
     {
         "name": "donostia_spain",
-        "desciption": "Donostia event",
+        "description": "Donostia event",
         "color": "d4c5f9"
     },
     {
         "name": "washingtondc_usa",
-        "desciption": "Washington D.C. event",
+        "description": "Washington D.C. event",
         "color": "d4c5f9"
     },
     {
         "name": "melbourne_australia",
-        "desciption": "Melbourne event",
+        "description": "Melbourne event",
         "color": "d4c5f9"
     }
 ]

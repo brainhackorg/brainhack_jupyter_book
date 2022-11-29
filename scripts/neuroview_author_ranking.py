@@ -38,7 +38,7 @@ AFF_CURATED = "affiliation_curated.tsv"
 GSHEET_RANK = "coreteam_ranking.tsv"
 OUTPUT = "affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw_ranked.tsv"
 
-err_message = """Curated sheet and OSF sheet has unmatched number of auhtors.
+err_message = """Curated sheet and OSF sheet has unmatched number of authors.
 Have you update curated sheet?"""
 
 
