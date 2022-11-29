@@ -1,0 +1,4 @@
+[codespell]
+skip = *build*,*env*,glossary_tr.md,.git,data,CITATION*
+ignore-words-list = acn,nd
+builtin = clear,rare

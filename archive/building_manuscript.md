@@ -1,5 +1,7 @@
 # Instructions to builld Neuroview related content
 
+** Not needed now that the manuscript is published **
+
 This document explains how to build some of the pages that are related to the
 Neuroview paper.
 
@@ -29,10 +31,10 @@ consortium.
 
 2. Add the late comer to the bottom of those 2 files:
 
-    - `data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv`
-    - `data/affiliations_curated.tsv`
-    - follow the format, check typo manually.
-    - commit those changes to the repo.
+   - `data/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv`
+   - `data/affiliations_curated.tsv`
+   - follow the format, check typo manually.
+   - commit those changes to the repo.
 
 3. Run the following command: `make manuscript`
 
@@ -45,8 +47,8 @@ consortium.
 5. Copy paste the relevant part of those lists in the
    [google doc ofd the manuscript](https://docs.google.com/document/d/1Rfjyb2ueF0BX0EavK9oCd1SfjdNb1CiaXTl5AjFWy9Y/edit?usp=sharing)
 
-    - make sure to paste the "general team" members under the
-      `Brainhack consortium` section.
+   - make sure to paste the "general team" members under the
+     `Brainhack consortium` section.
 
 6. Download the google doc as a PDF and upload the version of the preprint on
    psyarxiv.

@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pandas as pd
-from rich import print
 from utils import root_dir
 
 
