@@ -36,11 +36,6 @@ jobs:
           python --version
           pip list
 
-      - name: Build Book
-        run: |
-          make neuroview
-          make bookpage
-
       - name: Test Book
         run: |
           make test
