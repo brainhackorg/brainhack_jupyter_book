@@ -1,6 +1,7 @@
-# Brainhack Book :book:
+[![DOI](https://img.shields.io/badge/DOI:10.1016/j.neuron.2021.04.001-blue.svg)](https://doi.org/10.1016/j.neuron.2021.04.001)
+[![book](https://github.com/brainhackorg/brainhack_jupyter_book/actions/workflows/deploy_book.yml/badge.svg)](https://github.com/brainhackorg/brainhack_jupyter_book/actions/workflows/deploy_book.yml)
 
-[![book](https://github.com/brainhackorg/brainhack_jupyter_book/workflows/book/badge.svg?branch=main)](https://github.com/brainhackorg/brainhack_jupyter_book/actions/workflows/deploy_book.yml?query=branch%3Amain)
+# Brainhack Book :book:
 
 > Everything Brainhack: past, present and future
 
