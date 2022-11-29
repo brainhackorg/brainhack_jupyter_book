@@ -1,4 +1,4 @@
-# Brainhack Glossary
+# Brainhack Glossary (english)
 
 ## A
 

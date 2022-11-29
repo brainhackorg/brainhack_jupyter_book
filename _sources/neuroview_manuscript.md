@@ -202,7 +202,7 @@ Brainhack instructors strive to share their produced materials with the
 scientific community, including recorded presentations, slide decks, interactive
 tutorials, and more. For example, all the materials developed for the
 [TrainTrack of OHBM Brainhack 2020](https://ohbm.github.io/hackathon2020/traintrack/)
-have been made publically available so as to encourage reuse, redistribution,
+have been made publicly available so as to encourage reuse, redistribution,
 and reproduction of the content. Educational content developed for Brainhacks
 cover a range of topics including analytical and statistical methods (e.g.,
 machine learning, data preprocessing), reproducible workflows (e.g., automated
@@ -234,7 +234,7 @@ career opportunities.
 
 Despite the increasingly central role of programming in neuroscience research,
 formal training in coding is not common in the neuroscience curriculum. In
-addition, code is seldomly shared across more than a few labs, and too often
+addition, code is seldom shared across more than a few labs, and too often
 seen and used by only a single individual. As a result, many scripts and
 workflows are hard to reuse and share, and can contain undiscovered errors
 ([Merali et al., 2010](#references)).

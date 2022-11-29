@@ -1,4 +1,4 @@
-# Brainhack Glossary
+# Brainhack Glossary (turkish)
 
 _Translated by [Melvin Selim Atay][https://github.com/mselimata]._
 
