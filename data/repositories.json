@@ -1,0 +1,59 @@
+{
+    "ohbm_2019": {
+        "name": "OHBM Brainhack 2019",
+        "gh_username": "ohbm",
+        "repo": "hackathon2019",
+        "project_label": [
+            "Hackathon Project"
+        ]
+    },
+    "ohbm_2020": {
+        "name": "OHBM Brainhack 2020",
+        "gh_username": "ohbm",
+        "repo": "hackathon2020",
+        "project_label": [
+            "Hackathon project"
+        ]
+    },
+    "ohbm_2021": {
+        "name": "OHBM Brainhack 2021",
+        "gh_username": "ohbm",
+        "repo": "hackathon2021",
+        "project_label": [
+            "Atlantis",
+            "Rising sun"
+        ]
+    },
+    "ohbm_2022": {
+        "name": "OHBM Brainhack 2022",
+        "gh_username": "ohbm",
+        "repo": "hackathon2022",
+        "project_label": [
+            "Hackathon Project"
+        ]
+    },
+    "brainhack_global_2020": {
+        "name": "Brainhack Global 2020",
+        "gh_username": "brainhackorg",
+        "repo": "global2020",
+        "project_label": [
+            "project"
+        ]
+    },
+    "brainhack_global_2021": {
+        "name": "Brainhack Global 2021",
+        "gh_username": "brainhackorg",
+        "repo": "global2021",
+        "project_label": [
+            "project"
+        ]
+    },
+    "brainhack_global_2022": {
+        "name": "Brainhack Global 2022",
+        "gh_username": "brainhackorg",
+        "repo": "global2022",
+        "project_label": [
+            "project"
+        ]
+    }
+}

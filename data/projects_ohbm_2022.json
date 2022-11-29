@@ -39,6 +39,42 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -48,11 +84,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-08-26T13:29:08Z",
-        "updated_at": "2022-08-26T13:29:08Z",
+        "updated_at": "2022-10-18T13:50:53Z",
         "closed_at": null,
-        "author_association": "COLLABORATOR",
+        "author_association": "MEMBER",
         "active_lock_reason": null,
-        "body": "### Title\n\nChinese Open Science Network (COSN)- Summer Hackathon 2022\n\n### Short description and the goals for the OHBM BrainHack\n\n\r\nCOSN Summer Hackathon 2022 focuses on one fundamental issue that has persisted in the brain and psychological sciences: statistical power. In a 2-day hackathon, we expect to host around 90 online participants with two traintracks on \u201cstatistical power and sample size planning\u201d, two talks on \u201creproducibility, statistical power, and sample size\u201d, and projects to bridge the theoretical and practical aspects of power analysis. Additionally, we provide coffee, ordered online by participants that is paid by our sponsor, on the second morning to spice up the participation. We are using Mandarin to make the hackathon more accessible to Chinese ECRs (except for the session in which we have international speakers). For more reading, we suggest: https://docs.google.com/document/d/14lBD0aZDPij2Z6AOpAharOAtmt6ZBI0EuF3_tu8m66I/edit#heading=h.l3e6u3hfx4tv. The link to the programme: https://docs.qq.com/sheet/DUVF3WVFjYWt0aFBV?tab=BB08J2. \n\n### Link to the Project\n\nhttps://github.com/OpenSci-CN/SummerHackathon2022\n\n### Image for the OHBM brainhack website\n\nhttps://github.com/OpenSci-CN/SummerHackathon2022/blob/main/CCOSNSummerHackathon.jpeg\n\n### Project lead\n\n@ufangyang @Vincent-wq @HaiyangJin @lindajune @ray306 @hcp4715 @TingsterX \n\n### Main Hub\n\nAsia / Pacific\n\n### Other Hub covered by the leaders\n\n- [ ] Glasgow\n- [X] Asia / Pacific\n- [ ] Europe / Middle East / Africa\n- [ ] Americas\n\n### Skills\n\nBeginner: R, Git, Unix command line\n\n### Recommended tutorials for new contributors\n\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\n\n### Good first issues\n\n_No response_\n\n### Twitter summary\n\nCOSN Summer Hackathon 2022: May the Power be with you\r\nIn the 2-day hackathon, we discuss statistical power & N in brain research and related projects! Hackathon is still new to many Chinese ECRs, let\u2019s make it popular!\r\nRepo URL: \r\nProject leaders: @ufangyang @qingWang, @jinhaiyang, @hcp4715\r\n#Brainhack2022  \r\n\n\n### Short name for the Discord chat channel (~15 chars)\n\n(we use mattermost): COSN \n\n### Please read and follow the OHBM Code of Conduct\n\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nChinese Open Science Network (COSN)- Summer Hackathon 2022\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\n\r\nCOSN Summer Hackathon 2022 focuses on one fundamental issue that has persisted in the brain and psychological sciences: statistical power. In a 2-day hackathon, we expect to host around 90 online participants with two traintracks on \u201cstatistical power and sample size planning\u201d, two talks on \u201creproducibility, statistical power, and sample size\u201d, and projects to bridge the theoretical and practical aspects of power analysis. Additionally, we provide coffee, ordered online by participants that is paid by our sponsor, on the second morning to spice up the participation. We are using Mandarin to make the hackathon more accessible to Chinese ECRs (except for the session in which we have international speakers). For more reading, we suggest: https://docs.google.com/document/d/14lBD0aZDPij2Z6AOpAharOAtmt6ZBI0EuF3_tu8m66I/edit#heading=h.l3e6u3hfx4tv. The link to the programme: https://docs.qq.com/sheet/DUVF3WVFjYWt0aFBV?tab=BB08J2. \r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/OpenSci-CN/SummerHackathon2022\r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://github.com/OpenSci-CN/SummerHackathon2022/blob/main/CCOSNSummerHackathon.jpeg\r\n\r\n### Project lead\r\n\r\n@ufangyang @Vincent-wq @HaiyangJin @lindajune @ray306 @hcp4715 @TingsterX \r\n\r\n### Main Hub\r\n\r\nAsia / Pacific\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [X] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nBeginner: R, Git, Unix command line\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\nCOSN Summer Hackathon 2022: May the Power be with you\r\nIn the 2-day hackathon, we discuss statistical power & N in brain research and related projects! Hackathon is still new to many Chinese ECRs, let\u2019s make it popular!\r\nRepo URL: \r\nProject leaders: @ufangyang @qingWang, @jinhaiyang, @hcp4715\r\n#Brainhack2022  \r\n\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\n(we use mattermost): COSN \r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/95/reactions",
             "total_count": 0,
@@ -118,6 +154,60 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687201929,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EGiQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687204423,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EQRw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/FSL",
+                "name": "FSL",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -127,11 +217,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-06-16T12:07:45Z",
-        "updated_at": "2022-06-17T21:52:55Z",
+        "updated_at": "2022-10-18T13:51:06Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "### Title\n\nEffect of Scan Quality on Pipeline Result Discrepancy\n\n### Short description and the goals for the OHBM BrainHack\n\nAs we all know, neuroimaging experiment results are subject to reproducibility issues. Computing the same measure (on the same data) across multiple pipelines can yield different results.\r\nWe will run FSL, FreeSurfer, and ASHS on a subset of Prevent-AD data to obtain volumetric measures across the three pipelines. We will then find the discrepancies in these measures between the pipelines, and see if we can explain the discrepancies given the properties of the input scans. We will do this by running MRIQC on the scans, and correlating the outputted image quality metrics with the pipelines discrepancies.\n\n### Link to the Project\n\nhttps://github.com/jacobsanz97/Pipeline-Discrepancy-Exploration\n\n### Image for the OHBM brainhack website\n\n_No response_\n\n### Project lead\n\njacobsanz97 (Jacob's GitHub)\r\nmtorabi59 (Mohammad's GitHub)\r\ntylerwishard (Tyler's GitHub)\r\n\r\nlgbty_libros (Tyler's discord)\r\n\n\n### Main Hub\n\nGlasgow\n\n### Other Hub covered by the leaders\n\n- [X] Glasgow\n- [ ] Asia / Pacific\n- [ ] Europe / Middle East / Africa\n- [ ] Americas\n\n### Skills\n\nPython, FreeSurfer, FSL, ASHS\n\n### Recommended tutorials for new contributors\n\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\n\n### Good first issues\n\nRun more segmentation pipelines on our data!\n\n### Twitter summary\n\nAs we all know, neuroimaging experiment results are subject to reproducibility issues. Computing the same measure (on the same data) across multiple pipelines can yield different results.\r\nWe will run FSL, FreeSurfer, and ASHS on a subset of Prevent-AD data to obtain volumetric measures across the three pipelines. We will then find the discrepancies in these measures between the pipelines, and see if we can explain the discrepancies given the properties of the input scans. We will do this by running MRIQC on the scans, and correlating the outputted image quality metrics with the pipelines discrepancies.\n\n### Short name for the Discord chat channel (~15 chars)\n\ndiscrepancies\n\n### Please read and follow the OHBM Code of Conduct\n\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nEffect of Scan Quality on Pipeline Result Discrepancy\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\nAs we all know, neuroimaging experiment results are subject to reproducibility issues. Computing the same measure (on the same data) across multiple pipelines can yield different results.\r\nWe will run FSL, FreeSurfer, and ASHS on a subset of Prevent-AD data to obtain volumetric measures across the three pipelines. We will then find the discrepancies in these measures between the pipelines, and see if we can explain the discrepancies given the properties of the input scans. We will do this by running MRIQC on the scans, and correlating the outputted image quality metrics with the pipelines discrepancies.\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/jacobsanz97/Pipeline-Discrepancy-Exploration\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\njacobsanz97 (Jacob's GitHub)\r\nmtorabi59 (Mohammad's GitHub)\r\ntylerwishard (Tyler's GitHub)\r\n\r\nlgbty_libros (Tyler's discord)\r\n\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nPython, FreeSurfer, FSL, ASHS\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\nRun more segmentation pipelines on our data!\r\n\r\n### Twitter summary\r\n\r\nAs we all know, neuroimaging experiment results are subject to reproducibility issues. Computing the same measure (on the same data) across multiple pipelines can yield different results.\r\nWe will run FSL, FreeSurfer, and ASHS on a subset of Prevent-AD data to obtain volumetric measures across the three pipelines. We will then find the discrepancies in these measures between the pipelines, and see if we can explain the discrepancies given the properties of the input scans. We will do this by running MRIQC on the scans, and correlating the outputted image quality metrics with the pipelines discrepancies.\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\ndiscrepancies\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/92/reactions",
             "total_count": 0,
@@ -197,6 +287,42 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -206,11 +332,11 @@
         "milestone": null,
         "comments": 3,
         "created_at": "2022-06-16T09:20:37Z",
-        "updated_at": "2022-06-18T08:57:06Z",
+        "updated_at": "2022-10-18T13:51:42Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\n\nChRIS Research Integration Service\n\n### Short description and the goals for the OHBM BrainHack\n\nChRIS is a platform for making reproducible, container-based analysis easy to develop and easy to use.\r\n\r\nOur goal for BrainHack is to get feedback on the application's user experience, and do development work of wrapping existing software as ChRIS plugins.\n\n### Link to the Project\n\nhttps://chrisproject.org\n\n### Image for the OHBM brainhack website\n\nhttps://github.com/FNNDSC/cube-design/blob/master/_common-assets/ChRISlogo-color.svg.png?raw=true\n\n### Project lead\n\nJennings Zhang, https://github.com/jennydaman jennydaman#4016\r\n\r\nRudolph Pienaar, https://github.com/rudolphpienaar\r\n\r\n\n\n### Main Hub\n\nGlasgow\n\n### Other Hub covered by the leaders\n\n- [X] Glasgow\n- [ ] Asia / Pacific\n- [ ] Europe / Middle East / Africa\n- [X] Americas\n\n### Skills\n\nOptional: docker, python, JSON\n\n### Recommended tutorials for new contributors\n\n- [X] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\n- [X] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\n\n### Good first issues\n\n_No response_\n\n### Twitter summary\n\n_No response_\n\n### Short name for the Discord chat channel (~15 chars)\n\nChRIS\n\n### Please read and follow the OHBM Code of Conduct\n\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nChRIS Research Integration Service\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\nChRIS is a platform for making reproducible, container-based analysis easy to develop and easy to use.\r\n\r\nOur goal for BrainHack is to get feedback on the application's user experience, and do development work of wrapping existing software as ChRIS plugins.\r\n\r\n### Link to the Project\r\n\r\nhttps://chrisproject.org\r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://github.com/FNNDSC/cube-design/blob/master/_common-assets/ChRISlogo-color.svg.png?raw=true\r\n\r\n### Project lead\r\n\r\nJennings Zhang, https://github.com/jennydaman jennydaman#4016\r\n\r\nRudolph Pienaar, https://github.com/rudolphpienaar\r\n\r\n\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [X] Americas\r\n\r\n### Skills\r\n\r\nOptional: docker, python, JSON\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [X] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [X] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nChRIS\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/91/reactions",
             "total_count": 0,
@@ -260,6 +386,15 @@
         },
         "labels": [
             {
+                "id": 3565989961,
+                "node_id": "LA_kwDOGZ_zss7UjLBJ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
                 "id": 4073812574,
                 "node_id": "LA_kwDOGZ_zss7y0XJe",
                 "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Hacktrack:%20Good%20to%20go",
@@ -276,6 +411,51 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4686789224,
+                "node_id": "LA_kwDOGZ_zss8AAAABF1q6aA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -285,11 +465,11 @@
         "milestone": null,
         "comments": 6,
         "created_at": "2022-06-16T08:34:01Z",
-        "updated_at": "2022-06-17T14:20:10Z",
+        "updated_at": "2022-10-18T13:51:23Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\r\n\r\nconfounds: deconfounding library to properly handle confounds \r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\nDevelop a python library of methods to handle confounds in various neuroscientific analyses, esp. statistics and predictive modeling. More info and slides here:  https://crossinvalidation.com/2020/03/04/conquering-confounds-and-covariates-in-machine-learning/\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/raamana/confounds\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nPradeep Reddy Raamana @raamana \r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\n- python programming (preferably intermediate or better, but can work with basic skills)\r\n- some statistics\r\n- documentation ability\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n- Add a simple test to target a specific issue or behaviour of ComBat\r\n- Implement metrics to quantify confound to target relationships\r\n- Add tutorial notebooks, with few example use-cases\r\n- Implement metrics to quantify the level of confounding in a given a sample\r\n- Add tests for `Residualize()` with non-linear models\r\n- Add tests for `DummyDeconfounding()` method\r\n\r\n### Twitter summary\r\n\r\nPython library to handle #confounds/covariates in #machinelearning and #neuroscience, contribute to a great #openscience cause! \r\ngithub.com/raamana/confounds\r\nPradeep Reddy Raamana @raamana_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nconfounds\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nconfounds: deconfounding library to properly handle confounds \r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\nDevelop a python library of methods to handle confounds in various neuroscientific analyses, esp. statistics and predictive modeling. More info and slides here:  https://crossinvalidation.com/2020/03/04/conquering-confounds-and-covariates-in-machine-learning/\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/raamana/confounds\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nPradeep Reddy Raamana @raamana \r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\n- python programming (preferably intermediate or better, but can work with basic skills)\r\n- some statistics\r\n- documentation ability\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n- Add a simple test to target a specific issue or behaviour of ComBat\r\n- Implement metrics to quantify confound to target relationships\r\n- Add tutorial notebooks, with few example use-cases\r\n- Implement metrics to quantify the level of confounding in a given a sample\r\n- Add tests for `Residualize()` with non-linear models\r\n- Add tests for `DummyDeconfounding()` method\r\n\r\n### Twitter summary\r\n\r\nPython library to handle #confounds/covariates in #machinelearning and #neuroscience, contribute to a great #openscience cause! \r\ngithub.com/raamana/confounds\r\nPradeep Reddy Raamana @raamana_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nconfounds\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/90/reactions",
             "total_count": 0,
@@ -339,6 +519,15 @@
         },
         "labels": [
             {
+                "id": 3565989961,
+                "node_id": "LA_kwDOGZ_zss7UjLBJ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
                 "id": 4073812574,
                 "node_id": "LA_kwDOGZ_zss7y0XJe",
                 "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Hacktrack:%20Good%20to%20go",
@@ -355,6 +544,51 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4686789224,
+                "node_id": "LA_kwDOGZ_zss8AAAABF1q6aA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -364,11 +598,11 @@
         "milestone": null,
         "comments": 5,
         "created_at": "2022-06-15T17:38:17Z",
-        "updated_at": "2022-06-16T10:02:13Z",
+        "updated_at": "2022-10-18T13:52:41Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\r\n\r\nCreate local (dev) installation package for brainlife.io\r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\nbrainlife.io is a free and secure reproducible neuroscience analysis platform developed at the University of Texas and Indiana University and collaborators from around the world. It is funded by NSF/NIH.\r\n\r\nAlthough brainlife.io is SasS (software as a service) platform, we'd like to provide a capability to easily install brainlife.io on any VM on-prem. The initial goal of this is to allow external developers to more easily run/contribute to the platform development, but I'd like this capability to be used to install brainlife.io instances on other sites.\r\n\r\nWe also need help to improve our documentation site (https://brainlife.io/docs) by identifying content that is confusing / lacking make any necessary content updates.\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/brainlife/brainlife/issues/15\r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://avatars.githubusercontent.com/u/34313215\r\n\r\n### Project lead\r\n\r\nSoichi Hayashi, soichih, soichih\r\n\r\n### Main Hub\r\n\r\nEurope / Middle East / Africa\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nSystem Administration\r\nDocker\r\nbash/python scripting\r\n(Maybe High Performance Computing)\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [X] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [X] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nbrainlife\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nCreate local (dev) installation package for brainlife.io\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\nbrainlife.io is a free and secure reproducible neuroscience analysis platform developed at the University of Texas and Indiana University and collaborators from around the world. It is funded by NSF/NIH.\r\n\r\nAlthough brainlife.io is SasS (software as a service) platform, we'd like to provide a capability to easily install brainlife.io on any VM on-prem. The initial goal of this is to allow external developers to more easily run/contribute to the platform development, but I'd like this capability to be used to install brainlife.io instances on other sites.\r\n\r\nWe also need help to improve our documentation site (https://brainlife.io/docs) by identifying content that is confusing / lacking make any necessary content updates.\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/brainlife/brainlife/issues/15\r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://avatars.githubusercontent.com/u/34313215\r\n\r\n### Project lead\r\n\r\nSoichi Hayashi, soichih, soichih\r\n\r\n### Main Hub\r\n\r\nEurope / Middle East / Africa\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nSystem Administration\r\nDocker\r\nbash/python scripting\r\n(Maybe High Performance Computing)\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [X] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [X] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nbrainlife\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/88/reactions",
             "total_count": 0,
@@ -434,6 +668,114 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4686789191,
+                "node_id": "LA_kwDOGZ_zss8AAAABF1q6Rw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/project_tools_skills:expert",
+                "name": "project_tools_skills:expert",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687201917,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EGfQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/fMRI",
+                "name": "fMRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687201929,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EGiQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687214430,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2E3Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/EEG",
+                "name": "EEG",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687214436,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2E3ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/MEG",
+                "name": "MEG",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687214440,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2E3aA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/PET",
+                "name": "PET",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687214444,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2E3bA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Nipype",
+                "name": "Nipype",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687214447,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2E3bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/SPM",
+                "name": "SPM",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -443,11 +785,11 @@
         "milestone": null,
         "comments": 2,
         "created_at": "2022-06-15T09:56:55Z",
-        "updated_at": "2022-06-16T12:59:36Z",
+        "updated_at": "2022-10-18T13:52:57Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\n\nCreating the SPM M/EEG interface for Nipype\n\n### Short description and the goals for the OHBM BrainHack\n\n[SPM](https://www.fil.ion.ucl.ac.uk/spm/) is an open-source toolbox for analysing fMRI, M/EEG and even PET data, which had its first public release way back in 1991. SPM has been written (primary) in MATLAB, but Python users have been able to exploit a limited set of SPM\u2019s functionality in their Python workflows via [Nipype](https://nipype.readthedocs.io/en/latest/). We seek to widen the scope of what of SPM\u2019s tools can be interfaced with in Nipype (and potentially its successor, [Pydra](https://pydra.readthedocs.io/en/latest/)) going forward. For BrainHack, our goal is to create the initial functionality to import, coregister, pre-process and source reconstruct MEG data, a modality currently not supported.\n\n### Link to the Project\n\nhttps://github.com/spm/nipype\n\n### Image for the OHBM brainhack website\n\nhttps://georgeoneill.github.io/img/spypem.png\n\n### Project lead\n\nGeorge O'Neill (github: georgeoneill, twitter: g0neill, discord: TBC)\n\n### Main Hub\n\nGlasgow\n\n### Other Hub covered by the leaders\n\n- [x] Glasgow\n- [ ] Asia / Pacific\n- [X] Europe / Middle East / Africa\n- [ ] Americas\n\n### Skills\n\n| Skill | level of expertise required   |\r\n|-------------------|-------------------------------|\r\n| Python            | beginner |\r\n| SPM | confirmed |\r\n| Git | 1 |\n\n### Recommended tutorials for new contributors\n\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\n\n### Good first issues\n\n_No response_\n\n### Twitter summary\n\nExposing SPM's M/EEG tools to Python via Nipype\n\n### Short name for the Discord chat channel (~15 chars)\n\nSPypeM\n\n### Please read and follow the OHBM Code of Conduct\n\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nCreating the SPM M/EEG interface for Nipype\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\n[SPM](https://www.fil.ion.ucl.ac.uk/spm/) is an open-source toolbox for analysing fMRI, M/EEG and even PET data, which had its first public release way back in 1991. SPM has been written (primary) in MATLAB, but Python users have been able to exploit a limited set of SPM\u2019s functionality in their Python workflows via [Nipype](https://nipype.readthedocs.io/en/latest/). We seek to widen the scope of what of SPM\u2019s tools can be interfaced with in Nipype (and potentially its successor, [Pydra](https://pydra.readthedocs.io/en/latest/)) going forward. For BrainHack, our goal is to create the initial functionality to import, coregister, pre-process and source reconstruct MEG data, a modality currently not supported.\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/spm/nipype\r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://georgeoneill.github.io/img/spypem.png\r\n\r\n### Project lead\r\n\r\nGeorge O'Neill (github: georgeoneill, twitter: g0neill, discord: TBC)\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [x] Glasgow\r\n- [ ] Asia / Pacific\r\n- [X] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\n| Skill | level of expertise required   |\r\n|-------------------|-------------------------------|\r\n| Python            | beginner |\r\n| SPM | confirmed |\r\n| Git | 1 |\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\nExposing SPM's M/EEG tools to Python via Nipype\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nSPypeM\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/87/reactions",
             "total_count": 0,
@@ -513,6 +855,51 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687206844,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EZvA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/AFNI",
+                "name": "AFNI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -522,11 +909,11 @@
         "milestone": null,
         "comments": 2,
         "created_at": "2022-06-14T15:39:29Z",
-        "updated_at": "2022-06-16T10:50:32Z",
+        "updated_at": "2022-10-18T13:53:07Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\n\nCreating a group-level modeling interface in AFNI using Python\n\n### Short description and the goals for the OHBM BrainHack\n\nThere are quite a few powerful modeling tools in AFNI that perform group-level analysis. The programs range from simple to complex ones: GLM, ANCOVA with within-subject (or repeated-measures) factors, linear mixed-effects modeling, nonlinear modeling using smooth splines, intraclass correlation, Bayesian multi-level modeling, etc. These programs include 3dttest++, 3dMVM, 3dLMEr, 3dMSS, 3dISC, 3dICC, RBA, etc. Currently there is a Python program, gen_group_command.py, that provides a nice interface for the user to set up group-level analysis for GLM. Two potential projects are\r\n\r\n1) create a unified user interface similar to gen_group_command.py that could generate most, if all, of the group-level programs; alternatively,\r\n\r\n2) write a user interface for one or a few group-level programs.\n\n### Link to the Project\n\nhttps://github.com/afni/afni/blob/master/src/python_scripts/scripts/gen_group_command.py\n\n### Image for the OHBM brainhack website\n\n_No response_\n\n### Project lead\n\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\n\n### Main Hub\n\nGlasgow\n\n### Other Hub covered by the leaders\n\n- [ ] Glasgow\n- [ ] Asia / Pacific\n- [ ] Europe / Middle East / Africa\n- [ ] Americas\n\n### Skills\n\nPython\r\nShell scripting\n\n### Recommended tutorials for new contributors\n\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\n- [X] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\n\n### Good first issues\n\n_No response_\n\n### Twitter summary\n\n_No response_\n\n### Short name for the Discord chat channel (~15 chars)\n\ngen-group\n\n### Please read and follow the OHBM Code of Conduct\n\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nCreating a group-level modeling interface in AFNI using Python\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\nThere are quite a few powerful modeling tools in AFNI that perform group-level analysis. The programs range from simple to complex ones: GLM, ANCOVA with within-subject (or repeated-measures) factors, linear mixed-effects modeling, nonlinear modeling using smooth splines, intraclass correlation, Bayesian multi-level modeling, etc. These programs include 3dttest++, 3dMVM, 3dLMEr, 3dMSS, 3dISC, 3dICC, RBA, etc. Currently there is a Python program, gen_group_command.py, that provides a nice interface for the user to set up group-level analysis for GLM. Two potential projects are\r\n\r\n1) create a unified user interface similar to gen_group_command.py that could generate most, if all, of the group-level programs; alternatively,\r\n\r\n2) write a user interface for one or a few group-level programs.\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/afni/afni/blob/master/src/python_scripts/scripts/gen_group_command.py\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nPython\r\nShell scripting\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [X] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\ngen-group\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/86/reactions",
             "total_count": 2,
@@ -576,6 +963,15 @@
         },
         "labels": [
             {
+                "id": 3565989961,
+                "node_id": "LA_kwDOGZ_zss7UjLBJ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
                 "id": 4073812574,
                 "node_id": "LA_kwDOGZ_zss7y0XJe",
                 "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Hacktrack:%20Good%20to%20go",
@@ -592,6 +988,69 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4686789224,
+                "node_id": "LA_kwDOGZ_zss8AAAABF1q6aA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687201917,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EGfQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/fMRI",
+                "name": "fMRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687201929,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EGiQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -601,11 +1060,11 @@
         "milestone": null,
         "comments": 17,
         "created_at": "2022-06-14T14:54:41Z",
-        "updated_at": "2022-06-16T08:34:20Z",
+        "updated_at": "2022-10-18T13:52:00Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\r\n\r\nPhysiopy - Documentation of Physiological Signal Acquisition Best Practices\r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\nPhysiopy is a community formed around developing tools to operate physiological files in MRI setups. This project specifically will expand our package documentation containing tips and strategies on how to collect various forms of physiological data and the use of our packages. We aim to provide a succinct overview of what physiological data are typically recorded during an fMRI experiment, how these signals are recorded, and how these signals can improve our modeling of fMRI time series data. This is an active field of research, and we hope to encourage all users to get the latest recommendations prior to initiating a new study.\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/physiopy/physiopy.github.io \r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://github.com/physiopy/phys2bids/blob/master/docs/_static/physiopy_logo_1280x640.png?raw=true\r\n\r\n### Project lead\r\n\r\nSarah Goodale, Github Username: goodalse2019 , Discord Username: sarah goodale#5094\r\nIn\u00eas Esteves, Github Username: isesteves, Discord Username: iesteves#5699\r\n\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [X] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nExcitement for learning the best practices in physiological signal acquisition. We welcome all contributions from any skill set and level, this project will predominantly be focused on documentation contributions.\r\nGit - we welcome any level of git (0-3), markdown knowledge helpful\r\n\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [X] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [X] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n- Improve documentation for package\r\n- Build best practices libraries and summaries for various physiological signals (e.g., respiratory, cardiac, skin conductance, etc.)\r\n- Check open source libraries and software similar to what we do\r\n- Find links to educational courses of interest\r\n- Build list of open source datasets with physiological signals\r\n\r\n### Twitter summary\r\n\r\nCome join us at Physiopy working on documentation of physiological signal acquisition and best practices\r\nphysiopy/physiopy.github.io\r\n@s_goodale23 @isesteves\r\n#OHBMHackathon #Brainhack #OHBM2022\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nphysiopy-documentation\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nPhysiopy - Documentation of Physiological Signal Acquisition Best Practices \r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\nPhysiopy is a community formed around developing tools to operate physiological files in MRI setups. This project specifically will expand our package documentation containing tips and strategies on how to collect various forms of physiological data and the use of our packages. We aim to provide a succinct overview of what physiological data are typically recorded during an fMRI experiment, how these signals are recorded, and how these signals can improve our modeling of fMRI time series data. This is an active field of research, and we hope to encourage all users to get the latest recommendations prior to initiating a new study.\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/physiopy/physiopy.github.io \r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://github.com/physiopy/phys2bids/blob/master/docs/_static/physiopy_logo_1280x640.png?raw=true\r\n\r\n### Project lead\r\n\r\nSarah Goodale, Github Username: goodalse2019 , Discord Username: sarah goodale#5094\r\nIn\u00eas Esteves, Github Username: isesteves, Discord Username: iesteves#5699\r\n\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [X] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nExcitement for learning the best practices in physiological signal acquisition. We welcome all contributions from any skill set and level, this project will predominantly be focused on documentation contributions.\r\nGit - we welcome any level of git (0-3), markdown knowledge helpful\r\n\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [X] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [X] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n- Improve documentation for package\r\n- Build best practices libraries and summaries for various physiological signals (e.g., respiratory, cardiac, skin conductance, etc.)\r\n- Check open source libraries and software similar to what we do\r\n- Find links to educational courses of interest\r\n- Build list of open source datasets with physiological signals\r\n\r\n### Twitter summary\r\n\r\nCome join us at Physiopy working on documentation of physiological signal acquisition and best practices\r\nphysiopy/physiopy.github.io\r\n@s_goodale23 @isesteves\r\n#OHBMHackathon #Brainhack #OHBM2022\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nphysiopy-documentation\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/85/reactions",
             "total_count": 0,
@@ -750,6 +1209,60 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4686789175,
+                "node_id": "LA_kwDOGZ_zss8AAAABF1q6Nw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/project_tools_skills:familiar",
+                "name": "project_tools_skills:familiar",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687206844,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EZvA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/AFNI",
+                "name": "AFNI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -759,11 +1272,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2022-06-14T13:37:23Z",
-        "updated_at": "2022-06-15T22:28:42Z",
+        "updated_at": "2022-10-18T13:51:29Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\n\nImplementation of test-retest reliability estimation in Python\n\n### Short description and the goals for the OHBM BrainHack\n\nAccurately estimating reliability is crucial for many fields including neuroimaging and psychometrics. The traditional concept of intraclass correlation is not well-suited for task-related data at the trial level. Thus, a hierarchical modeling approach is desirable to more accurately capture the several levels involved in the data structure. A hierarchical modeling framework has already been implemented into the program TRR using R packages (e.g., brms) in AFNI. It would be a great addition to the neuroimaging and psychometrics communities if the modeling functionality is also implemented using Python.\r\n\r\nThe project is looking for volunteers who are skilled in Python and familiar with some extent of hierarchical modeling.\r\n\r\nUseful links:\r\nhttps://github.com/adamhaber/pybrms\n\n### Link to the Project\n\nhttps://github.com/afni/afni/blob/master/src/R_scripts/TRR.R\n\n### Image for the OHBM brainhack website\n\n_No response_\n\n### Project lead\n\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\n\n### Main Hub\n\nGlasgow\n\n### Other Hub covered by the leaders\n\n- [ ] Glasgow\n- [ ] Asia / Pacific\n- [ ] Europe / Middle East / Africa\n- [ ] Americas\n\n### Skills\n\nPython\r\nR\n\n### Recommended tutorials for new contributors\n\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\n- [X] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\n- [X] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\n\n### Good first issues\n\n_No response_\n\n### Twitter summary\n\n_No response_\n\n### Short name for the Discord chat channel (~15 chars)\n\nTRR-brms\n\n### Please read and follow the OHBM Code of Conduct\n\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nImplementation of test-retest reliability estimation in Python\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\nAccurately estimating reliability is crucial for many fields including neuroimaging and psychometrics. The traditional concept of intraclass correlation is not well-suited for task-related data at the trial level. Thus, a hierarchical modeling approach is desirable to more accurately capture the several levels involved in the data structure. A hierarchical modeling framework has already been implemented into the program TRR using R packages (e.g., brms) in AFNI. It would be a great addition to the neuroimaging and psychometrics communities if the modeling functionality is also implemented using Python.\r\n\r\nThe project is looking for volunteers who are skilled in Python and familiar with some extent of hierarchical modeling.\r\n\r\nUseful links:\r\nhttps://github.com/adamhaber/pybrms\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/afni/afni/blob/master/src/R_scripts/TRR.R\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nPython\r\nR\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [X] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [X] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nTRR-brms\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/83/reactions",
             "total_count": 0,
@@ -829,6 +1342,69 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4686789175,
+                "node_id": "LA_kwDOGZ_zss8AAAABF1q6Nw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/project_tools_skills:familiar",
+                "name": "project_tools_skills:familiar",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687201929,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EGiQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687206844,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EZvA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/AFNI",
+                "name": "AFNI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -838,11 +1414,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2022-06-14T13:25:38Z",
-        "updated_at": "2022-06-15T22:28:25Z",
+        "updated_at": "2022-10-18T13:53:45Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\r\n\r\nImplementation of region-based FMRI data analysis through hierarchical modeling using Python\r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\nHierarchical modeling is a powerful analytical framework that allows efficient information flow across multiple levels.  Compared to the traditional mass univariate analysis, the hierarchical approach has the advantages of spatial specificity, high statistical efficiency, no discrimination against small regions, focus on effect estimation, full result reporting, etc. The modeling capability has already been implemented into the program RBA using R packages (e.g., brms) in AFNI. It would be a great addition to the neuroimaging community if the modeling functionality is also implemented using Python.\r\n\r\nThe project is looking for volunteers who are skilled in Python and familiar with some extent of hierarchical modeling.\r\n\r\nUseful links:\r\nhttps://github.com/adamhaber/pybrms\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/afni/afni/blob/master/src/R_scripts/RBA.R\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nPython\r\nR\r\n\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [X] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [X] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nRBA-brms\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nImplementation of region-based FMRI data analysis through hierarchical modeling using Python\r\n\r\n### Short description and the goals for the OHBM BrainHack \r\n\r\nHierarchical modeling is a powerful analytical framework that allows efficient information flow across multiple levels.  Compared to the traditional mass univariate analysis, the hierarchical approach has the advantages of spatial specificity, high statistical efficiency, no discrimination against small regions, focus on effect estimation, full result reporting, etc. The modeling capability has already been implemented into the program RBA using R packages (e.g., brms) in AFNI. It would be a great addition to the neuroimaging community if the modeling functionality is also implemented using Python.\r\n\r\nThe project is looking for volunteers who are skilled in Python and familiar with some extent of hierarchical modeling.\r\n\r\nUseful links:\r\nhttps://github.com/adamhaber/pybrms\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/afni/afni/blob/master/src/R_scripts/RBA.R\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nPython\r\nR\r\n\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [X] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [X] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nRBA-brms\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/82/reactions",
             "total_count": 0,
@@ -908,6 +1484,60 @@
                 "color": "D05AD3",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4687198814,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6Xg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198820,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198826,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6ag",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Datalad",
+                "name": "Datalad",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687198831,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2D6bw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/machine_learning",
+                "name": "machine_learning",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687201929,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EGiQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4687206844,
+                "node_id": "LA_kwDOGZ_zss8AAAABF2EZvA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/AFNI",
+                "name": "AFNI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -917,11 +1547,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2022-06-14T12:40:04Z",
-        "updated_at": "2022-06-15T22:28:05Z",
+        "updated_at": "2022-10-18T13:54:01Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "### Title\r\n\r\nDocumentation and demo examples for BIDS Datasets: running FitLins with 3dREMLfit in AFNI\r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\nFitLins is the numerical engine developed to solve models for FMRI data analysis. 3dREMLfit is an AFNI program that fits subject-level time series data with the temporal correlations of the residuals characterized through an ARMA(1,1) structure. The output includes regression coefficients, their t- and F-statistics (plus the associated degrees of freedom). The functionality of 3dREMLfit has been incorporated into FitLins, but its usage has not been documented. \r\n\r\nThis project solicits volunteers to write documents about model specification using FitLins with 3dREMLfit and to provide demonstrative examples.\r\n\r\nBelow are some related links:\r\nhttps://github.com/nih-fmrif/code-convergence-summaries/issues/8\r\nhttps://fitlins.readthedocs.io/en/latest/usage.html\r\nhttps://afni.nimh.nih.gov/pub/dist/doc/program_help/3dREMLfit.html\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/nih-fmrif/code-convergence-summaries/issues/8\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nBIDS derivatives\r\nBIDS Stats Models\r\nSubject-level FMRI data analysis \r\nAFNI\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [X] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [X] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nbids-fitlins-remlfit\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
+        "body": "### Title\r\n\r\nDocumentation and demo examples for BIDS Datasets: running FitLins with 3dREMLfit in AFNI\r\n\r\n### Short description and the goals for the OHBM BrainHack  \r\n\r\nFitLins is the numerical engine developed to solve models for FMRI data analysis. 3dREMLfit is an AFNI program that fits subject-level time series data with the temporal correlations of the residuals characterized through an ARMA(1,1) structure. The output includes regression coefficients, their t- and F-statistics (plus the associated degrees of freedom). The functionality of 3dREMLfit has been incorporated into FitLins, but its usage has not been documented. \r\n\r\nThis project solicits volunteers to write documents about model specification using FitLins with 3dREMLfit and to provide demonstrative examples.\r\n\r\nBelow are some related links:\r\nhttps://github.com/nih-fmrif/code-convergence-summaries/issues/8\r\nhttps://fitlins.readthedocs.io/en/latest/usage.html\r\nhttps://afni.nimh.nih.gov/pub/dist/doc/program_help/3dREMLfit.html\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/nih-fmrif/code-convergence-summaries/issues/8\r\n\r\n### Image for the OHBM brainhack website\r\n\r\n_No response_\r\n\r\n### Project lead\r\n\r\nGang Chen (github: afni-gangc; discord: Gang Chen#1967)\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [ ] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nBIDS derivatives\r\nBIDS Stats Models\r\nSubject-level FMRI data analysis \r\nAFNI\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [X] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [X] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nbids-fitlins-remlfit\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/81/reactions",
             "total_count": 0,
@@ -1073,9 +1703,9 @@
         "assignee": null,
         "assignees": [],
         "milestone": null,
-        "comments": 9,
+        "comments": 10,
         "created_at": "2022-06-14T10:57:23Z",
-        "updated_at": "2022-06-15T22:27:40Z",
+        "updated_at": "2022-10-11T09:28:53Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
@@ -1472,7 +2102,7 @@
         "created_at": "2022-06-13T20:07:21Z",
         "updated_at": "2022-06-15T22:26:51Z",
         "closed_at": null,
-        "author_association": "CONTRIBUTOR",
+        "author_association": "MEMBER",
         "active_lock_reason": null,
         "body": "### Title\r\n\r\nReview your tool with NMIND\r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\n[NMIND](https://www.nmind.org/) is a collaborative initiative dedicated to responding to the growing frustration about redundancies in effort and reproducibility in neuroimaging. NMIND seeks to build a community which advances the development of standards in software development, nomenclature, and testing, to ultimately harmonize advancements in neuroscience.\r\n\r\nThe goal of this project is to use the community-designed [NMIND software-evaluation checklists](https://github.com/nmind/standards-checklist/tree/main/checklists) to both a) evaluate a tool of interest, and b) feed-back the experience to improve the checklists themselves.\r\n\r\n\r\n### Link to the Project\r\n\r\nhttps://www.nmind.org/\r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://www.nmind.org/assets/images/brain_wires.png\r\n\r\n### Project lead\r\n\r\n@gkiar\r\n@effigies \r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [ ] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\n- None\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [ ] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [ ] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [ ] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [ ] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\n_No response_\r\n\r\n### Twitter summary\r\n\r\n_No response_\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\nnmind\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
         "reactions": {
@@ -2278,85 +2908,6 @@
             "eyes": 0
         },
         "timeline_url": "https://api.github.com/repos/ohbm/hackathon2022/issues/54/timeline",
-        "performed_via_github_app": null,
-        "state_reason": null
-    },
-    {
-        "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/53",
-        "repository_url": "https://api.github.com/repos/ohbm/hackathon2022",
-        "labels_url": "https://api.github.com/repos/ohbm/hackathon2022/issues/53/labels{/name}",
-        "comments_url": "https://api.github.com/repos/ohbm/hackathon2022/issues/53/comments",
-        "events_url": "https://api.github.com/repos/ohbm/hackathon2022/issues/53/events",
-        "html_url": "https://github.com/ohbm/hackathon2022/issues/53",
-        "id": 1263449805,
-        "node_id": "I_kwDOGZ_zss5LTrbN",
-        "number": 53,
-        "title": "DataCat: \"bring your own data\" and generate user-friendly data catalogs",
-        "user": {
-            "login": "jsheunis",
-            "id": 10141237,
-            "node_id": "MDQ6VXNlcjEwMTQxMjM3",
-            "avatar_url": "https://avatars.githubusercontent.com/u/10141237?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/jsheunis",
-            "html_url": "https://github.com/jsheunis",
-            "followers_url": "https://api.github.com/users/jsheunis/followers",
-            "following_url": "https://api.github.com/users/jsheunis/following{/other_user}",
-            "gists_url": "https://api.github.com/users/jsheunis/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/jsheunis/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/jsheunis/subscriptions",
-            "organizations_url": "https://api.github.com/users/jsheunis/orgs",
-            "repos_url": "https://api.github.com/users/jsheunis/repos",
-            "events_url": "https://api.github.com/users/jsheunis/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/jsheunis/received_events",
-            "type": "User",
-            "site_admin": false
-        },
-        "labels": [
-            {
-                "id": 4073812574,
-                "node_id": "LA_kwDOGZ_zss7y0XJe",
-                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Hacktrack:%20Good%20to%20go",
-                "name": "Hacktrack: Good to go",
-                "color": "7BDD03",
-                "default": false,
-                "description": ""
-            },
-            {
-                "id": 4152656209,
-                "node_id": "LA_kwDOGZ_zss73hIFR",
-                "url": "https://api.github.com/repos/ohbm/hackathon2022/labels/Hackathon%20Project",
-                "name": "Hackathon Project",
-                "color": "D05AD3",
-                "default": false,
-                "description": ""
-            }
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "assignees": [],
-        "milestone": null,
-        "comments": 5,
-        "created_at": "2022-06-07T15:04:44Z",
-        "updated_at": "2022-06-16T11:09:02Z",
-        "closed_at": null,
-        "author_association": "CONTRIBUTOR",
-        "active_lock_reason": null,
-        "body": "### Title\r\n\r\nDataCat: \"bring your own data\" and auto-generate user-friendly data catalogs\r\n\r\n### Short description and the goals for the OHBM BrainHack\r\n\r\n#### Summary\r\n\r\nDo you want to learn how to generate a pretty and F.A.I.R. browser-based data catalog from metadata? Do you want to know how you can make your data known to the world, without sharing the actual data content on centralised infrastructure? Do you want to do this for free using open-source tools? YES?! Then \"bring\" your own data and join our hackathon project!\r\n\r\n#### Overview\r\n\r\nDataLad Catalog is a free and open source command line tool, with a Python API, that assists with the automatic generation of user-friendly, browser-based data catalogs from structured metadata. It is an extension to [DataLad](https://www.datalad.org/), and together with [DataLad Metalad](https://github.com/datalad/datalad-metalad) it brings distributed metadata handling, catalog generation, and maintenance into the hands of users. For a live example of a catalog that was generated using DataLad Catalog, see our [StudyForrest Demo](https://datalad.github.io/datalad-catalog/). The tool is now ready to be tested (and hopefully broken and then fixed!) on a wider range of user data. This is therefore intended to be a \"bring your own data\" project. If you are interested in metadata handling of (distributed) datasets, and specifically in generating a live catalog from said metadata, join us for a chance to turn your (metadata)data into a pretty browser application!\r\n\r\n#### Project Goals\r\n\r\n- Getting participants up to speed on what DataLad Catalog is and what it can do. This will be done through an initial discussion and by reading the [primer](https://github.com/datalad/tutorials/blob/master/notebooks/catalog_tutorials/datalad_catalog_primer.ipynb)\r\n- Giving participants hand-on experience with the catalog generation process, with the use of [walk-through tutorials](https://github.com/datalad/tutorials/blob/master/notebooks/catalog_tutorials)\r\n- Creating your own data catalogs\r\n- Documenting feedback on your experience by creating issues (any and all types of issues are welcome!)\r\n- Onboarding anyone interested in contributing to this tool in the many ways that are possible\r\n\r\n\r\n\r\n### Link to the Project\r\n\r\nhttps://github.com/datalad/datalad-catalog\r\n\r\n### Image for the OHBM brainhack website\r\n\r\nhttps://raw.githubusercontent.com/jsheunis/ohbm-2022/main/pics/datacat0_hero.svg\r\n\r\n### Project lead\r\n\r\nStephan Heunis\r\n- GitHub: jsheunis\r\n- Discord: Stephan#8144\r\n- Twitter: fmrwhy\r\n\r\n### Main Hub\r\n\r\nGlasgow\r\n\r\n### Other Hub covered by the leaders\r\n\r\n- [X] Glasgow\r\n- [ ] Asia / Pacific\r\n- [X] Europe / Middle East / Africa\r\n- [ ] Americas\r\n\r\n### Skills\r\n\r\nWe welcome all kinds of contributions from various skills at any level. From setting up and writing documentation, discussing relevant functionality, or user-experience-testing, to Python-based implementation of the desired functionality and creating real-world use cases and workflows. \r\n\r\nYou can help us with any of the following skills:\r\n\r\n- You have a dataset (or distributed datasets) for which you'd like to create an online catalog\r\n- You enjoy breaking user interfaces or pointing out how the interface can be more intuitive\r\n- You have experience with the Unix command line\r\n- You are interested in creating accessible documentation\r\n- You know Python / JavaScript / HTML / VueJS\r\n- You are interested in learning about the DataLad ecosystem or the process of creating a DataLad extension\r\n- You are interested in learning about the DataLad metadata handling capabilities and/or the process of creating a DataLad-based metadata extractors\r\n- You have knowledge of metadata standards in your domain\r\n- You have knowledge of [BIDS](https://bids-specification.readthedocs.io/) and [pybids](https://github.com/bids-standard/pybids) (for the specific case of generating BIDS-related metadata, and rendering that in the catalog)\r\n\r\n### Recommended tutorials for new contributors\r\n\r\n- [ ] [Set up a brainhack friendly computing environment](https://psy6983.brainhackmtl.org/modules/installation/)\r\n- [X] [A introduction to Bash](https://psy6983.brainhackmtl.org/modules/introduction_to_terminal/)\r\n- [X] [Python: Writing a script](https://psy6983.brainhackmtl.org/modules/python_scripts/)\r\n- [ ] [Python: Data analysis with Python](https://psy6983.brainhackmtl.org/modules/python_data_analysis/)\r\n- [ ] [Python: Visualisation](https://psy6983.brainhackmtl.org/modules/python_visualization/)\r\n- [ ] [Machine learning basics](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/)\r\n- [ ] [BIDS](https://psy6983.brainhackmtl.org/modules/bids/)\r\n- [ ] [Machine learning for neuroimaging](https://psy6983.brainhackmtl.org/modules/machine_learning_neuroimaging/)\r\n- [X] [VCS: Using Git and Github](https://psy6983.brainhackmtl.org/modules/git_github/)\r\n- [X] [VCS: Data management with Datalad](https://psy6983.brainhackmtl.org/modules/datalad/)\r\n- [ ] [Virtualization](https://psy6983.brainhackmtl.org/modules/containers/)\r\n- [ ] High Performance Computing: [Oracle cloud resource](https://brainhack.org/brainhack_cloud/)\r\n\r\n### Good first issues\r\n\r\nWe will try to generate a constant flow of good-first-issues throughout the project. Some examples are:\r\n\r\n- Set up [all-contributors ](https://allcontributors.org/) to acknowledge project contributions\r\n- Create a zenodo.json or CITATION.cff file to make the project citable\r\n- Set up a welcome bot such as [this one](https://github.com/apps/the-welcome-bot) to automatically comment on issues or PRs\r\n- Extend read-the-docs based documentation\r\n- \r\n\r\n### Twitter summary\r\n\r\nDo you want to publish your data openly, without sharing actual content on centralised infrastructure? Want to auto-generate a browser-based data catalog from metadata? YES?! Then \"bring\" your own data and join our project: DataCat! https://github.com/datalad/datalad-catalog\r\n\r\n### Short name for the Discord chat channel (~15 chars)\r\n\r\ndatacat\r\n\r\n### Please read and follow the OHBM Code of Conduct\r\n\r\n- [X] I agree to follow the OHBM Code of Conduct during the hackathon",
-        "reactions": {
-            "url": "https://api.github.com/repos/ohbm/hackathon2022/issues/53/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-        },
-        "timeline_url": "https://api.github.com/repos/ohbm/hackathon2022/issues/53/timeline",
         "performed_via_github_app": null,
         "state_reason": null
     }

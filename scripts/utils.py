@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import ruamel.yaml
@@ -18,3 +19,9 @@ def load_citation(citation_file):
 def write_citation(citation_file, citation):
     with open(citation_file, "w", encoding="utf8") as output_file:
         return yaml.dump(citation, output_file)
+
+
+def load_repositories_info():
+    repositories_file = root_dir().joinpath("data", "repositories.json")
+    with open(repositories_file, "r", encoding="utf8") as input_file:
+        return json.load(input_file)

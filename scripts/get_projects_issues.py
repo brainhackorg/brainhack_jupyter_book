@@ -9,11 +9,9 @@ import requests
 from rich import print
 
 USERNAME = "Remi-Gau"
-TOKEN = ""
-# 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
 
-# TODO: some ohbm and brainhack global from previous years have repos or websites
-# that can be scraped for info
+with open(Path(__file__).parent.joinpath("token.txt")) as f:
+    TOKEN = f.read().strip()
 
 REPOSITORIES = {
     "ohbm_2019": {
@@ -49,7 +47,7 @@ REPOSITORIES = {
     "brainhack_global_2022": {
         "owner": "brainhackorg",
         "repo": "global2022",
-        "project_label": [],
+        "project_label": ["project"],
     },
 }
 
@@ -70,6 +68,8 @@ def get_gh_issues(owner, repo, auth_username=None, auth_token=None):
 
     if response.status_code == 200:
         issues = response.json()
+    else:
+        print(f"Error {response.status_code}: {response.text}")
 
     return issues
 
@@ -85,6 +85,9 @@ def main():
         owner = REPOSITORIES[this_repo]["owner"]
         repository_name = REPOSITORIES[this_repo]["repo"]
         issues = get_gh_issues(owner, repository_name, USERNAME, TOKEN)
+
+        if issues is None:
+            continue
 
         project_issues = []
 

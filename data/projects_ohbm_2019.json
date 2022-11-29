@@ -48,11 +48,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2019-06-13T13:32:49Z",
-        "updated_at": "2020-04-16T16:23:23Z",
+        "updated_at": "2022-11-28T16:16:35Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Top 10 FAIR things for imaging\r\n\r\n## Project Description\r\nThis document aims to promote the use of FAIR principles in the bioimaging community. We will start by describing what are the FAIR principles, and then linking questions to examples of application. This guide is to enhance research data quality and empower researchers, scientists and health professionals to incorporate best data practices throughout the research cycle. \r\nThis is a continuation of Top 10 FAIR Data & Software Things\r\nhttps://www.go-fair.org/2019/02/20/top-10-fair-data-software-things-published/ \r\n \r\nTo inform data producers and data users about the FAIR principles applied to imaging and suggest activities to apply to their research.\r\n\r\n\r\n## Skills required to participate\r\nAnyone should be able to read and provide all kinds all feedback, I welcome more activities to be added and examples and resources.\r\n\r\n## Integration\r\nHow would your project integrate a neuroimager/clinician/psychologist/computational scientist?\r\nthe top 10 FAIR things for imaging is a broad but simple guide\r\n\r\n## Preparation material\r\nhave a look https://osf.io/preprints/xs9nh/\r\n\r\n\r\n## how to contribute\r\nI'm looking for reviewers until end of june 2019\r\n\r\n## Communication\r\nplease email me, you can find my email in the document\r\n\r\nhttps://osf.io/preprints/xs9nh/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# Top 10 FAIR things for imaging\r\n\r\n## Project Description\r\n\r\nThis document aims to promote the use of FAIR principles in the bioimaging community. We will start by describing what are the FAIR principles, and then linking questions to examples of application. This guide is to enhance research data quality and empower researchers, scientists and health professionals to incorporate best data practices throughout the research cycle. \r\nThis is a continuation of Top 10 FAIR Data & Software Things\r\nhttps://www.go-fair.org/2019/02/20/top-10-fair-data-software-things-published/ \r\n \r\nTo inform data producers and data users about the FAIR principles applied to imaging and suggest activities to apply to their research.\r\n\r\n\r\n## Skills required to participate\r\nAnyone should be able to read and provide all kinds all feedback, I welcome more activities to be added and examples and resources.\r\n\r\n## Integration\r\nHow would your project integrate a neuroimager/clinician/psychologist/computational scientist?\r\nthe top 10 FAIR things for imaging is a broad but simple guide\r\n\r\n## Preparation material\r\nhave a look https://osf.io/preprints/xs9nh/\r\n\r\n\r\n## how to contribute\r\nI'm looking for reviewers until end of june 2019\r\n\r\n## Communication\r\nplease email me, you can find my email in the document\r\n\r\nhttps://osf.io/preprints/xs9nh/\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/100/reactions",
             "total_count": 0,
@@ -109,6 +109,78 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686717374,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhvg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:familiar",
+                "name": "project_tools_skills:familiar",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406945,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWIQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/DWI",
+                "name": "DWI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406962,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWMg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRtrix",
+                "name": "MRtrix",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406968,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWOA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/diffusion",
+                "name": "diffusion",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -118,11 +190,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-07T19:28:30Z",
-        "updated_at": "2020-04-16T16:23:47Z",
+        "updated_at": "2022-11-28T16:17:09Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "# Correction of signal intensity fluctuations in DWI multi-protocol acquisitions\r\n\r\n*(Note: Submitting project after completion rather than before; but felt it appropriate to document for prosperity)*\r\n\r\n## Project Description\r\n\r\nMany modern Diffusion-Weighted Imaging (DWI) models rely on what is known as a \"multi-shell\" acquisition: this refers to the acquisition of image volumes where not only the *direction* of diffusion sensitisation is varied, but also the *magnitude* of that sensitisation, with groups of volumes where the sensitisation magnitude is equivalent but the direction differs referred to as \"shells\".\r\n\r\nOn some scanner platforms, acquisition of such data relies on executing multiple acquisition protocols, each with selection of a unique \"*b*-value\" (strength of diffusion sensitisation), rather than the ideal scenario where all image volumes are acquired in a single acquisition.\r\n\r\nThis presents a potential issue in the amalgamation of such data. It is possible for scanner frequency recalibration / ADC gain / FFT multiplication factor / other factors to be adjusted in between protocols. If this occurs, then the quantitative relationships between the different image volumes may be violated.\r\n\r\nThis project is a proposed retrospective fix to this problem. Each DWI acquisition will additionally contain so-called \"*b*=0\" volumes: these are image volumes where no diffusion sensitisation is applied. If there are undesirable differences in signal amplitudes between the different acquisition protocols, this should be evident as differences in the signal amplitudes between the *b*=0 volumes of the various acquisitions. We can therefore use the differences between these images to estimate an appropriate intensity multiplicative factor to then apply to all of the volumes in each acquisition, in order to attempt to correct for any such inter-protocol scaling that may have occurred.\r\n\r\n## Skills required to participate\r\n\r\nAt least some experience with Python is required.\r\n\r\nSome familiarity with performing basic operations on MRI image data.\r\n\r\nKnowledge of *MRtrix3* commands would be ideal, but not necessary. \r\n\r\n## Integration\r\n\r\nContributors to the proposed script will have the opportunity to inherit attribution of the developed code, via `git` contribution history & statistics, authorship of the developed script (which is reported in online & integrated command documentation), and avatar appearance on the main *MRtrix3* website as a contributor to the project.\r\n\r\nAnyone possessing image data that suffers from the described issue who could assist in testing the proposed solution would also be thanked for their contribution in the relevant Pull Request.\r\n\r\n## Preparation material\r\n\r\n- *MRtrix3* preprint: https://www.biorxiv.org/content/10.1101/551739v1\r\n   (provides basic example usage of Python API)\r\n\r\n- Original issue submission on *MRtrix3* repository: https://github.com/MRtrix3/mrtrix3/issues/1428\r\n\r\n## Link to your GitHub repo\r\n\r\n*MRtrix3* repository: https://github.com/MRtrix3/mrtrix3\r\n\r\n## Communication\r\n\r\nProject can be discussed directly on the [relevant GitHub issue](https://github.com/MRtrix3/mrtrix3/issues/1428).\r\n\r\nOngoing private communications regarding the project can be made via private messages on the [*MRtrix3* community forum](http://community.mrtrix.org/) ([link to my account](http://community.mrtrix.org/u/rsmith))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# Correction of signal intensity fluctuations in DWI multi-protocol acquisitions\r\n\r\n*(Note: Submitting project after completion rather than before; but felt it appropriate to document for prosperity)*\r\n\r\n## Project Description\r\n\r\nMany modern Diffusion-Weighted Imaging (DWI) models rely on what is known as a \"multi-shell\" acquisition: this refers to the acquisition of image volumes where not only the *direction* of diffusion sensitisation is varied, but also the *magnitude* of that sensitisation, with groups of volumes where the sensitisation magnitude is equivalent but the direction differs referred to as \"shells\".\r\n\r\nOn some scanner platforms, acquisition of such data relies on executing multiple acquisition protocols, each with selection of a unique \"*b*-value\" (strength of diffusion sensitisation), rather than the ideal scenario where all image volumes are acquired in a single acquisition.\r\n\r\nThis presents a potential issue in the amalgamation of such data. It is possible for scanner frequency recalibration / ADC gain / FFT multiplication factor / other factors to be adjusted in between protocols. If this occurs, then the quantitative relationships between the different image volumes may be violated.\r\n\r\nThis project is a proposed retrospective fix to this problem. Each DWI acquisition will additionally contain so-called \"*b*=0\" volumes: these are image volumes where no diffusion sensitisation is applied. If there are undesirable differences in signal amplitudes between the different acquisition protocols, this should be evident as differences in the signal amplitudes between the *b*=0 volumes of the various acquisitions. We can therefore use the differences between these images to estimate an appropriate intensity multiplicative factor to then apply to all of the volumes in each acquisition, in order to attempt to correct for any such inter-protocol scaling that may have occurred.\r\n\r\n## Skills required to participate\r\n\r\nAt least some experience with Python is required.\r\n\r\nSome familiarity with performing basic operations on MRI image data.\r\n\r\nKnowledge of *MRtrix3* commands would be ideal, but not necessary. \r\n\r\n## Integration\r\n\r\nContributors to the proposed script will have the opportunity to inherit attribution of the developed code, via `git` contribution history & statistics, authorship of the developed script (which is reported in online & integrated command documentation), and avatar appearance on the main *MRtrix3* website as a contributor to the project.\r\n\r\nAnyone possessing image data that suffers from the described issue who could assist in testing the proposed solution would also be thanked for their contribution in the relevant Pull Request.\r\n\r\n## Preparation material\r\n\r\n- *MRtrix3* preprint: https://www.biorxiv.org/content/10.1101/551739v1\r\n   (provides basic example usage of Python API)\r\n\r\n- Original issue submission on *MRtrix3* repository: https://github.com/MRtrix3/mrtrix3/issues/1428\r\n\r\n## Link to your GitHub repo\r\n\r\n*MRtrix3* repository: https://github.com/MRtrix3/mrtrix3\r\n\r\n## Communication\r\n \r\nProject can be discussed directly on the [relevant GitHub issue](https://github.com/MRtrix3/mrtrix3/issues/1428).\r\n\r\nOngoing private communications regarding the project can be made via private messages on the [*MRtrix3* community forum](http://community.mrtrix.org/) ([link to my account](http://community.mrtrix.org/u/rsmith))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/99/reactions",
             "total_count": 0,
@@ -179,6 +251,24 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
             }
         ],
         "state": "open",
@@ -188,11 +278,11 @@
         "milestone": null,
         "comments": 12,
         "created_at": "2019-06-06T14:22:33Z",
-        "updated_at": "2020-08-01T17:26:59Z",
+        "updated_at": "2022-11-28T16:17:24Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Learning how to publish your work online\r\n\r\n## Project Description\r\nThe main goal is to learn how to make your work available to the world online. This can include, e.g.,\r\n* learning how to create your own personal website where you can tell the world more about yourself and host information about your work\r\n* learning how to create web-pages for your projects where you can display documentation, analysis code, results, etc.\r\n* relatedly, how to render jupyter-notebooks or RMarkdown scripts so that they can be displayed online\r\n* learning how to create a documentation, e.g. using ReadTheDocs, for a specific project / piece of software you developed\r\n\r\n## Skills required to participate\r\nI guess, none of the skills listed below are necessary required but can come in handy:\r\n* some basic knowledge of `git` could be useful, since one way of hosting (static) websites can be done through [github pages](https://pages.github.com/)\r\n* basic shell / bash knowledge could be useful, e.g., to navigate local git repositories etc.\r\n* maybe some html or javascript knowledge could be useful\r\n\r\nideally, it would be very helpful if at least one person would join who knows these things **well** to give help and could answer questions, etc.\r\n\r\n## Integration\r\nThe main goal could be to create (1) an example project website using github pages, (2) display rendered example analysis code on this website and (3) write a project documentation using e.g., Read The Docs\r\n\r\n## Preparation material\r\ntba, if someone knows helpful resources please post them here, thanks\r\n\r\n## Communication\r\ntba\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# Learning how to publish your work online\r\n\r\n## Project Description\r\n\r\nThe main goal is to learn how to make your work available to the world online. This can include, e.g.,\r\n* learning how to create your own personal website where you can tell the world more about yourself and host information about your work\r\n* learning how to create web-pages for your projects where you can display documentation, analysis code, results, etc.\r\n* relatedly, how to render jupyter-notebooks or RMarkdown scripts so that they can be displayed online\r\n* learning how to create a documentation, e.g. using ReadTheDocs, for a specific project / piece of software you developed\r\n\r\n## Skills required to participate\r\nI guess, none of the skills listed below are necessary required but can come in handy:\r\n* some basic knowledge of `git` could be useful, since one way of hosting (static) websites can be done through [github pages](https://pages.github.com/)\r\n* basic shell / bash knowledge could be useful, e.g., to navigate local git repositories etc.\r\n* maybe some html or javascript knowledge could be useful\r\n\r\nideally, it would be very helpful if at least one person would join who knows these things **well** to give help and could answer questions, etc.\r\n\r\n## Integration\r\nThe main goal could be to create (1) an example project website using github pages, (2) display rendered example analysis code on this website and (3) write a project documentation using e.g., Read The Docs\r\n\r\n## Preparation material\r\ntba, if someone knows helpful resources please post them here, thanks\r\n\r\n## Communication\r\ntba\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/98/reactions",
             "total_count": 0,
@@ -258,11 +348,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-06T09:44:09Z",
-        "updated_at": "2020-04-16T16:24:22Z",
+        "updated_at": "2022-11-28T16:46:42Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "Neurolibre : A new binder publication platform\r\n\r\n## Project Description\r\nNeurolibre is a curated repository of interactive neuroscience notebooks, seamlessly integrating data, text, code and figures. Notebooks can be freely modified and re-executed through the web, offering a fully reproducible, \u201clibre\u201d path from data to figures. Neurolibre is powered by the Binder project, with computational resources provided by CONP, CBRAIN and Compute Canada.\r\n\r\nWe need help to create our publication process. The server is using binderhub technology (docker, kubernetes).\r\n\r\n## Skills required to participate\r\nKnowledge of jupyter notebooks\r\nKubernetes\r\nDocker\r\n\r\n## Integration\r\nhttps://conp-pcno.github.io/\r\n\r\n## Preparation material\r\nhttps://mybinder.readthedocs.io/en/latest/\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/neurolibre",
+        "body": "Neurolibre : A new binder publication platform\r\n\r\n## Project Description\r\n\r\nNeurolibre is a curated repository of interactive neuroscience notebooks, seamlessly integrating data, text, code and figures. Notebooks can be freely modified and re-executed through the web, offering a fully reproducible, \u201clibre\u201d path from data to figures. Neurolibre is powered by the Binder project, with computational resources provided by CONP, CBRAIN and Compute Canada.\r\n\r\nWe need help to create our publication process. The server is using binderhub technology (docker, kubernetes).\r\n\r\n## Skills required to participate\r\n\r\nKnowledge of jupyter notebooks\r\nKubernetes\r\nDocker\r\n\r\n## Integration\r\nhttps://conp-pcno.github.io/\r\n\r\n## Preparation material\r\nhttps://mybinder.readthedocs.io/en/latest/\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/neurolibre",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/92/reactions",
             "total_count": 0,
@@ -319,6 +409,69 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686717374,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhvg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:familiar",
+                "name": "project_tools_skills:familiar",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850409552,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgUA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/fMRI",
+                "name": "fMRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850409556,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgVA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Nipype",
+                "name": "Nipype",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -328,11 +481,11 @@
         "milestone": null,
         "comments": 3,
         "created_at": "2019-06-06T09:18:59Z",
-        "updated_at": "2020-04-16T16:24:37Z",
+        "updated_at": "2022-11-28T16:17:50Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Nipype-ify Denoiser\r\n\r\n## Project Description\r\nAdapt the [Denoiser nuisance cleaning pipeline](https://github.com/arielletambini/denoiser) to be a Nipype workflow and use existing workflows/nodes (e.g. from Niworkflows). \r\n\r\n## Skills required to participate\r\nBasic experience with Python programming. You don't need to know Nipype already; we can learn together!\r\n\r\n## Integration\r\nIf you're not a programer, but are familiar with fMRI pre- and post-processing, you can contribute by helping to test the code on your data, helping to write documentation, and by suggesting ideas of new features you would like to see included in future versions.\r\n\r\n## Preparation material\r\n- [Nipype tutorials](https://miykael.github.io/nipype_tutorial/).\r\n\r\n## Link to your GitHub repo\r\n- [Original Denoiser repo](https://github.com/arielletambini/denoiser).\r\n- [My fork of Denoiser](https://github.com/danlurie/denoiser).\r\n\r\n## Communication\r\nIf there's interest in collaborating, reply here and we'll set up a channel on Mattermost!\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# Nipype-ify Denoiser\r\n\r\n## Project Description\r\nAdapt the [Denoiser nuisance cleaning pipeline](https://github.com/arielletambini/denoiser) to be a Nipype workflow and use existing workflows/nodes (e.g. from Niworkflows). \r\n\r\n## Skills required to participate\r\n\r\nBasic experience with Python programming. You don't need to know Nipype already; we can learn together!\r\n\r\n## Integration\r\nIf you're not a programer, but are familiar with fMRI pre- and post-processing, you can contribute by helping to test the code on your data, helping to write documentation, and by suggesting ideas of new features you would like to see included in future versions.\r\n\r\n## Preparation material\r\n- [Nipype tutorials](https://miykael.github.io/nipype_tutorial/).\r\n\r\n## Link to your GitHub repo\r\n- [Original Denoiser repo](https://github.com/arielletambini/denoiser).\r\n- [My fork of Denoiser](https://github.com/danlurie/denoiser).\r\n\r\n## Communication\r\nIf there's interest in collaborating, reply here and we'll set up a channel on Mattermost!\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/90/reactions",
             "total_count": 2,
@@ -389,6 +542,24 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717442,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1miAg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/tools:BIDS",
+                "name": "tools:BIDS",
+                "color": "0052cc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850410522,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtkGg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -398,11 +569,11 @@
         "milestone": null,
         "comments": 3,
         "created_at": "2019-06-06T08:58:37Z",
-        "updated_at": "2020-04-16T16:24:50Z",
+        "updated_at": "2022-11-28T16:18:08Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# BIDS Execution spec / BIDS Apps 2.0\r\n\r\n## Project Description\r\n\r\nI have the start of a draft here: https://docs.google.com/document/d/104HLZedFtx0TaXEUwd7eyWvJUlc0CcSUtCzwjNgmGxE/edit#heading=h.4k1noo90gelw\r\n\r\nIt's based on some notes here: https://docs.google.com/document/d/1NQe5qP0VdfqPI5nl2cIQKzii70ndpPJEzemzK4qn6uY/edit#heading=h.usmuhelpi8fq\r\n\r\n## Skills required to participate\r\n\r\nReading and writing.\r\n\r\n\r\n\r\n",
+        "body": "# BIDS Execution spec / BIDS Apps 2.0\r\n\r\n## Project Description\r\n\r\n\r\nI have the start of a draft here: https://docs.google.com/document/d/104HLZedFtx0TaXEUwd7eyWvJUlc0CcSUtCzwjNgmGxE/edit#heading=h.4k1noo90gelw\r\n\r\nIt's based on some notes here: https://docs.google.com/document/d/1NQe5qP0VdfqPI5nl2cIQKzii70ndpPJEzemzK4qn6uY/edit#heading=h.usmuhelpi8fq\r\n\r\n## Skills required to participate\r\n\r\nReading and writing.\r\n\r\n<!-- BIDS -->\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/89/reactions",
             "total_count": 0,
@@ -459,6 +630,60 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406962,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWMg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRtrix",
+                "name": "MRtrix",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850409556,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgVA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Nipype",
+                "name": "Nipype",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850534752,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR1JYA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Jupyter",
+                "name": "Jupyter",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -468,11 +693,11 @@
         "milestone": null,
         "comments": 2,
         "created_at": "2019-06-06T08:56:48Z",
-        "updated_at": "2020-04-16T16:25:02Z",
+        "updated_at": "2022-11-28T16:53:57Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Tutorials for manipulating neuroimaging data in Python\r\n\r\n## Project Description\r\nA large number of file formats used in neuromaging analysis have Python support (many of them in [nibabel](https://github.com/nipy/nibabel), although a number of one-off packages exist). However, documentation may be missing or difficult to find. A useful resource would be a consolidated set of tutorials that walk through loading, modifying, creating, saving and visualizing files.\r\n\r\nIf you have experience with a file format you'd like to share, cool. If you have a file format you want to learn to work with, we can explore them in Jupyter notebooks, and turn those explorations into tutorials.\r\n\r\n## Skills required to participate\r\nAt least one of these would be good to have:\r\n\r\n1) Python (especially Python 3) and [numpy](https://docs.scipy.org/doc/numpy/) experience.\r\n2) Experience working with at least one neuroimaging data format.\r\n\r\nBut neither is necessary.\r\n\r\n## Preparation material\r\n\r\nSome official (or semi-official), non-Python, documentation for existing formats (in no principled order):\r\n\r\n* [NIfTI-1](https://nifti.nimh.nih.gov/nifti-1/)\r\n* [NIfTI-2](https://nifti.nimh.nih.gov/nifti-2/)\r\n* [GIFTI](https://www.nitrc.org/projects/gifti/)\r\n* [CIFTI-2](https://www.nitrc.org/projects/cifti)\r\n* [MINC1](https://en.wikibooks.org/wiki/MINC/SoftwareDevelopment/MINC1_File_Format_Reference)\r\n* [MINC2](https://en.wikibooks.org/wiki/MINC/SoftwareDevelopment/MINC2.0_Users_Guide)\r\n* [BRIK](https://sscc.nimh.nih.gov/afni/doc/faq/39)/[HEAD](https://afni.nimh.nih.gov/pub/dist/doc/program_help/README.attributes.html)\r\n* [MGH](https://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/MghFormat), [DICOM](https://www.dicomstandard.org/)\r\n* [TrackVis `.trk`](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferTrackVisTransforms)\r\n* [MRtrix `.tck`](https://mrtrix.readthedocs.io/en/latest/getting_started/image_data.html#tracks-file-format-tck)\r\n\r\nSome existing tutorials/resources:\r\n\r\n* [NiBabel 101](https://www.youtube.com/watch?v=9ffUQo2mF6w&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=4) ([notebook](https://github.com/Brainhack-AMX/Brainhacking-101/blob/master/NiBabel%20101.ipynb)) covers NIfTI-1 images\r\n* From the [2017 Nipype workshop](https://nipy.org/workshops/2017-03-boston/index.html):\r\n  * Using Python for neuroimaging](https://github.com/nipy/workshops/blob/master/170327-nipype/notebooks/nibabel_nilearn/nibabel_nilearn.ipynb)\r\n  * [Surface plotting example](https://github.com/nipy/workshops/blob/master/170327-nipype/notebooks/nibabel_nilearn/plot-surfs.ipynb)\r\n\r\nNon-nibabel software:\r\n\r\n* [pdb_files](https://github.com/vistalab/pdb_files)\r\n* [pydicom](https://pydicom.github.io/pydicom/stable/)\r\n\r\nI'll add any suggestions others have. Especially if they use non-NIfTI-1 formats.\r\n\r\nProvide links to preparation material / online tutorials. You can, for example, have a look at our [list of online tutorials](Tutorial_Resources.md).\r\n\r\n\r\n",
+        "body": "# Tutorials for manipulating neuroimaging data in Python\r\n\r\n## Project Description\r\n\r\nA large number of file formats used in neuromaging analysis have Python support (many of them in [nibabel](https://github.com/nipy/nibabel), although a number of one-off packages exist). However, documentation may be missing or difficult to find. A useful resource would be a consolidated set of tutorials that walk through loading, modifying, creating, saving and visualizing files.\r\n\r\nIf you have experience with a file format you'd like to share, cool. If you have a file format you want to learn to work with, we can explore them in Jupyter notebooks, and turn those explorations into tutorials.\r\n\r\n## Skills required to participate\r\nAt least one of these would be good to have:\r\n\r\n1) Python (especially Python 3) and [numpy](https://docs.scipy.org/doc/numpy/) experience.\r\n2) Experience working with at least one neuroimaging data format.\r\n\r\nBut neither is necessary.\r\n\r\n## Preparation material\r\n\r\nSome official (or semi-official), non-Python, documentation for existing formats (in no principled order):\r\n\r\n* [NIfTI-1](https://nifti.nimh.nih.gov/nifti-1/)\r\n* [NIfTI-2](https://nifti.nimh.nih.gov/nifti-2/)\r\n* [GIFTI](https://www.nitrc.org/projects/gifti/)\r\n* [CIFTI-2](https://www.nitrc.org/projects/cifti)\r\n* [MINC1](https://en.wikibooks.org/wiki/MINC/SoftwareDevelopment/MINC1_File_Format_Reference)\r\n* [MINC2](https://en.wikibooks.org/wiki/MINC/SoftwareDevelopment/MINC2.0_Users_Guide)\r\n* [BRIK](https://sscc.nimh.nih.gov/afni/doc/faq/39)/[HEAD](https://afni.nimh.nih.gov/pub/dist/doc/program_help/README.attributes.html)\r\n* [MGH](https://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/MghFormat), [DICOM](https://www.dicomstandard.org/)\r\n* [TrackVis `.trk`](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferTrackVisTransforms)\r\n* [MRtrix `.tck`](https://mrtrix.readthedocs.io/en/latest/getting_started/image_data.html#tracks-file-format-tck)\r\n\r\nSome existing tutorials/resources:\r\n\r\n* [NiBabel 101](https://www.youtube.com/watch?v=9ffUQo2mF6w&list=PLNt4AJV1JZbfq0vdD4vcITV7x3OqGxLKp&t=0s&index=4) ([notebook](https://github.com/Brainhack-AMX/Brainhacking-101/blob/master/NiBabel%20101.ipynb)) covers NIfTI-1 images\r\n* From the [2017 Nipype workshop](https://nipy.org/workshops/2017-03-boston/index.html):\r\n  * Using Python for neuroimaging](https://github.com/nipy/workshops/blob/master/170327-nipype/notebooks/nibabel_nilearn/nibabel_nilearn.ipynb)\r\n  * [Surface plotting example](https://github.com/nipy/workshops/blob/master/170327-nipype/notebooks/nibabel_nilearn/plot-surfs.ipynb)\r\n\r\nNon-nibabel software:\r\n\r\n* [pdb_files](https://github.com/vistalab/pdb_files)\r\n* [pydicom](https://pydicom.github.io/pydicom/stable/)\r\n\r\nI'll add any suggestions others have. Especially if they use non-NIfTI-1 formats.\r\n\r\nProvide links to preparation material / online tutorials. You can, for example, have a look at our [list of online tutorials](Tutorial_Resources.md).\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/88/reactions",
             "total_count": 0,
@@ -529,6 +754,24 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850409556,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgVA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Nipype",
+                "name": "Nipype",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850534752,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR1JYA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Jupyter",
+                "name": "Jupyter",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -538,7 +781,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-06T08:55:56Z",
-        "updated_at": "2020-04-16T16:26:11Z",
+        "updated_at": "2022-11-28T16:54:06Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
@@ -608,11 +851,11 @@
         "milestone": null,
         "comments": 2,
         "created_at": "2019-06-06T08:55:21Z",
-        "updated_at": "2020-04-16T16:26:11Z",
+        "updated_at": "2022-11-28T16:55:05Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Survey of github repos in pubmed\r\n\r\n## Project Description\r\nGithub is increasingly becoming a tool of choice for computational-oriented research. There have been plenty of efforts to get scientists to make use of this valuable tool, but to my awareness there hasn't been any attempt to evaluate how scientists use this resource.\r\n\r\nI pulled full-texts from pubmed and searched them for the presence of the string 'github' and found a bit over 20k papers that contained this string. Using these texts plus the github api I think we could provide some insight to the following:\r\n\r\n1) How many scientific repos contain a README?\r\n2) How often do often to repos contain files that are likely to be data (e.g. csv, json)\r\n3) What are the most popular types of analytic scripts (e.g. .py, .R, .ipynb, etc)?\r\n4) How do the above vary by research area?\r\n\r\n## Skills required to participate\r\nideally, experience with python or R & web-based APIs. Text analysis experience would be helpful.\r\n\r\n## Integration\r\nTBA\r\n\r\n## Preparation material\r\n[BioC API](https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/BioC-PubMed/)\r\n\r\n[github API](https://developer.github.com/v3/)\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/riddlet/gitpubs\r\n\r\n## Communication\r\nWe have a mattermost channel at https://mattermost.brainhack.org/brainhack/channels/gitpubs",
+        "body": "# Survey of github repos in pubmed\r\n\r\n## Project Description\r\n\r\nGithub is increasingly becoming a tool of choice for computational-oriented research. There have been plenty of efforts to get scientists to make use of this valuable tool, but to my awareness there hasn't been any attempt to evaluate how scientists use this resource.\r\n\r\nI pulled full-texts from pubmed and searched them for the presence of the string 'github' and found a bit over 20k papers that contained this string. Using these texts plus the github api I think we could provide some insight to the following:\r\n\r\n1) How many scientific repos contain a README?\r\n2) How often do often to repos contain files that are likely to be data (e.g. csv, json)\r\n3) What are the most popular types of analytic scripts (e.g. .py, .R, .ipynb, etc)?\r\n4) How do the above vary by research area?\r\n\r\n## Skills required to participate\r\n\r\nideally, experience with python or R & web-based APIs. Text analysis experience would be helpful.\r\n\r\n## Integration\r\nTBA\r\n\r\n## Preparation material\r\n\r\n[BioC API](https://www.ncbi.nlm.nih.gov/research/bionlp/APIs/BioC-PubMed/)\r\n\r\n[github API](https://developer.github.com/v3/)\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/riddlet/gitpubs\r\n\r\n## Communication\r\nWe have a mattermost channel at https://mattermost.brainhack.org/brainhack/channels/gitpubs",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/86/reactions",
             "total_count": 1,
@@ -669,6 +912,33 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850417282,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt-gg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Java",
+                "name": "Java",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -678,11 +948,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-06T08:46:34Z",
-        "updated_at": "2020-04-16T16:25:52Z",
+        "updated_at": "2022-11-28T16:48:06Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Surfer Web-Gems\r\n[Demo](https://seldamat.github.io/Surfer-webgems/)\r\n\r\n## Project Description\r\nThis software in development takes a FreeSurfer subjects directory, runs some summary routines, spits out meta-information to screen/tsv, compiles papaya web viewers for each subject, and generates a folder of html files running the papaya js to show individual subject brainmasks, edits, atlases, parcellations etc. etc. and across-subject summaries (SNR/p(edit voxel)/morphometrics).\r\n\r\nThis project was somewhat sloppily developed in bits and pieces over the period of a year and needs a bit of consolidation and help from individuals with software packaging experience (I'm a bit of a novice).\r\n\r\n## Skills required to participate\r\nExperience with nipype\r\nStructural imaging (freesurfer?)\r\nBash scripting?\r\nJava scripting\r\n\r\nNeed someone to help compile surface viewers to embed in HTML hereto docs.\r\n\r\n## Integration\r\nThis package would help groups easily parse output and summary statistics of the FreeSurfer pipeline for large datasets, aiding neurologists, clinicians and scientists to easily parse and view data.\r\n\r\n### Some goals\r\nEverything is was slapped/taped/glued together using bash as a wrapper for calls to various neuroimaging softwares and using HERETO documents to automatically generate HTML webpages.  A bit of clean-up, integration with python, documentation and expansion of functionality are the immediate goals (roughly in that order).\r\n \r\n- Rewrite FreeSurfer subject's directory summaries using nipype\r\n- Consolidate all functions and calls into a singular repository (this bridges two right now)\r\n- Output meta-analytic data to JSON rather tsv\r\n- Complete cross-subject summaries\r\n- Add 3D surface viewers for pial/white surfaces with thickness/morphometric overlay\r\n\r\n## Preparation material\r\n\ud83e\udd37\u200d\u2642\ufe0f\ud83e\udd37\u200d\u2642\ufe0f\ud83e\udd37\u200d\u2642\ufe0f\ud83e\udd37\u200d\u2642\ufe0f\r\n\r\n## Link to your GitHub repo\r\n[Surfer-webgems](https://github.com/seldamat/Surfer-webgems)\r\n[Dependent on Surfer-gems](git clone https://github.com/seldamat/Surfer-gems.git)\r\n\r\n## Communication\r\n[![slack_brainhack_3](https://user-images.githubusercontent.com/6297454/47951457-5b37b780-df61-11e8-9d77-7b5a4c7af875.png)](https://mattermost.brainhack.org/brainhack/channels/surfer-webgems) \r\n\r\n",
+        "body": "# Surfer Web-Gems\r\n[Demo](https://seldamat.github.io/Surfer-webgems/)\r\n\r\n## Project Description\r\n\r\nThis software in development takes a FreeSurfer subjects directory, runs some summary routines, spits out meta-information to screen/tsv, compiles papaya web viewers for each subject, and generates a folder of html files running the papaya js to show individual subject brainmasks, edits, atlases, parcellations etc. etc. and across-subject summaries (SNR/p(edit voxel)/morphometrics).\r\n\r\nThis project was somewhat sloppily developed in bits and pieces over the period of a year and needs a bit of consolidation and help from individuals with software packaging experience (I'm a bit of a novice).\r\n\r\n## Skills required to participate\r\nExperience with nipype\r\nStructural imaging (freesurfer?)\r\nBash scripting?\r\nJava scripting\r\n\r\nNeed someone to help compile surface viewers to embed in HTML hereto docs.\r\n\r\n## Integration\r\n\r\nThis package would help groups easily parse output and summary statistics of the FreeSurfer pipeline for large datasets, aiding neurologists, clinicians and scientists to easily parse and view data.\r\n\r\n### Some goals\r\nEverything is was slapped/taped/glued together using bash as a wrapper for calls to various neuroimaging softwares and using HERETO documents to automatically generate HTML webpages.  A bit of clean-up, integration with python, documentation and expansion of functionality are the immediate goals (roughly in that order).\r\n \r\n- Rewrite FreeSurfer subject's directory summaries using nipype\r\n- Consolidate all functions and calls into a singular repository (this bridges two right now)\r\n- Output meta-analytic data to JSON rather tsv\r\n- Complete cross-subject summaries\r\n- Add 3D surface viewers for pial/white surfaces with thickness/morphometric overlay\r\n\r\n## Preparation material\r\n\ud83e\udd37\u200d\u2642\ufe0f\ud83e\udd37\u200d\u2642\ufe0f\ud83e\udd37\u200d\u2642\ufe0f\ud83e\udd37\u200d\u2642\ufe0f\r\n\r\n## Link to your GitHub repo\r\n[Surfer-webgems](https://github.com/seldamat/Surfer-webgems)\r\n[Dependent on Surfer-gems](git clone https://github.com/seldamat/Surfer-gems.git)\r\n\r\n## Communication\r\n[![slack_brainhack_3](https://user-images.githubusercontent.com/6297454/47951457-5b37b780-df61-11e8-9d77-7b5a4c7af875.png)](https://mattermost.brainhack.org/brainhack/channels/surfer-webgems) \r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/85/reactions",
             "total_count": 0,
@@ -748,7 +1018,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-06T08:45:03Z",
-        "updated_at": "2020-04-16T16:25:44Z",
+        "updated_at": "2022-11-28T16:47:57Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
@@ -809,6 +1079,51 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850515871,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRz_nw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/containerization",
+                "name": "containerization",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850515874,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRz_og",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/AFNI",
+                "name": "AFNI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -818,11 +1133,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-05T18:10:25Z",
-        "updated_at": "2020-04-16T16:25:36Z",
+        "updated_at": "2022-11-28T16:48:18Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "\r\n\r\n\r\n# Tests for AFNI code?\r\n\r\n## Project Description\r\nYes they do exist. Currently our report coverage from codecov is a whopping 5%. I'd like to increase this. Let's aim for increasing the coverage by 8.2%!\r\n\r\nSince AFNI is blend of several programming languages, testing the various programs as executables seems like a sensible way to expand the tests to give some basic guarantee of stable functionality across the software suite. I have written some code to facilitate this and would now love some help increasing the test coverage/improving the approach. I have added a few issues to the AFNI github repo (with the \"Testing\") as some example hack items in addition to specifically adding more tests. \r\n\r\n## Skills required to participate\r\nLots of different parts of this so all are welcome.\r\n\r\n*Beginners*: For beginners there is some opportunies to help write documentation and learn a little about software testing, continuous integration, containerization, and the AFNI neuroimaging analysis software suite in general.\r\n\r\n*Neuroimaging scientists* With some basic python/bash skills a beginner will be able to add tests for any tool. Although not required, the more domain specific knowledge here the better. Having intuitions for what each tool \"should\" be doing without reading through docs etc. will speed up the process.\r\n\r\n*Pythonistas* Some help would be greatly appreciated from more advance python developers (even just dropping by to give some advice). There are some details to the execution of the  tests - for example datalad is used to store saved sample output data - that could do with testing to help with the endeavour. Likely such tests would require experience with mocking and comfort with git/git-annex/datalad.\r\n\r\n## Integration\r\n\r\nMilestones:\r\n+ Increase the testing coverage by 8.2%\r\n+ Increase the testing coverage by another 16.4%\r\n\r\n\r\n## Preparation material\r\nAn overview of adding the tests is [here](https://docs.google.com/document/d/1j8DxfA215sxC77Spcn_Ap0Xd8QYY3CBFCeL6jkxA-RU/edit)\r\n\r\n## Link to your GitHub repo\r\n[The afni codebase](https://github.com/afni/afni)  \r\n\r\n## Communication\r\nThe [matter most channel](https://mattermost.brainhack.org/brainhack/channels/tests_for_afni)\r\nAlso use the testing label in the [github issues](https://github.com/afni/afni/issues?q=is%3Aissue+is%3Aopen+label%3ATesting)",
+        "body": "\r\n# Tests for AFNI code?\r\n\r\n## Project Description\r\n\r\nYes they do exist. Currently our report coverage from codecov is a whopping 5%. I'd like to increase this. Let's aim for increasing the coverage by 8.2%!\r\n\r\nSince AFNI is blend of several programming languages, testing the various programs as executables seems like a sensible way to expand the tests to give some basic guarantee of stable functionality across the software suite. I have written some code to facilitate this and would now love some help increasing the test coverage/improving the approach. I have added a few issues to the AFNI github repo (with the \"Testing\") as some example hack items in addition to specifically adding more tests. \r\n\r\n## Skills required to participate\r\n\r\nLots of different parts of this so all are welcome.\r\n\r\n*Beginners*: For beginners there is some opportunies to help write documentation and learn a little about software testing, continuous integration, containerization, and the AFNI neuroimaging analysis software suite in general.\r\n\r\n*Neuroimaging scientists* With some basic python/bash skills a beginner will be able to add tests for any tool. Although not required, the more domain specific knowledge here the better. Having intuitions for what each tool \"should\" be doing without reading through docs etc. will speed up the process.\r\n\r\n*Pythonistas* Some help would be greatly appreciated from more advance python developers (even just dropping by to give some advice). There are some details to the execution of the  tests - for example datalad is used to store saved sample output data - that could do with testing to help with the endeavour. Likely such tests would require experience with mocking and comfort with git/git-annex/datalad.\r\n\r\n## Integration\r\n\r\nMilestones:\r\n+ Increase the testing coverage by 8.2%\r\n+ Increase the testing coverage by another 16.4%\r\n\r\n\r\n## Preparation material\r\nAn overview of adding the tests is [here](https://docs.google.com/document/d/1j8DxfA215sxC77Spcn_Ap0Xd8QYY3CBFCeL6jkxA-RU/edit)\r\n\r\n## Link to your GitHub repo\r\n[The afni codebase](https://github.com/afni/afni)  \r\n\r\n## Communication\r\nThe [matter most channel](https://mattermost.brainhack.org/brainhack/channels/tests_for_afni)\r\nAlso use the testing label in the [github issues](https://github.com/afni/afni/issues?q=is%3Aissue+is%3Aopen+label%3ATesting)",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/83/reactions",
             "total_count": 2,
@@ -879,6 +1194,51 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406968,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWOA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/diffusion",
+                "name": "diffusion",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416369,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt68Q",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/FSL",
+                "name": "FSL",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850516145,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR0AsQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/PET",
+                "name": "PET",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850516153,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR0AuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/connectome",
+                "name": "connectome",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -888,11 +1248,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2019-06-05T14:07:45Z",
-        "updated_at": "2020-04-16T16:25:21Z",
+        "updated_at": "2022-11-28T16:48:22Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Misfolded protein spreading through brain connectome\r\n\r\n## Project Description\r\nConnectomics have been used so far to look for quantifying global and local differences in the functional or structural brain networks, or alternatively, to simulate/study brain hemodynamics. Very few studies have used connectomes to investigate the spreading of misfolded proteins which is at the basis of Parkinson\u2019s (PD) and Alzheimer\u2019s disease (AD). It is believed that diseases as AD and PD are spread by misfolded proteins or agents which moves along brain connections (axons and dendrides of the neurons) starting from specific regions to others. For instance, AD has a progression of tau pathology consistently beginning in the entorhinal cortex, the locus coeruleus, and other nearby noradrenergic brainstem nuclei, before spreading to the rest of the limbic system as well as the cacingulate and retrosplenial cortices. While Parkinsons starts from the brainstem and spread to the neocortex. A previous study investigated this mechanism on connectome comparing simulated tau deposits on connectome to those detected by PET scans specific for Alzheimer\u2019s. In this project, we aim at carrying out a similar study but for PD relating to brain atrophy. In particular, we want to simulate deposits/spreading of alpha-syn proceeding via the brain\u2019s anatomic connectivity network. We will use human and mice data provided by the supervisors. The main challenge of the project is defining a proper model of spreading along the connectome. Data from the ADNI and PPMI dataset and given by the project supervisors will be given. Those include case (PD and AD patients) and control subjects along with clinical data and genetics (see below).\r\nCurrent challenges also include proper brain extraction (E.g. FSL BET) of PET data. \r\n\r\n## Skills required to participate\r\nPython : coders \r\nGenetic data: people who can handle SNP dataset\r\nMathematics: people who can manage dynamical models, heat equation and so on\r\n\r\n## Integration\r\nHow would your project integrate a neuroimager/clinician/psychologist/computational scientist/maker/artist as collaborator? \r\nWe want to simulate pathological brian disease comparing simulation of pathogen agents on structual connectomes to known neuroimaging markers as brain-atrophy and deposits from PET data.\r\n\r\nTry to define intermediate goals (milestones).  \r\n1. Compare simulations on Parkinson data  to brain atrophy (after checking that the atrophy has been obtained properly)\r\n2. Compare simulations on Alzheimer data  to BetaAmyloid PET deposits (after checking that the deposits has been obtained properly)\r\n3. Develop or improve existing spreading models.\r\n\r\n## Preparation material\r\n1. Crimi and Kara \"SPREADING MODEL FOR PATIENTS WITH PARKINSON'S DISEASE BASED ON CONNECTIVITY DIFFERENCES\" IEEE ISBI 2019,\r\nhttps://www.researchgate.net/publication/333583009_SPREADING_MODEL_FOR_PATIENTS_WITH_PARKINSON%27S_DISEASE_BASED_ON_CONNECTIVITY_DIFFERENCES\r\n\r\n2. Iturria-Medina, Yasser, et al. \u201cEpidemic spreading model to characterize misfolded proteins propagation in aging and associated neurodegenerative disorders.\u201d PLoS computational biology 10.11 (2014): e1003956. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003956\r\n3. Raj, Ashish, Amy Kuceyeski, and Michael Weiner. \u201cA network diffusion model of disease progression in dementia.\u201d Neuron73.6 (2012): 1204-1215. https://www.sciencedirect.com/science/article/pii/S0896627312001353\r\n4. H. Braak et al., \u201cStaging of brain pathology related to sporadic Parkinsons disease,\u201d Neurobiology of aging, vol. 24, no. 2, pp. 197\u2013211, 2003. https://www.sciencedirect.com/science/article/pii/S0197458002000659\r\n\r\n## Link to your GitHub repo\r\nStarting stuff to use:\r\nhttps://github.com/alecrimi/misfoldedproiteins_connectome\r\n\r\n## Communication\r\nSlack channel: https://mattermost.brainhack.org/brainhack/channels/misfoldedproteins\r\n![isbi_poster](https://user-images.githubusercontent.com/16406658/58962576-d4bfae80-87ab-11e9-9a99-c749e5ace4fb.jpg)\r\n",
+        "body": "# Misfolded protein spreading through brain connectome\r\n\r\n## Project Description\r\n\r\nConnectomics have been used so far to look for quantifying global and local differences in the functional or structural brain networks, or alternatively, to simulate/study brain hemodynamics. Very few studies have used connectomes to investigate the spreading of misfolded proteins which is at the basis of Parkinson\u2019s (PD) and Alzheimer\u2019s disease (AD). It is believed that diseases as AD and PD are spread by misfolded proteins or agents which moves along brain connections (axons and dendrides of the neurons) starting from specific regions to others. For instance, AD has a progression of tau pathology consistently beginning in the entorhinal cortex, the locus coeruleus, and other nearby noradrenergic brainstem nuclei, before spreading to the rest of the limbic system as well as the cacingulate and retrosplenial cortices. While Parkinsons starts from the brainstem and spread to the neocortex. A previous study investigated this mechanism on connectome comparing simulated tau deposits on connectome to those detected by PET scans specific for Alzheimer\u2019s. In this project, we aim at carrying out a similar study but for PD relating to brain atrophy. In particular, we want to simulate deposits/spreading of alpha-syn proceeding via the brain\u2019s anatomic connectivity network. We will use human and mice data provided by the supervisors. The main challenge of the project is defining a proper model of spreading along the connectome. Data from the ADNI and PPMI dataset and given by the project supervisors will be given. Those include case (PD and AD patients) and control subjects along with clinical data and genetics (see below).\r\nCurrent challenges also include proper brain extraction (E.g. FSL BET) of PET data. \r\n\r\n## Skills required to participate\r\n\r\nPython : coders \r\nGenetic data: people who can handle SNP dataset\r\nMathematics: people who can manage dynamical models, heat equation and so on\r\n\r\n## Integration\r\nHow would your project integrate a neuroimager/clinician/psychologist/computational scientist/maker/artist as collaborator? \r\nWe want to simulate pathological brian disease comparing simulation of pathogen agents on structual connectomes to known neuroimaging markers as brain-atrophy and deposits from PET data.\r\n\r\nTry to define intermediate goals (milestones).  \r\n1. Compare simulations on Parkinson data  to brain atrophy (after checking that the atrophy has been obtained properly)\r\n2. Compare simulations on Alzheimer data  to BetaAmyloid PET deposits (after checking that the deposits has been obtained properly)\r\n3. Develop or improve existing spreading models.\r\n\r\n## Preparation material\r\n1. Crimi and Kara \"SPREADING MODEL FOR PATIENTS WITH PARKINSON'S DISEASE BASED ON CONNECTIVITY DIFFERENCES\" IEEE ISBI 2019,\r\nhttps://www.researchgate.net/publication/333583009_SPREADING_MODEL_FOR_PATIENTS_WITH_PARKINSON%27S_DISEASE_BASED_ON_CONNECTIVITY_DIFFERENCES\r\n\r\n2. Iturria-Medina, Yasser, et al. \u201cEpidemic spreading model to characterize misfolded proteins propagation in aging and associated neurodegenerative disorders.\u201d PLoS computational biology 10.11 (2014): e1003956. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003956\r\n3. Raj, Ashish, Amy Kuceyeski, and Michael Weiner. \u201cA network diffusion model of disease progression in dementia.\u201d Neuron73.6 (2012): 1204-1215. https://www.sciencedirect.com/science/article/pii/S0896627312001353\r\n4. H. Braak et al., \u201cStaging of brain pathology related to sporadic Parkinsons disease,\u201d Neurobiology of aging, vol. 24, no. 2, pp. 197\u2013211, 2003. https://www.sciencedirect.com/science/article/pii/S0197458002000659\r\n\r\n## Link to your GitHub repo\r\nStarting stuff to use:\r\nhttps://github.com/alecrimi/misfoldedproiteins_connectome\r\n\r\n## Communication\r\nSlack channel: https://mattermost.brainhack.org/brainhack/channels/misfoldedproteins\r\n![isbi_poster](https://user-images.githubusercontent.com/16406658/58962576-d4bfae80-87ab-11e9-9a99-c749e5ace4fb.jpg)\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/82/reactions",
             "total_count": 1,
@@ -949,6 +1309,24 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850516555,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR0CSw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Brainstorm",
+                "name": "Brainstorm",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -958,11 +1336,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2019-06-05T12:45:37Z",
-        "updated_at": "2020-04-16T16:25:16Z",
+        "updated_at": "2022-11-28T16:48:27Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Explorative analysis of fetal cortical surface data\r\n\r\n## Project Description\r\nUnderstanding the maturation of the human brain from a smooth surface to its highly convoluted state at birth is an essential quest in the field of neuroscience. In the last decade the development of fast MR imaging protocols and advanced image processing methods has enabled imaging of the fetal brain at unprecedented detail. However, data availability is very limited due to comparatively rare examinations, small study sizes and high population variability.  \r\n \r\nIn the spirit of open and repeatable research, we present the preliminary release of a dataset of 33 pre-processed MRI acquisitions of healthy fetal brains of 26 individuals imaged between GW 20 and GW 36. Furthermore, we provide cortical surface models human fetal cerebral hemispheres consisting of densely sampled surface triangulations that are matched between hemispheres and across time to serve as a standardized reference frame for surface-based analysis of cerebral development in utero.\r\n\r\nDuring the hackaton, I'd welcome anyone interested to do so to get in touch and bounce around ideas how to get the most out of this data.\r\n\r\n## Skills required to participate\r\nSince this is a very open project, people with all type of skills can contribute, but experience with visualization and maybe computational geometry might come in handy. \r\n\r\n## Aims\r\nBrainstorming on how to visualize and interpret the growth of the fetal brain in utero and what methods to apply for fun and profit.\r\n\r\n## Data availability\r\nUnfortunately, I cannot (yet) put the data online - people interested in working on it will have to provide their names and contact email and I will provide a download link.\r\n\r\n## Communication\r\nhttps://mattermost.brainhack.org/brainhack/channels/ohbm19_hackaton_fetal",
+        "body": "# Explorative analysis of fetal cortical surface data\r\n\r\n## Project Description\r\n\r\nUnderstanding the maturation of the human brain from a smooth surface to its highly convoluted state at birth is an essential quest in the field of neuroscience. In the last decade the development of fast MR imaging protocols and advanced image processing methods has enabled imaging of the fetal brain at unprecedented detail. However, data availability is very limited due to comparatively rare examinations, small study sizes and high population variability.  \r\n \r\nIn the spirit of open and repeatable research, we present the preliminary release of a dataset of 33 pre-processed MRI acquisitions of healthy fetal brains of 26 individuals imaged between GW 20 and GW 36. Furthermore, we provide cortical surface models human fetal cerebral hemispheres consisting of densely sampled surface triangulations that are matched between hemispheres and across time to serve as a standardized reference frame for surface-based analysis of cerebral development in utero.\r\n\r\nDuring the hackaton, I'd welcome anyone interested to do so to get in touch and bounce around ideas how to get the most out of this data.\r\n\r\n## Skills required to participate\r\n\r\nSince this is a very open project, people with all type of skills can contribute, but experience with visualization and maybe computational geometry might come in handy. \r\n\r\n## Aims\r\nBrainstorming on how to visualize and interpret the growth of the fetal brain in utero and what methods to apply for fun and profit.\r\n\r\n## Data availability\r\nUnfortunately, I cannot (yet) put the data online - people interested in working on it will have to provide their names and contact email and I will provide a download link.\r\n\r\n## Communication\r\nhttps://mattermost.brainhack.org/brainhack/channels/ohbm19_hackaton_fetal",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/81/reactions",
             "total_count": 0,
@@ -1019,6 +1397,96 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686717373,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhvQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:expert",
+                "name": "project_tools_skills:expert",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686717374,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhvg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:familiar",
+                "name": "project_tools_skills:familiar",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850409556,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgVA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Nipype",
+                "name": "Nipype",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850410522,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtkGg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416740,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt8ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/EEG",
+                "name": "EEG",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416741,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt8ZQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MEG",
+                "name": "MEG",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1028,7 +1496,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-05T08:54:23Z",
-        "updated_at": "2020-04-16T16:25:05Z",
+        "updated_at": "2022-11-28T16:48:42Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
@@ -1089,6 +1557,15 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1098,11 +1575,11 @@
         "milestone": null,
         "comments": 15,
         "created_at": "2019-06-05T08:36:56Z",
-        "updated_at": "2020-04-16T16:24:54Z",
+        "updated_at": "2022-11-28T16:53:15Z",
         "closed_at": null,
-        "author_association": "NONE",
+        "author_association": "MEMBER",
         "active_lock_reason": null,
-        "body": "# Extending Nobrainer - a deep learning framework for neuroimaging\r\n\r\n## Project Description\r\n[Nobrainer](https://github.com/neuronets/nobrainer) is a tensorflow 2.0 based framework for creating and distributing neural network models for MR image processing. The goal of this project is to discuss the structure of Nobrainer and to make it easy for people to create and [publish reusable models](https://github.com/neuronets/nobrainer-models). Some of the recent work has focused on [generative models for MR](https://docs.google.com/presentation/d/1Tt83AdCsIlU_VlzVv91canZBGev1uNZZ-R_GpM6yIF8/edit#slide=id.g58973cc7e9_0_263).\r\n\r\n## Skills required to participate\r\n- Python\r\n- Tensorflow 2.0 (Keras layers)\r\n- MR image processing\r\n\r\n## Integration\r\nHow would your project integrate a neuroimager/clinician/psychologist/computational scientist/maker/artist as collaborator?\r\n\r\nWe would love for individuals to post issues describing use cases, feature requests, and contribute code or new models to the project.\r\n\r\nTry to define intermediate goals (milestones).  \r\n- Increase trained models provided by nobrainer\r\n- Increase baseline architectures available\r\n- Provide model comparison\r\n\r\n## Preparation material\r\nIn addition to the code repo, these notebooks are intended to help guide individuals:\r\n\r\nhttps://github.com/neuronets/nobrainer#guide-jupyter-notebooks-\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/neuronets\r\n\r\n## Communication\r\nIssues on github repo\r\n",
+        "body": "# Extending Nobrainer - a deep learning framework for neuroimaging\r\n\r\n## Project Description\r\n\r\n[Nobrainer](https://github.com/neuronets/nobrainer) is a tensorflow 2.0 based framework for creating and distributing neural network models for MR image processing. The goal of this project is to discuss the structure of Nobrainer and to make it easy for people to create and [publish reusable models](https://github.com/neuronets/nobrainer-models). Some of the recent work has focused on [generative models for MR](https://docs.google.com/presentation/d/1Tt83AdCsIlU_VlzVv91canZBGev1uNZZ-R_GpM6yIF8/edit#slide=id.g58973cc7e9_0_263).\r\n\r\n## Skills required to participate\r\n\r\n- Python\r\n- Tensorflow 2.0 (Keras layers)\r\n- MR image processing\r\n\r\n## Integration\r\nHow would your project integrate a neuroimager/clinician/psychologist/computational scientist/maker/artist as collaborator?\r\n\r\nWe would love for individuals to post issues describing use cases, feature requests, and contribute code or new models to the project.\r\n\r\nTry to define intermediate goals (milestones).  \r\n- Increase trained models provided by nobrainer\r\n- Increase baseline architectures available\r\n- Provide model comparison\r\n\r\n## Preparation material\r\nIn addition to the code repo, these notebooks are intended to help guide individuals:\r\n\r\nhttps://github.com/neuronets/nobrainer#guide-jupyter-notebooks-\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/neuronets\r\n\r\n## Communication\r\nIssues on github repo\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/79/reactions",
             "total_count": 0,
@@ -1159,6 +1636,33 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1168,11 +1672,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-05T08:19:21Z",
-        "updated_at": "2020-04-16T16:24:34Z",
+        "updated_at": "2022-11-28T16:53:19Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Neurofeedback in Python - how to transform Pyff (stimulus delivery) from the old Python 2 into the new Python 3 Realm.\r\n\r\n\r\n## Background\r\nPyff is a Python module that can be combined with Psychopy to perform Neurofeedback experiments. Pyff can load in and run stimulus paradigms and communicate via TCP/IP to other computers to update stimuli in real-time. In order to do so, it starts up a seeparate process with a main thread (since all screen refresh/3D/graphical stuff needs to be in a main thread), and a separate thread that monitors incoming network traffic.\r\n\r\nThis spearate thread relies heavily on asyncio/asynchat to prevent the that thread from killing itself if something goes wrong with the network traffic part (which usually does). Asynchat/Asyncio is a type of asynchronous programming where the interpreter can continue with other code while one line dealing with network traffic is waiting. Asynchronous programming has underdone many iterations, and one of the major one is that it is now implemented in python 3's async module and asyncio/asynchat no longer exists in favor of the more general async module. \r\n\r\nThe documentation is however quite bad. The work I propose is to take a look to see if pyff python 2's asyncio/asynchat can be deciphered into equivalent async code, and furthermore to more fully convert pyff into the python 3 realm.\r\n\r\n## knowledge\r\nPreferably something about async programming\r\n\r\n\r\n## github repository\r\nhttps://github.com/jnvandermeer/nf-stim-review\r\n2to3 program\r\n\r\n\r\nThis would be a good match for the traintrack python2 to python3 issue raised earlier (issue #25)",
+        "body": "# Neurofeedback in Python - how to transform Pyff (stimulus delivery) from the old Python 2 into the new Python 3 Realm.\r\n\r\n\r\n## Background\r\n\r\nPyff is a Python module that can be combined with Psychopy to perform Neurofeedback experiments. Pyff can load in and run stimulus paradigms and communicate via TCP/IP to other computers to update stimuli in real-time. In order to do so, it starts up a seeparate process with a main thread (since all screen refresh/3D/graphical stuff needs to be in a main thread), and a separate thread that monitors incoming network traffic.\r\n\r\nThis spearate thread relies heavily on asyncio/asynchat to prevent the that thread from killing itself if something goes wrong with the network traffic part (which usually does). Asynchat/Asyncio is a type of asynchronous programming where the interpreter can continue with other code while one line dealing with network traffic is waiting. Asynchronous programming has underdone many iterations, and one of the major one is that it is now implemented in python 3's async module and asyncio/asynchat no longer exists in favor of the more general async module. \r\n\r\nThe documentation is however quite bad. The work I propose is to take a look to see if pyff python 2's asyncio/asynchat can be deciphered into equivalent async code, and furthermore to more fully convert pyff into the python 3 realm.\r\n\r\n## knowledge\r\n\r\nPreferably something about async programming\r\n\r\n\r\n## github repository\r\nhttps://github.com/jnvandermeer/nf-stim-review\r\n2to3 program\r\n\r\n\r\nThis would be a good match for the traintrack python2 to python3 issue raised earlier (issue #25)",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/78/reactions",
             "total_count": 0,
@@ -1229,6 +1733,24 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416740,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt8ZA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/EEG",
+                "name": "EEG",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1238,11 +1760,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-05T08:16:17Z",
-        "updated_at": "2020-04-16T16:24:19Z",
+        "updated_at": "2022-11-28T16:53:28Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Neurofeedback in Python - the need for speed\r\n\r\n\r\n## Background\r\nIn EEG neurofeedback timing is perhaps not always so cricial that feedback needs to happen within < 1 miliseconds (for that you'd need real-time Operating systems), but it's still impotant enough that the \"Neurofeedback Loop\" need to happen relatively fast - and consistent, and in pace with the data acquisition. Lag is unavoidable and acceptable, within limits. Lag can be introduced because you need to do some mathematical operation (filtering especially), or because of Input/Output 'clogging'. Acceptable lag in EEG NF is in the order of 150-200 miliseconds, but the faster the better.\r\n\r\nProgramming in C will more likely give you that kind of speed, but making (and compiling) things in Python makes it a bit harder to communicate with the Python community, and Python should (in principle) be fast enough also for Neurofeedback purposes. There are currently (as far as I know) two main repositories of Python-based Neurofeedback software: Pyff/Wyrm, made by Bastian Venthur in 2010 (and since more-or-less abandoned). And nfb (see REF PAPER).\r\n\r\n## Issues\r\nThe issue is Lag. In python, one type of lag is due to the Global Interpreter Lock. Basically it means that python interpreter can read & interpret only one python line at a time, so all other lines have to wait their turn. So that means if you have something else that needs to be done in the neurofeedback loop - writing a file, updating your screen, keeping track of parameters, or doing an analysis while the NF loop is running, the Neurofeeback loop has to stop - or you delegate work to another python interpreter.\r\n\r\nDelegation is by python's multiprocessing module. There are other ways to do parallel evaluations with threading and asynchronous programming, but the also need to obey the GIL. Basically you start another Python session (and interpreter) - that can run on a separate core and do stuff while the main process hanles the neurofeedback loop, thereby reducing the Lag. The two processes communicate via files (bad), pipes/queues (preferred), or shared memory (probably the fastest, but care is needed).\r\n\r\nHowever... starting a Process takes time. And also, putting stuff into a queue and picking stuff out of a queue ALSO takes time. The bigger the data exchanged the longer it takes. The project I propose is to do some benchmarking/stress testing and measure how long it takes to start up a process, and how much data can you move around at what speeds, in the contesxt of some Neurofeedback and real-time processing that i've been working on. Ideally, the speed should be infinite and the lag 0 of such operations. A lag of more than 30-50 miliseconds can already tamper with the consistency of the Neurofeedback loop.\r\n\r\n## Aims\r\n- get an idea on what typical lags are when shuffling around data and delegating work\r\n- a decorator or a module for timing a typical NF experiment\r\n\r\n\r\n## Knowledge \r\nMultiprocessing, Queues, GIL\r\n\r\n\r\n## Github Repository\r\nhttps://github.com/jnvandermeer/nf-rtime-preview\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# Neurofeedback in Python - the need for speed\r\n\r\n\r\n## Background\r\n\r\nIn EEG neurofeedback timing is perhaps not always so cricial that feedback needs to happen within < 1 miliseconds (for that you'd need real-time Operating systems), but it's still impotant enough that the \"Neurofeedback Loop\" need to happen relatively fast - and consistent, and in pace with the data acquisition. Lag is unavoidable and acceptable, within limits. Lag can be introduced because you need to do some mathematical operation (filtering especially), or because of Input/Output 'clogging'. Acceptable lag in EEG NF is in the order of 150-200 miliseconds, but the faster the better.\r\n\r\nProgramming in C will more likely give you that kind of speed, but making (and compiling) things in Python makes it a bit harder to communicate with the Python community, and Python should (in principle) be fast enough also for Neurofeedback purposes. There are currently (as far as I know) two main repositories of Python-based Neurofeedback software: Pyff/Wyrm, made by Bastian Venthur in 2010 (and since more-or-less abandoned). And nfb (see REF PAPER).\r\n\r\n## Issues\r\n\r\nThe issue is Lag. In python, one type of lag is due to the Global Interpreter Lock. Basically it means that python interpreter can read & interpret only one python line at a time, so all other lines have to wait their turn. So that means if you have something else that needs to be done in the neurofeedback loop - writing a file, updating your screen, keeping track of parameters, or doing an analysis while the NF loop is running, the Neurofeeback loop has to stop - or you delegate work to another python interpreter.\r\n\r\nDelegation is by python's multiprocessing module. There are other ways to do parallel evaluations with threading and asynchronous programming, but the also need to obey the GIL. Basically you start another Python session (and interpreter) - that can run on a separate core and do stuff while the main process hanles the neurofeedback loop, thereby reducing the Lag. The two processes communicate via files (bad), pipes/queues (preferred), or shared memory (probably the fastest, but care is needed).\r\n\r\nHowever... starting a Process takes time. And also, putting stuff into a queue and picking stuff out of a queue ALSO takes time. The bigger the data exchanged the longer it takes. The project I propose is to do some benchmarking/stress testing and measure how long it takes to start up a process, and how much data can you move around at what speeds, in the contesxt of some Neurofeedback and real-time processing that i've been working on. Ideally, the speed should be infinite and the lag 0 of such operations. A lag of more than 30-50 miliseconds can already tamper with the consistency of the Neurofeedback loop.\r\n\r\n## Aims\r\n- get an idea on what typical lags are when shuffling around data and delegating work\r\n- a decorator or a module for timing a typical NF experiment\r\n\r\n\r\n## Knowledge \r\nMultiprocessing, Queues, GIL\r\n\r\n\r\n## Github Repository\r\nhttps://github.com/jnvandermeer/nf-rtime-preview\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/77/reactions",
             "total_count": 1,
@@ -1299,6 +1821,42 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717373,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhvQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:expert",
+                "name": "project_tools_skills:expert",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850409552,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgUA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/fMRI",
+                "name": "fMRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1308,11 +1866,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-05T00:04:16Z",
-        "updated_at": "2020-04-16T16:24:05Z",
+        "updated_at": "2022-11-28T16:43:54Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
-        "body": "# nii-masker\r\n\r\n## Project Description\r\n`niimasker` is a command-line wrapper for nilearn's Masker objects, which let you easily extract out time series from your functional data (and gives you a number of options for post-processing during extraction). I'm in a lab with a number of non-Python users who would benefit greatly from this ability, and this project was a spur-of-the-moment project idea I had a couple of weeks ago when discussing my fMRI pipeline with my colleagues (we're trying to get a more standardized workflow going \u2013 fmriprep, etc). Because `niimasker` is run via the command-line, pretty much anyone with some bash knowledge can use it (or at least that's what I'm working towards). \r\n\r\nI developed much of this last week in a \"mini-sprint\" (i.e. a colleague needed data \"yesterday\"). While its core functionality is working, there's lots to be done. I've included a number of issues in the repo already: https://github.com/danjgale/nii-masker/issues. So, there are some exciting features to add (e.g., a visual report \u00e0 la fmriprep) as well as some testing/CI to set up. These outline some of the things I'd like to accomplish at the hackathon. \r\n\r\n## Skills required to participate\r\n\r\n- Any experience with Python and nilearn\r\n- Any HTML knowledge would be helpful for development of the visual report!\r\n\r\n## Integration\r\nThe goal is to create a totally intuitive tool for anyone, so all contributions from all backgrounds and perspectives are encouraged. Non-expert/technical users can contribute by providing feedback and design ideas to make `niimasker` more approachable and user-friendly. \r\n\r\n## Preparation material\r\n\r\n- [Nilearn\u2019s user guide](https://nilearn.github.io/user_guide.html ), in particular the [masker guide](https://nilearn.github.io/manipulating_images/masker_objects.html)\r\n- [argparse info](https://docs.python.org/3/howto/argparse.html)\r\n- The project's README\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/danjgale/nii-masker/\r\n\r\n## Communication\r\nI can set up a channel on the brainhack mattermost/slack if this gains interest. I would also like to keep a lot of conversation \"in the open\" directly in github issues as well. \r\n\r\n\r\n",
+        "body": "# nii-masker\r\n\r\n## Project Description\r\n\r\n`niimasker` is a command-line wrapper for nilearn's Masker objects, which let you easily extract out time series from your functional data (and gives you a number of options for post-processing during extraction). I'm in a lab with a number of non-Python users who would benefit greatly from this ability, and this project was a spur-of-the-moment project idea I had a couple of weeks ago when discussing my fMRI pipeline with my colleagues (we're trying to get a more standardized workflow going \u2013 fmriprep, etc). Because `niimasker` is run via the command-line, pretty much anyone with some bash knowledge can use it (or at least that's what I'm working towards). \r\n\r\nI developed much of this last week in a \"mini-sprint\" (i.e. a colleague needed data \"yesterday\"). While its core functionality is working, there's lots to be done. I've included a number of issues in the repo already: https://github.com/danjgale/nii-masker/issues. So, there are some exciting features to add (e.g., a visual report \u00e0 la fmriprep) as well as some testing/CI to set up. These outline some of the things I'd like to accomplish at the hackathon. \r\n\r\n## Skills required to participate\r\n\r\n- Any experience with Python and nilearn\r\n- Any HTML knowledge would be helpful for development of the visual report!\r\n\r\n## Integration\r\nThe goal is to create a totally intuitive tool for anyone, so all contributions from all backgrounds and perspectives are encouraged. Non-expert/technical users can contribute by providing feedback and design ideas to make `niimasker` more approachable and user-friendly. \r\n\r\n## Preparation material\r\n\r\n- [Nilearn\u2019s user guide](https://nilearn.github.io/user_guide.html ), in particular the [masker guide](https://nilearn.github.io/manipulating_images/masker_objects.html)\r\n- [argparse info](https://docs.python.org/3/howto/argparse.html)\r\n- The project's README\r\n\r\n## Link to your GitHub repo\r\n\r\nhttps://github.com/danjgale/nii-masker/\r\n\r\n## Communication\r\nI can set up a channel on the brainhack mattermost/slack if this gains interest. I would also like to keep a lot of conversation \"in the open\" directly in github issues as well. \r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/76/reactions",
             "total_count": 0,
@@ -1369,6 +1927,15 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850409556,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgVA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Nipype",
+                "name": "Nipype",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1378,11 +1945,11 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2019-06-04T16:19:21Z",
-        "updated_at": "2019-06-04T16:19:28Z",
+        "updated_at": "2022-11-28T16:53:35Z",
         "closed_at": null,
-        "author_association": "CONTRIBUTOR",
+        "author_association": "MEMBER",
         "active_lock_reason": null,
-        "body": "# Nipype + GiraffeTools, support for custom functions\r\n\r\n## Project Description\r\nI would like to visually build a Nipype workflow. This is already possible with [GiraffeTools](https://giraffe.tools/porcupine/TimVanMourik/SomeGiraffeExample) but only with standard Nipype nodes. It would be really cool if you could include ANY of your own functions straight away: wrap them into Nipype-modules and show them to the world.\r\n\r\nThis project is largely based on [this issue](https://github.com/TimVanMourik/GiraffeTools/issues/107)\r\n\r\n## Skills required to participate\r\n* Heard of the word 'Nipype'\r\n\r\n## Integration\r\nThis Hackathon is a particularly good moment to do this, because we can see what users and developers need in building workflows.\r\n\r\n## Preparation material\r\n* https://giraffe.tools\r\n* https://giraffe.tools/porcupine/TimVanMourik/SomeGiraffeExample\r\n* https://github.com/TimVanMourik/GiraffeTools\r\n* https://github.com/TimVanMourik/GiraffeTools/issues/107\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/TimVanMourik/GiraffeTools\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# Nipype + GiraffeTools, support for custom functions\r\n\r\n## Project Description\r\n\r\nI would like to visually build a Nipype workflow. This is already possible with [GiraffeTools](https://giraffe.tools/porcupine/TimVanMourik/SomeGiraffeExample) but only with standard Nipype nodes. It would be really cool if you could include ANY of your own functions straight away: wrap them into Nipype-modules and show them to the world.\r\n\r\nThis project is largely based on [this issue](https://github.com/TimVanMourik/GiraffeTools/issues/107)\r\n\r\n## Skills required to participate\r\n\r\n* Heard of the word 'Nipype'\r\n\r\n## Integration\r\nThis Hackathon is a particularly good moment to do this, because we can see what users and developers need in building workflows.\r\n\r\n## Preparation material\r\n* https://giraffe.tools\r\n* https://giraffe.tools/porcupine/TimVanMourik/SomeGiraffeExample\r\n* https://github.com/TimVanMourik/GiraffeTools\r\n* https://github.com/TimVanMourik/GiraffeTools/issues/107\r\n\r\n## Link to your GitHub repo\r\nhttps://github.com/TimVanMourik/GiraffeTools\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/75/reactions",
             "total_count": 0,
@@ -1439,6 +2006,42 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850410522,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtkGg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850415818,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt4yg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Matlab",
+                "name": "Matlab",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416371,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt68w",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/SPM",
+                "name": "SPM",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1448,11 +2051,11 @@
         "milestone": null,
         "comments": 11,
         "created_at": "2019-06-04T10:40:42Z",
-        "updated_at": "2022-07-18T10:55:35Z",
+        "updated_at": "2022-11-28T16:53:40Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# BIDS-ifying the hMRI toolbox\r\n\r\n## Project Description\r\nThe [hMRI toolbox](http://hmri.info) allows you to generate quantitative MRI data from a series of \"raw\" multi-echo structural images and field maps, i.e. the Multi-Parametric Mapping (MPM) protocol. So far, the toolbox is not BIDS compliant but it would clearly help everyone if it did... \r\n\r\n![hMRI_mapcreation](https://user-images.githubusercontent.com/2011934/59023151-6c2a0d80-884f-11e9-90a2-6b46c01699cd.png)\r\n\r\n## Skills required to participate\r\nAnyone with some experience in Matlab, quantitative MRI, SPM-extension toolbox development or the will to learn these skills.\r\n\r\n## Integration\r\nThe [hMRI project](http://hmri.info) has been supported by a few labs already and used by a few more. Harmonizing the way the sequence parameters are saved and accessed would help data management, QA, and sharing. \r\n\r\nOne [BIDS Extension Proposal (BEP001)](https://docs.google.com/document/d/1QwfHyBzOyFWOLO4u_kkojLpUhW0-4_M7Ubafu9Gf4Gg/) focuses on standardizing such structural acquisitions that include multiple contrasts (multi echo, flip angle, inversion time) sequences. This effort thus aims at integrating the hMRI toolbox within the BEP001. The latter is still in development, therefore adjustments if needed are still possible.\r\n\r\nIntermediate steps:\r\n- BIDS-ify the example provided example data\r\n- updates the toolbox to use the BIDS form of the parameters\r\n- extend the Dicom-to-Nifti conversion according to BIDS \r\n\r\n## Preparation material\r\nThe public distribution of [hMRI toolbox](http://hmri.info) code is available [here](https://github.com/hMRI-group/hMRI-toolbox) but I'll make the latest private version available for the development.\r\nExample data are available [here](https://owncloud.gwdg.de/index.php/s/iv2TOQwGy4FGDDZ), specifically the [\"800\u00b5m 64 channel protocol\" data set](https://owncloud.gwdg.de/index.php/s/iv2TOQwGy4FGDDZ/download?path=%2F&files=hmri_sample_dataset_with_maps.zip).\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# BIDS-ifying the hMRI toolbox\r\n\r\n## Project Description\r\n\r\nThe [hMRI toolbox](http://hmri.info) allows you to generate quantitative MRI data from a series of \"raw\" multi-echo structural images and field maps, i.e. the Multi-Parametric Mapping (MPM) protocol. So far, the toolbox is not BIDS compliant but it would clearly help everyone if it did... \r\n\r\n![hMRI_mapcreation](https://user-images.githubusercontent.com/2011934/59023151-6c2a0d80-884f-11e9-90a2-6b46c01699cd.png)\r\n\r\n## Skills required to participate\r\n\r\nAnyone with some experience in Matlab, quantitative MRI, SPM-extension toolbox development or the will to learn these skills.\r\n\r\n## Integration\r\nThe [hMRI project](http://hmri.info) has been supported by a few labs already and used by a few more. Harmonizing the way the sequence parameters are saved and accessed would help data management, QA, and sharing. \r\n\r\nOne [BIDS Extension Proposal (BEP001)](https://docs.google.com/document/d/1QwfHyBzOyFWOLO4u_kkojLpUhW0-4_M7Ubafu9Gf4Gg/) focuses on standardizing such structural acquisitions that include multiple contrasts (multi echo, flip angle, inversion time) sequences. This effort thus aims at integrating the hMRI toolbox within the BEP001. The latter is still in development, therefore adjustments if needed are still possible.\r\n\r\nIntermediate steps:\r\n- BIDS-ify the example provided example data\r\n- updates the toolbox to use the BIDS form of the parameters\r\n- extend the Dicom-to-Nifti conversion according to BIDS \r\n\r\n## Preparation material\r\nThe public distribution of [hMRI toolbox](http://hmri.info) code is available [here](https://github.com/hMRI-group/hMRI-toolbox) but I'll make the latest private version available for the development.\r\nExample data are available [here](https://owncloud.gwdg.de/index.php/s/iv2TOQwGy4FGDDZ), specifically the [\"800\u00b5m 64 channel protocol\" data set](https://owncloud.gwdg.de/index.php/s/iv2TOQwGy4FGDDZ/download?path=%2F&files=hmri_sample_dataset_with_maps.zip).\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/74/reactions",
             "total_count": 0,
@@ -1509,6 +2112,15 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850417282,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt-gg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Java",
+                "name": "Java",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1518,11 +2130,11 @@
         "milestone": null,
         "comments": 11,
         "created_at": "2019-06-03T18:04:20Z",
-        "updated_at": "2019-06-07T14:15:10Z",
+        "updated_at": "2022-11-28T16:53:45Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Name TBD\r\n\r\n## Project Description\r\nThere are quite a few JS brain image viewers out there, but they overwhelmingly focus on the rendering side of things rather than the UI side. The goal of this project is to develop a high-level, modular JS library that (a) defines a common API for viewers, (b) implements support for widely used viewers (e.g., Papaya), and (c) provides a set of customizable widgets/components that can be easily injected into new JS projects. If successful, users should be able to construct relatively sophisticated dashboards (including things like image thresholding and color assignment, customized orth views, multiple layers, etc.) in just a few lines of JS code.\r\n\r\n## Skills required to participate\r\nAll kinds of contributions are welcome, but the project is likely to benefit particularly from the involvement of people with JavaScript experience and/or general experience building APIs and architecting modular libraries.\r\n\r\n## Integration\r\nThere's room for contribution from folks with a wide range of backgrounds and experience levels. We will be particularly interested in soliciting opinions on what core features the package should include, and how users expect to interact with good visualization tools.\r\n\r\n## Preparation material\r\nFolks with prior JavaScript experience may want to take a look at a few of the existing viewers, e.g., [Papaya](https://github.com/rii-mango/Papaya), [PyCortex](https://github.com/gallantlab/pycortex), and [brainsprite.js](https://github.com/SIMEXP/brainsprite.js). Participants with prior programming experience who are new to JavaScript may want to whisper a few quiet prayers and then take the plunge into a JS tutorial or six.\r\n\r\n## Link to your GitHub repo\r\n[https://github.com/neurostuff/BVT](https://github.com/neurostuff/BVT) \u2014 but that's currently just a placeholder.\r\n\r\n\r\n",
+        "body": "# Name TBD\r\n\r\n## Project Description\r\n\r\nThere are quite a few JS brain image viewers out there, but they overwhelmingly focus on the rendering side of things rather than the UI side. The goal of this project is to develop a high-level, modular JS library that (a) defines a common API for viewers, (b) implements support for widely used viewers (e.g., Papaya), and (c) provides a set of customizable widgets/components that can be easily injected into new JS projects. If successful, users should be able to construct relatively sophisticated dashboards (including things like image thresholding and color assignment, customized orth views, multiple layers, etc.) in just a few lines of JS code.\r\n\r\n## Skills required to participate\r\n\r\nAll kinds of contributions are welcome, but the project is likely to benefit particularly from the involvement of people with JavaScript experience and/or general experience building APIs and architecting modular libraries.\r\n\r\n## Integration\r\nThere's room for contribution from folks with a wide range of backgrounds and experience levels. We will be particularly interested in soliciting opinions on what core features the package should include, and how users expect to interact with good visualization tools.\r\n\r\n## Preparation material\r\nFolks with prior JavaScript experience may want to take a look at a few of the existing viewers, e.g., [Papaya](https://github.com/rii-mango/Papaya), [PyCortex](https://github.com/gallantlab/pycortex), and [brainsprite.js](https://github.com/SIMEXP/brainsprite.js). Participants with prior programming experience who are new to JavaScript may want to whisper a few quiet prayers and then take the plunge into a JS tutorial or six.\r\n\r\n## Link to your GitHub repo\r\n[https://github.com/neurostuff/BVT](https://github.com/neurostuff/BVT) \u2014 but that's currently just a placeholder.\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/73/reactions",
             "total_count": 6,
@@ -1579,6 +2191,51 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717367,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhtw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:comfortable",
+                "name": "project_tools_skills:comfortable",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850409552,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtgUA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/fMRI",
+                "name": "fMRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1588,11 +2245,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2019-06-02T10:13:28Z",
-        "updated_at": "2019-06-03T09:51:01Z",
+        "updated_at": "2022-11-28T16:55:28Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Animal /Nonstandard Brain Pipelines\r\n\r\n## Project Description\r\nThis is an example of converting an in house animal pipeline project to hopefully  a feat or c-pac for animal studies. In Neuroimaging we're generally limited to working with a small range of animals. Even if you're working with macaques you still need to do a lot of anatomical processing that's distinct to human brains. So this year we designed a surface generation pipeline that is easily adaptable to multiple animals \r\n\r\nWhat we'd like to do is now extend the pipelines along with some other in house pipelines we have for preprocessing of fMRI and DTI data with the simple idea being that following anatomical processing (which can also be just brain extraction and not the full surface generation). We'd like to set it up so you have either a feat or c-pac like GUI or commandline where you can set up everything with one key difference: an added animal option.\r\n\r\n## Skills required to participate\r\nThis project is really open to everyone. \r\nOn the technical side a good level of bash, and python would be great. \r\nAdditionally if you have experience in making docker containers or GUI's to make it a more user friendly pipeline that would also be great! \r\n\r\nOn a non-technical side I realized recently that there currently is no documentation for the actual pipeline. Additionally if you're interested in adding brains of new animals and want to share data you absolutely can! If you just want to add brains you can help us add some from the brain catalogue using brain box: http://brainbox.pasteur.fr/  \r\n\r\n## Integration\r\nThis really is a project for everyone. As I mentioned on the non-technical side we could potentially add quite a few new animal brains in order to generate their surfaces. \r\n\r\nNeuroimagers can help us with the design and optimization of the current and new pipelines. Specifically:\r\nIn the surface generation pipeline\r\n- Add ex-vivo support for surface generation\r\n- Add support for non T1 images i.e. highres T2\r\n- Add support for small animal imaging. Currently the pipeline has only been tested on images using clinical scanners and more or less standard resolution. A pre-pipeline step to adjust voxel sizes for rodents would be great!\r\n- Add in support to more easily use hand edited WM masks when necessary\r\n\r\nComputer Science:\r\nPart of the problem in neuroimaging pipelines is that they're not always intuitive to install or use.\r\n- Help create a docker container for use in creating an animal friendly computing environment\r\n- Help use create a GUI for using the pipelines so that working with animals can be as easy as working with humans\r\n\r\nI'm just here to learn:\r\n-  The documentation is largely lacking. A manual on how to create the prerequisite images for the pipeline would be great!\r\n-  Thanks to brain catalogue we have a ton of animal brains we can try the surface pipelines on.\r\nCreate the initial masks required to run everything and get comfortable running and editing pipelines! \r\n\r\n## Preparation material\r\nCome with an open mind and if you can some open data!\r\n\r\n## Link to your GitHub repo\r\nThe precon_all repo: https://github.com/recoveringyank/precon_all  \r\n\r\n## Communication\r\nHere's our mattermost link! https://mattermost.brainhack.org/brainhack/channels/precon_all\r\n",
+        "body": "# Animal /Nonstandard Brain Pipelines\r\n\r\n## Project Description\r\n\r\nThis is an example of converting an in house animal pipeline project to hopefully  a feat or c-pac for animal studies. In Neuroimaging we're generally limited to working with a small range of animals. Even if you're working with macaques you still need to do a lot of anatomical processing that's distinct to human brains. So this year we designed a surface generation pipeline that is easily adaptable to multiple animals \r\n\r\nWhat we'd like to do is now extend the pipelines along with some other in house pipelines we have for preprocessing of fMRI and DTI data with the simple idea being that following anatomical processing (which can also be just brain extraction and not the full surface generation). We'd like to set it up so you have either a feat or c-pac like GUI or commandline where you can set up everything with one key difference: an added animal option.\r\n\r\n## Skills required to participate\r\n\r\nThis project is really open to everyone. \r\nOn the technical side a good level of bash, and python would be great. \r\nAdditionally if you have experience in making docker containers or GUI's to make it a more user friendly pipeline that would also be great! \r\n\r\nOn a non-technical side I realized recently that there currently is no documentation for the actual pipeline. Additionally if you're interested in adding brains of new animals and want to share data you absolutely can! If you just want to add brains you can help us add some from the brain catalogue using brain box: http://brainbox.pasteur.fr/  \r\n\r\n## Integration\r\nThis really is a project for everyone. As I mentioned on the non-technical side we could potentially add quite a few new animal brains in order to generate their surfaces. \r\n\r\nNeuroimagers can help us with the design and optimization of the current and new pipelines. Specifically:\r\nIn the surface generation pipeline\r\n- Add ex-vivo support for surface generation\r\n- Add support for non T1 images i.e. highres T2\r\n- Add support for small animal imaging. Currently the pipeline has only been tested on images using clinical scanners and more or less standard resolution. A pre-pipeline step to adjust voxel sizes for rodents would be great!\r\n- Add in support to more easily use hand edited WM masks when necessary\r\n\r\nComputer Science:\r\nPart of the problem in neuroimaging pipelines is that they're not always intuitive to install or use.\r\n- Help create a docker container for use in creating an animal friendly computing environment\r\n- Help use create a GUI for using the pipelines so that working with animals can be as easy as working with humans\r\n\r\nI'm just here to learn:\r\n-  The documentation is largely lacking. A manual on how to create the prerequisite images for the pipeline would be great!\r\n-  Thanks to brain catalogue we have a ton of animal brains we can try the surface pipelines on.\r\nCreate the initial masks required to run everything and get comfortable running and editing pipelines! \r\n\r\n## Preparation material\r\nCome with an open mind and if you can some open data!\r\n\r\n## Link to your GitHub repo\r\nThe precon_all repo: https://github.com/recoveringyank/precon_all  \r\n\r\n## Communication\r\nHere's our mattermost link! https://mattermost.brainhack.org/brainhack/channels/precon_all\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/71/reactions",
             "total_count": 0,
@@ -1649,6 +2306,69 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717336,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhmA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/documentation",
+                "name": "documentation",
+                "color": "0075ca",
+                "default": true,
+                "description": "Improvements or additions to documentation"
+            },
+            {
+                "id": 4686717369,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhuQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4686717373,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhvQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:expert",
+                "name": "project_tools_skills:expert",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850406968,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWOA",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/diffusion",
+                "name": "diffusion",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850539925,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR1dlQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/DIPY",
+                "name": "DIPY",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1658,7 +2378,7 @@
         "milestone": null,
         "comments": 3,
         "created_at": "2019-05-31T23:22:20Z",
-        "updated_at": "2019-06-06T15:33:54Z",
+        "updated_at": "2022-11-28T16:55:33Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
@@ -1719,6 +2439,51 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4850406950,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWJg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/MRI",
+                "name": "MRI",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850415818,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt4yg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Matlab",
+                "name": "Matlab",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416369,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt68Q",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/FSL",
+                "name": "FSL",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416371,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt68w",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/SPM",
+                "name": "SPM",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850540462,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR1frg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/C++",
+                "name": "C++",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1728,11 +2493,11 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2019-05-31T16:25:09Z",
-        "updated_at": "2019-06-05T21:14:48Z",
+        "updated_at": "2022-11-28T16:55:44Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Comparing longitudinal registration tools for 2D MRI\r\n\r\n## Project Description\r\n\r\nWhile research MRI anatomical images are usually 3D (e.g. FLASH), clinical scans are typically 2D acquisitions with thick slices. In this project, we take up the challenge of longitudinal registration with 2D scans as would typically be acquired in a long term clinical trail (e.g. for multiple sclerosis). Longitudinal brain imaging can be particularly useful in the analysis of volumetric changes or lesion burden, and shows great promise for the development of novel biomarkers. \r\n\r\nRegistration is a key step in the pipeline that affects all further downstream analysis of neuroimaging data. Although using cross-sectional tools to process longitudinal data is unbiased, this ignores the common information across scans. Longitudinal processing aims to reduce the within-subject variability. Both SPM and FreeSurfer offer tools for longitudinal registration of scans across multiple (more than two) time points and, as with most image processing tools, these have naturally been developed with research-quality data in mind. As researchers are increasingly gaining access to clinical data, however, it would be timely to determine how current longitudinal processing tools perform on lower-quality 2D MRI scans. \r\n\r\nUsing the publicly-available OASIS dataset, we would like to investigate the performance of the SPM and FreeSurfer longitudinal registration tools. The OASIS-3 (Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer\u2019s Disease) dataset consists of images from c.1000 subjects, many of which are accompanied by volumetric segmentation files produced through FreeSurfer. With these files as a 'gold-standard', we will average slices from 3D acquisitions to simulate 2D acquisitions and assess the accuracy of each processing tool.\r\n\r\n## Skills required to participate\r\nAny of the following:\r\n\r\n- Experience in programming (mainly Matlab, C or C++)  \r\n\r\n- Experience with FreeSurfer or SPM12  \r\n\r\n- Experience with structural image analysis\r\n\r\n## Integration\r\n\r\nContributions towards any of the following milestones would be very welcome!\r\n\r\n### Milestones\r\n\r\n1. Downsample OASIS T1 3D data to lower-resolution 2D images  \r\n\r\n2. Isolate the longitudinal registration codebase from FreeSurfer  \r\n\r\n3. Longitudinal registration of 2D images in SPM and FreeSurfer  \r\n\r\n4. Assessment of segmentation performance to original 3D images\r\n\r\n## Preparation material\r\n\r\n[The OASIS project](https://www.oasis-brains.org/)  \r\nChapter 27 (Longitudinal registration) of the [SPM 12 manual](https://www.fil.ion.ucl.ac.uk/spm/doc/spm12_manual.pdf)  \r\n[FSL longitudinal processing](https://surfer.nmr.mgh.harvard.edu/fswiki/LongitudinalProcessing)\r\n\r\n#### Papers\r\n- M. Reuter, N.J. Schmansky, H.D. Rosas, B. Fisch (2012): [Within-subject template estimation for unbiased longitudinal image analysis](https://doi.org/10.1016/j.neuroimage.2012.02.084)  \r\n- J. Ashburner, G.R. Ridgeway (2013): [Symmetric diffeomorphic modeling of longitudinal structural MRI](https://doi.org/10.3389/fnins.2012.00197)\r\n\r\n## Communication\r\nJoin the chat in our [mattermost channel](https://mattermost.brainhack.org/brainhack/channels/longitudinal_2dmri) :)",
+        "body": "# Comparing longitudinal registration tools for 2D MRI\r\n\r\n## Project Description\r\n\r\nWhile research MRI anatomical images are usually 3D (e.g. FLASH), clinical scans are typically 2D acquisitions with thick slices. In this project, we take up the challenge of longitudinal registration with 2D scans as would typically be acquired in a long term clinical trail (e.g. for multiple sclerosis). Longitudinal brain imaging can be particularly useful in the analysis of volumetric changes or lesion burden, and shows great promise for the development of novel biomarkers. \r\n\r\n\r\nRegistration is a key step in the pipeline that affects all further downstream analysis of neuroimaging data. Although using cross-sectional tools to process longitudinal data is unbiased, this ignores the common information across scans. Longitudinal processing aims to reduce the within-subject variability. Both SPM and FreeSurfer offer tools for longitudinal registration of scans across multiple (more than two) time points and, as with most image processing tools, these have naturally been developed with research-quality data in mind. As researchers are increasingly gaining access to clinical data, however, it would be timely to determine how current longitudinal processing tools perform on lower-quality 2D MRI scans. \r\n\r\nUsing the publicly-available OASIS dataset, we would like to investigate the performance of the SPM and FreeSurfer longitudinal registration tools. The OASIS-3 (Longitudinal Neuroimaging, Clinical, and Cognitive Dataset for Normal Aging and Alzheimer\u2019s Disease) dataset consists of images from c.1000 subjects, many of which are accompanied by volumetric segmentation files produced through FreeSurfer. With these files as a 'gold-standard', we will average slices from 3D acquisitions to simulate 2D acquisitions and assess the accuracy of each processing tool.\r\n\r\n## Skills required to participate\r\n\r\nAny of the following:\r\n\r\n- Experience in programming (mainly Matlab, C or C++)  \r\n\r\n- Experience with FreeSurfer or SPM12  \r\n\r\n- Experience with structural image analysis\r\n\r\n## Integration\r\n\r\nContributions towards any of the following milestones would be very welcome!\r\n\r\n### Milestones\r\n\r\n1. Downsample OASIS T1 3D data to lower-resolution 2D images  \r\n\r\n2. Isolate the longitudinal registration codebase from FreeSurfer  \r\n\r\n3. Longitudinal registration of 2D images in SPM and FreeSurfer  \r\n\r\n4. Assessment of segmentation performance to original 3D images\r\n\r\n## Preparation material\r\n\r\n[The OASIS project](https://www.oasis-brains.org/)  \r\nChapter 27 (Longitudinal registration) of the [SPM 12 manual](https://www.fil.ion.ucl.ac.uk/spm/doc/spm12_manual.pdf)  \r\n[FSL longitudinal processing](https://surfer.nmr.mgh.harvard.edu/fswiki/LongitudinalProcessing)\r\n\r\n#### Papers\r\n- M. Reuter, N.J. Schmansky, H.D. Rosas, B. Fisch (2012): [Within-subject template estimation for unbiased longitudinal image analysis](https://doi.org/10.1016/j.neuroimage.2012.02.084)  \r\n- J. Ashburner, G.R. Ridgeway (2013): [Symmetric diffeomorphic modeling of longitudinal structural MRI](https://doi.org/10.3389/fnins.2012.00197)\r\n\r\n## Communication\r\nJoin the chat in our [mattermost channel](https://mattermost.brainhack.org/brainhack/channels/longitudinal_2dmri) :)",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/69/reactions",
             "total_count": 0,
@@ -1789,6 +2554,60 @@
                 "color": "cc0000",
                 "default": false,
                 "description": "Project suggestion"
+            },
+            {
+                "id": 4686717373,
+                "node_id": "LA_kwDOCUpq1c8AAAABF1mhvQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/project_tools_skills:expert",
+                "name": "project_tools_skills:expert",
+                "color": "c2e0c6",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4850406955,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtWKw",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Python",
+                "name": "Python",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850410522,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRtkGg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/BIDS",
+                "name": "BIDS",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850416369,
+                "node_id": "LA_kwDOCUpq1c8AAAABIRt68Q",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/FSL",
+                "name": "FSL",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850540938,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR1hig",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/ANTs",
+                "name": "ANTs",
+                "color": "ededed",
+                "default": false,
+                "description": null
+            },
+            {
+                "id": 4850540942,
+                "node_id": "LA_kwDOCUpq1c8AAAABIR1hjg",
+                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Freesurfer",
+                "name": "Freesurfer",
+                "color": "ededed",
+                "default": false,
+                "description": null
             }
         ],
         "state": "open",
@@ -1798,11 +2617,11 @@
         "milestone": null,
         "comments": 3,
         "created_at": "2019-05-31T16:15:37Z",
-        "updated_at": "2019-06-06T11:47:11Z",
+        "updated_at": "2022-11-28T16:55:51Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
-        "body": "# Name of your awesome project\r\nAwesome Script to Export Freesurfer-based Parcellation/Segmentation Stats and Provenance as JSON-LD and NIDM \r\n\r\n## Project Description\r\nThis project ultimately aims to facilitate both query and analysis of parcellation/segmentation based regional statistics across popular softwares such as [Freesurfer](https://surfer.nmr.mgh.harvard.edu/), [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki), and [ANTS](http://stnava.github.io/ANTs/). Currently each software produces its own output format and brain region labels are specific to the atlas used in generating the regional statistics.  This makes life difficult when trying to search for \"nucleaus accumbens\" volume, for example, across the different software products.  Further, knowing which version of the software tool used and what atlas and version of the atlas in a structured representation facilitating query is lacking.  To this end we propose augmenting the various segmentation tools with scripts that will: (1) map atlas-specific anatomical nomeclature to anatomical concepts hosted in terminology resources (e.g. InterLex); (2) capture better structured provenance about the input image(s) and the atlases used for the segmentation; (3) export the segmentation results and the provenance as either [JSON-LD](https://json-ld.org/), [NIDM](http://nidm.nidash.org/) which can then link the derived data to broader records of the original project metadata, or as an additional component of a BIDS derivative.\r\n\r\nWe aim to tackle this problem in steps.  For this hackathon project we'll be focusing on conversion from Freesurfer's [mri_segstats](https://surfer.nmr.mgh.harvard.edu/fswiki/mri_segstat) program output along with some additional parsing/conversion of Freesurfer log files.\r\n\r\n## Skills required to participate\r\nPython and structural neuroimaging experience.  If one has experience with [rdflib](https://github.com/RDFLib/rdflib) or [PROV](https://github.com/trungdong/prov) that would also be helpful.  Any neuroanatomists in the audience?  Would be helpful to have someone vet our mappings from atlas labels to anatomy terms.\r\n\r\n## Integration\r\nThis project will need expertise in programming, structural neuroimaging, and anatomy.  To make this project sucessful we need individuals who have skills in any of these domains to help with: (1) understand Freesurfer's segmentation results format and log files; (2) programming up a script in Python; (3) understand anatomy well enough to select the proper anatomical concept that maps to a specific atlas designation of a region and ***can define new anatomy terms where needed, linking them to broader concepts*** to facilitate segmentation results queries across softwares.\r\n\r\n## Preparation material\r\n* [Freesurfer](https://surfer.nmr.mgh.harvard.edu/)\r\n* [mri_segstats](https://surfer.nmr.mgh.harvard.edu/fswiki/mri_segstat)\r\n* [rdflib](https://github.com/RDFLib/rdflib)\r\n* [PyNIDM](https://github.com/incf-nidash/PyNIDM)\r\n* [InterLex Term Search](https://scicrunch.org/scicrunch/interlex/dashboard)\r\n* Examples done pseudo-manually of Freesurfer, FSL, and ANTS segmentation data added to NIDM documents for [ABIDE](https://github.com/dbkeator/simple2_NIDM_examples/tree/master/datasets.datalad.org/abide/RawDataBIDS) and [ADHD200](https://github.com/dbkeator/simple2_NIDM_examples/tree/master/datasets.datalad.org/adhd200/RawDataBIDS) datasets\r\n\r\n\r\n## Link to your GitHub repo\r\n[segstats_jsonld](https://github.com/dbkeator/segstats_jsonld)  \r\n    with ***WIP*** [ReadMe.md](https://github.com/dbkeator/segstats_jsonld/blob/master/README.md) containing \r\n***NOTE, this temporary github repo may change to be under ReproNim space***\r\n\r\n## Communication\r\nHaven't gotten this far yet but questions can be posted as issues in the GitHub repo linked above for via slack (@dbkeator) / mattermost (@dbkeator) / gmail (dbkeator@gmail.com)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "body": "# Name of your awesome project\r\nAwesome Script to Export Freesurfer-based Parcellation/Segmentation Stats and Provenance as JSON-LD and NIDM \r\n\r\n## Project Description\r\n\r\nThis project ultimately aims to facilitate both query and analysis of parcellation/segmentation based regional statistics across popular softwares such as [Freesurfer](https://surfer.nmr.mgh.harvard.edu/), [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki), and [ANTS](http://stnava.github.io/ANTs/). Currently each software produces its own output format and brain region labels are specific to the atlas used in generating the regional statistics.  This makes life difficult when trying to search for \"nucleaus accumbens\" volume, for example, across the different software products.  Further, knowing which version of the software tool used and what atlas and version of the atlas in a structured representation facilitating query is lacking.  To this end we propose augmenting the various segmentation tools with scripts that will: (1) map atlas-specific anatomical nomeclature to anatomical concepts hosted in terminology resources (e.g. InterLex); (2) capture better structured provenance about the input image(s) and the atlases used for the segmentation; (3) export the segmentation results and the provenance as either [JSON-LD](https://json-ld.org/), [NIDM](http://nidm.nidash.org/) which can then link the derived data to broader records of the original project metadata, or as an additional component of a BIDS derivative.\r\n\r\nWe aim to tackle this problem in steps.  For this hackathon project we'll be focusing on conversion from Freesurfer's [mri_segstats](https://surfer.nmr.mgh.harvard.edu/fswiki/mri_segstat) program output along with some additional parsing/conversion of Freesurfer log files.\r\n\r\n## Skills required to participate\r\n\r\nPython and structural neuroimaging experience.  If one has experience with [rdflib](https://github.com/RDFLib/rdflib) or [PROV](https://github.com/trungdong/prov) that would also be helpful.  Any neuroanatomists in the audience?  Would be helpful to have someone vet our mappings from atlas labels to anatomy terms.\r\n\r\n## Integration\r\nThis project will need expertise in programming, structural neuroimaging, and anatomy.  To make this project sucessful we need individuals who have skills in any of these domains to help with: (1) understand Freesurfer's segmentation results format and log files; (2) programming up a script in Python; (3) understand anatomy well enough to select the proper anatomical concept that maps to a specific atlas designation of a region and ***can define new anatomy terms where needed, linking them to broader concepts*** to facilitate segmentation results queries across softwares.\r\n\r\n## Preparation material\r\n* [Freesurfer](https://surfer.nmr.mgh.harvard.edu/)\r\n* [mri_segstats](https://surfer.nmr.mgh.harvard.edu/fswiki/mri_segstat)\r\n* [rdflib](https://github.com/RDFLib/rdflib)\r\n* [PyNIDM](https://github.com/incf-nidash/PyNIDM)\r\n* [InterLex Term Search](https://scicrunch.org/scicrunch/interlex/dashboard)\r\n* Examples done pseudo-manually of Freesurfer, FSL, and ANTS segmentation data added to NIDM documents for [ABIDE](https://github.com/dbkeator/simple2_NIDM_examples/tree/master/datasets.datalad.org/abide/RawDataBIDS) and [ADHD200](https://github.com/dbkeator/simple2_NIDM_examples/tree/master/datasets.datalad.org/adhd200/RawDataBIDS) datasets\r\n\r\n\r\n## Link to your GitHub repo\r\n[segstats_jsonld](https://github.com/dbkeator/segstats_jsonld)  \r\n    with ***WIP*** [ReadMe.md](https://github.com/dbkeator/segstats_jsonld/blob/master/README.md) containing \r\n***NOTE, this temporary github repo may change to be under ReproNim space***\r\n\r\n## Communication\r\nHaven't gotten this far yet but questions can be posted as issues in the GitHub repo linked above for via slack (@dbkeator) / mattermost (@dbkeator) / gmail (dbkeator@gmail.com)\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
         "reactions": {
             "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/68/reactions",
             "total_count": 3,
@@ -1816,76 +2635,6 @@
             "eyes": 0
         },
         "timeline_url": "https://api.github.com/repos/ohbm/hackathon2019/issues/68/timeline",
-        "performed_via_github_app": null,
-        "state_reason": null
-    },
-    {
-        "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/66",
-        "repository_url": "https://api.github.com/repos/ohbm/hackathon2019",
-        "labels_url": "https://api.github.com/repos/ohbm/hackathon2019/issues/66/labels{/name}",
-        "comments_url": "https://api.github.com/repos/ohbm/hackathon2019/issues/66/comments",
-        "events_url": "https://api.github.com/repos/ohbm/hackathon2019/issues/66/events",
-        "html_url": "https://github.com/ohbm/hackathon2019/issues/66",
-        "id": 449918208,
-        "node_id": "MDU6SXNzdWU0NDk5MTgyMDg=",
-        "number": 66,
-        "title": "Automated Cortical Lesion Detection using Python Tools",
-        "user": {
-            "login": "barbrakr",
-            "id": 50030195,
-            "node_id": "MDQ6VXNlcjUwMDMwMTk1",
-            "avatar_url": "https://avatars.githubusercontent.com/u/50030195?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/barbrakr",
-            "html_url": "https://github.com/barbrakr",
-            "followers_url": "https://api.github.com/users/barbrakr/followers",
-            "following_url": "https://api.github.com/users/barbrakr/following{/other_user}",
-            "gists_url": "https://api.github.com/users/barbrakr/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/barbrakr/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/barbrakr/subscriptions",
-            "organizations_url": "https://api.github.com/users/barbrakr/orgs",
-            "repos_url": "https://api.github.com/users/barbrakr/repos",
-            "events_url": "https://api.github.com/users/barbrakr/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/barbrakr/received_events",
-            "type": "User",
-            "site_admin": false
-        },
-        "labels": [
-            {
-                "id": 1313485667,
-                "node_id": "MDU6TGFiZWwxMzEzNDg1NjY3",
-                "url": "https://api.github.com/repos/ohbm/hackathon2019/labels/Hackathon%20Project",
-                "name": "Hackathon Project",
-                "color": "cc0000",
-                "default": false,
-                "description": "Project suggestion"
-            }
-        ],
-        "state": "open",
-        "locked": false,
-        "assignee": null,
-        "assignees": [],
-        "milestone": null,
-        "comments": 6,
-        "created_at": "2019-05-29T16:55:47Z",
-        "updated_at": "2019-06-08T19:03:19Z",
-        "closed_at": null,
-        "author_association": "NONE",
-        "active_lock_reason": null,
-        "body": "# Cortical Lesion Finder\r\n[Barbara A.K. Kreilkamp](https://orcid.org/0000-0001-6881-5191)\r\n## Project Description\r\nThe high anatomic specificity of MRI may depict focal lesions and can be expertly assessed by visual analysis through neuroradiologists (Von Oertzen et al. 2002). Still, it is important to find ways to improve the diagnostic yield from MRI through optimized MRI protocols, expert neuroradiological assessment and quantitative analysis of post-processed volumetric MRI (Sisodiya et al. 1995, Huppertz et al. 2005).\r\n\r\nThis project focuses on quantitative analysis to improve detection of focal cortical dysplasia (FCD), which is a common lesion associated with medically refractory epilepsy and often epileptogenic. FCD is a type of cortical malformation that is neuroradiologically characterized by cortical thickening, GM/WM blurring and transmantle signs, which are abnormal extensions of GM towards the ventricles (Barkovich et al. 1997, Huppertz et al. 2005). FCDs are the most common lesions in children and is the third most common lesion after hippocampal sclerosis (HS) and tumors in adult patients. \r\n\r\nWithin our study, a dedicated epilepsy MRI research protocol including isotropic 3D T1-weighted and FLAIR was performed on patients with medically refractory focal epilepsy, who were deemed to be non-lesional based on previous MRI. The most recent MRIs conducted in context of this study allowed (i) a clinical diagnostic assessment by an experienced neuroradiologist and (ii) the application of an automated quantitative voxel-based lesion detection technique on patients' MRIs in order to find potentially epileptogenic lesions such as FCDs. \r\n\r\nI have used MATLAB to program an automatic cortical lesion finder tool and would like to translate it into Python together with you!\r\n\r\n![image](https://user-images.githubusercontent.com/50030195/58573888-003c1980-823f-11e9-96e1-6321c1ce2b46.png)\r\n\r\n## Skills required to participate\r\nExperience in Python (and possibly MATLAB, not a requirement)\r\nCreativity for incorporating [SPM12](https://github.com/spm/spm12), [nipype](https://nipype.readthedocs.io/en/latest/) and [nilearn](https://nilearn.github.io) (for voxel-based morphometry)\r\n\r\n## Integration\r\nAs of now, we only have a limited number of cortical lesions. The idea is to make this project available to clinicians as collaborators, incorporate their feedback and improve the detection rate and usability of the software.\r\n\r\n## Milestones:\r\n(i) Design a user-friendly and low-level Graphical User Interface; \r\n(ii) read in MRI data (nifti or preferred DICOM); \r\n(iii) translate MATLAB/SPM12 algorithms using GitHub packages\r\n\r\n## Preparation material\r\n- [Python programming tutorials](https://github.com/ohbm/hackathon2019/blob/master/Tutorial_Resources.md#python)\r\n- [Proper documenting/commenting](https://realpython.com/documenting-python-code/#why-documenting-your-code-is-so-important)\r\n- [nipype](https://nipype.readthedocs.io/en/latest/) and [nipype introduction](https://miykael.github.io/nipype_tutorial/notebooks/introduction_nipype.html#5)\r\n- Not totally necessary but perhaps useful: [nilearn](https://nilearn.github.io), [SPM12](https://github.com/spm/spm12), [CAT12](http://www.neuro.uni-jena.de/vbm/download/)\r\n- Huppertz H.-J., Grimm C., Fauser S., Kassubek J., Mader I., Hochmuth A., et al. (2005). Enhanced visualization of blurred gray-white matter junctions in focal cortical dysplasia by voxel-based 3D MRI analysis. Epilepsy Research, 67(1-2), 35\u201350. http://doi.org/10.1016/j.eplepsyres.2005.07.009\r\n- Kreilkamp, B.A.K., Das, K., Wieshmann, U.C., Biswas, S., Marson, A.G., Keller, S.S. (2019). Neuroradiological findings in patients with \u2018non-lesional\u2019 focal epilepsy revealed by research protocol. Clinical Radiology, 74(1):78.e1\u201378.e11. [http://doi.org/10.1016/j.crad.2018.08.013](http://doi.org/10.1016/j.crad.2018.08.013)\r\n- Kreilkamp, B.A.K., Das, K., Wieshmann, U.C., Tyler, K., Kiel, S., Gould, S., Marson, A.G., Keller, S.S. (2017) Voxel-based MRI Analysis Can Assist Clinical Diagnostics in Patients with MRI-negative Epilepsy. Organization of Human Brain Mapping, Vancouver, Canada. [http://tiny.cc/VBM_epilepsy](http://tiny.cc/VBM_epilepsy)\r\n\r\n## Join Mattermost channel\r\n [@cortical_lesion_finder](https://mattermost.brainhack.org/brainhack/channels/cortical_lesion_finder)\r\n\r\n## GitHub Repository\r\n[Cortical Lesion Finder](https://github.com/barbrakr/CLF-python)\r\n\r\n## More References\r\n- Von Oertzen, T.J., Urbach, H., Jungbluth, S., Kurthen, M., Reuber, M., Fernandez, G. et al. (2002). Standard magnetic resonance imaging is inadequate for patients with refractory focal epilepsy. Journal of Neurology, Neurosurgery, and Psychiatry, 73(6), 643-647. http://doi.org/10.1136/jnnp.73.6.643\r\n- Sisodiya, S.M., Free, S.L., Fish, D.R., Shorvon, S.D. (1995) Increasing the yield from volumetric MRI in patients with epilepsy. Magnetic Resonance Imaging 13:1147\u20131152.\r\n- Barkovich, A.J., Kuzniecky, R.I., Bollen, A.W., Grant, P.E. (1997) Focal transmantle dysplasia: a specific malformation of cortical development. Neurology 49, 1148\u20131152.",
-        "reactions": {
-            "url": "https://api.github.com/repos/ohbm/hackathon2019/issues/66/reactions",
-            "total_count": 0,
-            "+1": 0,
-            "-1": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-        },
-        "timeline_url": "https://api.github.com/repos/ohbm/hackathon2019/issues/66/timeline",
         "performed_via_github_app": null,
         "state_reason": null
     }

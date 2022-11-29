@@ -3,51 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 from rich import print
-
-HACKATHONS = {
-    "ohbm_2019": {
-        "name": "OHBM Brainhack 2019",
-        "gh_username": "ohbm",
-        "repo": "hackathon2019",
-        "project_label": ["Hackathon Project"],
-    },
-    "ohbm_2020": {
-        "name": "OHBM Brainhack 2020",
-        "gh_username": "ohbm",
-        "repo": "hackathon2020",
-        "project_label": ["Hackathon project"],
-    },
-    "ohbm_2021": {
-        "name": "OHBM Brainhack 2021",
-        "gh_username": "ohbm",
-        "repo": "hackathon2021",
-        "project_label": ["Atlantis", "Rising sun"],
-    },
-    "ohbm_2022": {
-        "name": "OHBM Brainhack 2022",
-        "gh_username": "ohbm",
-        "repo": "hackathon2022",
-        "project_label": ["Hackathon Project"],
-    },
-    "brainhack_global_2020": {
-        "name": "Brainhack Global 2020",
-        "gh_username": "brainhackorg",
-        "repo": "global2020",
-        "project_label": ["project"],
-    },
-    "brainhack_global_2021": {
-        "name": "Brainhack Global 2021",
-        "gh_username": "brainhackorg",
-        "repo": "global2021",
-        "project_label": ["project"],
-    },
-    "brainhack_global_2022": {
-        "name": "Brainhack Global 2022",
-        "gh_username": "brainhackorg",
-        "repo": "global2022",
-        "project_label": [],
-    },
-}
+from utils import load_repositories_info, root_dir
 
 sites = {
     "Marseille": {"label": "bhg:marseille_fra_1"},
@@ -81,9 +37,9 @@ LABELS_TO_REMOVE = [
 
 def main():
 
-    root_dir = Path(__file__).parents[1]
+    repositories_info = load_repositories_info()
 
-    data_dir = root_dir.joinpath("data")
+    data_dir = root_dir().joinpath("data")
 
     labels_to_remove = LABELS_TO_REMOVE
     for i in sites:
@@ -96,7 +52,7 @@ def main():
     site = []
     date = []
 
-    for this_hackathon in HACKATHONS:
+    for this_hackathon in repositories_info:
 
         print(f"{this_hackathon}")
 
@@ -125,7 +81,7 @@ def main():
                 if labels == []:
                     labels = ["n/a"]
 
-                event.append(HACKATHONS[this_hackathon]["name"])
+                event.append(repositories_info[this_hackathon]["name"])
                 name.append(this_project["title"].lstrip())
                 date.append(this_project["created_at"])
                 site.append(this_project["site"].lstrip())

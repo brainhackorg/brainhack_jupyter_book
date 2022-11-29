@@ -1,8 +1,10 @@
-brainhack_book/_build
+*build
 data/contributors/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 data/contributors/neuroview/*source*
 
 .ipynb_checkpoints
+
+token.txt
 
 # virtual env
 brainhack/*

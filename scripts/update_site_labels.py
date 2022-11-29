@@ -1,4 +1,4 @@
-"""Update the list of issues labels based of the list of brainhack sites"""
+"""Update the list of issue labels based of the list of brainhack sites"""
 
 import json
 from pathlib import Path
