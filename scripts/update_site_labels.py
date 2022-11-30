@@ -1,9 +1,9 @@
 """Update the list of issue labels based of the list of brainhack sites"""
-
 import json
 
 import pandas as pd
-from utils import load_site_labels, root_dir
+from utils import load_site_labels
+from utils import root_dir
 
 label_color = "d4c5f9"
 

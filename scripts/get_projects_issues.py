@@ -11,7 +11,8 @@ from pathlib import Path
 
 import requests
 from rich import print
-from utils import load_repositories_info, root_dir
+from utils import load_repositories_info
+from utils import root_dir
 
 USERNAME = "Remi-Gau"
 
