@@ -5,6 +5,7 @@ parts:
     chapters:
       - file: overview
       - file: evolution_of_brainhack
+      - file: projects
       - file: contributors
       - file: acknowledgments
   - caption: Neuroview

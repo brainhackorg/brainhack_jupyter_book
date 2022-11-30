@@ -1,9 +1,10 @@
 import json
-from pathlib import Path
 
 import pandas as pd
 from rich import print
-from utils import load_repositories_info, root_dir
+from utils import list_labels_in_projects
+from utils import load_repositories_info
+from utils import root_dir
 
 sites = {
     "Marseille": {"labels": ["bhg:marseille_fra_1", "marseille_fra"]},
@@ -40,6 +41,7 @@ sites = {
 }
 
 LABELS_TO_REMOVE = [
+    "",
     "project",
     "Hackathon Project",
     "Hackathon project",
@@ -87,6 +89,7 @@ LABELS_TO_RENAME = {
         "C / C++",
         "C / C++ / Cython",
         "C++",
+        "programming:C++",
     ],
     "programming:containerization": [
         "containerization",
@@ -234,7 +237,7 @@ def main():
 
     df.to_csv(data_dir.joinpath("hackathon_projects.tsv"), index=False, sep="\t")
 
-    print(sorted(set(",".join(data["labels"]).split(","))))
+    print(list_labels_in_projects(df))
 
 
 if __name__ == "__main__":
