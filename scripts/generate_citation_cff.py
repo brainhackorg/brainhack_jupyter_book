@@ -3,7 +3,9 @@ from pathlib import Path
 import pandas as pd
 from cffconvert.cli.create_citation import create_citation
 from cffconvert.cli.validate_or_write_output import validate_or_write_output
-from utils import load_citation, root_dir, write_citation
+from utils import load_citation
+from utils import root_dir
+from utils import write_citation
 
 
 def return_author_list_for_cff(contributors):

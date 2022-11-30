@@ -1,4 +1,4 @@
 [codespell]
-skip = *build*,*env*,glossary_tr.md,.git,data,CITATION*
+skip = *build*,*env*,glossary_tr.md,.git,data,CITATION*,_*.html
 ignore-words-list = acn,nd,childrens
 builtin = clear,rare

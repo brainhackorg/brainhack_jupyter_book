@@ -167,7 +167,7 @@
         "created_at": "2021-02-15T16:25:02Z",
         "updated_at": "2021-02-24T16:02:39Z",
         "closed_at": null,
-        "author_association": "CONTRIBUTOR",
+        "author_association": "MEMBER",
         "active_lock_reason": null,
         "body": "## Project info\r\n\r\n**Title:**\r\nMake Brainhack Accessible WorldWide: Translation of Brainhack Glossary into Different Languages\r\n![image](https://user-images.githubusercontent.com/45263281/107971386-50768480-6faa-11eb-9469-412adbc4ff7a.png)\r\n\r\n\r\n**Project lead:**\r\nValentina Borghesani\r\n\r\n**Project collaborators:**\r\nValentina Borghesani\r\n@valentinaborghesani\r\nJohanna Bayer\r\n@likeajumprope\r\nSelim Atay\r\n@i-am-mel-dev\r\nFranco Pestilli\r\n@francopestilli\r\nJose Pedro Manzano Patron\r\n@josepman \r\nMalin Sandstr\u00f6m\r\n@malinINCF\r\nYasmin Basille \r\n@yasminebassil\r\nIsil Bilgin\r\n@complexbrains \r\n\r\n**Registered Brainhack Global 2020 Event:**\r\nBrainhack Montreal \r\n\r\n**Project Description:**\r\nThe project aims to bring together Brainhack and Open Science terminologies together in one glossary to help the newcomers to guide them through with their quick integration with the community tools and resources and provide a centralized glossary for the main community to be used for the future references. \r\n\r\nIn this project, we would like to make the glossary a step further and make it accessible by removing the language barriers and translate it to the as possible different languages with the help of the community. \r\n\r\n**Data to use:**\r\nThe [glossary itself](http://brainhack.org/brainhack_jupyter_book/glossary.html) and references listed at the bottom of the glossary and any other community developed open science glossaries to match the references.\r\n\r\n**Link to project repository/sources:**\r\nhttps://github.com/brainhackorg/brainhack_jupyter_book\r\n\r\n**Goals for Brainhack Global 2020:**\r\nMaking the glossary completed with the all necessary terminologies to serve the best of the community and translate it into different languages to make it more accessible to the communities around the world.\r\n\r\n**Good first issues:**\r\n\r\n- [ ] Complete the glossary with the missing terminologies\r\n- [ ] Add necessary/missing terminologies.\r\n- [ ] Translate the glossary into different languages\r\n- [ ] Implementing the translated versions to the Jupyter Book.\r\n\r\n**Skills:**\r\nThe native or advanced level speaker in the language of being translated. \r\nBasic knowledge in using Git/Github/Commit/opening a PR might be helpful but not necessary. \r\n\r\n\r\n**Tools/Software/Methods to Use:**\r\nGithub repository\r\nGoogle docs\r\n\r\n**Communication channels:**\r\nhttps://mattermost.brainhack.org/brainhack/channels/brainhack_paper_jupyterbook\r\n\r\n\r\n**Project labels**\r\n\r\n- Type of project:\r\n #data_management, #documentation\r\n\r\n- Project development status:\r\n#0_concept_no_content, #1_basic structure\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\n #familiar, #no_skills_required\r\n\r\n- Programming language used in the project:\r\n#documentation\r\n\r\n\r\n- Git skills reuired to enter the project (more than one possible):\r\n#0_no_git_skills, #1_commit_push, #2_branches_PRs, #3_continuous_integration\r\n\r\n- [x] I added all of the labels I want an associate to my project\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [x] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n- [x] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).\r\n<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2020 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required.\r\n- [ ] Twitter-sized summary of your project pitch.\r\n- [ ] Provide an image of your project for the Brainhack Global 2020 website. \r\n<!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->\r\n\r\nWe would like to think about how you will credit and onboard new members to your project. If you\u2019d like to share your thoughts with future project participants, you can include information about:\r\n\r\n- [ ] Specify how you will acknowledge contributions (e.g. listing members on a contributing page).\r\n- [ ] Provide links to onboarding documents if you have some:\r\n",
         "reactions": {
@@ -649,7 +649,7 @@
         "created_at": "2021-02-15T14:24:27Z",
         "updated_at": "2021-02-15T15:13:32Z",
         "closed_at": null,
-        "author_association": "NONE",
+        "author_association": "MEMBER",
         "active_lock_reason": null,
         "body": "## Project info\r\n\r\n**Standardized denoising strategies with fMRIprep**\r\n\r\n**Project lead:**\r\nPierre Bellec, twitter @pierre_bellec mattermost @pierre.bellec he/him\r\n\r\n**Project collaborators:**\r\nFran\u00e7ois paugam, mattermost @francois_p \r\nAnnabelle Harvey, twitter @harvey_aa, mattermost @harveya \r\n\r\n**Registered Brainhack Global 2020 Event:**\r\n[Brainhack MTL 2020ish](https://brainhackmtl.github.io/global2020/)  \r\n\r\n\r\n**Project Description:**abels\r\nThere are many strategies that have been proposed in the literature to denoise fMRI time series, and [fMRIprep](https://fmriprep.org/en/stable/) implements many of them. However, the data generated by fMRIprep is *minimally preprocess* and the user is left combining some *confound* variables of their choice to finalize *fully preprocessed* time series. There is [detailed documentation](https://fmriprep.org/en/stable/outputs.html#confounds) in fMRIprep about what these confounds are, but users are left to (1) select a denoising strategy; (2) select the relevant confounds and regress them out. This project aims at contributing to two software libraries aimed at easy denoising either using the nilearn library (with [load_confounds](https://github.com/SIMEXP/load_confounds)), or from the command line (with [nii-masker](https://github.com/danjgale/nii-masker)). Contributions include improving documentation, tests and adding features. \r\n\r\n**Data to use:**\r\n\r\nSelecting an appropriate dataset for demo is one of the objective of the hackathon. See this [issue](https://github.com/SIMEXP/load_confounds/issues/82).\r\n\r\n**Link to project repository/sources:**\r\n * [load_confounds](https://github.com/SIMEXP/load_confounds) github page.\r\n * [nii-masker](https://github.com/danjgale/nii-masker) github page.\r\n * [fMRIprep](https://fmriprep.org/en/stable/outputs.html#confounds) documentation on confounds.\r\n\r\n**Goals for Brainhack Global 2020:**\r\n * complete this pull request to `nii-masker`: https://github.com/danjgale/nii-masker/pull/20 \r\n * prepare a pull request for pydra support in `nii-masker`. See this issue: https://github.com/danjgale/nii-masker/issues/21 \r\n * see the relevant issues on `load-confounds`: https://github.com/SIMEXP/load_confounds/labels/brainhackMTL2020 \r\n\r\n**good first issue** \r\n * working on a demo of load_confounds could be a good first issue. https://github.com/SIMEXP/load_confounds/issues/74 \r\n * for users familiar with fmriprep, working on a resource dataset would also be a good first issue: https://github.com/SIMEXP/load_confounds/issues/82\r\n * going through the documentation of `load_confounds` or `nii-masker` and suggesting fix or improvements is also an excellent way to start discovering the projects and make contributions. \r\n\r\n**Skills:**\r\nA basic understanding of python, fMRI denoising and nilearn is required. Knowledge of pydra and BIDS is also a necessary for some of the issues we will be working on. \r\n\r\n**Tools/Software/Methods to Use:**\r\n * load_confouds \r\n * nii-masker \r\n * the [development fMRI dataset](https://nilearn.github.io/modules/generated/nilearn.datasets.fetch_development_fmri.html) of nilearn\r\n\r\n**Communication channels:**\r\n~fmriprep_denoising on mattermost.brainhack.org. We will use the jitsi integration on mattermost for meetings. \r\n\r\n**Project labels**\r\n\r\n\r\n- Type of project:\r\n#coding_methods, #documentation\r\n\r\n- Project development status:\r\n2_releases_existing\r\n\r\n- Topic of the projet:\r\n#reproducible_scientific_methods, #fMRI, #denoising\r\n\r\n- Tools used in the project:\r\n#fMRIPrep, #nilearn\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\n#familiar\r\n\r\n- Programming language used in the project:\r\n#Python, #shell_scripting, #workflows\r\n\r\n- Modalities involved in the project (if any):\r\n#fMRI\r\n\r\n- Git skills reuired to enter the project (more than one possible):\r\n2_branches_PRs\r\n\r\n- [x] I added all of the labels I want an associate to my project\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [x] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n- [x] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).\r\n\r\n- [x] Twitter-sized summary of your project pitch. \r\n\r\nDevelop tools to easily implement standardized fMRI denoising strategies using fMRIprep outputs. \r\n\r\n- [x] Provide an image of your project for the Brainhack Global 2020 website.\r\n![denoise](https://user-images.githubusercontent.com/1670887/107959631-a844c980-6f71-11eb-9cd1-674134add907.png)\r\n\r\nWe would like to think about how you will credit and onboard new members to your project. If you\u2019d like to share your thoughts with future project participants, you can include information about:\r\n\r\n- [x] Contributors will be added on an [all contributors](https://github.com/all-contributors/all-contributors) page",
         "reactions": {
@@ -4247,6 +4247,15 @@
                 "color": "bfd4f2",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 2525962760,
+                "node_id": "MDU6TGFiZWwyNTI1OTYyNzYw",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:ankara_tur_1",
+                "name": "bhg:ankara_tur_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
             }
         ],
         "state": "open",
@@ -4296,7 +4305,7 @@
         "milestone": null,
         "comments": 7,
         "created_at": "2020-12-03T20:34:44Z",
-        "updated_at": "2020-12-07T19:52:35Z",
+        "updated_at": "2022-11-29T13:35:28Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "active_lock_reason": null,
@@ -4584,6 +4593,33 @@
                 "color": "bfd4f2",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 2525962760,
+                "node_id": "MDU6TGFiZWwyNTI1OTYyNzYw",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:ankara_tur_1",
+                "name": "bhg:ankara_tur_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 2525964262,
+                "node_id": "MDU6TGFiZWwyNTI1OTY0MjYy",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:ontario_can_1",
+                "name": "bhg:ontario_can_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 2525964772,
+                "node_id": "MDU6TGFiZWwyNTI1OTY0Nzcy",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:marseille_fra_1",
+                "name": "bhg:marseille_fra_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
             }
         ],
         "state": "open",
@@ -4633,7 +4669,7 @@
         "milestone": null,
         "comments": 5,
         "created_at": "2020-12-02T17:39:36Z",
-        "updated_at": "2020-12-03T04:02:30Z",
+        "updated_at": "2022-11-29T13:36:21Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,
@@ -4739,6 +4775,15 @@
                 "color": "bfd4f2",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 2525964772,
+                "node_id": "MDU6TGFiZWwyNTI1OTY0Nzcy",
+                "url": "https://api.github.com/repos/brainhackorg/global2020/labels/bhg:marseille_fra_1",
+                "name": "bhg:marseille_fra_1",
+                "color": "d4c5f9",
+                "default": false,
+                "description": ""
             }
         ],
         "state": "open",
@@ -4788,7 +4833,7 @@
         "milestone": null,
         "comments": 3,
         "created_at": "2020-12-02T12:39:31Z",
-        "updated_at": "2020-12-03T04:02:09Z",
+        "updated_at": "2022-11-29T13:38:02Z",
         "closed_at": null,
         "author_association": "NONE",
         "active_lock_reason": null,

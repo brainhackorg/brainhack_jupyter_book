@@ -24,3 +24,4 @@ dependencies:
     - requests
     - ruamel.yaml
     - cffconvert
+    - plotly

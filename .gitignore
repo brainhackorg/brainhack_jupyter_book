@@ -1,8 +1,7 @@
-brainhack_book/_build
 data/contributors/affiliation_and_consent_for_the_brainhack_neuroview_preprint_raw.tsv
 data/contributors/neuroview/*source*
 
-.ipynb_checkpoints
+token.txt
 
 # virtual env
 brainhack/*
@@ -12,8 +11,17 @@ venv/
 # vs code stuff
 .vscode
 
+# figures in html
+_sites.html
+_labels.html
+
 # working with files
 .~*.csv#
 
 # python
 __pycache__/
+.ipynb_checkpoints
+
+# jupyter book
+*_files
+*build
