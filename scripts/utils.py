@@ -1,10 +1,10 @@
 import json
 from pathlib import Path
+from typing import List
 
 import pandas as pd
 import ruamel.yaml
 from rich import print
-from Tyîng import List
 
 yaml = ruamel.yaml.YAML()
 yaml.indent(mapping=2, sequence=4, offset=2)
