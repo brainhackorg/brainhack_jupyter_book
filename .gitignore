@@ -12,7 +12,7 @@ venv/
 .vscode
 
 # figures in html
-_sites.html
+_site*.html
 _labels.html
 
 # working with files
