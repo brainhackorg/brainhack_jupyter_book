@@ -196,10 +196,11 @@ def main():
         labels_to_remove.extend(sites[i]["labels"])
 
     data = {
+        "date": [],
         "name": [],
         "site": [],
         "event": [],
-        "date": [],
+        "created_at": [],
         "labels": [],
         "url": [],
     }
@@ -231,9 +232,10 @@ def main():
 
                 labels = sorted(labels)
 
+                data["date"].append(repositories_info[this_hackathon]["year"])
                 data["event"].append(repositories_info[this_hackathon]["name"])
                 data["name"].append(this_project["title"].lstrip())
-                data["date"].append(this_project["created_at"])
+                data["created_at"].append(this_project["created_at"])
                 data["site"].append(this_project["site"].lstrip())
                 data["url"].append(this_project["url"])
                 data["labels"].append(",".join(labels))

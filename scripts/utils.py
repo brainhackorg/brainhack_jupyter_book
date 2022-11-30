@@ -18,13 +18,13 @@ def load_hackathon_projects() -> pd.DataFrame:
     hackathon_projects_file = root_dir().joinpath("data", "hackathon_projects.tsv")
     print(f"[blue]Loading hackathon projects from {hackathon_projects_file}[/blue]")
     df = pd.read_csv(hackathon_projects_file, sep="\t")
-    df["date"] = pd.to_datetime(df["date"], infer_datetime_format=True).dt.date
     return df
 
 
 def list_x_in_projects(project_df: pd.DataFrame, x: str) -> List[str]:
     project_df.fillna("", inplace=True)
     x = project_df[x]
+    x = [str(x) for x in x]
     x = ",".join(x).split(",")
     x = sorted(set(x))
     if x[0] == "":

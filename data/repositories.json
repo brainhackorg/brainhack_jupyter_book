@@ -6,7 +6,8 @@
         "project_label": [
             "project"
         ],
-        "site": "vancouver_canada"
+        "site": "vancouver_canada",
+        "year": 2017
     },
     "ohbm_2018": {
         "name": "OHBM Brainhack 2018",
@@ -15,7 +16,8 @@
         "project_label": [
             "project"
         ],
-        "site": "singapore_singapore"
+        "site": "singapore_singapore",
+        "year": 2018
     },
     "ohbm_2019": {
         "name": "OHBM Brainhack 2019",
@@ -24,7 +26,8 @@
         "project_label": [
             "Hackathon Project"
         ],
-        "site": "rome_italy"
+        "site": "rome_italy",
+        "year": 2019
     },
     "ohbm_2020": {
         "name": "OHBM Brainhack 2020",
@@ -32,7 +35,8 @@
         "repo": "hackathon2020",
         "project_label": [
             "Hackathon project"
-        ]
+        ],
+        "year": 2020
     },
     "ohbm_2021": {
         "name": "OHBM Brainhack 2021",
@@ -41,7 +45,8 @@
         "project_label": [
             "Atlantis",
             "Rising sun"
-        ]
+        ],
+        "year": 2021
     },
     "ohbm_2022": {
         "name": "OHBM Brainhack 2022",
@@ -50,7 +55,8 @@
         "project_label": [
             "Hackathon Project"
         ],
-        "site": "glasgow_scotland"
+        "site": "glasgow_scotland",
+        "year": 2022
     },
     "brainhack_global_2017": {
         "name": "Brainhack Global 2017",
@@ -58,7 +64,8 @@
         "repo": "global2017",
         "project_label": [
             "project"
-        ]
+        ],
+        "year": 2017
     },
     "brainhack_global_2018": {
         "name": "Brainhack Global 2018",
@@ -66,7 +73,8 @@
         "repo": "global2018",
         "project_label": [
             "project"
-        ]
+        ],
+        "year": 2018
     },
     "brainhack_global_2020": {
         "name": "Brainhack Global 2020",
@@ -74,7 +82,8 @@
         "repo": "global2020",
         "project_label": [
             "project"
-        ]
+        ],
+        "year": 2020
     },
     "brainhack_global_2021": {
         "name": "Brainhack Global 2021",
@@ -82,7 +91,8 @@
         "repo": "global2021",
         "project_label": [
             "project"
-        ]
+        ],
+        "year": 2021
     },
     "brainhack_global_2022": {
         "name": "Brainhack Global 2022",
@@ -90,7 +100,8 @@
         "repo": "global2022",
         "project_label": [
             "project"
-        ]
+        ],
+        "year": 2022
     },
     "openmr_2020": {
         "name": "OpenMR 2020",
@@ -99,7 +110,8 @@
         "project_label": [
             "Hackathon Project"
         ],
-        "site": "nijmegen_netherlands"
+        "site": "nijmegen_netherlands",
+        "year": 2020
     },
     "openmr_2021": {
         "name": "OpenMR 2021",
@@ -108,6 +120,7 @@
         "project_label": [
             "Hackathon Project"
         ],
-        "site": "atlantis_earth"
+        "site": "atlantis_earth",
+        "year": 2021
     }
 }
