@@ -1,4 +1,4 @@
-name	site	event	date	topics	url
+name	site	event	date	labels	url
 BloodArt	Vancouver	OHBM Brainhack 2017	2022-11-29T14:54:50Z	n/a	https://api.github.com/repos/ohbm/hackathon2017/issues/31
 Bootstrap Analysis of Stable Clusters	Vancouver	OHBM Brainhack 2017	2022-11-29T14:54:24Z	n/a	https://api.github.com/repos/ohbm/hackathon2017/issues/30
 pySTATIS: Multivariate analysis of individual differences in connectivity	Vancouver	OHBM Brainhack 2017	2022-11-29T14:54:04Z	topic:connectome	https://api.github.com/repos/ohbm/hackathon2017/issues/29

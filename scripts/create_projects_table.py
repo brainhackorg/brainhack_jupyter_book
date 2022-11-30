@@ -187,12 +187,14 @@ def main():
     for i in sites:
         labels_to_remove.extend(sites[i]["labels"])
 
-    name = []
-    url = []
-    topics = []
-    event = []
-    site = []
-    date = []
+    data = {
+        "name": [],
+        "site": [],
+        "event": [],
+        "date": [],
+        "labels": [],
+        "url": [],
+    }
 
     for this_hackathon in repositories_info:
 
@@ -221,26 +223,18 @@ def main():
 
                 labels = sorted(labels)
 
-                event.append(repositories_info[this_hackathon]["name"])
-                name.append(this_project["title"].lstrip())
-                date.append(this_project["created_at"])
-                site.append(this_project["site"].lstrip())
-                url.append(this_project["url"])
-                topics.append(",".join(labels))
+                data["event"].append(repositories_info[this_hackathon]["name"])
+                data["name"].append(this_project["title"].lstrip())
+                data["date"].append(this_project["created_at"])
+                data["site"].append(this_project["site"].lstrip())
+                data["url"].append(this_project["url"])
+                data["labels"].append(",".join(labels))
 
-    d = {
-        "name": name,
-        "site": site,
-        "event": event,
-        "date": date,
-        "topics": topics,
-        "url": url,
-    }
-    df = pd.DataFrame(data=d)
+    df = pd.DataFrame(data=data)
 
     df.to_csv(data_dir.joinpath("hackathon_projects.tsv"), index=False, sep="\t")
 
-    print(sorted(set(",".join(topics).split(","))))
+    print(sorted(set(",".join(data["labels"]).split(","))))
 
 
 if __name__ == "__main__":

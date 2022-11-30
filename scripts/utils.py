@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+import pandas as pd
 import ruamel.yaml
 
 yaml = ruamel.yaml.YAML()
@@ -9,6 +10,11 @@ yaml.indent(mapping=2, sequence=4, offset=2)
 
 def root_dir():
     return Path(__file__).parent.parent
+
+
+def load_hackathon_projects():
+    hackathon_projects_file = root_dir().joinpath("data", "hackathon_projects.tsv")
+    return pd.read_csv(hackathon_projects_file, sep="\t")
 
 
 def load_citation(citation_file):

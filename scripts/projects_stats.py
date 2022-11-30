@@ -2,11 +2,9 @@ from pathlib import Path
 
 import pandas as pd
 from rich import print
-from utils import root_dir
+from utils import load_hackathon_projects, root_dir
 
-data_dir = root_dir().joinpath("data")
-
-df = pd.read_csv(data_dir.joinpath("hackathon_projects.tsv"), sep="\t")
+df = load_hackathon_projects()
 
 topics = df["topics"]
 is_not_nan = topics.isna() == False
