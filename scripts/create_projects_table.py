@@ -1,7 +1,6 @@
 import json
 
 import pandas as pd
-from rich import print
 from utils import bhg_log
 from utils import list_labels_in_projects
 from utils import load_repositories_info
@@ -241,7 +240,7 @@ def main():
 
         log.info(f"{this_hackathon}")
 
-        with open(data_dir.joinpath(f"projects_{this_hackathon}.json"), "r") as f:
+        with open(data_dir.joinpath(f"projects_{this_hackathon}.json")) as f:
 
             projects = json.load(f)
 

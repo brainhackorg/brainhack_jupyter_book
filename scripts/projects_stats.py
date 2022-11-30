@@ -48,7 +48,7 @@ def main():
     save_figure(sites_fig, "site")
 
     date_fig = histogram_nb_projects_per_x(df, "date")
-    save_figure(labels_fig, "date")
+    save_figure(date_fig, "date")
 
     labels_fig = histogram_nb_projects_per_x(df, "labels")
     save_figure(labels_fig, "labels")

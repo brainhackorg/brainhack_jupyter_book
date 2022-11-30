@@ -1,16 +1,16 @@
 import json
+import logging
 from pathlib import Path
 from typing import List
 
 import pandas as pd
 import ruamel.yaml
 from rich import print
+from rich.logging import RichHandler
 
 yaml = ruamel.yaml.YAML()
 yaml.indent(mapping=2, sequence=4, offset=2)
 
-import logging
-from rich.logging import RichHandler
 
 log = logging.getLogger("bhg_jupyterbook")
 
@@ -62,7 +62,7 @@ def list_sites_in_projects(project_df: pd.DataFrame) -> List[str]:
 
 
 def load_citation(citation_file) -> dict:
-    with open(citation_file, "r", encoding="utf8") as input_file:
+    with open(citation_file, encoding="utf8") as input_file:
         return yaml.load(input_file)
 
 
@@ -73,11 +73,11 @@ def write_citation(citation_file: Path, citation: dict) -> None:
 
 def load_repositories_info() -> dict:
     repositories_file = root_dir().joinpath("data", "repositories.json")
-    with open(repositories_file, "r", encoding="utf8") as input_file:
+    with open(repositories_file, encoding="utf8") as input_file:
         return json.load(input_file)
 
 
 def load_site_labels() -> dict:
     sites_file = root_dir().joinpath("template", "labels.json")
-    with open(sites_file, "r", encoding="utf8") as input_file:
+    with open(sites_file, encoding="utf8") as input_file:
         return json.load(input_file)
