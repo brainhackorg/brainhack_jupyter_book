@@ -7,7 +7,7 @@ figures:
 book :
 	jupyter-book build brainhack_book
 
-test :
+test : figures
 	jupyter-book build brainhack_book -W --builder linkcheck
 
 validate_citation_cff: CITATION.cff
