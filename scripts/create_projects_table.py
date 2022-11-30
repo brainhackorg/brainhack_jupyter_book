@@ -38,6 +38,9 @@ sites = {
     "Ghent": {"labels": ["ghent_belgium"]},
     "Magdeburg": {"labels": ["magdeburg_germany"]},
     "Espoo": {"labels": ["espoo_finland"]},
+    "Rennes": {"labels": ["rennes_france"]},
+    "Vienna": {"labels": ["vienna_austria"]},
+    "Geneva": {"labels": ["geneva_switzerland"]},
 }
 
 LABELS_TO_REMOVE = [
@@ -223,13 +226,9 @@ def main():
                 for i in labels_to_remove:
                     if i in labels:
                         labels.remove(i)
-                labels = sorted(labels)
-
                 labels = rename_labels(labels, LABELS_TO_RENAME)
-
                 if labels == []:
                     labels = ["n/a"]
-
                 labels = sorted(labels)
 
                 data["date"].append(repositories_info[this_hackathon]["year"])

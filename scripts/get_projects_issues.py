@@ -28,7 +28,7 @@ def get_gh_issues(gh_username, repo, auth_username=None, auth_token=None):
 
     print(f"\n[red]getting issues: {gh_username, repo}[/red]")
 
-    url = f"https://api.github.com/repos/{gh_username}/{repo}/issues"
+    url = f"https://api.github.com/repos/{gh_username}/{repo}/issues?per_page=200"
     print(url)
 
     auth = None

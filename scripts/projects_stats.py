@@ -16,18 +16,28 @@ def save_figure(fig, filename):
 
 def histogram_nb_projects_per_x(df: pd.DataFrame, column: str):
 
+    # stacked histogram to show the OHBM hackathon projects
+
+    ohbm_filter = df["event"].str.contains("OHBM", na=False)
+
     x = list_x_in_projects(df, column)
 
-    data = {column: [], "nb_projects": []}
-    for key in x:
-        data[column].append(key)
+    data = {column: x, "ohbm_projects": [], "bhg_projects": []}
+
+    for key in data[column]:
+
         df[column] = df[column].astype("string")
         frame_filter = df[column].str.contains("|".join([key]), na=False)
-        data["nb_projects"].append(frame_filter.sum())
+
+        is_ohbm_project = frame_filter & ohbm_filter
+        data["ohbm_projects"].append(is_ohbm_project.sum())
+
+        is_not_ohbm_project = frame_filter & ~ohbm_filter
+        data["bhg_projects"].append(is_not_ohbm_project.sum())
 
     data = pd.DataFrame(data)
 
-    fig = px.bar(data, x=column, y="nb_projects")
+    fig = px.bar(data, x=column, y=["ohbm_projects", "bhg_projects"])
 
     return fig
 

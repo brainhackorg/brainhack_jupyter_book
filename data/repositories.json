@@ -76,6 +76,15 @@
         ],
         "year": 2018
     },
+    "brainhack_global_2019": {
+        "name": "Brainhack Global 2019",
+        "gh_username": "brainhackorg",
+        "repo": "global2019",
+        "project_label": [
+            "project"
+        ],
+        "year": 2019
+    },
     "brainhack_global_2020": {
         "name": "Brainhack Global 2020",
         "gh_username": "brainhackorg",
