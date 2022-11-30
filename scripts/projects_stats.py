@@ -2,11 +2,9 @@ from pathlib import Path
 
 import pandas as pd
 from rich import print
+from utils import root_dir
 
-root_dir = Path(__file__).parents[1]
-
-data_dir = root_dir.joinpath("data")
-
+data_dir = root_dir().joinpath("data")
 
 df = pd.read_csv(data_dir.joinpath("hackathon_projects.tsv"), sep="\t")
 

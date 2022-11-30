@@ -1,6 +1,10 @@
 """
-Use Github API to get the issues for hackathon projects for each hackathon
+Use Github API to get the issues for hackathon projects for each hackathon.
 Saves them to json files.
+
+Your github token for the github API must be in a file called "token.txt"
+in the same directory as this script.
+
 """
 import json
 from pathlib import Path

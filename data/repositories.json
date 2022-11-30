@@ -52,6 +52,14 @@
         ],
         "site": "glasgow_scotland"
     },
+    "brainhack_global_2017": {
+        "name": "Brainhack Global 2017",
+        "gh_username": "brainhackorg",
+        "repo": "global2017",
+        "project_label": [
+            "project"
+        ]
+    },
     "brainhack_global_2020": {
         "name": "Brainhack Global 2020",
         "gh_username": "brainhackorg",
@@ -75,5 +83,23 @@
         "project_label": [
             "project"
         ]
+    },
+    "openmr_2020": {
+        "name": "OpenMR 2020",
+        "gh_username": "OpenMRBenelux",
+        "repo": "openmrb2020-hackathon",
+        "project_label": [
+            "Hackathon Project"
+        ],
+        "site": "nijmegen_netherlands"
+    },
+    "openmr_2021": {
+        "name": "OpenMR 2021",
+        "gh_username": "OpenMRBenelux",
+        "repo": "openmrb2021-hackathon",
+        "project_label": [
+            "Hackathon Project"
+        ],
+        "site": "atlantis_earth"
     }
 }

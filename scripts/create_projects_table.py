@@ -28,8 +28,12 @@ sites = {
     "Sydney": {"labels": ["australasia_aus"]},
     "PhysioPy": {"labels": ["physiopy_gathertown"]},
     "Bay Area": {"labels": ["bay_area_usa"]},
-    "Atlantis": {"labels": ["Atlantis"]},
+    "Atlantis": {"labels": ["Atlantis", "atlantis_earth"]},
     "Rising sun": {"labels": ["Rising sun"]},
+    "Online": {"labels": ["atlantis_earth"]},
+    "Nijmegen": {"labels": ["nijmegen_netherlands"]},
+    "Krakow": {"labels": ["krakow_pol"]},
+    "Madison": {"labels": ["madison_usa"]},
 }
 
 LABELS_TO_REMOVE = [

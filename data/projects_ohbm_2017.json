@@ -172,6 +172,15 @@
         },
         "labels": [
             {
+                "id": 4686713509,
+                "node_id": "LA_kwDOBQxdAs8AAAABF1mSpQ",
+                "url": "https://api.github.com/repos/ohbm/hackathon2017/labels/topic:connectome",
+                "name": "topic:connectome",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            },
+            {
                 "id": 4686713515,
                 "node_id": "LA_kwDOBQxdAs8AAAABF1mSqw",
                 "url": "https://api.github.com/repos/ohbm/hackathon2017/labels/project",
@@ -188,7 +197,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-29T14:54:04Z",
-        "updated_at": "2022-11-29T14:55:56Z",
+        "updated_at": "2022-11-30T06:41:43Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
