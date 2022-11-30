@@ -9,10 +9,10 @@ sites = {
     "Marseille": {"labels": ["bhg:marseille_fra_1", "marseille_fra"]},
     "Boston": {"labels": ["bhg:boston_usa_1"]},
     "New York City": {"labels": ["bhg:nyc_usa_1"]},
-    "Toronto": {"labels": ["bhg:toronto_can_1"]},
+    "Toronto": {"labels": ["bhg:toronto_can_1", "toronto_canada"]},
     "Ontario": {"labels": ["bhg:ontario_can_1"]},
     "Washington D.C.": {"labels": ["bhg:washingtondc_usa_1"]},
-    "Montreal": {"labels": ["bhg:mtl_can_1"]},
+    "Montreal": {"labels": ["bhg:mtl_can_1", "montreal_canada"]},
     "Ankara": {"labels": ["bhg:ankara_tur_1"]},
     "micro2macro": {"labels": ["bhg:micro2macro_gbr_1"]},
     "Donostia": {"labels": ["bhg:donostia_esp_1", "donostia_esp"]},
@@ -35,6 +35,8 @@ sites = {
     "Krakow": {"labels": ["krakow_pol"]},
     "Madison": {"labels": ["madison_usa"]},
     "Ghent": {"labels": ["ghent_belgium"]},
+    "Magdeburg": {"labels": ["magdeburg_germany"]},
+    "Espoo": {"labels": ["espoo_finland"]},
 }
 
 LABELS_TO_REMOVE = [
