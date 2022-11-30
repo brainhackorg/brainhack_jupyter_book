@@ -1,8 +1,10 @@
-pre: neuroview bookpage
+pre: figures
 all: pre book
 
-book :
+figures:
 	python scripts/projects_stats.py
+
+book :
 	jupyter-book build brainhack_book
 
 test :
