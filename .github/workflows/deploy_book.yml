@@ -38,9 +38,7 @@ jobs:
 
       - name: Build Book
         run: |
-          make neuroview
-          make bookpage
-          make book
+          make all
 
       - name: Deploy book on push
         if: ${{ success() && github.event_name == 'push' }}
