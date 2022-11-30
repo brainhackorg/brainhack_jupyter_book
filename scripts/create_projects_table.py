@@ -51,6 +51,96 @@ LABELS_TO_REMOVE = [
     "Hacktrack: Good to go",
 ]
 
+LABELS_TO_RENAME = {
+    "git_skills:0_none": [
+        "git - 0",
+        "git-0",
+    ],
+    "git_skills:1_commit_push": [
+        "git - 1",
+        "git-1",
+    ],
+    "git_skills:2_branches_PRs": [
+        "git - 2",
+    ],
+    "git_skills:3_continuous_integration": [
+        "git-3",
+    ],
+    "modality:DWI": ["DWI"],
+    "modality:ECG": ["ECG"],
+    "modality:ECOG": ["ECOG"],
+    "modality:dMRI": ["dMRI"],
+    "modality:EEG": ["EEG"],
+    "modality:MEG": ["MEG"],
+    "modality:MRI": ["MRI"],
+    "modality:PET": ["PET"],
+    "modality:TDCS": ["TDCS"],
+    "modality:TMS": ["TMS"],
+    "modality:behavioral": ["behavioral"],
+    "modality:eye_tracking": ["eye_tracking", "eye tracking"],
+    "modality:fMRI": ["fMRI"],
+    "modality:fNIRS": ["fNIRS"],
+    "programming:C": [
+        "C / C++",
+        "C / C++ / Cython",
+        "C++",
+    ],
+    "programming:containerization": [
+        "containerization",
+        "docker / singularity",
+    ],
+    "programming:documentation": ["documentation", "markdown", "reStructuredText"],
+    "programming:Java": [
+        "Java",
+    ],
+    "programming:R": [
+        "R",
+    ],
+    "programming:Javascript": [
+        "javascript",
+    ],
+    "programming:html_css": ["html / css"],
+    "programming:none": ["no code"],
+    "programming:Matlab": ["Matlab", "matlab"],
+    "programming:Python": ["Python", "python"],
+    "programming:Unix_command_line": ["Unix command line", "unix command line"],
+    "programming:workflows": ["workflows", "Workflow"],
+    "tools:AFNI": ["AFNI"],
+    "tools:ANTs": ["ANTs"],
+    "tools:BIDS": ["BIDS"],
+    "tools:Brainstorm": ["Brainstorm"],
+    "tools:CPAC": ["CPAC"],
+    "tools:Datalad": [
+        "DataLad",
+        "Datalad",
+    ],
+    "tools:DIPY": ["DIPY", "dipy"],
+    "tools:FSL": ["FSL"],
+    "tools:FieldTrip": ["FieldTrip"],
+    "tools:Freesurfer": ["Freesurfer", "freesurfer"],
+    "tools:Jupyter": ["Jupyter", "Jupyter notebooks"],
+    "tools:MNE": ["MNE"],
+    "tools:MRtrix": ["MRtrix", "Mrtrix"],
+    "tools:NWB": ["NWB"],
+    "tools:Nipype": ["Nipype", "nipype"],
+    "tools:SPM": ["SPM"],
+    "tools:fMRIPrep": ["fMRIPrep"],
+    "topic:tractography": ["tractography"],
+    "topic:machine_learning": [
+        "machine learning",
+        "Machine Learning",
+        "machine_learning",
+    ],
+}
+
+
+def rename_labels(labels, LABELS_TO_RENAME):
+    for i, label in enumerate(labels):
+        for key in LABELS_TO_RENAME:
+            if label in LABELS_TO_RENAME[key]:
+                labels[i] = key
+    return labels
+
 
 def get_project_labels(this_project):
     return [x["name"] for x in this_project["labels"]]
@@ -121,8 +211,12 @@ def main():
                         labels.remove(i)
                 labels = sorted(labels)
 
+                labels = rename_labels(labels, LABELS_TO_RENAME)
+
                 if labels == []:
                     labels = ["n/a"]
+
+                labels = sorted(labels)
 
                 event.append(repositories_info[this_hackathon]["name"])
                 name.append(this_project["title"].lstrip())
@@ -142,6 +236,8 @@ def main():
     df = pd.DataFrame(data=d)
 
     df.to_csv(data_dir.joinpath("hackathon_projects.tsv"), index=False, sep="\t")
+
+    print(sorted(set(",".join(topics).split(","))))
 
 
 if __name__ == "__main__":
