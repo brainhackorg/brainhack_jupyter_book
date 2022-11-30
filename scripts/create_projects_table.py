@@ -95,7 +95,12 @@ LABELS_TO_RENAME = {
         "containerization",
         "docker / singularity",
     ],
-    "programming:documentation": ["documentation", "markdown", "reStructuredText"],
+    "project_type:documentation": [
+        "documentation",
+        "markdown",
+        "reStructuredText",
+        "programming:documentation",
+    ],
     "programming:Java": [
         "Java",
     ],

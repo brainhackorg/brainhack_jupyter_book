@@ -22,20 +22,24 @@ def load_hackathon_projects() -> pd.DataFrame:
     return df
 
 
-def list_labels_in_projects(project_df: pd.DataFrame) -> List[str]:
+def list_x_in_projects(project_df: pd.DataFrame, x: str) -> List[str]:
     project_df.fillna("", inplace=True)
-    labels = project_df["labels"]
-    labels = ",".join(labels).split(",")
-    labels = sorted(set(labels))
-    labels.pop(0)
+    x = project_df[x]
+    x = ",".join(x).split(",")
+    x = sorted(set(x))
+    if x[0] == "":
+        x.pop(0)
+    return x
+
+
+def list_labels_in_projects(project_df: pd.DataFrame) -> List[str]:
+    labels = list_x_in_projects(project_df, "labels")
     return labels
 
 
 def list_sites_in_projects(project_df: pd.DataFrame) -> List[str]:
-    project_df.fillna("", inplace=True)
-    labels = project_df["site"]
-    labels = ",".join(labels).split(",")
-    return sorted(set(labels))
+    sites = list_x_in_projects(project_df, "site")
+    return sites
 
 
 def load_citation(citation_file) -> dict:
