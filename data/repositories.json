@@ -60,6 +60,14 @@
             "project"
         ]
     },
+    "brainhack_global_2018": {
+        "name": "Brainhack Global 2018",
+        "gh_username": "brainhackorg",
+        "repo": "global2018",
+        "project_label": [
+            "project"
+        ]
+    },
     "brainhack_global_2020": {
         "name": "Brainhack Global 2020",
         "gh_username": "brainhackorg",

@@ -34,6 +34,7 @@ sites = {
     "Nijmegen": {"labels": ["nijmegen_netherlands"]},
     "Krakow": {"labels": ["krakow_pol"]},
     "Madison": {"labels": ["madison_usa"]},
+    "Ghent": {"labels": ["ghent_belgium"]},
 }
 
 LABELS_TO_REMOVE = [
