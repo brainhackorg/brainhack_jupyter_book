@@ -16,8 +16,6 @@ def save_figure(fig, filename):
 
 def histogram_nb_projects_per_x(df: pd.DataFrame, column: str):
 
-    # stacked histogram to show the OHBM hackathon projects
-
     ohbm_filter = df["event"].str.contains("OHBM", na=False)
 
     x = list_x_in_projects(df, column)
@@ -49,11 +47,11 @@ def main():
     sites_fig = histogram_nb_projects_per_x(df, "site")
     save_figure(sites_fig, "site")
 
-    labels_fig = histogram_nb_projects_per_x(df, "labels")
-    save_figure(labels_fig, "labels")
-
     date_fig = histogram_nb_projects_per_x(df, "date")
     save_figure(labels_fig, "date")
+
+    labels_fig = histogram_nb_projects_per_x(df, "labels")
+    save_figure(labels_fig, "labels")
 
     if show:
         sites_fig.show()

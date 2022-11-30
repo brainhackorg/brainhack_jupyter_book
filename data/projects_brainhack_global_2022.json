@@ -1,5 +1,228 @@
 [
     {
+        "url": "https://api.github.com/repos/brainhackorg/global2022/issues/138",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2022",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2022/issues/138/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2022/issues/138/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2022/issues/138/events",
+        "html_url": "https://github.com/brainhackorg/global2022/issues/138",
+        "id": 1470248214,
+        "node_id": "I_kwDOH48Pi85XojUW",
+        "number": 138,
+        "title": "Flexibly convert fmriprep confounds to censor files",
+        "user": {
+            "login": "dmoracze",
+            "id": 7197889,
+            "node_id": "MDQ6VXNlcjcxOTc4ODk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7197889?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dmoracze",
+            "html_url": "https://github.com/dmoracze",
+            "followers_url": "https://api.github.com/users/dmoracze/followers",
+            "following_url": "https://api.github.com/users/dmoracze/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dmoracze/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dmoracze/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dmoracze/subscriptions",
+            "organizations_url": "https://api.github.com/users/dmoracze/orgs",
+            "repos_url": "https://api.github.com/users/dmoracze/repos",
+            "events_url": "https://api.github.com/users/dmoracze/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dmoracze/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4620077000,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DHyA",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/washingtondc_usa",
+                "name": "washingtondc_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Washington DC event"
+            },
+            {
+                "id": 4620077004,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DHzA",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/git_skills:0_none",
+                "name": "git_skills:0_none",
+                "color": "bfdadc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077008,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH0A",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/modality:MRI",
+                "name": "modality:MRI",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077009,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH0Q",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/modality:fMRI",
+                "name": "modality:fMRI",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077011,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH0w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/git_skills:1_commit_push",
+                "name": "git_skills:1_commit_push",
+                "color": "bfdadc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077027,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH4w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/programming:documentation",
+                "name": "programming:documentation",
+                "color": "5319e7",
+                "default": false,
+                "description": "Markdown, Sphinx"
+            },
+            {
+                "id": 4620077031,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH5w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/tools:BIDS",
+                "name": "tools:BIDS",
+                "color": "0052cc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077034,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH6g",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077039,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH7w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/programming:Python",
+                "name": "programming:Python",
+                "color": "5319e7",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077043,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH8w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project_development_status:1_basic%20structure",
+                "name": "project_development_status:1_basic structure",
+                "color": "bfd4f2",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077045,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH9Q",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/programming:Unix_command_line",
+                "name": "programming:Unix_command_line",
+                "color": "5319e7",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077047,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH9w",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project_type:documentation",
+                "name": "project_type:documentation",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077049,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH-Q",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/tools:fMRIPrep",
+                "name": "tools:fMRIPrep",
+                "color": "0052cc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077050,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DH-g",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project_type:data_management",
+                "name": "project_type:data_management",
+                "color": "c5def5",
+                "default": false,
+                "description": "involves programming"
+            },
+            {
+                "id": 4620077065,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DICQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/project_type:pipeline_development",
+                "name": "project_type:pipeline_development",
+                "color": "c5def5",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077077,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIFQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/status:web_ready",
+                "name": "status:web_ready",
+                "color": "0e8a16",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077092,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIJA",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/topic:MR_methodologies",
+                "name": "topic:MR_methodologies",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4620077095,
+                "node_id": "LA_kwDOH48Pi88AAAABE2DIJw",
+                "url": "https://api.github.com/repos/brainhackorg/global2022/labels/topic:reproducible_scientific_methods",
+                "name": "topic:reproducible_scientific_methods",
+                "color": "006b75",
+                "default": false,
+                "description": ""
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-11-30T21:38:42Z",
+        "updated_at": "2022-11-30T23:15:46Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "### Title\n\nFmriprep to censor\n\n### Leaders\n\nDustin Moraczewski\n\n### Collaborators\n\n_No response_\n\n### Brainhack Global 2022 Event\n\nBrainhack Washington DC\n\n### Project Description\n\nFmriprep gives a smorgasbord of confounds to be used in later processing. While the program provides the option for generating censor files based on a few outlier criteria, I would like to expand on a tool I've written to take in fmriprep derivatives and write new censor files based on new outlier criteria. This tool can be of use to anyone who preprocesses their data with fmriprep and would like to have multiple censor files on hand.\r\n\r\nI have already written some basic code, but I'm quickly learning that it should be more flexible. \r\n\r\nKnowledge of censoring (aka scrubbing) in fmri is not essential, but for more info you can see this publication: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849338/ \r\n\n\n### Link to project repository/sources\n\nhttps://github.com/dmoracze/HPC_helper_tools/blob/master/bin/fmriprep-to-censor.py\n\n### Goals for Brainhack Global\n\nExpand the functionality of the code I've already written to include any number of outlier criteria. \n\n### Good first issues\n\n1. issue one:\r\n\r\n2. issue two:\r\n\n\n### Communication channels\n\nfmriprep-censor channel on brainhack DC's slack workspace:\r\nhttps://brainhackdc.github.io/2022/index.html \n\n### Skills\n\nPython: beginner to intermediate to expand on the current code\r\nCommand line: basic, to help with testing the code and giving feedback about the user experience\r\n\r\n\n\n### Onboarding documentation\n\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3849338/\r\n\r\nhttps://fmriprep.org/en/stable/outputs.html#confounds \n\n### What will participants learn?\n\nParticipants will learn about fmri censor files, fmriprep's confounds tables, and basic to intermediate python coding\n\n### Data to use\n\nI will provide some fmriprep derivatives from the open source ABIDE dataset\n\n### Number of collaborators\n\n2\n\n### Credit to collaborators\n\nContributors will be added as collaborators on the project's repo\n\n### Image\n\nLeave this text if you don't have an image yet.\n\n### Type\n\ndata_management, pipeline_development\n\n### Development status\n\n1_basic structure\n\n### Topic\n\nMR_methodologies, reproducible_scientific_methods\n\n### Tools\n\nBIDS, fMRIPrep\n\n### Programming language\n\nPython, unix_command_line\n\n### Modalities\n\nfMRI\n\n### Git skills\n\n0_no_git_skills, 1_commit_push\n\n### Anything else?\n\n_No response_\n\n### Things to do after the project is submitted and ready to review.\n\n- [X] Add a comment below the main post of your issue saying: `Hi @brainhackorg/project-monitors my project is ready!`\n- [X] Twitter-sized summary of your project pitch.",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2022/issues/138/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2022/issues/138/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
         "url": "https://api.github.com/repos/brainhackorg/global2022/issues/136",
         "repository_url": "https://api.github.com/repos/brainhackorg/global2022",
         "labels_url": "https://api.github.com/repos/brainhackorg/global2022/issues/136/labels{/name}",

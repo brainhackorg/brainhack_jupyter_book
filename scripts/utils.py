@@ -9,6 +9,25 @@ from rich import print
 yaml = ruamel.yaml.YAML()
 yaml.indent(mapping=2, sequence=4, offset=2)
 
+import logging
+from rich.logging import RichHandler
+
+log = logging.getLogger("bhg_jupyterbook")
+
+
+def bhg_log(name: str = "bhg_jupyterbook") -> logging.Logger:
+    """Create log."""
+    FORMAT = "bhg_jupyterbook - %(asctime)s - %(levelname)s - %(message)s"
+
+    if not name:
+        name = "rich"
+
+    logging.basicConfig(
+        level="INFO", format=FORMAT, datefmt="[%X]", handlers=[RichHandler()]
+    )
+
+    return logging.getLogger(name)
+
 
 def root_dir() -> Path:
     return Path(__file__).parent.parent

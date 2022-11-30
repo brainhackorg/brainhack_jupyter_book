@@ -10,13 +10,16 @@ import json
 from pathlib import Path
 
 import requests
-from rich import print
+from utils import bhg_log
 from utils import load_repositories_info
 from utils import root_dir
 
 USERNAME = "Remi-Gau"
 
-verbose = False
+log_level = "INFO"
+
+log = bhg_log(name="bidspm")
+log.setLevel(log_level)
 
 with open(Path(__file__).parent.joinpath("token.txt")) as f:
     TOKEN = f.read().strip()
@@ -26,10 +29,10 @@ def get_gh_issues(gh_username, repo, auth_username=None, auth_token=None):
 
     issues = None
 
-    print(f"\n[red]getting issues: {gh_username, repo}[/red]")
+    log.info(f"\ngetting issues: {gh_username, repo}")
 
     url = f"https://api.github.com/repos/{gh_username}/{repo}/issues?per_page=200"
-    print(url)
+    log.info(url)
 
     auth = None
     if auth_username is not None and auth_token is not None:
@@ -40,7 +43,7 @@ def get_gh_issues(gh_username, repo, auth_username=None, auth_token=None):
     if response.status_code == 200:
         issues = response.json()
     else:
-        print(f"Error {response.status_code}: {response.text}")
+        log.error(f"Error {response.status_code}: {response.text}")
 
     return issues
 
@@ -73,9 +76,8 @@ def main():
                     x in labels for x in repositories_info[this_repo]["project_label"]
                 ):
 
-                    if verbose:
-                        print(f"{this_issue['title']}")
-                        print(f"{labels}")
+                    log.debug(f"{this_issue['title']}")
+                    log.debug(f"{labels}")
 
                     project_issues.append(this_issue)
 
