@@ -19,7 +19,7 @@ for key in sites:
 data = pd.DataFrame(data)
 
 sites_fig = px.bar(data, x="sites", y="nb_projects")
-sites_fig_file = root_dir().joinpath("brainhack_book", "_labels.html")
+sites_fig_file = root_dir().joinpath("brainhack_book", "_sites.html")
 print(f"[blue]saving figure {sites_fig_file}[/blue]")
 sites_fig.write_html(sites_fig_file)
 
