@@ -69,6 +69,10 @@ LABELS_TO_REMOVE = [
 
 
 def labels_to_rename():
+    """list of labels to rename
+
+    The values are the labels to rename to the key.
+    """
     LABELS_TO_RENAME = {
         "git_skills:0_none": [
             "git - 0",
@@ -157,6 +161,8 @@ def labels_to_rename():
         "topic:diversity_inclusivity_equality": [
             "gender and race theory",
         ],
+        "topic:data_visualisation": ["visualization"],
+        "topic:MR_methodologies": ["MR_methodologies", "MR Methodologies"],
         "topic:tractography": ["tractography"],
         "topic:machine_learning": [
             "machine learning",

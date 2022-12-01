@@ -33,6 +33,35 @@ def root_dir() -> Path:
     return Path(__file__).parent.parent
 
 
+def get_timeline_df() -> pd.DataFrame:
+
+    timeline_df = load_file("brainhack-timeline_new.csv")
+
+    brainhack_sites_df = load_file("brainhack-sites.csv")
+
+    lat = []
+    lon = []
+    for row in timeline_df.itertuples():
+        print(row.City)
+        this_city = brainhack_sites_df["City"] == row.City.strip()
+        if this_city.sum() == 0:
+            log.warning(f"Could not find {row.City} in brainhack-sites.csv")
+            continue
+
+        lat.append(brainhack_sites_df[this_city]["lat"].values)
+        lon.append(brainhack_sites_df[this_city]["lon"].values)
+
+    return timeline_df
+
+
+def load_file(file):
+    file = root_dir().joinpath("data", file)
+    print(f"[blue]Loading {file}[/blue]")
+    result = pd.read_csv(file)
+
+    return result
+
+
 def load_hackathon_projects() -> pd.DataFrame:
     hackathon_projects_file = root_dir().joinpath("data", "hackathon_projects.tsv")
     print(f"[blue]Loading hackathon projects from {hackathon_projects_file}[/blue]")
