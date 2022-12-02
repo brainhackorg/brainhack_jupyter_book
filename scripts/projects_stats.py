@@ -80,41 +80,35 @@ def main():
 
     df = load_hackathon_projects()
 
-    sites_fig = histogram_nb_projects_per_x(df, "site")
+    sites_fig = histogram_nb_projects_per_x(df, column="site")
     save_figure(sites_fig, "site")
 
-    date_fig = histogram_nb_projects_per_x(df, "date")
+    date_fig = histogram_nb_projects_per_x(df, column="date")
     save_figure(date_fig, "date")
 
-    programming_fig = histogram_nb_projects_per_x(
-        df, "labels", "programming:", "programming:"
-    )
-    save_figure(programming_fig, "programming")
-
-    tools_fig = histogram_nb_projects_per_x(df, "labels", "tools:", "tools:")
-    save_figure(tools_fig, "tools")
-
-    topic_fig = histogram_nb_projects_per_x(df, "labels", "topic:", "topic:")
-    save_figure(topic_fig, "topic")
-
-    project_type_fig = histogram_nb_projects_per_x(
-        df, "labels", "project_type:", "project_type:"
-    )
-    save_figure(project_type_fig, "project_type")
-
-    modality_fig = histogram_nb_projects_per_x(df, "labels", "modality:", "modality:")
-    save_figure(modality_fig, "modality")
-
-    labels = list_labels_in_projects(df)
-    labels_to_remove = [
+    labels_with_separate_figure = [
         "programming:",
         "tools:",
         "topic:",
         "project_type:",
         "modality:",
     ]
-    labels = [x for x in labels if not any(x.startswith(y) for y in labels_to_remove)]
-    other_labels_fig = histogram_nb_projects_per_x(df, "labels", labels)
+    figures = []
+    for item in labels_with_separate_figure:
+        fig = histogram_nb_projects_per_x(
+            df, column="labels", content=item, replace=item
+        )
+        save_figure(fig, item.replace(":", ""))
+
+    labels = list_labels_in_projects(df)
+    other_labels = [
+        x
+        for x in labels
+        if not any(x.startswith(y) for y in labels_with_separate_figure)
+    ]
+    other_labels_fig = histogram_nb_projects_per_x(
+        df, column="labels", content=other_labels
+    )
     save_figure(other_labels_fig, "labels")
 
     df = px.data.gapminder()
@@ -132,10 +126,8 @@ def main():
     if show:
         sites_fig.show()
         date_fig.show()
-        programming_fig.show()
-        project_type_fig.show()
-        tools_fig.show()
-        modality_fig.show()
+        for fig in figures:
+            fig.show()
         other_labels_fig.show()
         planet_slider_fig.show()
 
