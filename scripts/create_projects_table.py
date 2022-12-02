@@ -50,6 +50,7 @@ sites = {
     "Geneva": {"labels": ["geneva_switzerland", "bhg:geneva_che_1"]},
     "Dallas": {"labels": ["dallas_usa"]},
     "China": {"labels": ["bhg:beijingnanning_china_1"]},
+    "Bloomington": {"labels": ["bhg:bloomington_usa_1"]},
 }
 
 LABELS_TO_REMOVE = [
@@ -185,7 +186,11 @@ def labels_to_rename():
         "topic:PCA": ["PCA"],
     }
     for key in LABELS_TO_RENAME:
-        log.info(f"Renaming {LABELS_TO_RENAME[key]} to '{key}'")
+        log.info(
+            f"""
+        Renaming {LABELS_TO_RENAME[key]}
+        to '{key}'"""
+        )
     return LABELS_TO_RENAME
 
 

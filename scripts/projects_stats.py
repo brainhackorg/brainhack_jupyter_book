@@ -1,3 +1,4 @@
+"""Generate figures for the projects dataframe."""
 from typing import Union
 
 import pandas as pd
@@ -72,7 +73,23 @@ def histogram_nb_projects_per_x(
 
     data = pd.DataFrame(data)
 
-    fig = px.bar(data, x=column, y=["ohbm_projects", "bhg_projects"])
+    title = f"Number of projects by '{column}'"
+    if isinstance(content, (str)):
+        title = f"Number of projects for '{column}' by {content.replace(':', '').replace('-', '')}"
+
+    print(title)
+
+    fig = px.bar(
+        data,
+        x=column,
+        y=["ohbm_projects", "bhg_projects"],
+        labels={
+            "value": "Number of projects",
+            "variable": "Event type",
+            "labels": column.replace(":", ""),
+        },
+        title=title,
+    )
 
     return fig
 
