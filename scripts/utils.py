@@ -3,6 +3,7 @@ import logging
 from pathlib import Path
 from typing import List
 
+import geopandas as gpd
 import pandas as pd
 import ruamel.yaml
 from rich import print
@@ -33,25 +34,61 @@ def root_dir() -> Path:
     return Path(__file__).parent.parent
 
 
-def get_timeline_df() -> pd.DataFrame:
+def find_coordinates_event(event_city: str, brainhack_sites: pd.DataFrame) -> tuple:
 
-    timeline_df = load_file("brainhack-timeline_new.csv")
-
-    brainhack_sites_df = load_file("brainhack-sites.csv")
+    this_city = brainhack_sites["City"] == event_city.strip()
 
     lat = []
     lon = []
-    for row in timeline_df.itertuples():
-        print(row.City)
-        this_city = brainhack_sites_df["City"] == row.City.strip()
-        if this_city.sum() == 0:
-            log.warning(f"Could not find {row.City} in brainhack-sites.csv")
-            continue
 
-        lat.append(brainhack_sites_df[this_city]["lat"].values)
-        lon.append(brainhack_sites_df[this_city]["lon"].values)
+    if this_city.sum() == 0:
+        log.warning(f"Could not find {event_city} in brainhack-sites.csv")
+    if this_city.sum() > 1:
+        log.warning(
+            f"""Found several cities for {event_city} in brainhack-sites.csv:
+Evidence: {brainhack_sites[this_city]}"""
+        )
+    else:
+        lat = brainhack_sites[this_city]["lat"].values
+        lon = brainhack_sites[this_city]["lon"].values
 
-    return timeline_df
+    assert len(lat) == len(lon)
+    return lat, lon
+
+
+def get_timeline() -> pd.DataFrame:
+
+    timeline = load_file("brainhack-timeline_new.csv")
+
+    timeline["display_name"] = timeline["Title"] + " - " + timeline["City"]
+
+    ohbm_filter = timeline["Title"].str.contains("OHBM", na=False)
+    timeline["event type"] = ohbm_filter
+    timeline["event type"].replace({True: "OHBM", False: "Brainhack"}, inplace=True)
+
+    brainhack_sites = load_file("brainhack-sites.csv")
+
+    # Find coordinates for each event and drop it if not found
+    coordinates = {"lat": [], "lon": []}
+    for row in timeline.itertuples():
+        (lat, lon) = find_coordinates_event(row.City, brainhack_sites)
+        if len(lat) > 0 and len(lon) > 0:
+            coordinates["lat"].append(lat[0])
+            coordinates["lon"].append(lon[0])
+        else:
+            timeline.drop(inplace=True, axis=0, index=row.Index)
+    geometry = gpd.points_from_xy(x=coordinates["lon"], y=coordinates["lat"])
+    timeline = gpd.GeoDataFrame(timeline, geometry=geometry)
+
+    # fill in missing values with mean number of participants for non-OHBM events
+    mean = timeline[~ohbm_filter]["Nb_participants"].mean()
+    timeline["Nb_participants"] = timeline["Nb_participants"].fillna(mean).astype(int)
+
+    timeline["date"] = pd.to_datetime(
+        timeline["YYYY-MM-DD"], infer_datetime_format=True
+    ).dt.strftime("%Y")
+
+    return timeline
 
 
 def load_file(file):
@@ -69,9 +106,9 @@ def load_hackathon_projects() -> pd.DataFrame:
     return df
 
 
-def list_x_in_projects(project_df: pd.DataFrame, x: str) -> List[str]:
-    project_df.fillna("", inplace=True)
-    x = project_df[x]
+def list_x_in_projects(projects: pd.DataFrame, x: str) -> List[str]:
+    projects.fillna("", inplace=True)
+    x = projects[x]
     x = [str(x) for x in x]
     x = ",".join(x).split(",")
     x = sorted(set(x))
@@ -80,13 +117,13 @@ def list_x_in_projects(project_df: pd.DataFrame, x: str) -> List[str]:
     return x
 
 
-def list_labels_in_projects(project_df: pd.DataFrame) -> List[str]:
-    labels = list_x_in_projects(project_df, "labels")
+def list_labels_in_projects(projects: pd.DataFrame) -> List[str]:
+    labels = list_x_in_projects(projects, "labels")
     return labels
 
 
-def list_sites_in_projects(project_df: pd.DataFrame) -> List[str]:
-    sites = list_x_in_projects(project_df, "site")
+def list_sites_in_projects(projects: pd.DataFrame) -> List[str]:
+    sites = list_x_in_projects(projects, "site")
     return sites
 
 

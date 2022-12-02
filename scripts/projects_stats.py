@@ -3,6 +3,7 @@ from typing import Union
 import pandas as pd
 import plotly.express as px
 from rich import print
+from utils import get_timeline
 from utils import list_labels_in_projects
 from utils import list_x_in_projects
 from utils import load_hackathon_projects
@@ -99,6 +100,7 @@ def main():
             df, column="labels", content=item, replace=item
         )
         save_figure(fig, item.replace(":", ""))
+        figures.append(fig)
 
     labels = list_labels_in_projects(df)
     other_labels = [
@@ -111,17 +113,22 @@ def main():
     )
     save_figure(other_labels_fig, "labels")
 
-    df = px.data.gapminder()
+    # TODO OHBM events do not get displayed in the timeline
+    timeline = get_timeline()
     planet_slider_fig = px.scatter_geo(
-        df,
-        locations="iso_alpha",
-        color="continent",
-        hover_name="country",
-        size="pop",
-        animation_frame="year",
+        timeline,
+        lat=timeline.geometry.y,
+        lon=timeline.geometry.x,
+        hover_name="display_name",
+        color="event type",
         projection="natural earth",
+        size="Nb_participants",
+        animation_frame="date",
     )
     save_figure(planet_slider_fig, "planet")
+
+    # TODO add dash datatable with list of projects
+    # https://dash.plotly.com/datatable
 
     if show:
         sites_fig.show()

@@ -47,7 +47,7 @@ sites = {
     "Espoo": {"labels": ["espoo_finland"]},
     "Rennes": {"labels": ["rennes_france"]},
     "Vienna": {"labels": ["vienna_austria"]},
-    "Geneva": {"labels": ["geneva_switzerland"]},
+    "Geneva": {"labels": ["geneva_switzerland", "bhg:geneva_che_1"]},
     "Dallas": {"labels": ["dallas_usa"]},
     "China": {"labels": ["bhg:beijingnanning_china_1"]},
 }
