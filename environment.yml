@@ -3,7 +3,7 @@ channels:
   - default
   - conda-forge
 dependencies:
-  - python=3.8.*
+  - python=3.10.*
   - pip
   - git
   - bokeh
@@ -25,3 +25,4 @@ dependencies:
     - ruamel.yaml
     - cffconvert
     - plotly
+    - flake8

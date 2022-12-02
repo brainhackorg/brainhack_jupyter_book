@@ -1,18 +1,25 @@
 import json
 
 import pandas as pd
-from rich import print
+from utils import bhg_log
 from utils import list_labels_in_projects
 from utils import load_repositories_info
 from utils import root_dir
 
+log_level = "INFO"
+
+log = bhg_log(name="bidspm")
+log.setLevel(log_level)
+
 sites = {
-    "Marseille": {"labels": ["bhg:marseille_fra_1", "marseille_fra"]},
+    "Marseille": {
+        "labels": ["bhg:marseille_fra_1", "marseille_fra", "marseille_france"]
+    },
     "Boston": {"labels": ["bhg:boston_usa_1"]},
     "New York City": {"labels": ["bhg:nyc_usa_1"]},
     "Toronto": {"labels": ["bhg:toronto_can_1", "toronto_canada"]},
     "Ontario": {"labels": ["bhg:ontario_can_1"]},
-    "Washington D.C.": {"labels": ["bhg:washingtondc_usa_1"]},
+    "Washington D.C.": {"labels": ["bhg:washingtondc_usa_1", "washingtondc_usa"]},
     "Montreal": {"labels": ["bhg:mtl_can_1", "montreal_canada"]},
     "Ankara": {"labels": ["bhg:ankara_tur_1"]},
     "micro2macro": {"labels": ["bhg:micro2macro_gbr_1"]},
@@ -38,6 +45,12 @@ sites = {
     "Ghent": {"labels": ["ghent_belgium"]},
     "Magdeburg": {"labels": ["magdeburg_germany"]},
     "Espoo": {"labels": ["espoo_finland"]},
+    "Rennes": {"labels": ["rennes_france"]},
+    "Vienna": {"labels": ["vienna_austria"]},
+    "Geneva": {"labels": ["geneva_switzerland", "bhg:geneva_che_1"]},
+    "Dallas": {"labels": ["dallas_usa"]},
+    "China": {"labels": ["bhg:beijingnanning_china_1"]},
+    "Bloomington": {"labels": ["bhg:bloomington_usa_1"]},
 }
 
 LABELS_TO_REMOVE = [
@@ -54,90 +67,131 @@ LABELS_TO_REMOVE = [
     "Apac hub",
     "Americas hub",
     "Hacktrack: Good to go",
+    "Missing reg",
+    "Ready for review",
 ]
 
-LABELS_TO_RENAME = {
-    "git_skills:0_none": [
-        "git - 0",
-        "git-0",
-    ],
-    "git_skills:1_commit_push": [
-        "git - 1",
-        "git-1",
-    ],
-    "git_skills:2_branches_PRs": [
-        "git - 2",
-    ],
-    "git_skills:3_continuous_integration": [
-        "git-3",
-    ],
-    "modality:DWI": ["DWI"],
-    "modality:ECG": ["ECG"],
-    "modality:ECOG": ["ECOG"],
-    "modality:dMRI": ["dMRI"],
-    "modality:EEG": ["EEG"],
-    "modality:MEG": ["MEG"],
-    "modality:MRI": ["MRI"],
-    "modality:PET": ["PET"],
-    "modality:TDCS": ["TDCS"],
-    "modality:TMS": ["TMS"],
-    "modality:behavioral": ["behavioral"],
-    "modality:eye_tracking": ["eye_tracking", "eye tracking"],
-    "modality:fMRI": ["fMRI"],
-    "modality:fNIRS": ["fNIRS"],
-    "programming:C": [
-        "C / C++",
-        "C / C++ / Cython",
-        "C++",
-        "programming:C++",
-    ],
-    "programming:containerization": [
-        "containerization",
-        "docker / singularity",
-    ],
-    "programming:documentation": ["documentation", "markdown", "reStructuredText"],
-    "programming:Java": [
-        "Java",
-    ],
-    "programming:R": [
-        "R",
-    ],
-    "programming:Javascript": [
-        "javascript",
-    ],
-    "programming:html_css": ["html / css"],
-    "programming:none": ["no code"],
-    "programming:Matlab": ["Matlab", "matlab"],
-    "programming:Python": ["Python", "python"],
-    "programming:Unix_command_line": ["Unix command line", "unix command line"],
-    "programming:workflows": ["workflows", "Workflow"],
-    "tools:AFNI": ["AFNI"],
-    "tools:ANTs": ["ANTs"],
-    "tools:BIDS": ["BIDS"],
-    "tools:Brainstorm": ["Brainstorm"],
-    "tools:CPAC": ["CPAC"],
-    "tools:Datalad": [
-        "DataLad",
-        "Datalad",
-    ],
-    "tools:DIPY": ["DIPY", "dipy"],
-    "tools:FSL": ["FSL"],
-    "tools:FieldTrip": ["FieldTrip"],
-    "tools:Freesurfer": ["Freesurfer", "freesurfer"],
-    "tools:Jupyter": ["Jupyter", "Jupyter notebooks"],
-    "tools:MNE": ["MNE"],
-    "tools:MRtrix": ["MRtrix", "Mrtrix"],
-    "tools:NWB": ["NWB"],
-    "tools:Nipype": ["Nipype", "nipype"],
-    "tools:SPM": ["SPM"],
-    "tools:fMRIPrep": ["fMRIPrep"],
-    "topic:tractography": ["tractography"],
-    "topic:machine_learning": [
-        "machine learning",
-        "Machine Learning",
-        "machine_learning",
-    ],
-}
+
+def labels_to_rename():
+    """list of labels to rename
+
+    The values are the labels to rename to the key.
+    """
+    LABELS_TO_RENAME = {
+        "git_skills:0_none": [
+            "git - 0",
+            "git-0",
+        ],
+        "git_skills:1_commit_push": [
+            "git - 1",
+            "git-1",
+        ],
+        "git_skills:2_branches_PRs": [
+            "git - 2",
+        ],
+        "git_skills:3_continuous_integration": [
+            "git-3",
+        ],
+        "modality:DWI": ["DWI", "diffusion"],
+        "modality:ECG": ["ECG"],
+        "modality:ECOG": ["ECOG"],
+        "modality:dMRI": ["dMRI"],
+        "modality:EEG": ["EEG"],
+        "modality:MEG": ["MEG"],
+        "modality:MRI": ["MRI"],
+        "modality:PET": ["PET"],
+        "modality:TDCS": ["TDCS"],
+        "modality:TMS": ["TMS"],
+        "modality:behavioral": ["behavioral"],
+        "modality:physiology": ["physiology", "physiological data"],
+        "modality:eye_tracking": ["eye_tracking", "eye tracking"],
+        "modality:fMRI": ["fMRI"],
+        "modality:fNIRS": ["fNIRS"],
+        "programming:C": [
+            "C / C++",
+            "C / C++ / Cython",
+            "C++",
+            "programming:C++",
+        ],
+        "programming:containerization": [
+            "containerization",
+            "docker / singularity",
+        ],
+        "programming:Julia": [
+            "Julia",
+        ],
+        "project_type:documentation": [
+            "documentation",
+            "markdown",
+            "reStructuredText",
+            "programming:documentation",
+        ],
+        "project_type:data_management": ["data_management", "data sharing"],
+        "project_type:visualisation": ["visualisation"],
+        "programming:Java": [
+            "Java",
+        ],
+        "programming:R": [
+            "R",
+        ],
+        "programming:Javascript": [
+            "javascript",
+        ],
+        "programming:none": ["no code"],
+        "programming:Matlab": ["Matlab", "matlab"],
+        "programming:Python": ["Python", "python"],
+        "programming:Unix_command_line": [
+            "Unix command line",
+            "unix command line",
+            "shell scripting",
+        ],
+        "programming:Web": ["web frameworks", "html / css", "programming:html_css"],
+        "programming:workflows": ["workflows", "Workflow"],
+        "tools:AFNI": ["AFNI"],
+        "tools:ANTs": ["ANTs"],
+        "tools:BIDS": ["BIDS"],
+        "tools:Brainstorm": ["Brainstorm"],
+        "tools:CPAC": ["CPAC"],
+        "tools:Datalad": [
+            "DataLad",
+            "Datalad",
+        ],
+        "tools:DIPY": ["DIPY", "dipy"],
+        "tools:FSL": ["FSL"],
+        "tools:FieldTrip": ["FieldTrip"],
+        "tools:Freesurfer": ["Freesurfer", "freesurfer"],
+        "tools:Jupyter": ["Jupyter", "Jupyter notebooks"],
+        "tools:MNE": ["MNE"],
+        "tools:MRtrix": ["MRtrix", "Mrtrix"],
+        "tools:NWB": ["NWB"],
+        "tools:Nipype": ["Nipype", "nipype"],
+        "tools:SPM": ["SPM"],
+        "tools:fMRIPrep": ["fMRIPrep"],
+        "topic:diversity_inclusivity_equality": [
+            "gender and race theory",
+        ],
+        "topic:data_visualisation": ["visualization"],
+        "topic:connectome": ["connectome"],
+        "topic:MR_methodologies": ["MR_methodologies", "MR Methodologies"],
+        "topic:tractography": ["tractography"],
+        "topic:machine_learning": [
+            "machine learning",
+            "Machine Learning",
+            "machine_learning",
+        ],
+        "topic:deep_learning": [
+            "deep learning",
+            "deep_learning",
+        ],
+        "topic:PCA": ["PCA"],
+    }
+    for key in LABELS_TO_RENAME:
+        log.info(
+            f"""
+        Renaming {LABELS_TO_RENAME[key]}
+        to '{key}'"""
+        )
+    return LABELS_TO_RENAME
 
 
 def rename_labels(labels, LABELS_TO_RENAME):
@@ -172,9 +226,9 @@ def get_project_site(this_hackathon, sites, labels):
         site = find_site_in_labels(sites, labels)
 
     if site is None:
-        print(f"Could not find site for {this_hackathon['name']}")
-        print(labels)
-        print(this_hackathon)
+        log.warning(f"Could not find site for {this_hackathon['name']}")
+        log.warning(labels)
+        log.warning(this_hackathon)
         site = "n/a"
 
     return site
@@ -191,19 +245,22 @@ def main():
         labels_to_remove.extend(sites[i]["labels"])
 
     data = {
+        "date": [],
         "name": [],
         "site": [],
         "event": [],
-        "date": [],
+        "created_at": [],
         "labels": [],
         "url": [],
     }
 
+    LABELS_TO_RENAME = labels_to_rename()
+
     for this_hackathon in repositories_info:
 
-        print(f"{this_hackathon}")
+        log.info(f"{this_hackathon}")
 
-        with open(data_dir.joinpath(f"projects_{this_hackathon}.json"), "r") as f:
+        with open(data_dir.joinpath(f"projects_{this_hackathon}.json")) as f:
 
             projects = json.load(f)
 
@@ -217,18 +274,15 @@ def main():
                 for i in labels_to_remove:
                     if i in labels:
                         labels.remove(i)
-                labels = sorted(labels)
-
                 labels = rename_labels(labels, LABELS_TO_RENAME)
-
                 if labels == []:
                     labels = ["n/a"]
-
                 labels = sorted(labels)
 
+                data["date"].append(repositories_info[this_hackathon]["year"])
                 data["event"].append(repositories_info[this_hackathon]["name"])
                 data["name"].append(this_project["title"].lstrip())
-                data["date"].append(this_project["created_at"])
+                data["created_at"].append(this_project["created_at"])
                 data["site"].append(this_project["site"].lstrip())
                 data["url"].append(this_project["url"])
                 data["labels"].append(",".join(labels))
@@ -237,7 +291,7 @@ def main():
 
     df.to_csv(data_dir.joinpath("hackathon_projects.tsv"), index=False, sep="\t")
 
-    print(list_labels_in_projects(df))
+    log.info(list_labels_in_projects(df))
 
 
 if __name__ == "__main__":

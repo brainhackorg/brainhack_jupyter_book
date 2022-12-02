@@ -12,8 +12,7 @@ venv/
 .vscode
 
 # figures in html
-_sites.html
-_labels.html
+brainhack_book/_*.html
 
 # working with files
 .~*.csv#

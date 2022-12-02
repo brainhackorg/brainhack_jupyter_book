@@ -1,5 +1,3 @@
-from pathlib import Path
-
 import pandas as pd
 from cffconvert.cli.create_citation import create_citation
 from cffconvert.cli.validate_or_write_output import validate_or_write_output
