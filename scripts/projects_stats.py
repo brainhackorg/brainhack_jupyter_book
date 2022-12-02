@@ -3,6 +3,7 @@ from typing import Union
 import pandas as pd
 import plotly.express as px
 from rich import print
+from utils import list_labels_in_projects
 from utils import list_x_in_projects
 from utils import load_hackathon_projects
 from utils import root_dir
@@ -104,14 +105,20 @@ def main():
     modality_fig = histogram_nb_projects_per_x(df, "labels", "modality:", "modality:")
     save_figure(modality_fig, "modality")
 
-    tmp = histogram_nb_projects_per_x(df, "labels", ["git", "MRI"], "git_skills:")
-    tmp.show()
-
-    labels_fig = histogram_nb_projects_per_x(df, "labels")
-    save_figure(labels_fig, "labels")
+    labels = list_labels_in_projects(df)
+    labels_to_remove = [
+        "programming:",
+        "tools:",
+        "topic:",
+        "project_type:",
+        "modality:",
+    ]
+    labels = [x for x in labels if not any(x.startswith(y) for y in labels_to_remove)]
+    other_labels_fig = histogram_nb_projects_per_x(df, "labels", labels)
+    save_figure(other_labels_fig, "labels")
 
     df = px.data.gapminder()
-    fig = px.scatter_geo(
+    planet_slider_fig = px.scatter_geo(
         df,
         locations="iso_alpha",
         color="continent",
@@ -120,8 +127,7 @@ def main():
         animation_frame="year",
         projection="natural earth",
     )
-    fig.show()
-    save_figure(fig, "planet")
+    save_figure(planet_slider_fig, "planet")
 
     if show:
         sites_fig.show()
@@ -130,7 +136,8 @@ def main():
         project_type_fig.show()
         tools_fig.show()
         modality_fig.show()
-        labels_fig.show()
+        other_labels_fig.show()
+        planet_slider_fig.show()
 
 
 if __name__ == "__main__":

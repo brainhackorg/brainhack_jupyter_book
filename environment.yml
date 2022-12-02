@@ -25,3 +25,4 @@ dependencies:
     - ruamel.yaml
     - cffconvert
     - plotly
+    - flake8

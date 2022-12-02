@@ -12,7 +12,9 @@ log = bhg_log(name="bidspm")
 log.setLevel(log_level)
 
 sites = {
-    "Marseille": {"labels": ["bhg:marseille_fra_1", "marseille_fra"]},
+    "Marseille": {
+        "labels": ["bhg:marseille_fra_1", "marseille_fra", "marseille_france"]
+    },
     "Boston": {"labels": ["bhg:boston_usa_1"]},
     "New York City": {"labels": ["bhg:nyc_usa_1"]},
     "Toronto": {"labels": ["bhg:toronto_can_1", "toronto_canada"]},
@@ -47,6 +49,7 @@ sites = {
     "Vienna": {"labels": ["vienna_austria"]},
     "Geneva": {"labels": ["geneva_switzerland"]},
     "Dallas": {"labels": ["dallas_usa"]},
+    "China": {"labels": ["bhg:beijingnanning_china_1"]},
 }
 
 LABELS_TO_REMOVE = [
@@ -122,6 +125,7 @@ def labels_to_rename():
             "reStructuredText",
             "programming:documentation",
         ],
+        "project_type:data_management": ["data_management", "data sharing"],
         "project_type:visualisation": ["visualisation"],
         "programming:Java": [
             "Java",
@@ -135,7 +139,11 @@ def labels_to_rename():
         "programming:none": ["no code"],
         "programming:Matlab": ["Matlab", "matlab"],
         "programming:Python": ["Python", "python"],
-        "programming:Unix_command_line": ["Unix command line", "unix command line"],
+        "programming:Unix_command_line": [
+            "Unix command line",
+            "unix command line",
+            "shell scripting",
+        ],
         "programming:Web": ["web frameworks", "html / css", "programming:html_css"],
         "programming:workflows": ["workflows", "Workflow"],
         "tools:AFNI": ["AFNI"],
@@ -162,6 +170,7 @@ def labels_to_rename():
             "gender and race theory",
         ],
         "topic:data_visualisation": ["visualization"],
+        "topic:connectome": ["connectome"],
         "topic:MR_methodologies": ["MR_methodologies", "MR Methodologies"],
         "topic:tractography": ["tractography"],
         "topic:machine_learning": [

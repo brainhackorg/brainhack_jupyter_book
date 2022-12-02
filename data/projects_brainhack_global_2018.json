@@ -66,6 +66,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Montreal event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -75,7 +84,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:12:27Z",
-        "updated_at": "2022-11-30T17:33:02Z",
+        "updated_at": "2022-12-02T11:30:35Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -172,6 +181,15 @@
                 "color": "006b75",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -181,7 +199,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:12:06Z",
-        "updated_at": "2022-11-30T17:32:32Z",
+        "updated_at": "2022-12-02T11:30:34Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -278,6 +296,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Montreal event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -287,7 +314,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:11:46Z",
-        "updated_at": "2022-11-30T17:32:29Z",
+        "updated_at": "2022-12-02T11:30:34Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -357,6 +384,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Montreal event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -366,7 +402,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:11:24Z",
-        "updated_at": "2022-11-30T13:13:37Z",
+        "updated_at": "2022-12-02T11:30:33Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -436,6 +472,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Montreal event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -445,7 +490,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:10:51Z",
-        "updated_at": "2022-11-30T13:13:36Z",
+        "updated_at": "2022-12-02T11:30:33Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -515,6 +560,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Espoo event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -524,7 +578,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:08:39Z",
-        "updated_at": "2022-11-30T13:09:58Z",
+        "updated_at": "2022-12-02T11:30:33Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -603,6 +657,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Espoo event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -612,7 +675,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:08:20Z",
-        "updated_at": "2022-11-30T13:09:58Z",
+        "updated_at": "2022-12-02T11:30:32Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -682,6 +745,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Espoo event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -691,7 +763,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:07:55Z",
-        "updated_at": "2022-11-30T13:09:57Z",
+        "updated_at": "2022-12-02T11:30:32Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -761,6 +833,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -770,7 +851,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:05:38Z",
-        "updated_at": "2022-11-30T13:06:24Z",
+        "updated_at": "2022-12-02T11:30:31Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -840,6 +921,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -849,7 +939,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:05:13Z",
-        "updated_at": "2022-11-30T13:06:24Z",
+        "updated_at": "2022-12-02T11:30:31Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -937,6 +1027,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -946,7 +1045,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:04:52Z",
-        "updated_at": "2022-11-30T13:06:23Z",
+        "updated_at": "2022-12-02T11:30:30Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1025,6 +1124,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1034,7 +1142,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:04:28Z",
-        "updated_at": "2022-11-30T13:06:23Z",
+        "updated_at": "2022-12-02T11:30:30Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1122,6 +1230,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1131,7 +1248,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:03:58Z",
-        "updated_at": "2022-11-30T13:06:22Z",
+        "updated_at": "2022-12-02T11:30:30Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1219,6 +1336,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1228,7 +1354,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:03:26Z",
-        "updated_at": "2022-11-30T13:06:21Z",
+        "updated_at": "2022-12-02T11:30:29Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1307,6 +1433,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1316,7 +1451,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:02:50Z",
-        "updated_at": "2022-11-30T13:06:21Z",
+        "updated_at": "2022-12-02T11:30:29Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1395,6 +1530,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1404,7 +1548,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:02:13Z",
-        "updated_at": "2022-11-30T13:06:20Z",
+        "updated_at": "2022-12-02T11:30:28Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1483,6 +1627,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1492,7 +1645,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:01:44Z",
-        "updated_at": "2022-11-30T13:06:19Z",
+        "updated_at": "2022-12-02T11:30:28Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1562,6 +1715,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Toronto event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1571,7 +1733,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T13:00:52Z",
-        "updated_at": "2022-11-30T13:06:19Z",
+        "updated_at": "2022-12-02T11:30:27Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1641,6 +1803,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Magdeburg event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1650,7 +1821,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T10:50:59Z",
-        "updated_at": "2022-11-30T10:52:03Z",
+        "updated_at": "2022-12-02T11:30:27Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1729,6 +1900,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Magdeburg event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1738,7 +1918,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T10:50:32Z",
-        "updated_at": "2022-11-30T10:52:02Z",
+        "updated_at": "2022-12-02T11:30:26Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1817,6 +1997,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Magdeburg event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1826,7 +2015,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T10:50:06Z",
-        "updated_at": "2022-11-30T10:52:02Z",
+        "updated_at": "2022-12-02T11:30:26Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1896,6 +2085,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Magdeburg event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1905,7 +2103,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T10:49:42Z",
-        "updated_at": "2022-11-30T10:52:01Z",
+        "updated_at": "2022-12-02T11:30:25Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -2002,6 +2200,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Magdeburg event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -2011,7 +2218,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T10:49:22Z",
-        "updated_at": "2022-11-30T10:51:59Z",
+        "updated_at": "2022-12-02T11:30:25Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -2108,6 +2315,15 @@
                 "color": "0052cc",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -2117,7 +2333,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T10:48:54Z",
-        "updated_at": "2022-11-30T10:51:58Z",
+        "updated_at": "2022-12-02T11:30:25Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -2187,6 +2403,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Magdeburg event"
+            },
+            {
+                "id": 4866111273,
+                "node_id": "LA_kwDOBwJP_88AAAABIgr3KQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2018/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -2196,7 +2421,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T10:48:10Z",
-        "updated_at": "2022-11-30T10:51:58Z",
+        "updated_at": "2022-12-02T11:30:24Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,

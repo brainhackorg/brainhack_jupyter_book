@@ -1,5 +1,1189 @@
 [
     {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/45",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/45/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/45/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/45/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/45",
+        "id": 1472703657,
+        "node_id": "I_kwDOCm7UBs5Xx6yp",
+        "number": 45,
+        "title": "Macapype",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132136,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB46A",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/programming:Python",
+                "name": "programming:Python",
+                "color": "5319e7",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132141,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB47Q",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/modality:MRI",
+                "name": "modality:MRI",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T11:15:22Z",
+        "updated_at": "2022-12-02T11:28:49Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/3\r\n\r\nLed by: David Meunier ([david.meunier@univ-amu.fr](mailto:david.meunier@univ-amu.fr)), Bastien Cagna ([bastien.cagna@univ-amu.fr](mailto:bastien.cagna@univ-amu.fr))\r\nProject Description\r\n\r\nThe aim of this project is to create a python package that provide all the tools needed to preprocess anatomical data of non humain primate. It also aim to provide a standard pipeline for different species, starting with macaques.\r\nSkills required to participate\r\n\r\nMRI preprocessing, Python\r\nLinks to resources\r\n\r\n    [Git repository](https://framagit.org/mars-hackat2019/anat-mri-pipeline/macapype)\r\n\r\nIllustration\r\n\r\n[Link to picture](https://cloud.int.univ-amu.fr/index.php/s/eR9SjGAz7PBswEz)",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/45/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/45/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/44",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/44/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/44/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/44/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/44",
+        "id": 1472702718,
+        "node_id": "I_kwDOCm7UBs5Xx6j-",
+        "number": 44,
+        "title": "Cortical searchlight in nilearn",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T11:14:37Z",
+        "updated_at": "2022-12-02T11:28:48Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/4\r\n\r\nLed by: Sylvain Takerkart\r\nProject Description\r\n\r\nFinalize the integration of an extension of nilearn that would allow performing cortex-based searchlight decoding in nilearn.\r\nSkills required to participate\r\n\r\nWhat different types of people could contribute?\r\nLinks to resources\r\n\r\n(Optional)\r\n\r\n    [github's page](https://github.com/SylvainTakerkart)\r\n    [nilearn pull request](https://github.com/nilearn/nilearn/pull/1959)\r\n\r\nIllustration\r\n\r\n(Optional)\r\n[Link to a beautiful picture](https://framagit.org/brainhack_marseille/ref2019/-/blob/master/url)",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/44/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/44/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/43",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/43/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/43/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/43/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/43",
+        "id": 1472701878,
+        "node_id": "I_kwDOCm7UBs5Xx6W2",
+        "number": 43,
+        "title": " Brain data visualization in Jupyter notebooks",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132136,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB46A",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/programming:Python",
+                "name": "programming:Python",
+                "color": "5319e7",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132253,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5XQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/tools:Jupyter",
+                "name": "tools:Jupyter",
+                "color": "0052cc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T11:13:57Z",
+        "updated_at": "2022-12-02T11:28:48Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/5\r\n\r\nLed by: Etienne Combrisson, [e.combrisson@gmail.com](mailto:e.combrisson@gmail.com)\r\nProject Description\r\n\r\nVisbrain is an open-source python package for plotting brain data. It relies on VisPy, a package that provide efficient GPU based plotting. VisPy recently added the support of embedded plot inside jupyter notebook / lab. The aim of the project is to also brings the Jupyter support to Visbrain and be able to plot brain data inside it and allow efficient real-time interactions.\r\n\r\nIn addition, the support for custom colormaps / colorbars is also required (see [#50](https://github.com/EtienneCmb/visbrain/pull/50))\r\nSkills required to participate\r\n\r\n    Object oriented Python programming\r\n    Jupyter notebooks / lab enthousiame\r\n\r\nLinks to resources\r\n\r\n    [Documentation](http://visbrain.org/)\r\n    [Github repo](https://github.com/EtienneCmb/visbrain)\r\n    [Combrisson et al. 2019](https://www.frontiersin.org/articles/10.3389/fninf.2019.00014/full)\r\n\r\nIllustration\r\n\r\nPicture from the paper",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/43/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/43/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/42",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/42/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/42/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/42/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/42",
+        "id": 1472700695,
+        "node_id": "I_kwDOCm7UBs5Xx6EX",
+        "number": 42,
+        "title": "PRIME-RE",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132141,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB47Q",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/modality:MRI",
+                "name": "modality:MRI",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T11:13:02Z",
+        "updated_at": "2022-12-02T11:28:47Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/6\r\n\r\nLed by: R\u00e9gis Trapeau, Bastien Cagna\r\nProject Description\r\n\r\nThe goal would be to further develop this project created during the PRIME-DE meeting in London. PRIMate-Ressource Exchange aims to provide an overview of the main difficulties and curate a collection of solutions that currently exist within the broader NHP-MRI community for specific processing steps that are commonly performed on NHP MRI data.\r\nSkills required to participate\r\n\r\nExperience, feedback or questions on PNH MRI processing.\r\nLinks to resources\r\n\r\n    https://prime-re.github.io/\r\n    [Git repo](https://github.com/PRIME-RE/prime-re.github.io)\r\n\r\nIllustration\r\n\r\n[logo](https://prime-re.github.io/images/social_preview_image.png)",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/42/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/42/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/41",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/41/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/41/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/41/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/41",
+        "id": 1472699757,
+        "node_id": "I_kwDOCm7UBs5Xx51t",
+        "number": 41,
+        "title": "Projet BioInfo : Demultiplexing Single Cell SplitSeq Data",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T11:12:20Z",
+        "updated_at": "2022-12-02T11:28:47Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/7\r\n\r\nLed by: Dipankar Bachar ([dipankar.bachar@univ-amu.fr](mailto:dipankar.bachar@univ-amu.fr))\r\nProject Description\r\n\r\nSingle cell SplitSeq is a recent and cheap method to produce single cell data. But, as it is a new method, there exists not many tools and pipeline to de-multiplex and analyse the splitseq data. So, the aim of this brain hack project is to better understand the method of SpliSeq , to test the existing tools, to propose/create new algorithm and if possible to develop tools/pipeline in order to demultiplex/analyse Spliseq data.\r\nSkills required to participate\r\n\r\nUnderstanding basic Single Cell transcription method.\r\nIllustration\r\n\r\n[Picture](https://cloud.int.univ-amu.fr/index.php/s/g4CytoSoziBaYfS)",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/41/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/41/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/40",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/40/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/40/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/40/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/40",
+        "id": 1472698937,
+        "node_id": "I_kwDOCm7UBs5Xx5o5",
+        "number": 40,
+        "title": "Think FAIR",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T11:11:40Z",
+        "updated_at": "2022-12-02T11:28:46Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/8\r\n\r\nLed by: Fred Barthelemy, Sylvain Takerkart\r\nProject Description\r\n\r\nThe goal of this project is to define standards for data management and application of the FAIR principles to our data in the context of open science. We propose to organize the discussions / workgroups around 4 points:\r\n\r\n    The organization and the formatting of the data storage. Discuss about the structuration of the data in different projects, find shared points and limitations.\r\n    The creation of a digital lab book. Develop an informatics tool to enter the information about the experiment for future use in data management.\r\n    The creation of procedures for all aspects of animal experiment. In order to approach the standards of Good Laboratory Practices, discuss around the installation of common written protocols defining standards in housing, care and experiment. -The definition of a GUID for the animals. Determine how a unique identifier standard could be set for animals involved in experiments.\r\n\r\nSkills required to participate\r\nIllustration\r\n\r\nthink_fair",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/40/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/40/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/39",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/39/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/39/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/39/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/39",
+        "id": 1472549939,
+        "node_id": "I_kwDOCm7UBs5XxVQz",
+        "number": 39,
+        "title": "Tools for quantifying beta burst dynamics across cortical layers",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T09:14:51Z",
+        "updated_at": "2022-12-02T11:28:45Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/9\r\n\r\nLed by: Bj\u00f8rg Kilavik ([bjorg.kilavik@univ-amu.fr](mailto:bjorg.kilavik@univ-amu.fr)), ...\r\nProject Description\r\n\r\nDiscuss adequate existing analysis methods and tools, and if necessary work towards establishing new tools (in matlab or python) to quantify the dynamics of individual burst/spindle events of LFP beta oscillations across macaque motor cortical layers.\r\n\r\nExample scientific questions that can be addressed once such tools are identified/developed:\r\n\r\n    To which extent do individual beta burst events have the same cortical depth of origin?\r\n    What is the spread across cortical depth of individual bursts?\r\n    Do bursts 'translate' or spread across cortical depth (laminar contacts), between the start and end of an individual burst?\r\n    What about phase consistency across cortical depth for each oscillation cycle, from the start to the end of each burst?\r\n\r\nSkills required to participate\r\n\r\nExperience in analysis of electrophysiological data, or in analysis techniques used in other fields that can be translated to the electrophysiological domain\r\nIllustration\r\n\r\nNiceFigureHackathon",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/39/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/39/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/38",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/38/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/38/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/38/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/38",
+        "id": 1472548767,
+        "node_id": "I_kwDOCm7UBs5XxU-f",
+        "number": 38,
+        "title": "Searchlight RSA in python",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132136,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB46A",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/programming:Python",
+                "name": "programming:Python",
+                "color": "5319e7",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T09:13:56Z",
+        "updated_at": "2022-12-02T11:28:45Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/11\r\n\r\nLed by: Bastien Cagna, Bruno Giordano, Sylvain Takerkart, Pascal Belin\r\nProject Description\r\n\r\nDevelop a searchlight Representation Similarity Analyses tool in python based on the Nilearn package.\r\nSkills required to participate\r\n\r\nPython, Statistics, RSA",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/38/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/38/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/37",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/37/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/37/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/37/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/37",
+        "id": 1472547551,
+        "node_id": "I_kwDOCm7UBs5XxUrf",
+        "number": 37,
+        "title": "ANEMO: Quantitative tools for the ANalysis of Eye MOvements",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T09:12:58Z",
+        "updated_at": "2022-12-02T11:28:44Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/12\r\n\r\nLed by: Laurent PERRINET ([laurent.perrinet@univ-amu.fr](mailto:laurent.perrinet@univ-amu.fr)), ...\r\nProject Description\r\n\r\nWe have developed a tool for the analysis of eye tracking movements @ https://github.com/invibe/ANEMO - this is mainly a 2-persons project and we need to torture it to make it something for which the world will be proud of us! :-)\r\nSkills required to participate\r\n\r\nPeople with an interest in eye movements, psychophysics and signal processing will be interested as it may guide the creation of similar tools for the analysis of experimental data. Goal is to get more validated parameters - and get more robust quantitative experimental results.\r\nLinks to resources\r\n\r\n    [GitHubRepo](https://github.com/invibe/ANEMO)\r\n    [Article](https://laurentperrinet.github.io/publication/pasturel-18-anemo/)\r\n\r\nIllustration\r\n\r\nan example result",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/37/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/37/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/36",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/36/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/36/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/36/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/36",
+        "id": 1472546042,
+        "node_id": "I_kwDOCm7UBs5XxUT6",
+        "number": 36,
+        "title": "PhysSocial",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132136,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB46A",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/programming:Python",
+                "name": "programming:Python",
+                "color": "5319e7",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132141,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB47Q",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/modality:MRI",
+                "name": "modality:MRI",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132184,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5GA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/modality:fMRI",
+                "name": "modality:fMRI",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132192,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5IA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/modality:behavioral",
+                "name": "modality:behavioral",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T09:11:43Z",
+        "updated_at": "2022-12-02T11:28:44Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/13\r\n\r\nLed by: Hmamouche Youssef, Magalie Ochs, Laurent Pr\u00e9vot, Thierry Chaminade\r\nProject Description\r\n\r\nThis is an under developement project which aims to provide a system for hemodynamic brain activity prediction based on behavioral features. The behavioral features represent verbal and non-verbal variables extracted during an experience of human-human and human-robot conversations conducted on several subjects. The goal is to detect the behavioral features that are responsible for the activation of each brain area, by means of prediction. A feature selection step is performed to select the input variables for the prediction of brain activity, then the most relevant input features are those how lead to the best prediction score.\r\nSkills required to participate\r\n\r\nfMRI data, conversations signals processing (video, audio and eyetracking data), Machine learning, Python.\r\nLinks\r\n\r\nhttps://github.com/Hmamouche/PhysSocial/",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/36/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/36/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
+        "url": "https://api.github.com/repos/brainhackorg/global2019/issues/35",
+        "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
+        "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/35/labels{/name}",
+        "comments_url": "https://api.github.com/repos/brainhackorg/global2019/issues/35/comments",
+        "events_url": "https://api.github.com/repos/brainhackorg/global2019/issues/35/events",
+        "html_url": "https://github.com/brainhackorg/global2019/issues/35",
+        "id": 1472545359,
+        "node_id": "I_kwDOCm7UBs5XxUJP",
+        "number": 35,
+        "title": "bv2mne",
+        "user": {
+            "login": "Remi-Gau",
+            "id": 6961185,
+            "node_id": "MDQ6VXNlcjY5NjExODU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Remi-Gau",
+            "html_url": "https://github.com/Remi-Gau",
+            "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+            "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+            "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+            "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+            "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+            "type": "User",
+            "site_admin": false
+        },
+        "labels": [
+            {
+                "id": 4859132133,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB45Q",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/modality:MEG",
+                "name": "modality:MEG",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132156,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB4_A",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/modality:EEG",
+                "name": "modality:EEG",
+                "color": "1d76db",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132224,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5QA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/tools:MNE",
+                "name": "tools:MNE",
+                "color": "0052cc",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4859132231,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5Rw",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/marseille_france",
+                "name": "marseille_france",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Marseille event"
+            },
+            {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
+                "id": 4859132346,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5ug",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/project",
+                "name": "project",
+                "color": "f9bc70",
+                "default": false,
+                "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2022-12-02T09:11:08Z",
+        "updated_at": "2022-12-02T11:28:43Z",
+        "closed_at": null,
+        "author_association": "MEMBER",
+        "active_lock_reason": null,
+        "body": "Added as an issue for book keeping\r\n\r\nSource:\r\nhttps://framagit.org/brainhack_marseille/ref2019/-/issues/14\r\n\r\nLed by: Ruggero Basanisi\r\nProject Description\r\n\r\nThe aim of the project is to create a python pipeline able to link BrainVISA, a neuroimaging software platform developed in Marseille, to MNE, that is currently one of the most used python tool to perform data analysis on MEG/EEG data. BrainVISA includes MarsAtlas, an anatomical atlas that divedes the brain in 82 cortical parcels and 14 subcortical parcels. The main objectives of this pipeline are:\r\n\r\n    storing data in a clean and functional database\r\n    perform cortical source space reconstruction\r\n    perform subcortical volume reconstruction\r\n    labelling based on MarsAtlas parcellation\r\n    visualization tools based on visbrain\r\n\r\nSkills required to participate\r\n\r\nPrerequisites No particular skills are required.\r\nLinks to resources\r\n\r\nLinks\r\n\r\n    [BrainVISA](http://brainvisa.info/web/index.html)\r\n    [MarsAtlas](https://meca-brain.org/software/marsatlas/)\r\n    [MNE](https://mne.tools/stable/index.html)\r\n    [visbrain](http://visbrain.org/index.html)",
+        "reactions": {
+            "url": "https://api.github.com/repos/brainhackorg/global2019/issues/35/reactions",
+            "total_count": 0,
+            "+1": 0,
+            "-1": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/brainhackorg/global2019/issues/35/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+    },
+    {
         "url": "https://api.github.com/repos/brainhackorg/global2019/issues/34",
         "repository_url": "https://api.github.com/repos/brainhackorg/global2019",
         "labels_url": "https://api.github.com/repos/brainhackorg/global2019/issues/34/labels{/name}",
@@ -57,6 +1241,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -66,7 +1259,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:23:52Z",
-        "updated_at": "2022-11-30T23:24:23Z",
+        "updated_at": "2022-12-02T11:28:43Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -136,6 +1329,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -145,7 +1347,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:23:23Z",
-        "updated_at": "2022-11-30T23:24:23Z",
+        "updated_at": "2022-12-02T11:28:43Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -224,6 +1426,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -233,7 +1444,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:22:48Z",
-        "updated_at": "2022-11-30T23:24:22Z",
+        "updated_at": "2022-12-02T11:28:42Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -314,6 +1525,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132336,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5sA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/toronto_canada",
@@ -330,6 +1550,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -339,7 +1568,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:21:26Z",
-        "updated_at": "2022-11-30T23:25:25Z",
+        "updated_at": "2022-12-02T11:28:42Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -393,6 +1622,15 @@
         },
         "labels": [
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132336,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5sA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/toronto_canada",
@@ -409,6 +1647,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -418,7 +1665,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:21:00Z",
-        "updated_at": "2022-11-30T23:25:25Z",
+        "updated_at": "2022-12-02T11:28:41Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -481,6 +1728,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132336,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5sA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/toronto_canada",
@@ -497,6 +1753,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -506,7 +1771,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:20:27Z",
-        "updated_at": "2022-11-30T23:25:24Z",
+        "updated_at": "2022-12-02T11:28:41Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -578,6 +1843,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132336,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5sA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/toronto_canada",
@@ -594,6 +1868,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -603,7 +1886,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:19:56Z",
-        "updated_at": "2022-11-30T23:25:24Z",
+        "updated_at": "2022-12-02T11:28:40Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -675,6 +1958,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132336,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5sA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/toronto_canada",
@@ -691,6 +1983,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -700,7 +2001,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T23:19:08Z",
-        "updated_at": "2022-11-30T23:25:23Z",
+        "updated_at": "2022-12-02T11:28:40Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -790,6 +2091,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132284,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5fA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/geneva_switzerland",
@@ -806,6 +2116,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -815,7 +2134,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T19:25:56Z",
-        "updated_at": "2022-11-30T19:26:42Z",
+        "updated_at": "2022-12-02T11:28:39Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -887,6 +2206,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132284,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5fA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/geneva_switzerland",
@@ -903,6 +2231,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -912,7 +2249,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T19:25:12Z",
-        "updated_at": "2022-11-30T19:26:41Z",
+        "updated_at": "2022-12-02T11:28:39Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -984,6 +2321,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132284,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5fA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/geneva_switzerland",
@@ -1000,6 +2346,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1009,7 +2364,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T19:24:25Z",
-        "updated_at": "2022-11-30T19:26:41Z",
+        "updated_at": "2022-12-02T11:28:38Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1081,6 +2436,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132284,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5fA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/geneva_switzerland",
@@ -1097,6 +2461,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1106,7 +2479,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T19:23:44Z",
-        "updated_at": "2022-11-30T19:26:40Z",
+        "updated_at": "2022-12-02T11:28:38Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1169,6 +2542,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132284,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5fA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/geneva_switzerland",
@@ -1185,6 +2567,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1194,7 +2585,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T19:22:30Z",
-        "updated_at": "2022-11-30T19:26:40Z",
+        "updated_at": "2022-12-02T11:28:37Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -1275,6 +2666,15 @@
                 "description": ""
             },
             {
+                "id": 4859132268,
+                "node_id": "LA_kwDOCm7UBs8AAAABIaB5bA",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/dallas_usa",
+                "name": "dallas_usa",
+                "color": "d4c5f9",
+                "default": false,
+                "description": "Dallas event"
+            },
+            {
                 "id": 4859132284,
                 "node_id": "LA_kwDOCm7UBs8AAAABIaB5fA",
                 "url": "https://api.github.com/repos/brainhackorg/global2019/labels/geneva_switzerland",
@@ -1291,6 +2691,15 @@
                 "color": "f9bc70",
                 "default": false,
                 "description": ""
+            },
+            {
+                "id": 4866105797,
+                "node_id": "LA_kwDOCm7UBs8AAAABIgrhxQ",
+                "url": "https://api.github.com/repos/brainhackorg/global2019/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -1300,7 +2709,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-11-30T19:21:31Z",
-        "updated_at": "2022-11-30T19:26:39Z",
+        "updated_at": "2022-12-02T11:28:37Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
