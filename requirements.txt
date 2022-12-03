@@ -1,9 +1,6 @@
-bokeh
 geopandas
 ghp-import
 jupytext
-matplotlib
-nbval
 pandas
 pyshp
 pytest
