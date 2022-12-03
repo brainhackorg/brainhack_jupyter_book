@@ -35,7 +35,7 @@ def root_dir() -> Path:
 
 
 def find_coordinates_event(event_city: str, brainhack_sites: pd.DataFrame) -> tuple:
-    """Return latitute and longitude of an event."""
+    """Return latitude and longitude of an event."""
     this_city = brainhack_sites["City"] == event_city.strip()
 
     lat = []
