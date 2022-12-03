@@ -18,7 +18,7 @@ log = logging.getLogger("bhg_jupyterbook")
 
 def bhg_log(name: str = "bhg_jupyterbook") -> logging.Logger:
     """Create log."""
-    FORMAT = "bhg_jupyterbook - %(asctime)s - %(levelname)s - %(message)s"
+    FORMAT = "bhg_jupyterbook - %(asctime)s - \n%(message)s"
 
     if not name:
         name = "rich"
@@ -35,7 +35,7 @@ def root_dir() -> Path:
 
 
 def find_coordinates_event(event_city: str, brainhack_sites: pd.DataFrame) -> tuple:
-
+    """Return latitute and longitude of an event."""
     this_city = brainhack_sites["City"] == event_city.strip()
 
     lat = []
@@ -57,8 +57,8 @@ Evidence: {brainhack_sites[this_city]}"""
 
 
 def get_timeline() -> pd.DataFrame:
-
-    timeline = load_file("brainhack-timeline_new.csv")
+    """Return timeline dataframe after cleaning and updating it."""
+    timeline = load_file("brainhack-timeline.csv")
 
     timeline["display_name"] = timeline["Title"] + " - " + timeline["City"]
 
@@ -91,10 +91,10 @@ def get_timeline() -> pd.DataFrame:
     return timeline
 
 
-def load_file(file):
-    file = root_dir().joinpath("data", file)
-    print(f"[blue]Loading {file}[/blue]")
-    result = pd.read_csv(file)
+def load_file(file: str):
+    filepath = root_dir().joinpath("data", file)
+    print(f"[blue]Loading {filepath}[/blue]")
+    result = pd.read_csv(filepath)
 
     return result
 
@@ -106,9 +106,9 @@ def load_hackathon_projects() -> pd.DataFrame:
     return df
 
 
-def list_x_in_projects(projects: pd.DataFrame, x: str) -> List[str]:
+def list_x_in_projects(projects: pd.DataFrame, column: str) -> List[str]:
     projects.fillna("", inplace=True)
-    x = projects[x]
+    x = projects[column]
     x = [str(x) for x in x]
     x = ",".join(x).split(",")
     x = sorted(set(x))

@@ -218,10 +218,12 @@ def find_site_in_labels(sites, labels):
 
 def get_project_site(this_hackathon, sites, labels):
 
+    # For some project, the site is directly listed in repository information
     site = this_hackathon.get("site", None)
     if site is not None:
         site = find_this_site_name(site, sites)
 
+    # If not, we try to find the site in the project labels
     if site is None:
         site = find_site_in_labels(sites, labels)
 
@@ -234,6 +236,16 @@ def get_project_site(this_hackathon, sites, labels):
     return site
 
 
+def clean_labels(labels, labels_to_remove, LABELS_TO_RENAME):
+    for i in labels_to_remove:
+        if i in labels:
+            labels.remove(i)
+    labels = rename_labels(labels, LABELS_TO_RENAME)
+    if labels == []:
+        labels = ["n/a"]
+    return sorted(labels)
+
+
 def main():
 
     repositories_info = load_repositories_info()
@@ -244,6 +256,8 @@ def main():
     for i in sites:
         labels_to_remove.extend(sites[i]["labels"])
 
+    LABELS_TO_RENAME = labels_to_rename()
+
     data = {
         "date": [],
         "name": [],
@@ -253,8 +267,6 @@ def main():
         "labels": [],
         "url": [],
     }
-
-    LABELS_TO_RENAME = labels_to_rename()
 
     for this_hackathon in repositories_info:
 
@@ -271,13 +283,7 @@ def main():
                     repositories_info[this_hackathon], sites, labels
                 )
 
-                for i in labels_to_remove:
-                    if i in labels:
-                        labels.remove(i)
-                labels = rename_labels(labels, LABELS_TO_RENAME)
-                if labels == []:
-                    labels = ["n/a"]
-                labels = sorted(labels)
+                labels = clean_labels(labels, labels_to_remove, LABELS_TO_RENAME)
 
                 data["date"].append(repositories_info[this_hackathon]["year"])
                 data["event"].append(repositories_info[this_hackathon]["name"])

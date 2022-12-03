@@ -48,6 +48,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Bloomington event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -57,7 +66,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T17:50:48Z",
-        "updated_at": "2022-12-02T17:53:52Z",
+        "updated_at": "2022-12-02T18:01:16Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -145,6 +154,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Bloomington event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -154,7 +172,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T17:49:42Z",
-        "updated_at": "2022-12-02T17:53:52Z",
+        "updated_at": "2022-12-02T18:01:16Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -224,6 +242,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Bloomington event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -233,7 +260,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T17:48:10Z",
-        "updated_at": "2022-12-02T17:53:52Z",
+        "updated_at": "2022-12-02T18:01:16Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -312,6 +339,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Bloomington event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -321,7 +357,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T17:47:49Z",
-        "updated_at": "2022-12-02T17:53:51Z",
+        "updated_at": "2022-12-02T18:01:15Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -391,6 +427,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "Bloomington event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -400,7 +445,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T17:47:15Z",
-        "updated_at": "2022-12-02T17:53:51Z",
+        "updated_at": "2022-12-02T18:01:15Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -470,6 +515,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "BHG 2021 Geneva event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -479,7 +533,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T14:58:42Z",
-        "updated_at": "2022-12-02T14:59:12Z",
+        "updated_at": "2022-12-02T18:01:15Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -558,6 +612,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "BHG 2021 Geneva event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -567,7 +630,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T14:57:07Z",
-        "updated_at": "2022-12-02T14:59:12Z",
+        "updated_at": "2022-12-02T18:01:14Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -682,6 +745,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "BHG 2021 Geneva event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -691,7 +763,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T14:56:04Z",
-        "updated_at": "2022-12-02T14:59:11Z",
+        "updated_at": "2022-12-02T18:01:14Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -761,6 +833,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "BHG 2021 Geneva event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -770,7 +851,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T14:55:11Z",
-        "updated_at": "2022-12-02T14:59:11Z",
+        "updated_at": "2022-12-02T18:01:14Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -876,6 +957,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "BHG 2021 Geneva event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -885,7 +975,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T14:53:46Z",
-        "updated_at": "2022-12-02T14:59:10Z",
+        "updated_at": "2022-12-02T18:01:13Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
@@ -973,6 +1063,15 @@
                 "color": "d4c5f9",
                 "default": false,
                 "description": "BHG 2021 Geneva event"
+            },
+            {
+                "id": 4867374670,
+                "node_id": "LA_kwDOGDgFD88AAAABIh4-Tg",
+                "url": "https://api.github.com/repos/brainhackorg/global2021/labels/CHECK_LABEL",
+                "name": "CHECK_LABEL",
+                "color": "B60205",
+                "default": false,
+                "description": "Labels needs to be checked by a human"
             }
         ],
         "state": "open",
@@ -982,7 +1081,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2022-12-02T14:51:59Z",
-        "updated_at": "2022-12-02T14:59:10Z",
+        "updated_at": "2022-12-02T18:01:13Z",
         "closed_at": null,
         "author_association": "MEMBER",
         "active_lock_reason": null,
