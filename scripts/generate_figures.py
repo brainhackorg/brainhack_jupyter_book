@@ -1,4 +1,4 @@
-"""Generate figures for the projects dataframe."""
+"""Generate figures for the projects and timeline."""
 from typing import Union
 
 import pandas as pd
@@ -19,16 +19,34 @@ def save_figure(fig, filename):
     fig.write_html(fig_file)
 
 
+def get_categories_to_sort_project_by(
+    projects: pd.DataFrame, column: str, content: Union[str, list, None] = None
+) -> list:
+
+    categories = list_x_in_projects(projects, column)
+
+    if isinstance(content, (str)):
+        categories = [x for x in categories if content in x]
+
+    if isinstance(content, (list)):
+        tmp = []
+        for item in categories:
+            tmp.extend(item for item2 in content if item2 in item)
+        categories = tmp
+
+    return categories
+
+
 def histogram_nb_projects_per_x(
-    df: pd.DataFrame,
+    projects: pd.DataFrame,
     column: str,
     content: Union[str, list, None] = None,
     replace: Union[str, list, None] = None,
 ):
     """Make a histogram of the number of projects sorted by column x.
 
-    :param df: input dataframe
-    :type df: pd.DataFrame
+    :param projects: input dataframe
+    :type projects: pd.DataFrame
     :param column: column header to sort projects by
     :type column: str
     :param content: only include projects with this content in targeted column, defaults to None
@@ -37,25 +55,16 @@ def histogram_nb_projects_per_x(
     :rtype: _type_
     """
 
-    ohbm_filter = df["event"].str.contains("OHBM", na=False)
+    ohbm_filter = projects["event"].str.contains("OHBM", na=False)
 
-    x = list_x_in_projects(df, column)
-    if isinstance(content, (str)):
-        tmp = [x for x in x if content in x]
-    if isinstance(content, (list)):
-        tmp = []
-        for item in x:
-            tmp.extend(item for item2 in content if item2 in item)
-    if content is None:
-        tmp = x
-    x = tmp
+    categories = get_categories_to_sort_project_by(projects, column, content)
 
-    data = {column: x, "ohbm_projects": [], "bhg_projects": []}
+    data = {column: categories, "ohbm_projects": [], "bhg_projects": []}
 
     for item in data[column]:
 
-        df[column] = df[column].astype("string")
-        frame_filter = df[column].str.contains("|".join([item]), na=False)
+        projects[column] = projects[column].astype("string")
+        frame_filter = projects[column].str.contains("|".join([item]), na=False)
 
         is_ohbm_project = frame_filter & ohbm_filter
         data["ohbm_projects"].append(is_ohbm_project.sum())
@@ -96,12 +105,12 @@ def histogram_nb_projects_per_x(
 
 def main():
 
-    df = load_hackathon_projects()
+    projects = load_hackathon_projects()
 
-    sites_fig = histogram_nb_projects_per_x(df, column="site")
+    sites_fig = histogram_nb_projects_per_x(projects, column="site")
     save_figure(sites_fig, "site")
 
-    date_fig = histogram_nb_projects_per_x(df, column="date")
+    date_fig = histogram_nb_projects_per_x(projects, column="date")
     save_figure(date_fig, "date")
 
     labels_with_separate_figure = [
@@ -114,19 +123,19 @@ def main():
     figures = []
     for item in labels_with_separate_figure:
         fig = histogram_nb_projects_per_x(
-            df, column="labels", content=item, replace=item
+            projects, column="labels", content=item, replace=item
         )
         save_figure(fig, item.replace(":", ""))
         figures.append(fig)
 
-    labels = list_labels_in_projects(df)
+    labels = list_labels_in_projects(projects)
     other_labels = [
         x
         for x in labels
         if not any(x.startswith(y) for y in labels_with_separate_figure)
     ]
     other_labels_fig = histogram_nb_projects_per_x(
-        df, column="labels", content=other_labels
+        projects, column="labels", content=other_labels
     )
     save_figure(other_labels_fig, "labels")
 

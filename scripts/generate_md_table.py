@@ -1,3 +1,4 @@
+"""Generate the contributors and acknowledgments tables for the book."""
 from pathlib import Path
 
 import pandas as pd
@@ -22,7 +23,6 @@ def turn_into_link(df, col, content, prefix):
 
 
 def merge_name_columns(df):
-
     df["Middle initial(s)"] = df["Middle initial(s)"].fillna("")
 
     df["Name"] = (
@@ -37,7 +37,7 @@ def merge_name_columns(df):
     return df
 
 
-def rename_colums(df):
+def rename_columns(df):
 
     renaming_map = {
         "participated in event (for example: led or joined a hackathon project)": "participated in event",
@@ -71,7 +71,7 @@ def process_file(file: Path):
     output_file = root_dir().joinpath("brainhack_book", file.stem + "_table.md")
     contributors = pd.read_csv(file, sep="\t")
     contributors = drop_columns(contributors)
-    contributors = rename_colums(contributors)
+    contributors = rename_columns(contributors)
     contributors = merge_name_columns(contributors)
     contributors = turn_twitter_handle_into_link(contributors)
     contributors = turn_osf_id_into_link(contributors)

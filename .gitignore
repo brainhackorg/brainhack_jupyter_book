@@ -9,7 +9,7 @@ env/
 venv/
 
 # vs code stuff
-.vscode
+.vscode/settings.json
 
 # figures in html
 brainhack_book/_*.html
