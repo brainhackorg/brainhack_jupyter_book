@@ -16,7 +16,7 @@ something from a project
 
 ### Across Field
 
-Interdisciplinary approach combining expertise in different domains, such as different research topics or professions. 
+Interdisciplinary approach combining expertise in different domains, such as different research topics or professions.
 
 ### Ad-hoc
 
@@ -102,7 +102,7 @@ files.
 
 Organizing and structure created through people working in the lower levels of
 an organization or community; all members of the community are equal stakeholders. This approach to organizational structure is general in contrast to top-down, where structure is
-imposed from a few individuals at the top of a hierarchy. 
+imposed from a few individuals at the top of a hierarchy.
 
 ## C
 
@@ -545,7 +545,7 @@ pre-prints**
 
 ### Open Science Framework
 
-An open source software that enables FAIR and multidisciplinary collaboration in research. 
+An open source software that enables FAIR and multidisciplinary collaboration in research.
 
 ### Open Source
 
@@ -737,7 +737,7 @@ The act of bringing something together by oneself without a governing entity ove
 
 ### Senior Researcher
 
-An individual who has achieved a level in their career allowing them to oversee major projects and supervise other researchers. 
+An individual who has achieved a level in their career allowing them to oversee major projects and supervise other researchers.
 
 ### Sharing
 
@@ -845,7 +845,7 @@ The general step-by-step plan for a given project or experiment.
 
 ### Workshop
 
-A joint project in which participants engage in a particular activity. 
+A joint project in which participants engage in a particular activity.
 
 ## Y
 
