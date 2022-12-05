@@ -8,18 +8,25 @@ The societal community of individuals and groups associated with education,
 research, scholarship, and learning, especially through university settings or
 research institutions.
 
-### Across Field
-
 ### Accessibility
 
 The extent to which communities with different backgrounds, experiences,
-training, perspectives, and locations can interact with a project and gain
-something from it.
+training, perspectives, and locations have the means to interact with, contribute to, and gain
+something from a project
+
+### Across Field
+
+Interdisciplinary approach combining expertise in different domains, such as different research topics or professions. 
 
 ### Ad-hoc
 
-Decided after the fact. Often used when something was not taken into
-consideration ahead of time.
+A decision or action taken to address something immediately, without having been previously taken into consideration.
+
+### Attendee
+
+Any individual who attends or is present at the event, training, seminar,
+workshop, or activity (e.g., participant at Brainhack event, individual present
+at Brainhack workshop, etc.)
 
 ### Audience
 
@@ -35,13 +42,9 @@ any part of the overall project at any stage, including participating in initial
 project planning & development, to creating written documentation of global
 efforts, and finally to finalizing and publishing the results.
 
-### Attendee
-
-Any individual who attends or is present at the event, training, seminar,
-workshop, or activity (e.g., participant at Brainhack event, individual present
-at Brainhack workshop, etc.)
-
 ### Availability
+
+The ability to have open access to a document, code, platform, etc. which allows a larger group of individuals to access, learn from, and collaborate on work.
 
 ## B
 
@@ -53,9 +56,7 @@ education, scientific training, and more.
 
 ### Brainhack
 
-A hackathon that brings researchers together from a variety of neuroscience
-subfields and diverse research backgrounds to share open science practices and
-encourage the transfer of knowledge across the community in a collaborative way.
+A hackathon that brings researchers together from a variety of neuroscience and neuroscience-adjacent subfields and diverse research backgrounds to share open science practices and encourage the transfer of knowledge across the community in a collaborative way.
 
 ### Brainhack Global (BHG)
 
@@ -74,9 +75,13 @@ defined event period each year.
 
 ### Brainhack Organization
 
+The planning and coordination of a Brainhack event. This happens through the efforts of local teams and the Brainhack Global committee.
+
 ### Brainhack Organization Committee
 
-### Brainhack School
+The team of volunteers in charge of designing the proceedings of Brainhack Global, sharing information from Brainhack Global with individual local hackathon efforts, and maintaining the Brainhack Global materials, websites, and social accounts. The team can be reached via social platforms including twitter (https://twitter.com/brainhackorg) and mattermost (https://mattermost.brainhack.org/).
+
+### (Brainhack School)[put a weblink to the school here!]
 
 A bootcamp that helps individuals acquire and solidify the statistical and
 computational skills required to translate neuroimaging data into neuroscience
@@ -85,17 +90,19 @@ open, and collaborative hands-on work on small-to-medium size projects.
 
 ### Brainstorming
 
-### Bottom-up
-
-Organizing and structure created through people working in the lower levels of
-an organization or community. Often compared to top-down, where structure is
-imposed from a few individuals at the top of a hierarchy.
+The creative process of generating new ideas by exploring solutions to existing problems, typically accomplished via conversation in groups
 
 ### Brain Imaging Data Structure (BIDS)
 
 A standard for organizing, annotating, and describing neuroimaging and
 behavioral data based on an agreed-upon, formalized structure for folders and
 files.
+
+### Bottom-up
+
+Organizing and structure created through people working in the lower levels of
+an organization or community; all members of the community are equal stakeholders. This approach to organizational structure is general in contrast to top-down, where structure is
+imposed from a few individuals at the top of a hierarchy. 
 
 ## C
 
@@ -104,22 +111,10 @@ files.
 A well-established measure of research impact; recognition or validation of
 research by others (Hersh and Plume, 2016).
 
-### Community
+### COBIDAS
 
-A group of people who share a common characteristic, goal, interest, ideal, or
-any group of individuals who occupy similar physical spaces.
-
-### Community Building
-
-### Copyright
-
-The aspect of intellectual property that grants creators the right to permit (or
-not permit) the reproduction of their creations. It is distinct from trademark
-rights or moral rights.
-
-### Consent
-
-Permission given for something to happen, and can be removed at any time.
+An OHBM committee created in June 2014 to represent the “Committee on Best
+Practice in Data Analysis & Sharing” (COBIDAS).
 
 ### Code of Conduct
 
@@ -128,44 +123,68 @@ outlining what is considered a violation of proper behavior, describing the
 process by which violations of the guidelines will be addressed, and stating who
 will be in charge of enforcing them.
 
-### Creative Commons (CC)
+### Code-oriented
 
-A suite of standardized licences that allow copyright holders to grant some
-rights to users by default. CC licences are widely used, simple to use, machine
-readable, and have been created by legal experts. There are a variety of CC
-licences, each of which use one or more clauses. Some licences are compatible
-with Open Access in the Budapest sense (CC0 or those carrying the BY, SA, and ND
-clauses), and some are not (carrying the NC clause).
+Any project or approach relying heavily on reading, writing, or other uses of code.
 
-### Cross-pollination
+### Code Readability
+
+The subjective ease at which any given code can be understood and interpreted.
 
 ### Collaboration
+
+The combination of ideas, expertise or contributions from multiple individuals on a given project.
+
+### Community
+
+A group of people who identify with a common characteristic, goal, interest, ideal, or
+any group of individuals who occupy similar physical spaces.
+
+### Community Building
+
+The act of strengthening bonds between community members through shared exercises or events which aim to increase inclusion and social connections within the community.
 
 ### Community-driven
 
 A way of describing how change can be envisioned, created, and implemented by an
 interconnected group of individuals. See Bottom-Up.
 
-### Conventional
+### Consent
 
-### Cross-pollination
-
-### Code-oriented
-
-### Code Readability
-
-### COBIDAS
-
-An OHBM committee created in June 2014 to represent the “Committee on Best
-Practice in Data Analysis & Sharing” (COBIDAS).
+Permission given for something to happen, which can be removed at any time.
 
 ### Contribution
+
+The addition of an idea, method, or another piece of tangible/intangible work to something (e.g., a project, idea or document).
 
 ### Contributor
 
 Any individual who has contributed something back to the overall project. This
 is defined as any planning, organizing, writing, editing, brainstorming,
 suggesting, or contributing time to the project in any form.
+
+### Conventional
+
+The state of being generally accepted or established as the normal approach
+
+### Copyright
+
+The aspect of intellectual property that grants creators the right to permit (or
+not permit) the reproduction of their creations. It is distinct from trademark
+rights or moral rights.
+
+### Creative Commons (CC)
+
+A suite of standardized licenses that allow copyright holders to grant some
+rights to users by default. CC licenses are widely used, simple to use, machine
+readable, and have been created by legal experts. There are a variety of CC
+licenses, each of which use one or more clauses. Some licenses are compatible
+with Open Access in the Budapest sense (CC0 or those carrying the BY, SA, and ND
+clauses), and some are not (carrying the NC clause).
+
+### Cross-pollination
+
+The spread of ideas, actions or methods from one individual or domain to another.
 
 ### Curriculum
 
@@ -180,9 +199,9 @@ defined structure.
 All digitally available objects (simple or complex) that emerge or are the
 result of the research process.
 
-### Dataset
-
 ### DataLad
+
+An open source data management system enabling reproducibility and collaboration through various tools including dataset sharing and version control.
 
 ### Data Mining
 
@@ -194,11 +213,19 @@ for future use.
 
 An interdisciplinary field focused on understanding how to glean insight from
 structured and unstructured data. Sits at the intersection of computer science,
-statistics, and domain specific fields.
+statistics, and domain-specific knowledge or expertise.
+
+### Dataset
+
+A collection of data in one central file, and, in most instances, refers to a 2-dimensional flat file (i.e., rows and columns)
 
 ### Data Structuring Standards
 
+The conventional and widely accepted method for organizing data or datasets.
+
 ### Decentralized
+
+The act of redistributing organizational efforts from a specific group or location to all interested individuals in a community.
 
 ### Digital Object Identifier (DOI)
 
@@ -208,6 +235,8 @@ sets or open source software releases and provide a persistent link to its
 location on the Internet (American Psychological Association, 2018).
 
 ### Diversity
+
+The practice or quality of including individuals from a range of different social and ethnic backgrounds and of different gender identities, sexual orientations, professional backgrounds, etc.
 
 ### Documentation
 
@@ -219,14 +248,16 @@ instruments).
 
 ### Early Career Researcher (ECR)
 
-Non-tenuered researchers including undergraduates, research assistants, graduate
+Non-tenured researchers including undergraduates, research assistants, graduate
 students, postdocs, and junior faculty.
 
 ### Educational Materials
 
+Any collection of information (e.g., documents) that are used to teach or inform individuals.
+
 ### Electroencephalography (EEG)
 
-### Expertise
+A method of recording electrical activity in the brain through the use of electrodes on the scalp (the skin covering the top of the head).
 
 ### Ethics / Research ethics
 
@@ -234,6 +265,10 @@ The moral principles that govern how researchers should carry out their work.
 These principles are used to shape research regulations agreed by groups such as
 university governing bodies, communities or governments. All researchers should
 follow these regulations that apply to their work.
+
+### Expertise
+
+Advanced skill or knowledge in a certain area.
 
 ## F
 
@@ -243,9 +278,11 @@ Findable, accessible, interoperable, and re-usable (FAIR) data, which
 facilitates knowledge discovery by assisting humans and machines in their
 discovery of, access to, integration and analysis of, task-appropriate
 scientific data and their associated algorithms and workflows. This definition
-is according with FORCE11 principles published in Nature Scientific Data.
+is according to FORCE11 principles published in Nature Scientific Data.
 
 ### Free
+
+Anything that is unconstrained (e.g., by money, time, or task).
 
 ### Fully Open
 
@@ -257,17 +294,21 @@ blood-oxygen-level-dependent (BOLD) signal.
 
 ### Funding
 
+Financial support granted to an entity for the purpose of development.
+
 ## G
 
 ### GDPR
 
-General Data Protection Regulation (GDPR) seeks to create a harmonised data
+General Data Protection Regulation (GDPR) seeks to create a harmonized data
 protection law framework across the EU. It aims to restitute the control of
 personal data to citizens, whilst imposing strict rules on those hosting and
 'processing' these data, anywhere in the world. The Regulation also introduces
 rules relating to the free movement of personal data within and outside the EU.
 
 ### Geographically Unbounded
+
+To be free of geographic constraints; to engage an audience that is not restricted to a certain location.
 
 ### Github
 
@@ -283,13 +324,6 @@ pipeline features, using an open-source license, developed by GitLab Inc.
 
 ## H
 
-### Hacking
-
-In this context, hacking does not refer to trying to break through the security
-of a computer system. Instead, it is understood as tinkering with a system to
-understand how it works, selecting a problem to learn how to solve it, or
-working with a process to gain knowledge on how to improve it.
-
 ### Hackathon
 
 The term hackathon is a portmanteau of “hacking” and “marathon”. Traditionally,
@@ -298,7 +332,16 @@ work on projects over the course of multiple days. These events often feature
 competitions between teams; however, Brainhacks do not have this feature and
 instead emphasize collaboration.
 
+### Hacking
+
+In this context, hacking does not refer to trying to break through the security
+of a computer system. Instead, it is understood as tinkering with a system to
+understand how it works, selecting a problem to learn how to solve it, or
+working with a process to gain knowledge on how to improve it.
+
 ### Hands-on
+
+Any event or project that includes a practical activity which allows individuals to “learn by doing”.
 
 ### Hypothesis
 
@@ -307,6 +350,10 @@ various forms of investigation.
 
 ## I
 
+### INCF
+
+An acronym for the International Neuroinformatics Coordinating Facility; an international non-profit organization that aims to create and distribute best practices in neuroscience.
+
 ### Inclusivity
 
 The practice of providing equal access to all regardless of minority group
@@ -314,7 +361,7 @@ status and actively seeking the engagement and contribution from these groups.
 
 ### Informal
 
-### INCF
+To be unofficial or relaxed in nature.
 
 ### Innovative
 
@@ -322,6 +369,8 @@ New ways of thinking or doing that are a departure in some way from how they
 were done previously.
 
 ### Institute
+
+An organization with a particular purpose in one or multiple professional domains.
 
 ### Intellectual Property
 
@@ -342,9 +391,14 @@ issues.
 
 ### Lab
 
+A group of individuals devoted to a specific research topic, typically situated within a specific research institution under a principal investigator
+
 ### Leadership
 
-### Licence
+Adjective: Leading or directing a group towards a goal.
+Noun: The collective group of people formally or informally in charge
+
+### License
 
 This is a legal document that sets out the permissions for creative and academic
 work. It explains copyright, ensures proper attribution and sets out how others
@@ -352,9 +406,9 @@ can copy, distribute and make use of the works.
 
 ### Local Event
 
-## M
+An organized activity that occurs (e.g., conference, workshop) in a given region or location.
 
-### Management
+## M
 
 ### Maintainers
 
@@ -362,7 +416,13 @@ Contributors who are responsible for driving the vision and managing the
 organizational aspects of the project. They may also be authors and/or owners of
 the project.
 
+### Management
+
+Coordination and maintenance of something (e.g., a team or system).
+
 ### Mattermost Community Forum
+
+An open source platform that enables communication and collaboration within and across teams.
 
 ### Metadata
 
@@ -373,24 +433,34 @@ location).
 
 ### Methodology
 
+The systematic approach used for a particular activity such as analysis or reporting.
+
 ### Model
+
+A representation of something that aims to explain or relate its elements in a unified and interpretable way.
 
 ### Multidisciplinary
 
+To combine or involve multiple fields.
+
 ## N
-
-### Neuroimaging Pipeline Framework
-
-### Neuroscientist
-
-A person who studies the function of the nervous system.
 
 ### Neurohackademy
 
 Neurohackademy is a summer school in neuroimaging and data science, held at the
 University of Washington eScience Institute (https://neurohackademy.org/).
 
+### Neuroimaging Pipeline Framework
+
+The structure of a workflow for processing or analyzing neuroimaging data.
+
+### Neuroscientist
+
+A person who studies the function of the nervous system.
+
 ### Networking
+
+The act of connecting socially and/or professionally with others.
 
 ## O
 
@@ -425,6 +495,8 @@ but it goes further by granting users the right to copy, reuse, and remix the
 publication
 
 ### Open Brain Consent
+
+An international initiative that provides data sharing resources and tools to neuroimaging researchers.
 
 ### Open Data
 
@@ -464,13 +536,6 @@ adapted in line with the aims of Open Science, including making reviewer and
 author identities open, publishing review reports and enabling greater
 participation in the peer review process.
 
-### Open Source Project
-
-A project in which a significant amount of collaboration between the core or
-leadership team and the wider community takes place in the form of online
-interactions. Community interactions should maintain transparency and openness
-of the project to facilitate the growth of your community.
-
 ### Open Science
 
 Movement which aims to improve the strength of scientific inferences and the
@@ -480,23 +545,33 @@ pre-prints**
 
 ### Open Science Framework
 
+An open source software that enables FAIR and multidisciplinary collaboration in research. 
+
 ### Open Source
 
 Availability of source code for a piece of software, along with an open source
 license permitting reuse, adaptation, and further distribution.
 
+### Open Source Project
+
+A project in which a significant amount of collaboration between the core or
+leadership team and the wider community takes place in the form of online
+interactions. Community interactions should maintain transparency and openness
+of the project to facilitate the growth of your community.
+
 ### Organic
+
+Something that occurs naturally or without effort.
 
 ### Outcome
 
+The end result or final product of something.
+
 ## P
 
-### P-Hacking
-
-Collecting or selecting data or statistical analyses until non-significant
-results become significant (a **questionable research practice**).
-
 ### Participant
+
+An individual who takes part in something.
 
 ### Peer Review
 
@@ -504,6 +579,13 @@ A process by which a research article is vetted by experts from the community
 before publication.
 
 ### Peer Working
+
+Collaborative and equal effort between individuals in the same field and stage of their career.
+
+### P-Hacking
+
+Collecting or selecting data or statistical analyses until non-significant
+results become significant (a **questionable research practice**).
 
 ### Preprint
 
@@ -522,31 +604,66 @@ Preregistration can help counter reporting bias. Project
 
 ### Project Leader
 
+Someone who instigates and/or directs a group of individuals in a given project.
+
 ### Project Pitching
+
+The act of introducing a project in a concise and understandable manner.
 
 ### Publication
 
+The release of a book, journal, or other document for public viewing or sale.
+
 ### Publishing Venue
+
+The place where a given document or piece of information will be published, such as a journal.
 
 ## R
 
-### Reliability
+### README File
 
-Typically defined as the ratio of within-subject variability to between-subject
-variability (ie. Intraclass correlation coefficient).
+File where you document your research data. The documentation should be
+sufficient to enable other researchers to understand, replicate or reproduce the
+data or reuse them in any other way.
 
 ### Redistribution
+
+Dissemination of something (e.g., information, duties) in a new way than what was done originally with the intention of increasing equality or fairness amongst individuals.
 
 ### Registered Report
 
 A published report describing the hypotheses and planned method of a study,
 before the data is collected. Also known as a ‘pre-registration’ or ‘pre-reg’.
 
+### Reliability
+
+Typically defined as the ratio of within-subject variability to between-subject
+variability (ie. Intraclass correlation coefficient).
+
+### Reporting Bias
+
+Reporting bias occurs when certain aspects of a study are systematically not
+reported transparently, creating wastage and redundancy through selective
+reporting or non-publishing.
+
 ### Repository
 
-A long-lived place on the internet where resources (be they data, software,
-publications or anything else) can be stored and accessed. This keyword is often
+The infrastructure and corresponding platform that allows for the persistent,
+efficient and sustainable storage, maintenance and access of digital objects (e.g., resources including documents, data or code). This keyword is often
 shortened to ‘repo’.
+
+### Reproducible Research
+
+Reproducibility is a spectrum and instructors should choose the definition most
+used by their audience. Generally speaking, reproducible research makes it
+possible to obtain similar results of a study or experiment and independent
+results obtained with the same methods but under different conditions (i.e.,
+pertains to results). Some break the definition into levels of reproducibility,
+including computationally reproducible (also called "reproducible"): where code
+and data can be analyzed in a similar manner as in the original research to
+achieve the same results, and empirically reproducible (also called
+“replicable”): where an independent researcher can repeat a study using the same
+methods but creating new data.
 
 ### Reproducibility
 
@@ -564,36 +681,10 @@ reproducibility, cross-sample reproducibility, and cross-site reproducibility
 and other forms all specify the changing conditions under which reproducibility
 is being measured.
 
-### README File
+### Research Funder
 
-File where you document your research data. The documentation should be
-sufficient to enable other researchers to understand, replicate or reproduce the
-data or reuse them in any other way.
-
-### Reporting Bias
-
-Reporting bias occurs when certain aspects of a study are systematically not
-reported transparently, creating wastage and redundancy through selective
-reporting or non-publishing.
-
-### Repository
-
-The infrastructure and corresponding service that allows for the persistent,
-efficient and sustainable storage of digital objects (such as documents, data
-and code).
-
-### Reproducible Research
-
-Reproducibility is a spectrum and instructors should choose the definition most
-used by their audience. Generally speaking, reproducible research makes it
-possible to obtain similar results of a study or experiment and independent
-results obtained with the same methods but under different conditions (i.e.,
-pertains to results). Some break the definition into levels of reproducibility,
-including computationally reproducible (also called "reproducible"): where code
-and data can be analyzed in a similar manner as in the original research to
-achieve the same results, and empirically reproducible (also called
-“replicable”): where an independent researcher can repeat a study using the same
-methods but creating new data.
+An institute, corporation or government body that provides financial assistance
+for research.
 
 ### Research Impact
 
@@ -603,12 +694,9 @@ understanding and advancing scientific, method, theory and application across
 and within disciplines, and the broader role that this plays outside of the
 research system.
 
-### Research Funder
-
-An institute, corporation or government body that provides financial assistance
-for research.
-
 ### Reuse
+
+To make use of something more than one time or in a different way than was originally done.
 
 ## S
 
@@ -617,6 +705,8 @@ for research.
 The number of individuals observed in a given analysis.
 
 ### Satellite Events
+
+Meetings that occur in a different location from the main or central meeting but are aligned with the central meeting in terms of goals and organization.
 
 ### Scholarly Communication
 
@@ -629,15 +719,25 @@ to teaching, research, and scholarly endeavors; the process of academics,
 scholars and researchers sharing and publishing their research findings so that
 they are available to the wider academic community.
 
+### Scientific Approach
+
+A standard and reliable procedure used in scientific fields for investigating a given research question.
+
+### Scientific Practice
+
+A standard, efficient and reliable approach used in the scientific community.
+
 ### Scientific Validation
 
-### Senior Researcher
+The act of confirming something (e.g., a method or experiment) to ensure its usefulness and reliability.
 
 ### Self-organizing
 
-### Scientific Approach
+The act of bringing something together by oneself without a governing entity overseeing the process.
 
-### Scientific Practice
+### Senior Researcher
+
+An individual who has achieved a level in their career allowing them to oversee major projects and supervise other researchers. 
 
 ### Sharing
 
@@ -646,18 +746,28 @@ research. As most research is digitally-authored & digitally-published, the
 resulting digital content is non-rivalrous and can be shared without any loss to
 the original creator.
 
+### Study Protocol
+
+The particular procedure to conduct a given study.
+
 ### Subscription
 
 A form of business model whereby a fee is paid in order to gain access to a
 product or service—in this case, the outputs of scholarly research.
 
-### Study Protocol
-
 ## T
 
 ### Tool
 
+Anything that can facilitate the development, improvement or expansion of something else (e.g., data).
+
+### Traditional
+
+Something (e.g., a method or theory) that is established, long-standing, or widely accepted.
+
 ### Trainee
+
+An individual who is in the process of being trained.
 
 ### Trainer
 
@@ -666,13 +776,13 @@ objectives are met, run the practice, and ensure no one is left out.
 
 ### Training
 
-Training is any organised activity that teaches, informs, or transfers skills or
+Training is any organized activity that teaches, informs, or transfers skills or
 knowledge on specific useful competencies through active, engaged learning.
 
 ### Training Format
 
-A conventionally named, standardised delivery method that is applied by a
-trainer and includes any number of the pedagogical tools necessary (i.e.
+A conventionally named, standardized delivery method that is applied by a
+trainer and includes any number of the pedagogical tools necessary (i.e.,
 motivation/demotivation, hands-on approaches, etc).
 
 ### TrainTrack
@@ -683,11 +793,13 @@ the TrainTrack can range from tutorials that teach hands-on skills needed for
 the projects in a Brainhack (e.g., like code version-control using Git) to
 software demos with much narrower applications.
 
-### Traditional
+### Transparency
+
+The act of being or doing something (e.g., disseminating information) in an accessible, clear and comprehensive manner.
 
 ### Toolbox
 
-### Transparency
+A set of tools (e.g., software functions) centralized in one package.
 
 ## U
 
@@ -705,6 +817,8 @@ interest to the larger group.
 
 ### Unconventional
 
+Not conforming to an established belief or method.
+
 ## V
 
 ### Version Control
@@ -716,16 +830,22 @@ piece of information to a previous revision.
 
 ### Version Control System
 
+The mechanism or platform enabling version control (e.g., Git).
+
 ## W
-
-### Workshop
-
-### Workflow
 
 ### Workforce
 
 The labor pool of a given institution, company, state, or group. It can be
 formal or informal, but either way, its main function is to unite.
+
+### Workflow
+
+The general step-by-step plan for a given project or experiment.
+
+### Workshop
+
+A joint project in which participants engage in a particular activity. 
 
 ## Y
 
