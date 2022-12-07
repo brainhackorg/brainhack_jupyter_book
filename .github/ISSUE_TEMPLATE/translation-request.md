@@ -21,14 +21,13 @@ Please complete the following sections when you want to propose the translation 
 <!-- Please list the names and the Github handles of the volunteers here->
 
 
-### Resources
+### Resources & Standards
 
-<!-- Please make sure you read the project description listed in this [issue](https://github.com/brainhackorg/global2020/issues/130) and the workflow described in this [discussion](https://github.com/brainhackorg/global2020/issues/130#issuecomment-784173475). If you did so please check the checkbox below. -->
+<!-- Please make sure you read the project description listed in this [issue](https://github.com/brainhackorg/global2020/issues/130) and the workflow described in this [discussion](https://github.com/brainhackorg/global2020/issues/130#issuecomment-784173475). If you did so please check the checkbox below. Please also make sure you read the information in this [document]([https://github.com/brainhackorg/global2020/issues/130](https://docs.google.com/document/d/1tftUhyfgolK6WtCJJ496e26Yzs5jC9g22AJ_M2A7Jmk/edit?usp=sharing) (in progress!). By checking the checkbox below you acknowledge the importance of using inclusive language throughout the glossary. -->
 
 - [ ] I read and understood the project description.
 - [ ] I read and understood the workflow for the translation work.
-
-
+- [ ] I read and understood the community guidelines for inclusive language.
 
 ## And suggestions/ideas
 
