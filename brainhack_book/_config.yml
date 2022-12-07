@@ -57,5 +57,6 @@ sphinx:
       - .*/10.1093/gigascience/giy082  # for some reason, it returns forbidden
       - https?://brainhack.org/LA  # need to fix to "LA2016" in OSF
       - https://fnndsc.childrens.harvard.edu/brainhack2019/
+      - https://www.abcd-repronim.org/index.html
     suppress_warnings:
       - myst.domains  # domain method not implemented for `cite`
