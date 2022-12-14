@@ -17,8 +17,8 @@ sites = {
     },
     "Boston": {"labels": ["bhg:boston_usa_1"]},
     "New York City": {"labels": ["bhg:nyc_usa_1"]},
-    "Toronto": {"labels": ["bhg:toronto_can_1", "toronto_canada"]},
-    "Ontario": {"labels": ["bhg:ontario_can_1"]},
+    "Toronto": {"labels": ["bhg:toronto_can_1", "toronto_canada", "toronto_can"]},
+    "Ontario": {"labels": ["bhg:ontario_can_1", "western_can"]},
     "Washington D.C.": {"labels": ["bhg:washingtondc_usa_1", "washingtondc_usa"]},
     "Montreal": {"labels": ["bhg:mtl_can_1", "montreal_canada"]},
     "Ankara": {"labels": ["bhg:ankara_tur_1"]},
@@ -47,7 +47,7 @@ sites = {
     "Espoo": {"labels": ["espoo_finland"]},
     "Rennes": {"labels": ["rennes_france"]},
     "Vienna": {"labels": ["vienna_austria"]},
-    "Geneva": {"labels": ["geneva_switzerland", "bhg:geneva_che_1"]},
+    "Geneva": {"labels": ["geneva_switzerland", "bhg:geneva_che_1", "geneva_che"]},
     "Dallas": {"labels": ["dallas_usa"]},
     "China": {"labels": ["bhg:beijingnanning_china_1"]},
     "Bloomington": {"labels": ["bhg:bloomington_usa_1"]},
@@ -187,9 +187,9 @@ def labels_to_rename():
     }
     for key in LABELS_TO_RENAME:
         log.info(
-            f"""
-        Renaming {LABELS_TO_RENAME[key]}
-        to '{key}'"""
+            f"""Renaming {LABELS_TO_RENAME[key]}
+      to '{key}'
+        """
         )
     return LABELS_TO_RENAME
 
