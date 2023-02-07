@@ -38,7 +38,6 @@ def merge_name_columns(df):
 
 
 def rename_columns(df):
-
     renaming_map = {
         "participated in event (for example: led or joined a hackathon project)": "participated in event",
         "taught at event (for example: traintrack)": "taught at event",
@@ -51,7 +50,6 @@ def rename_columns(df):
 
 
 def drop_columns(df):
-
     columns_to_drop = [
         "2nd affiliation",
         "3rd affiliation",
@@ -80,7 +78,6 @@ def process_file(file: Path):
 
 
 def main():
-
     contributors_file = root_dir().joinpath("data", "contributors", "contributors.tsv")
     process_file(contributors_file)
 

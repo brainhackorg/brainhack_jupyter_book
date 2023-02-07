@@ -22,7 +22,6 @@ def save_figure(fig, filename):
 def get_categories_to_sort_project_by(
     projects: pd.DataFrame, column: str, content: Union[str, list, None] = None
 ) -> list:
-
     categories = list_x_in_projects(projects, column)
 
     if isinstance(content, (str)):
@@ -62,7 +61,6 @@ def histogram_nb_projects_per_x(
     data = {column: categories, "ohbm_projects": [], "bhg_projects": []}
 
     for item in data[column]:
-
         projects[column] = projects[column].astype("string")
         frame_filter = projects[column].str.contains("|".join([item]), na=False)
 
@@ -104,7 +102,6 @@ def histogram_nb_projects_per_x(
 
 
 def main():
-
     projects = load_hackathon_projects()
 
     sites_fig = histogram_nb_projects_per_x(projects, column="site")
