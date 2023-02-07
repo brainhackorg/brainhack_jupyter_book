@@ -217,7 +217,6 @@ def find_site_in_labels(sites, labels):
 
 
 def get_project_site(this_hackathon, sites, labels):
-
     # For some project, the site is directly listed in repository information
     site = this_hackathon.get("site", None)
     if site is not None:
@@ -247,7 +246,6 @@ def clean_labels(labels, labels_to_remove, LABELS_TO_RENAME):
 
 
 def main():
-
     repositories_info = load_repositories_info()
 
     data_dir = root_dir().joinpath("data")
@@ -269,15 +267,12 @@ def main():
     }
 
     for this_hackathon in repositories_info:
-
         log.info(f"{this_hackathon}")
 
         with open(data_dir.joinpath(f"projects_{this_hackathon}.json")) as f:
-
             projects = json.load(f)
 
             for this_project in projects:
-
                 labels = get_project_labels(this_project)
                 this_project["site"] = get_project_site(
                     repositories_info[this_hackathon], sites, labels

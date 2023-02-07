@@ -16,7 +16,6 @@ def format_label(string):
 
 
 def main():
-
     sites_file = root_dir().joinpath("data", "brainhack-sites.csv")
     sites = pd.read_csv(sites_file)
 
@@ -24,7 +23,6 @@ def main():
     sites_in_labels = [label["name"] for label in labels]
 
     for site in sites["City"]:
-
         row = sites[sites["City"] == site]
 
         this_site = {

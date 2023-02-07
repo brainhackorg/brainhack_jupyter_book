@@ -26,7 +26,6 @@ with open(Path(__file__).parent.joinpath("token.txt")) as f:
 
 
 def get_gh_issues(gh_username, repo, auth_username=None, auth_token=None):
-
     issues = None
 
     log.info(f"\ngetting issues: {gh_username, repo}")
@@ -49,13 +48,11 @@ def get_gh_issues(gh_username, repo, auth_username=None, auth_token=None):
 
 
 def main():
-
     data_dir = root_dir().joinpath("data")
 
     repositories_info = load_repositories_info()
 
     for this_repo in repositories_info:
-
         gh_username = repositories_info[this_repo]["gh_username"]
         repository_name = repositories_info[this_repo]["repo"]
         issues = get_gh_issues(gh_username, repository_name, USERNAME, TOKEN)
@@ -67,15 +64,12 @@ def main():
 
         # only keep open issues that have the project label
         for this_issue in issues:
-
             if this_issue["state"] == "open":
-
                 labels = [x["name"] for x in this_issue["labels"]]
 
                 if any(
                     x in labels for x in repositories_info[this_repo]["project_label"]
                 ):
-
                     log.debug(f"{this_issue['title']}")
                     log.debug(f"{labels}")
 

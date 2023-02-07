@@ -7,11 +7,9 @@ from utils import write_citation
 
 
 def return_author_list_for_cff(contributors):
-
     author_list = []
 
     for _, row in contributors.iterrows():
-
         given_names = row["First name"].strip()
         if isinstance(row["Middle initial(s)"], (str)) and row[
             "Middle initial(s)"
@@ -41,7 +39,6 @@ def return_author_list_for_cff(contributors):
 
 
 def main():
-
     contributors_file = root_dir().joinpath("data", "contributors", "contributors.tsv")
     contributors = pd.read_csv(contributors_file, sep="\t")
 
