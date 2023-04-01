@@ -1,50 +1,61 @@
 
+
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Neuroview Manuscript &#8212; Everything Brainhack: past, present and future</title>
-    
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -52,61 +63,93 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'neuroview_manuscript';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Neuroview Figure" href="neuroview_figure.html" />
     <link rel="prev" title="Acknowledgments" href="acknowledgments.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
-    <div class="container-fluid" id="banner"></div>
-
-    
-
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="_static/brainhack-logo.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Everything Brainhack: past, present and future</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
+    
+    
+    <img src="_static/brainhack-logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/brainhack-logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
@@ -115,432 +158,253 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Evolving Brainhack Book
- </span>
-</p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Evolving Brainhack Book</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="overview.html">
-   Overview
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="evolution_of_brainhack.html">
-   Brainhack Cartography
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="projects.html">
-   Brainhack projects
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="contributors.html">
-   Contributors
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="acknowledgments.html">
-   Acknowledgments
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evolution_of_brainhack.html">Brainhack Cartography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects.html">Brainhack projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html">Contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acknowledgments.html">Acknowledgments</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Neuroview
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Neuroview</span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Neuroview Manuscript
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="neuroview_figure.html">
-   Neuroview Figure
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="neuroview_contributors.html">
-   Neuroview Contributors
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="neuroview_acknowledgments.html">
-   Neuroview Acknowledgments
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="neuroview_authorship-agreement.html">
-   Authorship Agreement
-  </a>
- </li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Neuroview Manuscript</a></li>
+<li class="toctree-l1"><a class="reference internal" href="neuroview_figure.html">Neuroview Figure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="neuroview_contributors.html">Neuroview Contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="neuroview_acknowledgments.html">Neuroview Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="neuroview_authorship-agreement.html">Authorship Agreement</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Glossaries
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Glossaries</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="glossary_en.html">
-   Brainhack Glossary (english)
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="glossary_tr.html">
-   Brainhack Glossary (turkish)
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="glossary_en.html">Brainhack Glossary (english)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary_tr.html">Brainhack Glossary (turkish)</a></li>
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/brainhackorg/brainhack_jupyter_book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/brainhackorg/brainhack_jupyter_book/issues/new?title=Issue%20on%20page%20%2Fneuroview_manuscript.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
 </div>
 
 
-          
-
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
-<div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
 
 
 
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/neuroview_manuscript.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
   </span>
-
-</label>
-
-        
-    </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
   <i class="fas fa-expand"></i>
   </span>
 
 </button>
 
-<div class="menu-dropdown menu-dropdown-repository-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Source repositories">
-      <i class="fab fa-github"></i>
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://github.com/brainhackorg/brainhack_jupyter_book"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Source repository"
->
-  
+`);
+</script>
 
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
-
-      </li>
-      
-      <li>
-        <a href="https://github.com/brainhackorg/brainhack_jupyter_book/issues/new?title=Issue%20on%20page%20%2Fneuroview_manuscript.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="headerbtn__text-container">open issue</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/neuroview_manuscript.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.md</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#brainhack-developing-a-culture-of-open-inclusive-community-driven-neuroscience">
-   Brainhack: developing a culture of open, inclusive, community-driven neuroscience
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#abstract">
-   Abstract
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#conflict-of-interest-statement">
-   Conflict of Interest Statement
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-project-oriented-approach">
-   A Project-Oriented Approach
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#learning-by-doing">
-   Learning by Doing
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#open-science-collaborative-coding">
-   Open Science &amp; Collaborative Coding
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-focus-on-reproducibility">
-   A Focus on Reproducibility
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#building-and-bridging-communities">
-   Building and Bridging Communities
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#conclusion-future-directions">
-   Conclusion &amp; Future Directions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#acknowledgments">
-   Acknowledgments
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#author-contributions">
-   Author Contributions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#references">
-   References
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Neuroview Manuscript</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#brainhack-developing-a-culture-of-open-inclusive-community-driven-neuroscience">
-   Brainhack: developing a culture of open, inclusive, community-driven neuroscience
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#abstract">
-   Abstract
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#conflict-of-interest-statement">
-   Conflict of Interest Statement
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-project-oriented-approach">
-   A Project-Oriented Approach
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#learning-by-doing">
-   Learning by Doing
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#open-science-collaborative-coding">
-   Open Science &amp; Collaborative Coding
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-focus-on-reproducibility">
-   A Focus on Reproducibility
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#building-and-bridging-communities">
-   Building and Bridging Communities
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#conclusion-future-directions">
-   Conclusion &amp; Future Directions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#acknowledgments">
-   Acknowledgments
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#author-contributions">
-   Author Contributions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#references">
-   References
-  </a>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Neuroview Manuscript</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#brainhack-developing-a-culture-of-open-inclusive-community-driven-neuroscience">Brainhack: developing a culture of open, inclusive, community-driven neuroscience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#abstract">Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conflict-of-interest-statement">Conflict of Interest Statement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-project-oriented-approach">A Project-Oriented Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-by-doing">Learning by Doing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-collaborative-coding">Open Science &amp; Collaborative Coding</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-focus-on-reproducibility">A Focus on Reproducibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#building-and-bridging-communities">Building and Bridging Communities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-future-directions">Conclusion &amp; Future Directions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#author-contributions">Author Contributions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <section class="tex2jax_ignore mathjax_ignore" id="neuroview-manuscript">
-<h1>Neuroview Manuscript<a class="headerlink" href="#neuroview-manuscript" title="Permalink to this headline">#</a></h1>
+<h1>Neuroview Manuscript<a class="headerlink" href="#neuroview-manuscript" title="Permalink to this heading">#</a></h1>
 <section id="brainhack-developing-a-culture-of-open-inclusive-community-driven-neuroscience">
-<h2>Brainhack: developing a culture of open, inclusive, community-driven neuroscience<a class="headerlink" href="#brainhack-developing-a-culture-of-open-inclusive-community-driven-neuroscience" title="Permalink to this headline">#</a></h2>
+<h2>Brainhack: developing a culture of open, inclusive, community-driven neuroscience<a class="headerlink" href="#brainhack-developing-a-culture-of-open-inclusive-community-driven-neuroscience" title="Permalink to this heading">#</a></h2>
 <p><em>Note: This is a version for community review on psyarxiv and does not
 constitute the final version of the manuscript.</em></p>
 <p>[Authors &amp; Affiliations TBD]</p>
 </section>
 <section id="abstract">
-<h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">#</a></h2>
+<h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this heading">#</a></h2>
 <p>Brainhack is an innovative meeting format that promotes scientific collaboration
 and education in an open and inclusive environment. Departing from the formats
 of typical scientific workshops, these events are based on grassroots projects
@@ -557,7 +421,7 @@ Neuroscience, Computational Neuroscience, Systems Neuroscience, Other
 Neuroscience and Neurobiology)</p>
 </section>
 <section id="conflict-of-interest-statement">
-<h2>Conflict of Interest Statement<a class="headerlink" href="#conflict-of-interest-statement" title="Permalink to this headline">#</a></h2>
+<h2>Conflict of Interest Statement<a class="headerlink" href="#conflict-of-interest-statement" title="Permalink to this heading">#</a></h2>
 <p>The Conflict of Interest (COI) assertion is made on behalf of all the authors
 listed for this preprint. COIs include: financial involvement in any entity such
 as honoraria, grants, speaking fees, employment, consultancies, stock ownership,
@@ -566,7 +430,7 @@ interests such as personal or professional relationships or pre-existing beliefs
 in the subject matter or materials discussed in this preprint.</p>
 </section>
 <section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
 <p>Social factors play a crucial role in the advancement of science. New findings
 are discussed and theories emerge through social interactions, which largely
 take place in individual research groups, and at academic events such as
@@ -577,8 +441,8 @@ limiting opportunities for the larger community to contribute and connect.
 these formats in neuroscience with decentralized gatherings in which
 participants from all backgrounds and career stages collaborate and learn from
 each other in an informal setting. The Brainhack format was introduced in a
-previous publication (<a class="reference external" href="#references">Craddock et al., 2016;</a>
-<a class="reference external" href="#figure-1">Fig. 1A&amp;B</a>). It is inspired by the
+previous publication (<span class="xref myst">Craddock et al., 2016;</span>
+<span class="xref myst">Fig. 1A&amp;B</span>). It is inspired by the
 <a class="reference internal" href="glossary_en.html"><span class="doc std std-doc"><strong>hackathon</strong></span></a> model (see Glossary), which originated
 in software development and has gained traction in science as a way to bring
 people together for collaborative work and educational courses. Unlike many
@@ -606,16 +470,16 @@ a single letter; this ordering is repeated for all subsequent years.</p>
 Brainhack. First, how do participants benefit from attending a Brainhack?
 Second, what is the relevance and importance of Brainhacks for neuroscience more
 broadly? To answer these questions, we discuss how Brainhacks feature 1) a
-<a class="reference external" href="#a-project-oriented-approach"><em>Project-Oriented Approach</em></a> that fosters active
+<span class="xref myst"><em>Project-Oriented Approach</em></span> that fosters active
 participation and community-driven problem-solving; 2)
-<a class="reference external" href="#learning-by-doing"><em>Learning By Doing</em></a>, which enables participants to gain
+<span class="xref myst"><em>Learning By Doing</em></span>, which enables participants to gain
 more intensive training, particularly in computational methods commonly featured
 at Brainhacks; 3) training in
-<a class="reference external" href="#open-science-collaborative-coding"><em>Open Science &amp; Collaborative Coding</em></a>
+<span class="xref myst"><em>Open Science &amp; Collaborative Coding</em></span>
 which helps participants become more effective collaborators across contexts; 4)
-<a class="reference external" href="#a-focus-on-reproducibility"><em>A Focus on Reproducibility</em></a> which leads to more
+<span class="xref myst"><em>A Focus on Reproducibility</em></span> which leads to more
 robust scientific research; and 5) accelerated
-<a class="reference external" href="#building-and-bridging-communities"><em>Building and Bridging of Communities</em></a>
+<span class="xref myst"><em>Building and Bridging of Communities</em></span>
 which encourages inclusivity and seamless collaboration between researchers at
 different career stages. Altogether, Brainhacks and similar formats are
 increasingly recognized as a new way of doing science that extends traditional
@@ -624,11 +488,11 @@ academic settings. These events foster a new research culture that demands
 unlocking opportunities for scientific progress.</p>
 </section>
 <section id="a-project-oriented-approach">
-<span id="id1"></span><h2>A Project-Oriented Approach<a class="headerlink" href="#a-project-oriented-approach" title="Permalink to this headline">#</a></h2>
+<span id="id1"></span><h2>A Project-Oriented Approach<a class="headerlink" href="#a-project-oriented-approach" title="Permalink to this heading">#</a></h2>
 <p>Brainhacks are fundamentally centered around attendee-led projects. At the
 beginning of each Brainhack, participants pitch project ideas and form teams to
 realize some of these ideas during the “hacking” sessions
-(<a class="reference external" href="#figure-1">Fig. 1B</a>). The teams are dynamic, and their composition can change
+(<span class="xref myst">Fig. 1B</span>). The teams are dynamic, and their composition can change
 throughout the course of a project. As participants group themselves based on
 their common interest in a question, method or idea, interdisciplinary teams
 naturally emerge. Each participant can hone diverse skills by being an active
@@ -645,7 +509,7 @@ Participants are therefore not required to have coding skills in order to make
 meaningful contributions. An example of an impactful project that did not focus
 on coding is
 <a class="reference external" href="https://open-brain-consent.readthedocs.io/en/stable">Open Brain Consent</a>
-(<a class="reference external" href="#references">Bannier et al., 2020</a>). This project has developed consent form
+(<span class="xref myst">Bannier et al., 2020</span>). This project has developed consent form
 templates for the collection and sharing of human neuroimaging data,
 incorporating data protection standards such as the General Data Protection
 Regulation (GDPR) of the European Union. The consent forms can be used in ethics
@@ -663,11 +527,11 @@ provides magnetic resonance (MR) brain images of a range of different species
 and allows multiple users to view and segment them on the web simultaneously.
 Its successor, <a class="reference external" href="https://brainbox.pasteur.fr">BrainBox</a> has evolved to enable
 real-time collaborative segmentation of any MR image accessible online
-(<a class="reference external" href="#references">Heuer et al., 2016</a>). BrainBox has been used in many Brainhack
+(<span class="xref myst">Heuer et al., 2016</span>). BrainBox has been used in many Brainhack
 projects, research collaborations and science outreach events. Similarly,
 <a class="reference external" href="https://braindr.us/">braindr</a> fosters citizen science while solving the problem
 of visual quality control for massive datasets
-(<a class="reference external" href="#references">Keshavan et al., 2019</a>). This app enables anyone to contribute to
+(<span class="xref myst">Keshavan et al., 2019</span>). This app enables anyone to contribute to
 scientific progress by swiping left or right on brain images to classify them as
 clean or corrupted. The project originated from a hackathon in 2017, was
 extended in a Brainhack project in 2018, and recently led to the development of
@@ -682,7 +546,7 @@ the cortical hierarchy in individuals with autism, was conceptualised at
 Brainhack Global 2016. It was subsequently picked up by another group who
 significantly extended the original idea and invited the initial Brainhack team
 to collaborate on it. This resulted in a peer-reviewed publication
-(<a class="reference external" href="#references">Hong et al., 2019</a>), multiple follow-up projects, two exchange
+(<span class="xref myst">Hong et al., 2019</span>), multiple follow-up projects, two exchange
 grants and several international workshops on the same topic. Another example is
 the development of <a class="reference external" href="https://nighres.readthedocs.io/en/latest">Nighres</a>, a Python
 package for processing high-resolution neuroimaging data. The initial project
@@ -692,7 +556,7 @@ for layer-specific analysis of the cortex easier to install and use. This
 sparked the development of the full Nighres package, with a broader range of
 functions and various contributors across several Brainhacks. Nighres has been
 presented in a peer-reviewed publication
-(<a class="reference external" href="#references">Huntenburg et al., 2018</a>), is actively maintained, and has been
+(<span class="xref myst">Huntenburg et al., 2018</span>), is actively maintained, and has been
 used and cited in multiple studies.</p>
 <p>These examples highlight how the project-oriented approach of Brainhacks
 encourages active participation, and interdisciplinary collaboration that can
@@ -704,14 +568,14 @@ scientific silos, resulting in multi-disciplinary tools, community-driven
 guidelines and reference data, as well as traditional publication output.</p>
 </section>
 <section id="learning-by-doing">
-<span id="id2"></span><h2>Learning by Doing<a class="headerlink" href="#learning-by-doing" title="Permalink to this headline">#</a></h2>
+<span id="id2"></span><h2>Learning by Doing<a class="headerlink" href="#learning-by-doing" title="Permalink to this heading">#</a></h2>
 <p>Alongside projects, educational activities lie at the heart of Brainhack events.
 Such activities include informal teaching between project teammates, theoretical
 discussions in self-organized groups, “unconference” presentations, and
 structured workshops on a particular tool or topic. A recent format for major
 Brainhack events is the <a class="reference internal" href="glossary_en.html"><span class="doc std std-doc"><strong>TrainTrack</strong></span></a>, entirely
 education-focused sessions that run all day, in parallel with work on projects
-(<a class="reference external" href="#figure-1">Fig. 1A-B</a>). This format lowers the entry barrier for new
+(<span class="xref myst">Fig. 1A-B</span>). This format lowers the entry barrier for new
 participants, enabling them to build relevant skills and familiarize themselves
 with the structure and environment of a Brainhack before diving into their first
 project. The variety of educational approaches supports different learning
@@ -747,13 +611,13 @@ is applicable across many domains and may therefore open up a greater range of
 career opportunities.</p>
 </section>
 <section id="open-science-collaborative-coding">
-<span id="id3"></span><h2>Open Science &amp; Collaborative Coding<a class="headerlink" href="#open-science-collaborative-coding" title="Permalink to this headline">#</a></h2>
+<span id="id3"></span><h2>Open Science &amp; Collaborative Coding<a class="headerlink" href="#open-science-collaborative-coding" title="Permalink to this heading">#</a></h2>
 <p>Despite the increasingly central role of programming in neuroscience research,
 formal training in coding is not common in the neuroscience curriculum. In
 addition, code is seldom shared across more than a few labs, and too often
 seen and used by only a single individual. As a result, many scripts and
 workflows are hard to reuse and share, and can contain undiscovered errors
-(<a class="reference external" href="#references">Merali et al., 2010</a>).</p>
+(<span class="xref myst">Merali et al., 2010</span>).</p>
 <p>By putting cross-disciplinary collaboration at its heart, Brainhacks have
 brought awareness to the need for the usability, reusability and long-term
 maintenance of tools. This comes with a shift of efforts, from individuals
@@ -779,7 +643,7 @@ toolsets, and from researchers equipped with the skills to maintain and extend
 them.</p>
 </section>
 <section id="a-focus-on-reproducibility">
-<span id="id4"></span><h2>A Focus on Reproducibility<a class="headerlink" href="#a-focus-on-reproducibility" title="Permalink to this headline">#</a></h2>
+<span id="id4"></span><h2>A Focus on Reproducibility<a class="headerlink" href="#a-focus-on-reproducibility" title="Permalink to this heading">#</a></h2>
 <p>In line with their open, transparent and collaborative nature, Brainhacks have
 fostered an increased awareness of the importance of reproducible practices that
 integrate easily into research workflows. In addition to the coding practices
@@ -794,13 +658,13 @@ that will be accessible and reusable by others.</p>
 <p>Resources that help researchers handle their data in a reproducible fashion are
 integral to Brainhacks; many of these have been introduced to the Brainhack
 community through structured efforts from the Center for Reproducible
-Neuroimaging Computation (<a class="reference external" href="#references">Kennedy et al., 2019</a>). For example,
+Neuroimaging Computation (<span class="xref myst">Kennedy et al., 2019</span>). For example,
 many projects and trainings use <a class="reference external" href="https://www.datalad.org">DataLad</a>, a tool that
 not only lets participants version-control their own data, but also helps them
 find, access, share, and work with increasingly large publicly available
 datasets. Similarly, a growing number of projects build on the
 <a class="reference external" href="https://bids.neuroimaging.io">Brain Imaging Data Structure (BIDS</a>,
-<a class="reference external" href="#references">Gorgolewski et al., 2016</a>), a community standard for the
+<span class="xref myst">Gorgolewski et al., 2016</span>), a community standard for the
 organization of brain imaging data and metadata founded at the International
 Neuroinformatics Coordinating Facility (INCF). Introducing participants to data
 standards, such as BIDS, in the environment of a Brainhack allows them to
@@ -811,7 +675,7 @@ well as detailed documentation and reporting, Brainhacks promote fundamental
 building blocks of a more efficient and reliable scientific research process.</p>
 </section>
 <section id="building-and-bridging-communities">
-<span id="id5"></span><h2>Building and Bridging Communities<a class="headerlink" href="#building-and-bridging-communities" title="Permalink to this headline">#</a></h2>
+<span id="id5"></span><h2>Building and Bridging Communities<a class="headerlink" href="#building-and-bridging-communities" title="Permalink to this heading">#</a></h2>
 <p>All aspects of Brainhacks discussed above build upon an active commitment to a
 diverse, inclusive, and non-hierarchically organized community. This commitment
 has been formalized in a Code of Conduct that aims to ensure a safe and
@@ -856,7 +720,7 @@ same principles as the original Brainhack events. Thus, a strong ecosystem has
 emerged that transports the benefits and values of the format far beyond any
 individual event. Brainhacks are spreading to an increasingly wide community, as
 the non-hierarchical, self-organising structure enables individuals to organize
-a Brainhack anywhere in the world (<a class="reference external" href="#figure-1">Fig. 1C</a>) and events are kept
+a Brainhack anywhere in the world (<span class="xref myst">Fig. 1C</span>) and events are kept
 financially accessible. An online community with over 4000 members and 500
 channels uses the <a class="reference external" href="https://mattermost.brainhack.org">Mattermost</a> messaging
 platform to provide continuity across time and space. Posts range from questions
@@ -867,7 +731,7 @@ local advocates for the principles of open and collaborative science in their
 home institutions.</p>
 </section>
 <section id="conclusion-future-directions">
-<h2>Conclusion &amp; Future Directions<a class="headerlink" href="#conclusion-future-directions" title="Permalink to this headline">#</a></h2>
+<h2>Conclusion &amp; Future Directions<a class="headerlink" href="#conclusion-future-directions" title="Permalink to this heading">#</a></h2>
 <p>Brainhacks complement traditional academic settings and offer additional
 opportunities for participants to achieve their scientific and professional
 goals. The focus on building a community that promotes open science and
@@ -878,22 +742,22 @@ directed at producing and broadcasting publications. Within neuroscience,
 Brainhacks have the potential to evolve beyond their initial focus on
 neuroimaging data and include more projects on theory, hardware, and different
 types of neural data. With a growing global community, and an iteratively
-improving format (<a class="reference external" href="#figure-1">Fig. 1D</a>), Brainhacks provide a successful
+improving format (<span class="xref myst">Fig. 1D</span>), Brainhacks provide a successful
 template that can easily be extended to other scientific fields. A near decade
 of Brainhacks has brought about positive change for individual researchers and
 the field as a whole, in the form of improved skills, reusable resources, new
 collaborations and a diverse and inclusive community.</p>
 </section>
 <section id="acknowledgments">
-<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">#</a></h2>
+<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this heading">#</a></h2>
 <p><a class="reference internal" href="neuroview_acknowledgments.html"><span class="doc std std-doc">View acknowledgments here</span></a></p>
 </section>
 <section id="author-contributions">
-<h2>Author Contributions<a class="headerlink" href="#author-contributions" title="Permalink to this headline">#</a></h2>
+<h2>Author Contributions<a class="headerlink" href="#author-contributions" title="Permalink to this heading">#</a></h2>
 <p><a class="reference internal" href="neuroview_contributors.html"><span class="doc std std-doc">View contributions here</span></a></p>
 </section>
 <section id="references">
-<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">#</a></h2>
+<h2>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
 <p>Bannier, E., Barker, G., Borghesani, V., Broeckx, N., Clement, P., de la Iglesia
 Vaya, M., Emblem, K. E., Ghosh, S. S., Glerean, E., Gorgolewski, K. J., Havu,
 M., Halchenko, Y. O., Herholz, P., Hespel, A., Heunis, S., Hu, Y., Chuan-Peng,
@@ -948,7 +812,7 @@ doi:10.1038/467775a.)<a class="reference external" href="https://www.nature.com/
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true
@@ -956,50 +820,117 @@ doi:10.1038/467775a.)<a class="reference external" href="https://www.nature.com/
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="acknowledgments.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Acknowledgments</p>
-        </div>
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="acknowledgments.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Acknowledgments</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="neuroview_figure.html" title="next page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="neuroview_figure.html"
+       title="next page">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Neuroview Figure</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
-</div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
-  
-    By The Brainhack community<br/>
-  
-      &copy; Copyright 2020.<br/>
-</p>
-        </footer>
-    </div>
-    
-</div>
-
-
       </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#brainhack-developing-a-culture-of-open-inclusive-community-driven-neuroscience">Brainhack: developing a culture of open, inclusive, community-driven neuroscience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#abstract">Abstract</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conflict-of-interest-statement">Conflict of Interest Statement</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-project-oriented-approach">A Project-Oriented Approach</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-by-doing">Learning by Doing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-collaborative-coding">Open Science &amp; Collaborative Coding</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-focus-on-reproducibility">A Focus on Reproducibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#building-and-bridging-communities">Building and Bridging Communities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion-future-directions">Conclusion &amp; Future Directions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgments">Acknowledgments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#author-contributions">Author Contributions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Brainhack community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2020.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>
