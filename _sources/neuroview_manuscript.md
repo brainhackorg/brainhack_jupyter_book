@@ -48,53 +48,57 @@ these formats in neuroscience with decentralized gatherings in which
 participants from all backgrounds and career stages collaborate and learn from
 each other in an informal setting. The Brainhack format was introduced in a
 previous publication ([Craddock et al., 2016;](#references)
-[Fig. 1A&B](#figure-1)). It is inspired by the
-[**hackathon**](./glossary_en) model (see Glossary), which originated
-in software development and has gained traction in science as a way to bring
-people together for collaborative work and educational courses. Unlike many
-hackathons, Brainhacks welcome participants from all disciplines and with any
-level of experience—from those who have never written a line of code to software
-developers and expert neuroscientists. Brainhacks additionally feature informal
-dissemination of research through
-[**unconferences**](./glossary_en), and replace the sometimes
-competitive context of traditional hackathons with a purely collaborative one.
-<a id="figure-1" name="figure-1"></a>
+[Fig. 1A&B](figure-1)). It is inspired by the [**hackathon**](./glossary_en)
+model (see Glossary), which originated in software development and has gained
+traction in science as a way to bring people together for collaborative work and
+educational courses. Unlike many hackathons, Brainhacks welcome participants
+from all disciplines and with any level of experience—from those who have never
+written a line of code to software developers and expert neuroscientists.
+Brainhacks additionally feature informal dissemination of research through
+[**unconferences**](./glossary_en), and replace the sometimes competitive
+context of traditional hackathons with a purely collaborative one.
 
-![Figure-1](static/neuroview_figure-1.png)
+```{figure} static/neuroview_figure-1.png
+:alt: figure-1
+:name: figure-1
+:align: center
+```
 
-_Figure 1. Brainhack in time and space._ (A) Anatomy of a Brainhack shows how
-the components of Brainhack events relate to overarching topics that lead to
-scientific and professional opportunities in neuroscience. (B) Timeline of a
-Single Event describes the typical daily schedule throughout a brainhack.
-Project work and educational activities occur simultaneously interspersed with
-unconferences. (C) Brainhack Cartography displays cities across the world that
-have hosted a Brainhack. Marker color indicates the year in which each city
-hosted its first Brainhack, and marker size indicates the number of events
-hosted in each city. (D) The Brainhack Timeline displays the number of events
-per month since the inaugural Brainhack in September 2012, along with notable
-happenings throughout the years. Months are only denoted in the first year with
-a single letter; this ordering is repeated for all subsequent years.
+_Figure 1. Brainhack in time and space._
+
+(A) Anatomy of a Brainhack shows how the components of Brainhack events relate
+to overarching topics that lead to scientific and professional opportunities in
+neuroscience. (B) Timeline of a Single Event describes the typical daily
+schedule throughout a brainhack. Project work and educational activities occur
+simultaneously interspersed with unconferences. (C) Brainhack Cartography
+displays cities across the world that have hosted a Brainhack. Marker color
+indicates the year in which each city hosted its first Brainhack, and marker
+size indicates the number of events hosted in each city. (D) The Brainhack
+Timeline displays the number of events per month since the inaugural Brainhack
+in September 2012, along with notable happenings throughout the years. Months
+are only denoted in the first year with a single letter; this ordering is
+repeated for all subsequent years.
 
 In the following, we aim to address two key questions about the merits of a
 Brainhack. First, how do participants benefit from attending a Brainhack?
 Second, what is the relevance and importance of Brainhacks for neuroscience more
 broadly? To answer these questions, we discuss how Brainhacks feature 1) a
-[_Project-Oriented Approach_](#a-project-oriented-approach) that fosters active
+[_Project-Oriented Approach_](a-project-oriented-approach) that fosters active
 participation and community-driven problem-solving; 2)
-[_Learning By Doing_](#learning-by-doing), which enables participants to gain
+[_Learning By Doing_](learning-by-doing), which enables participants to gain
 more intensive training, particularly in computational methods commonly featured
 at Brainhacks; 3) training in
-[_Open Science & Collaborative Coding_](#open-science-collaborative-coding)
-which helps participants become more effective collaborators across contexts; 4)
-[_A Focus on Reproducibility_](#a-focus-on-reproducibility) which leads to more
+[_Open Science & Collaborative Coding_](open-science-collaborative-coding) which
+helps participants become more effective collaborators across contexts; 4)
+[_A Focus on Reproducibility_](a-focus-on-reproducibility) which leads to more
 robust scientific research; and 5) accelerated
-[_Building and Bridging of Communities_](#building-and-bridging-communities)
+[_Building and Bridging of Communities_](building-and-bridging-communities)
 which encourages inclusivity and seamless collaboration between researchers at
 different career stages. Altogether, Brainhacks and similar formats are
 increasingly recognized as a new way of doing science that extends traditional
 academic settings. These events foster a new research culture that demands
-[**open science**](./glossary_en) and celebrates diversity,
-unlocking opportunities for scientific progress.
+[**open science**](./glossary_en) and celebrates diversity, unlocking
+opportunities for scientific progress.
 
 (a-project-oriented-approach)=
 
@@ -102,23 +106,22 @@ unlocking opportunities for scientific progress.
 
 Brainhacks are fundamentally centered around attendee-led projects. At the
 beginning of each Brainhack, participants pitch project ideas and form teams to
-realize some of these ideas during the “hacking” sessions
-([Fig. 1B](#figure-1)). The teams are dynamic, and their composition can change
-throughout the course of a project. As participants group themselves based on
-their common interest in a question, method or idea, interdisciplinary teams
-naturally emerge. Each participant can hone diverse skills by being an active
-part in multiple projects of interest. This is in contrast to the scientific
-silos that often arise when scientists connect over a specific methodological or
-conceptual approach. Brainhack projects promote the flow of information between
-specialized domains within the multidisciplinary field of neuroscience. The
-project-oriented structure of Brainhack enables everyone to be an active
-participant at the event, with contributions taking a variety of forms.
-Importantly, the term “hacking” is not used to refer to coding in particular,
-but to describe an intensive form of work, eschewing strict conventions, and
-often targeted at prototyping an idea within a short period of time.
-Participants are therefore not required to have coding skills in order to make
-meaningful contributions. An example of an impactful project that did not focus
-on coding is
+realize some of these ideas during the “hacking” sessions ([Fig. 1B](figure-1)).
+The teams are dynamic, and their composition can change throughout the course of
+a project. As participants group themselves based on their common interest in a
+question, method or idea, interdisciplinary teams naturally emerge. Each
+participant can hone diverse skills by being an active part in multiple projects
+of interest. This is in contrast to the scientific silos that often arise when
+scientists connect over a specific methodological or conceptual approach.
+Brainhack projects promote the flow of information between specialized domains
+within the multidisciplinary field of neuroscience. The project-oriented
+structure of Brainhack enables everyone to be an active participant at the
+event, with contributions taking a variety of forms. Importantly, the term
+“hacking” is not used to refer to coding in particular, but to describe an
+intensive form of work, eschewing strict conventions, and often targeted at
+prototyping an idea within a short period of time. Participants are therefore
+not required to have coding skills in order to make meaningful contributions. An
+example of an impactful project that did not focus on coding is
 [Open Brain Consent](https://open-brain-consent.readthedocs.io/en/stable)
 ([Bannier et al., 2020](#references)). This project has developed consent form
 templates for the collection and sharing of human neuroimaging data,
@@ -191,7 +194,7 @@ discussions in self-organized groups, “unconference” presentations, and
 structured workshops on a particular tool or topic. A recent format for major
 Brainhack events is the [**TrainTrack**](./glossary_en), entirely
 education-focused sessions that run all day, in parallel with work on projects
-([Fig. 1A-B](#figure-1)). This format lowers the entry barrier for new
+([Fig. 1A-B](figure-1)). This format lowers the entry barrier for new
 participants, enabling them to build relevant skills and familiarize themselves
 with the structure and environment of a Brainhack before diving into their first
 project. The variety of educational approaches supports different learning
@@ -202,10 +205,10 @@ Brainhack instructors strive to share their produced materials with the
 scientific community, including recorded presentations, slide decks, interactive
 tutorials, and more. For example, all the materials developed for the
 [TrainTrack of OHBM Brainhack 2020](https://ohbm.github.io/hackathon2020/traintrack/)
-have been made publicly available so as to encourage reuse, redistribution,
-and reproduction of the content. Educational content developed for Brainhacks
-cover a range of topics including analytical and statistical methods (e.g.,
-machine learning, data preprocessing), reproducible workflows (e.g., automated
+have been made publicly available so as to encourage reuse, redistribution, and
+reproduction of the content. Educational content developed for Brainhacks cover
+a range of topics including analytical and statistical methods (e.g., machine
+learning, data preprocessing), reproducible workflows (e.g., automated
 pipelines, automated data standardization, software containers), and other
 relevant concepts (e.g., preregistration, p-hacking). Many featured tools are
 geared towards promoting more open and reproducible practices. The training
@@ -230,13 +233,13 @@ career opportunities.
 
 (open-science-collaborative-coding)=
 
-## Open Science & Collaborative Coding
+## Open Science and Collaborative Coding
 
 Despite the increasingly central role of programming in neuroscience research,
 formal training in coding is not common in the neuroscience curriculum. In
-addition, code is seldom shared across more than a few labs, and too often
-seen and used by only a single individual. As a result, many scripts and
-workflows are hard to reuse and share, and can contain undiscovered errors
+addition, code is seldom shared across more than a few labs, and too often seen
+and used by only a single individual. As a result, many scripts and workflows
+are hard to reuse and share, and can contain undiscovered errors
 ([Merali et al., 2010](#references)).
 
 By putting cross-disciplinary collaboration at its heart, Brainhacks have
@@ -349,7 +352,7 @@ same principles as the original Brainhack events. Thus, a strong ecosystem has
 emerged that transports the benefits and values of the format far beyond any
 individual event. Brainhacks are spreading to an increasingly wide community, as
 the non-hierarchical, self-organising structure enables individuals to organize
-a Brainhack anywhere in the world ([Fig. 1C](#figure-1)) and events are kept
+a Brainhack anywhere in the world ([Fig. 1C](figure-1)) and events are kept
 financially accessible. An online community with over 4000 members and 500
 channels uses the [Mattermost](https://mattermost.brainhack.org) messaging
 platform to provide continuity across time and space. Posts range from questions
@@ -371,10 +374,10 @@ directed at producing and broadcasting publications. Within neuroscience,
 Brainhacks have the potential to evolve beyond their initial focus on
 neuroimaging data and include more projects on theory, hardware, and different
 types of neural data. With a growing global community, and an iteratively
-improving format ([Fig. 1D](#figure-1)), Brainhacks provide a successful
-template that can easily be extended to other scientific fields. A near decade
-of Brainhacks has brought about positive change for individual researchers and
-the field as a whole, in the form of improved skills, reusable resources, new
+improving format ([Fig. 1D](figure-1)), Brainhacks provide a successful template
+that can easily be extended to other scientific fields. A near decade of
+Brainhacks has brought about positive change for individual researchers and the
+field as a whole, in the form of improved skills, reusable resources, new
 collaborations and a diverse and inclusive community.
 
 ## Acknowledgments
