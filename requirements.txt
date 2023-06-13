@@ -14,3 +14,4 @@ ruamel.yaml
 cffconvert
 plotly
 flake8
+pre-commit
