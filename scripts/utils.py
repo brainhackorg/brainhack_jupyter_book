@@ -84,9 +84,7 @@ def get_timeline() -> pd.DataFrame:
     mean = timeline[~ohbm_filter]["Nb_participants"].mean()
     timeline["Nb_participants"] = timeline["Nb_participants"].fillna(mean).astype(int)
 
-    timeline["date"] = pd.to_datetime(
-        timeline["YYYY-MM-DD"], infer_datetime_format=True
-    ).dt.strftime("%Y")
+    timeline["date"] = pd.to_datetime(timeline["YYYY-MM-DD"]).dt.strftime("%Y")
 
     return timeline
 
