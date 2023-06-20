@@ -60,6 +60,7 @@ sphinx:
     linkcheck_ignore:
       - .*/10.1186/s13742-016-0121-x # for some reason, it returns forbidden
       - .*/10.1093/gigascience/giy082 # for some reason, it returns forbidden
+      - https://doi.org/10.3897/rio.2.e9113
       - https?://brainhack.org/LA # need to fix to "LA2016" in OSF
       - https://fnndsc.childrens.harvard.edu/brainhack2019/
       - https://www.abcd-repronim.org/index.html
