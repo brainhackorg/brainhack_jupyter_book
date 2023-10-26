@@ -274,7 +274,7 @@ Advanced skill or knowledge in a certain area.
 
 ### FAIR Data
 
-Findable, accessible, interoperable, and re-usable (FAIR) data, which
+Findable, accessible, interoperable, and reusable (FAIR) data, which
 facilitates knowledge discovery by assisting humans and machines in their
 discovery of, access to, integration and analysis of, task-appropriate
 scientific data and their associated algorithms and workflows. This definition
@@ -517,7 +517,7 @@ and data are accumulated and published online as soon as they are obtained.
 
 A license is a document that specifies what can and cannot be done with a work.
 It grants permissions and states restrictions. Broadly speaking, an open license
-is one that grants permission to access, re-use and redistribute a work with few
+is one that grants permission to access, reuse and redistribute a work with few
 or no restrictions.
 
 ### Open Materials
