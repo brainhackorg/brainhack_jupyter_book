@@ -196,6 +196,39 @@ date	name	site	event	created_at	labels	url
 2022	DataLad-Dataverse integration	Glasgow	OHBM Brainhack 2022	2022-05-30T13:07:20Z	n/a	https://api.github.com/repos/ohbm/hackathon2022/issues/43
 2022	MOSAIC for VASO fMRI	Glasgow	OHBM Brainhack 2022	2022-05-27T13:05:18Z	modality:MRI,modality:fMRI,programming:C,programming:Python,tools:BIDS,tools:Datalad,topic:machine_learning	https://api.github.com/repos/ohbm/hackathon2022/issues/42
 2022	NeuroCAUSAL -  an platform for storage, sharing, synthesis & meta-analysis of clinical data	Glasgow	OHBM Brainhack 2022	2022-05-22T15:54:46Z	programming:Python,project_tools_skills:familiar,tools:BIDS,tools:Datalad,topic:machine_learning	https://api.github.com/repos/ohbm/hackathon2022/issues/35
+2023	boldGPT	Montreal	OHBM Brainhack 2023	2023-07-19T17:51:48Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/38
+2023	DiffSimViz	Montreal	OHBM Brainhack 2023	2023-07-19T15:52:55Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/37
+2023	Boutiques Integration to Datalad	Montreal	OHBM Brainhack 2023	2023-07-19T14:32:52Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/36
+2023	Simulation of the interplay between brain and behavior	Montreal	OHBM Brainhack 2023	2023-07-19T14:07:29Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/35
+2023	ShareStats	Montreal	OHBM Brainhack 2023	2023-07-19T13:56:36Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/34
+2023	neurolibre	Montreal	OHBM Brainhack 2023	2023-07-19T11:24:55Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/33
+2023	Pydra - updating tutorials	Montreal	OHBM Brainhack 2023	2023-07-19T03:07:43Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/32
+2023	SulciLab	Montreal	OHBM Brainhack 2023	2023-07-19T02:04:46Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/31
+2023	Mode-based morphometry (MBM)	Montreal	OHBM Brainhack 2023	2023-07-19T01:42:49Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/30
+2023	Neurobagel	Montreal	OHBM Brainhack 2023	2023-07-18T21:30:57Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/29
+2023	NiPreps generalizations for diffusion MRI (MRIQC+dMRIPrep)	Montreal	OHBM Brainhack 2023	2023-07-18T18:51:17Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/28
+2023	Publishing Code in Aperture Neuro	Montreal	OHBM Brainhack 2023	2023-07-18T14:23:48Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/27
+2023	CiftiPy - Better python support for cifti files	Montreal	OHBM Brainhack 2023	2023-07-18T14:03:55Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/26
+2023	Post-fMRIPrep ICA-AROMA BIDS-App	Montreal	OHBM Brainhack 2023	2023-07-18T13:36:13Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/25
+2023	Nipreps - Reporting FreeSurfer outcomes with NiReports	Montreal	OHBM Brainhack 2023	2023-07-18T12:30:52Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/24
+2023	fMRIPrep-integrate AFNI left and right flip detection tool into fMRIPrep	Montreal	OHBM Brainhack 2023	2023-07-18T12:25:32Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/23
+2023	ET2BIDS - EyeTracker to BIDS	Montreal	OHBM Brainhack 2023	2023-07-18T12:20:00Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/22
+2023	Migas Analytics: create additional visualizations	Montreal	OHBM Brainhack 2023	2023-07-18T12:03:55Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/21
+2023	fMRIPrep-Split into separate fit & apply workflows	Montreal	OHBM Brainhack 2023	2023-07-18T11:52:13Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/20
+2023	Nobrainer	Montreal	OHBM Brainhack 2023	2023-07-17T15:56:12Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/19
+2023	Physiopy - Semi-Automated Workflows for Physiological Signals	Montreal	OHBM Brainhack 2023	2023-07-10T18:53:55Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/18
+2023	HeuDiConv 	Montreal	OHBM Brainhack 2023	2023-07-06T18:52:40Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/17
+2023	PhysioQC: A physiological data Quality Control toolbox with physiopy	Montreal	OHBM Brainhack 2023	2023-07-05T19:22:29Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/16
+2023	Improving surface functionality in Nilearn	Montreal	OHBM Brainhack 2023	2023-07-05T08:49:41Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/15
+2023	Neuroimaging Meta-Analyses! (Neurosynth-Compose + NiMARE)	Montreal	OHBM Brainhack 2023	2023-07-03T16:49:52Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/14
+2023	Clinica's image processing pipeline QC	Montreal	OHBM Brainhack 2023	2023-06-29T16:26:51Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/13
+2023	Physiopy - Documentation of Physiological Signal Acquisition Community Practices	Montreal	OHBM Brainhack 2023	2023-06-29T15:13:13Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/12
+2023	NARPS Open Pipelines	Montreal	OHBM Brainhack 2023	2023-06-28T15:55:43Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/11
+2023	K-particles (a.k.a. what would happen to brains if we explode k-space?)	Montreal	OHBM Brainhack 2023	2023-06-22T19:34:00Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/10
+2023	Selecting the best machine learning pipeline	Montreal	OHBM Brainhack 2023	2023-06-19T14:08:12Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/8
+2023	Cerebro: One tool to view them all	Montreal	OHBM Brainhack 2023	2023-05-25T15:05:41Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/6
+2023	The BIDS connectivity project - current state and next steps of the BEPs	Montreal	OHBM Brainhack 2023	2023-05-22T12:54:10Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/2
+2023	FSuB-Extractor	Montreal	OHBM Brainhack 2023	2023-05-19T21:15:20Z	Good to go	https://api.github.com/repos/ohbm/hackathon2023/issues/1
 2017	Automated detection of brain lesions causing epilepsy	Madison	Brainhack Global 2017	2022-11-30T07:32:04Z	CHECK_LABEL,modality:MRI	https://api.github.com/repos/brainhackorg/global2017/issues/48
 2017	Time-lapse tracing of axon arbours from in vivo 2-photon images	Madison	Brainhack Global 2017	2022-11-30T07:31:31Z	CHECK_LABEL	https://api.github.com/repos/brainhackorg/global2017/issues/47
 2017	Imputation of missing modalities	Madison	Brainhack Global 2017	2022-11-30T07:31:06Z	CHECK_LABEL,modality:MRI	https://api.github.com/repos/brainhackorg/global2017/issues/46

@@ -58,6 +58,16 @@
         "site": "glasgow_scotland",
         "year": 2022
     },
+    "ohbm_2023": {
+        "name": "OHBM Brainhack 2023",
+        "gh_username": "ohbm",
+        "repo": "hackathon2023",
+        "project_label": [
+            "Project"
+        ],
+        "site": "montreal_canada",
+        "year": 2023
+    },
     "brainhack_global_2017": {
         "name": "Brainhack Global 2017",
         "gh_username": "brainhackorg",
