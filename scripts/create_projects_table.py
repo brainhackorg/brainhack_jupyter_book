@@ -8,7 +8,7 @@ from utils import root_dir
 
 log_level = "INFO"
 
-log = bhg_log(name="bidspm")
+log = bhg_log(name="bhg_book")
 log.setLevel(log_level)
 
 sites = {
@@ -56,6 +56,7 @@ sites = {
 LABELS_TO_REMOVE = [
     "",
     "project",
+    "Project",
     "Hackathon Project",
     "Hackathon project",
     "status:published",

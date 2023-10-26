@@ -14,6 +14,9 @@ from utils import bhg_log
 from utils import load_repositories_info
 from utils import root_dir
 
+# only run on repositories in this list
+INCLUDE = ["hackathon2023"]
+
 USERNAME = "Remi-Gau"
 
 log_level = "INFO"
@@ -21,8 +24,11 @@ log_level = "INFO"
 log = bhg_log(name="bidspm")
 log.setLevel(log_level)
 
-with open(Path(__file__).parent.joinpath("token.txt")) as f:
-    TOKEN = f.read().strip()
+if Path(__file__).parent.joinpath("token.txt").exists():
+    with open(Path(__file__).parent.joinpath("token.txt")) as f:
+        TOKEN = f.read().strip()
+else:
+    TOKEN = None
 
 
 def get_gh_issues(gh_username, repo, auth_username=None, auth_token=None):
@@ -55,6 +61,8 @@ def main():
     for this_repo in repositories_info:
         gh_username = repositories_info[this_repo]["gh_username"]
         repository_name = repositories_info[this_repo]["repo"]
+        if repository_name not in INCLUDE:
+            continue
         issues = get_gh_issues(gh_username, repository_name, USERNAME, TOKEN)
 
         if issues is None:

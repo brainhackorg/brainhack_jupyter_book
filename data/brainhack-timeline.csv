@@ -197,19 +197,20 @@ https://www.bcbl.eu/events/BrainhackDonostia2018/en/",,,FALSE
 2022-01-22,Los Angeles,Brainhack UCLA,,,https://sites.google.com/view/brainhack-ucla/home,,https://github.com/brainhackorg/global2021/issues?q=is%3Aissue+is%3Aopen+label%3Aproject,TRUE
 2022-06-16,Glasgow,OHBM Brainhack 2022,100,hybrid,https://ohbm.github.io/hackathon2022/,https://github.com/ohbm/hackathon2022,https://github.com/ohbm/hackathon2022/issues?q=is%3Aissue+is%3Aopen+label%3A%22Hackathon+Project%22  ,TRUE
 2021-03-21,Benelux ,OpenMR Benelux 2021,,online,https://openmrbenelux.github.io/,https://github.com/OpenMRBenelux/openmrb2021-hackathon,https://github.com/OpenMRBenelux/openmrb2021-hackathon/labels/Hackathon%20Project,TRUE
-2022-11-29,Atlantis,Brainhack Physiopy,,,https://physiopy.github.io/brainhack-physiopy-2022/,,https://github.com/brainhackorg/global2022/issues,TRUE
+2022-11-29,Atlantis,Brainhack Physiopy,15,,https://physiopy.github.io/brainhack-physiopy-2022/,,https://github.com/brainhackorg/global2022/issues,TRUE
 2022-11-30,Msida,The BOB Hack,,,https://boblab.info,,,FALSE
-2022-10-21,Krakow,Brainhack Krakow,,,https://www.brainhack-krakow.org,,https://www.brainhack-krakow.org/projects,TRUE
-2022-11-30,Sydney,Brainhack Australasia,,,https://brainhack-aus.github.io/global2022/,,,FALSE
+2022-10-21,Krakow,Brainhack Krakow,42,in_person,https://www.brainhack-krakow.org,,https://www.brainhack-krakow.org/projects,TRUE
+2022-11-30,Sydney,Brainhack Australasia,44,in_person,https://brainhack-aus.github.io/global2022/,,,FALSE
 2022-11-23,Donostia,Brainhack Donostia,40,in_person,https://brainhack-donostia.github.io,,https://github.com/brainhackorg/global2022/issues,TRUE
 2022-11-28,Marseille,Brainhack Marseille,120,hybrid,https://brainhack-marseille.github.io/,,https://github.com/brainhackorg/global2022/issues,TRUE
-2022-11-29,Marburg,Brainhack Marburg,,,https://openscienceinitiativeuniversitymarburg.github.io/,,,FALSE
-2022-12-10,Bethesda,Brainhack Washington DC,,,https://brainhackdc.github.io/,,,FALSE
+2022-11-29,Marburg,Brainhack Marburg,60,,https://openscienceinitiativeuniversitymarburg.github.io/,,,FALSE
+2022-12-10,Bethesda,Brainhack Washington DC,40,,https://brainhackdc.github.io/,,,FALSE
 2022-11-30,London-Canada,Brainhack Western,,,https://brainhackwestern.github.io,,,FALSE
-2022-12-01,Geneva,Brainhack Geneva,,,https://brainhack.ch/,,,FALSE
+2022-12-01,Geneva,Brainhack Geneva,60,,https://brainhack.ch/,,,FALSE
 2022-12-08,Toronto,BrainHack Toronto,,,https://brainhackto.github.io/global-toronto-12-2022/,,,FALSE
 2022-12-05,Copenhagen,Brainhack Nordic,,,https://openneuropet.github.io/brainhack/,,,FALSE
 2022-12-08,Boston,Brainhack Boston,,,https://brainhack-boston.github.io/,,,FALSE
-2022-12-03,Zagreb,Brainhack Zagreb,,,,https://github.com/brainhackzg,,FALSE
+2022-12-03,Zagreb,Brainhack Zagreb,40,,,https://github.com/brainhackzg,,FALSE
 2023-03-17,Warsaw,Brainhack Warsaw,,,https://brainhackwarsaw.fuw.edu.pl/,,,FALSE
 2022-12-08,Magdeburg,Brainhack Magdeburg,,,https://brainhack-magdeburg.github.io/,https://github.com/brainhack-magdeburg/brainhack-magdeburg.github.io,,FALSE
+2023-07-20,Montreal,OHBM Brainhack 2023,120,in_person,https://ohbm.github.io/hackathon2023/,https://github.com/ohbm/hackathon2023,https://github.com/ohbm/hackathon2023/issues?q=is%3Aissue+is%3Aopen+label%3A%22Project%22,TRUE

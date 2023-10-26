@@ -6,7 +6,7 @@ all: pre book
 figures:
 	python scripts/generate_figures.py
 
-book:
+book: figures
 	jupyter-book build brainhack_book
 
 test: figures
