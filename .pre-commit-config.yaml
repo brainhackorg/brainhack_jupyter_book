@@ -31,6 +31,6 @@ repos:
   - id: pyupgrade
 
 - repo: https://github.com/pycqa/flake8
-  rev: "6.1.0"
+  rev: "7.0.0"
   hooks:
   - id: flake8
