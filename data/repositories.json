@@ -122,6 +122,15 @@
         ],
         "year": 2022
     },
+    "brainhack_global_2023": {
+        "name": "Brainhack Global 2023",
+        "gh_username": "brainhackorg",
+        "repo": "global2023",
+        "project_label": [
+            "project"
+        ],
+        "year": 2023
+    },
     "openmr_2020": {
         "name": "OpenMR 2020",
         "gh_username": "OpenMRBenelux",
