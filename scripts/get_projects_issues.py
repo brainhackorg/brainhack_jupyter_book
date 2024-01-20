@@ -15,7 +15,7 @@ from utils import load_repositories_info
 from utils import root_dir
 
 # only run on repositories in this list
-INCLUDE = ["hackathon2023"]
+INCLUDE = ["global2023"]
 
 USERNAME = "Remi-Gau"
 

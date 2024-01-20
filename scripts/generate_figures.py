@@ -146,7 +146,7 @@ def main():
         color="event type",
         projection="natural earth",
         size="Nb_participants",
-        animation_frame="date",
+        # animation_frame="date",
     )
     save_figure(planet_slider_fig, "planet")
 

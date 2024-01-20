@@ -13,17 +13,29 @@ log.setLevel(log_level)
 
 sites = {
     "Marseille": {
-        "labels": ["bhg:marseille_fra_1", "marseille_fra", "marseille_france"]
+        "labels": [
+            "bhg:marseille_fra_1",
+            "marseille_fra",
+            "marseille_france",
+            "hub:marseille_fra",
+        ]
     },
     "Boston": {"labels": ["bhg:boston_usa_1"]},
     "New York City": {"labels": ["bhg:nyc_usa_1"]},
-    "Toronto": {"labels": ["bhg:toronto_can_1", "toronto_canada", "toronto_can"]},
+    "Toronto": {
+        "labels": [
+            "bhg:toronto_can_1",
+            "toronto_canada",
+            "toronto_can",
+            "hub:toronto_can",
+        ]
+    },
     "Ontario": {"labels": ["bhg:ontario_can_1", "western_can"]},
     "Washington D.C.": {"labels": ["bhg:washingtondc_usa_1", "washingtondc_usa"]},
-    "Montreal": {"labels": ["bhg:mtl_can_1", "montreal_canada"]},
+    "Montreal": {"labels": ["bhg:mtl_can_1", "montreal_canada", "hub:montreal_can"]},
     "Ankara": {"labels": ["bhg:ankara_tur_1"]},
     "micro2macro": {"labels": ["bhg:micro2macro_gbr_1"]},
-    "Donostia": {"labels": ["bhg:donostia_esp_1", "donostia_esp"]},
+    "Donostia": {"labels": ["bhg:donostia_esp_1", "donostia_esp", "hub:donostia_esp"]},
     "Pittsburgh": {"labels": ["bhg:pittsburgh_usa_1"]},
     "Melbourne": {"labels": ["bhg:melbourne_aus_1"]},
     "Rome": {"labels": ["rome_italy"]},
@@ -51,6 +63,7 @@ sites = {
     "Dallas": {"labels": ["dallas_usa"]},
     "China": {"labels": ["bhg:beijingnanning_china_1"]},
     "Bloomington": {"labels": ["bhg:bloomington_usa_1"]},
+    "Vanderbilt": {"labels": ["hub:vanderbilt_usa"]},
 }
 
 LABELS_TO_REMOVE = [
@@ -213,7 +226,7 @@ def find_this_site_name(site, sites):
 
 def find_site_in_labels(sites, labels):
     for key in sites:
-        if set(sites[key]["labels"]) & set(labels):
+        if set(sites[key]["labels"]).intersection(set(labels)):
             return key
 
 
@@ -228,9 +241,12 @@ def get_project_site(this_hackathon, sites, labels):
         site = find_site_in_labels(sites, labels)
 
     if site is None:
-        log.warning(f"Could not find site for {this_hackathon['name']}")
-        log.warning(labels)
-        log.warning(this_hackathon)
+        log.warning(
+            f"""Could not find site for:
+- name: {this_hackathon['name']}
+- labels: {labels}
+- details: {this_hackathon}"""
+        )
         site = "n/a"
 
     return site

@@ -1,0 +1,1028 @@
+events:
+  # TEMPLATE
+  # - title: # what will be displayed
+  #   display: # true or false; if false, the event will not be displayed on the website
+  #   format: # the format of the event (e.g. "Online", "In person", "Hybrid")
+  #   abstract:
+  #   summary: # one sentence summary of the event, will display on the website
+  #   organizers:
+  #     -
+  #   contact:
+  #     -
+  #   location:
+  #   address:
+  #     street:
+  #     city:
+  #     region:
+  #     postcode:
+  #     country:
+  #   position:
+  #     lat:
+  #     lng:
+  #   date: # format 'YYYY-MM-DD'
+  #   date_end: # format 'YYYY-MM-DD'
+  #   mattermost_channel: # the name of the mattermost channel for this event on the brainhack server;
+  #                       # will be prefaced with the rest of url automatically
+  #                       # (e.g. https://mattermost.brainhack.org/brainhack/channels/)
+  #   twitter_handle:
+  #   facebook:
+  #   instagram:
+  #   website:
+  #   github_username:
+  #   image: # name of the image file in the images folder static/media/events
+  #   image_caption: # one will be generated automatically if none is provided
+  #   publishDate: # will be replaced automatically so you can leave this blank
+
+
+  - title: Brainhack Vienna
+    format: In person
+    display: true
+    abstract: multimodal changing brains
+    summary: multimodal changing brains
+    organizers:
+      - Roxane Licandro
+      - Georg Langs
+    contact:
+      - roxane.licandro@meduniwien.ac.at
+      - georg.langs@meduniwien.ac.at
+    location: Medical University of Vienna, Complexity Science Hub
+    address:
+      street: Josefstädter Straße 39
+      city: Wien
+      region:
+      postcode: 1080
+      country: Austria
+    position:
+      lat: 48.20919941917117
+      lng: 16.348114797210087
+    date: '2023-12-04'
+    date_end: '2023-12-06'
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://brainhack-vienna.github.io/
+    github_username: brainhack-vienna
+    image: vienna.png
+    image_caption: 'Image credit: [**Brainhack Vienna**](https://brainhack-vienna.github.io/)'
+    publishDate: '2024-01-19'
+  - title: Brainhack Lucca
+    format: Hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Ruggero Basanisi
+      - Monica Betta
+    contact:
+      - brainhacklucca@imtlucca.it
+      - ruggero.basanisi@imtlucca.it
+      - monica.betta@imtlucca.it
+    location: IMT school for advanced studies
+    address:
+      street: Piazza S.Francesco, 19
+      city: Lucca
+      region:
+      postcode: 55100
+      country: Italy
+    position:
+      lat: 43.846194242250874
+      lng: 10.510857315344076
+    date: '2023-12-04'
+    date_end: '2013-12-07'
+    mattermost_channel:
+    twitter_handle: BrainHackLucca
+    facebook:
+    instagram:
+    website: https://brainhacklucca.github.io/index.html
+    github_username: brainhacklucca
+    image: BHLucca.png
+    image_caption: 'Image credit: [**Brainhack Lucca**](https://brainhacklucca.github.io/index.html)'
+    publishDate: '2024-01-19'
+  - title: Brainhack Warsaw
+    format: In person
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Julia Jakubowska
+    contact:
+      - j.jakubowska10@student.uw.edu.pl
+    location: Faculty of Physics, University of Warsaw
+    address:
+      street:
+      city: Warsaw
+      region:
+      postcode:
+      country: Poland
+    position:
+      lat: 52.213001948085335
+      lng: 20.982592326934363
+    date: '2023-03-17'
+    date_end: '2023-03-19'
+    mattermost_channel: brainhack-warsaw
+    twitter_handle: BrainhackW
+    facebook:
+    instagram:
+    website: https://brainhackwarsaw.fuw.edu.pl/
+    github_username:
+    image: warsaw.png
+    image_caption: 'Image credit: [**Brainhack Warsaw**](https://brainhackwarsaw.fuw.edu.pl/)'
+    publishDate: '2034-01-17'
+  - title: Bay Area Brainhack
+    format: Hybrid
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Matteo Visconti di Oleggio Castello
+      - Elizabeth DuPre
+    contact:
+      - matteo.visconti@berkeley.edu
+      - elizabethm.dupre@gmail.com
+    location: UC San Francisco, UC Berkeley, Stanford University
+    address:
+      street:
+      city: San Francisco
+      region:
+      postcode:
+      country: United States
+    position:
+      lat: 37.76301542212483
+      lng: -122.38914841587729
+    date: '2023-02-09'
+    date_end: '2023-02-10'
+    mattermost_channel: brainhack-bay-area
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://brainhack-bayarea.github.io/home/
+    github_username:
+    image: bayarea.png
+    image_caption: 'Image credit: [**Bay Area Brainhack**](https://brainhack-bayarea.github.io/home/)'
+    publishDate: '2034-01-17'
+  - title: Brainhack Physiopy
+    format: Online
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Mary Miedema
+      - Stefano Moia
+    contact:
+      - physiopy.community@gmail.com
+      - mary.miedema@mail.mcgill.ca
+      - s.moia.research@gmail.com
+    location: Physiopy
+    address:
+      street:
+      city: Atlantis
+      region:
+      postcode:
+      country:
+    position:
+      lat: 31.254314
+      lng: -24.258481
+    date: '2023-12-04'
+    date_end: '2023-12-05'
+    mattermost_channel: physiopy
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://physiopy.github.io/brainhack-physiopy-2023/
+    github_username: physiopy
+    image: physiopy.png
+    image_caption: 'Image credit: [**Brainhack Physiopy**](https://github.com/physiopy)'
+    publishDate: '2024-01-19'
+  - title: The BOB Hack
+    format: In person
+    display: false
+    abstract:
+    summary: The exploration of contemporary research
+    organizers:
+      - Claude Julien Bajada
+      - Raisa Grech
+    contact:
+      - claude.bajada@um.edu.mt
+      - raisa.grech@um.edu.mt
+    location: University of Malta
+    address:
+      street:
+      city: Msida
+      region:
+      postcode:
+      country: Malta
+    position:
+      lat: 35.914037649429865
+      lng: 14.484297035544472
+    date: '2023-11-30'
+    date_end: '2023-12-02'
+    mattermost_channel: brainhack-malta
+    twitter_handle: NeuroCerberus
+    facebook:
+    instagram:
+    website: https://boblab.info
+    github_username:
+    image: malta.jpg
+    image_caption: 'Image credit: [**The BOB Hack**](https://boblab.info)'
+    publishDate: '2034-01-17'
+  - title: Brainhack Krakow
+    format: In person
+    display: false
+    abstract: The Satellite Event of the [Neuronus Forum 2023](https://neuronusforum.pl/)
+    summary: Simulate the brain to predict behaviour in health and disease.
+    organizers:
+      - Krzysztof Bielski
+      - Szymon Wichary
+    contact:
+      - krzysztof.bielski@doctoral.uj.edu.pl
+      - szymon.wichary@uj.edu.pl
+    location: Institute of Psychology
+    address:
+      street: Romana Ingardena 6
+      city: Krakow
+      region:
+      postcode: 30-060
+      country: Poland
+    position:
+      lat: 50.061816691989
+      lng: 19.919703711991456
+    date: '2023-10-21'
+    date_end: '2023-10-23'
+    mattermost_channel: brainhack-krakow
+    twitter_handle: BrainhackKrakow
+    facebook:
+    instagram:
+    website: https://www.brainhack-krakow.org
+    github_username: Brainhack-2023
+    image: krakow.jpg
+    image_caption: 'Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)'
+    publishDate: '2034-01-17'
+  - title: Brainhack Australasia
+    format: hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Kelly Garner
+      - Chris Nolan
+    contact:
+      - getkellygarner@gmail.com
+      - christopher.nolan@unsw.edu.au
+    location: University of Sydney
+    address:
+      street:
+      city: Sydney
+      region:
+      postcode:
+      country: Australia
+    position:
+      lat: -33.888173886142376
+      lng: 151.18746700082073
+    date: '2023-11-22'
+    date_end: '2023-11-24'
+    mattermost_channel: brainhack-australasia
+    twitter_handle: OHBM_Australia
+    facebook:
+    instagram:
+    website: https://brainhack-aus.github.io/global2023/
+    github_username: brainhack-aus
+    image: australia.jpg
+    image_caption: 'Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2021/)'
+    publishDate: '2024-01-19'
+  - title: Brainhack Donostia
+    format: In person
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Ihintza Malharin Hirigoyen
+      - Marco Antonio Flores Coronado
+    contact:
+      - i.malharin@bcbl.eu
+      - m.flores@bcbl.eu
+    location: Basque Center on Cognition, Brain and Language
+    address:
+      street: Paseo Mikeletegi 69, 1st Floor
+      city: Donostia
+      region:
+      postcode: 20009
+      country: Basque Country
+    position:
+      lat: 43.294418348750945
+      lng: -1.986137060687557
+    date: '2023-11-22'
+    date_end: '2023-11-24'
+    mattermost_channel: bhd2023
+    twitter_handle: BHDonostia
+    facebook:
+    instagram:
+    website: https://brainhack-donostia.github.io
+    github_username: Brainhack-Donostia
+    image: donostia.png
+    image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
+    publishDate: '2024-01-19'
+  - title: Brainhack Marseille
+    format: Hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Dipankar Bachar
+      - David Meunier
+    contact:
+      - david.meunier@univ-amu.fr
+    location: Salle Pouillon, Saint Charles campus
+    address:
+      street:
+      city: Marseille
+      region:
+      postcode:
+      country: France
+    position:
+      lat: 43.30557
+      lng: 5.37775
+    date: '2023-12-04'
+    date_end: '2023-12-06'
+    mattermost_channel: bhg23-marseille
+    twitter_handle: BrainhackM
+    facebook:
+    instagram:
+    website: https://brainhack-marseille.github.io/
+    github_username: brainhack-marseille
+    image: marseille.png
+    image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
+    publishDate: '2024-01-19'
+  - title: BrainHack Bloomington
+    format: online
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Serge Koudoro
+      - Eleftherios Garyfallidis
+    contact:
+    location:
+    address:
+      street:
+      city: Bloomington
+      region: Indiana
+      postcode:
+      country: USA
+    position:
+      lat: 39.17563165674661
+      lng: -86.51225149286539
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel: dipy
+    twitter_handle:
+    facebook:
+    instagram:
+    website:
+    github_username:
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: BrainHack Minipig
+    format: online
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Michal Brzus
+      - Hans Johnson
+    contact:
+    location: University of Iowa
+    address:
+      street:
+      city: Iowa City
+      region: Iowa
+      postcode:
+      country: USA
+    position:
+      lat: 41.66286808308367
+      lng: -91.55440847343925
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel: minipig
+    twitter_handle:
+    facebook:
+    instagram:
+    website:
+    github_username:
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: BrainHack MIT
+    format: online
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Aakanksha Rana
+      - Hoda Rajaei
+    contact:
+    location: MIT
+    address:
+      street:
+      city: Boston
+      region:
+      postcode:
+      country: USA
+    position:
+      lat: 42.36029710173573
+      lng: -71.09390251005894
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel: brainhack-mit-neuro
+    twitter_handle: bhkMitNeuro
+    facebook:
+    instagram:
+    website: https://neuronets.github.io/mit-brainhack2023/?version=b7e8e2f
+    github_username: neuronets
+    image: mit.jpg
+    image_caption: 'Image credit: [**BrainHack MIT**](https://neuronets.github.io/mit-brainhack2023/?version=b7e8e2f)'
+    publishDate: '2034-01-17'
+  - title: BrainHack Yale
+    format: IRL
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - David O'Connor
+      - Hannah Peterson
+    contact:
+    location: Yale University
+    address:
+      street:
+      city: New Haven
+      region:
+      postcode:
+      country: United States
+    position:
+      lat: 41.3171463076155
+      lng: -72.92204269579824
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    instagram:
+    website:
+    github_username:
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Brainhack Taipei
+    format: IRL
+    display: false
+    abstract:
+    summary: In person - EEG data analysis
+    organizers:
+      - Shu-Kai Hsieh
+      - Chiung-Yu Chiang
+    contact:
+    location: Graduate Institute of Linguistics, National Taiwan University
+    address:
+      street:
+      city: Taipei
+      region:
+      postcode:
+      country: Taiwan
+    position:
+      lat: 25.017476595471454
+      lng: 121.53975179752602
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://langsci-edu.github.io/brainhack21
+    github_username: langsci-edu
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Open Science Days Marburg
+    format: In person
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Thomas S. Hartmann
+      - Lydia Riedl
+    contact:
+      - hartma4k@students.uni-marburg.de
+      - riedll@staff.uni-marburg.de
+    location: Open Science Initiative University Marburg
+    address:
+      street:
+      city: Marburg
+      region:
+      postcode:
+      country: Germany
+    position:
+      lat: 50.81080790834922
+      lng: 8.774228471279875
+    date: '2023-12-04'
+    date_end: '2023-12-05'
+    mattermost_channel: brainhack-marburg
+    twitter_handle: openscienceum
+    facebook:
+    instagram:
+    website: https://openscienceinitiativeuniversitymarburg.github.io/
+    github_username: openscienceinitiativeuniversitymarburg
+    image: marburg.png
+    image_caption: 'Image credit: [**Brainhack Marburg**](https://openscienceinitiativeuniversitymarburg.github.io/)'
+    publishDate: '2024-01-19'
+  - title: Brainhack Zagreb
+    format: In person
+    display: true
+    abstract: Next generation brain diagnostic tools
+    summary: Next generation brain diagnostic tools
+    organizers:
+      - Eda Jovčić
+      - Mario Zelić
+    contact:
+      - eda.jovicic@fer.hr
+      - mariozelic6@gmail.com
+    location: University of Zagreb School of Medicine, Faculty of Electrical Engineering
+      and Computing
+    address:
+      street:
+      city: Zagreb
+      region:
+      postcode:
+      country: Croatia
+    position:
+      lat: 45.834516106778395
+      lng: 16.05382042938537
+    date: '2023-10-21'
+    date_end: '2023-10-22'
+    mattermost_channel: brainhack-zagreb
+    twitter_handle:
+    facebook: BrainhackZagreb
+    instagram: brainhack_zagreb
+    website: https://brainhackzg.github.io/
+    github_username: brainhackzg
+    image: zagreb.png
+    image_caption: 'Image credit: [**Brainhack Zagreb**](https://brainhackzg.github.io/)'
+    publishDate: '2024-01-19'
+  - title: BrainWeb metaverse
+    format: online
+    display: false
+    abstract:
+    summary: VR and AR in neuroscience
+    organizers:
+      - Roberto Toro
+      - Katja Heuer
+    contact:
+    location: Institut Pasteur
+    address:
+      street:
+      city: Paris
+      region:
+      postcode:
+      country: France
+    position:
+      lat: 48.84082037722391
+      lng: 2.311374595722641
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel: brainweb
+    twitter_handle: TheBrainWeb
+    facebook:
+    instagram:
+    website: https://brain-web.github.io
+    github_username: brain-web
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Brainhack Avoca
+    format: hybrid
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Mac Shine
+      - Ben Fulcher
+    contact:
+    location: The University of Sydney
+    address:
+      street:
+      city: Sydney
+      region:
+      postcode:
+      country: Australia
+    position:
+      lat: -33.8883636936788
+      lng: 151.1873131074999
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    instagram:
+    website:
+    github_username:
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Brainhack Washington DC
+    format: in person
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Marissa Laws
+      - Dustin Moraczewski
+    contact:
+    location: |
+      Georgetown University,
+        National Institute of Mental Health,
+        University of Maryland - College Park
+    address:
+      street:
+      city: Bethesda MD
+      region:
+      postcode:
+      country: USA
+    position:
+      lat: 39.05114973899682
+      lng: -77.1204863663375
+    date: '2023-12-10'
+    date_end: '2023-12-11'
+    mattermost_channel: bhg-washingtondc
+    twitter_handle: BrainhackDc
+    facebook:
+    instagram:
+    website: https://brainhackdc.github.io/
+    github_username: brainhackdc
+    image: washington.png
+    image_caption: 'Image credit: [**Brainhack Washington DC**](https://brainhackdc.github.io/)'
+    publishDate: '2034-01-17'
+  - title: BrainHack UVA
+    format: IRL
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Amalia McDonald
+      - Sarah Kucenas
+    contact:
+    location: University of Virginia
+    address:
+      street:
+      city: Charlottesville
+      region:
+      postcode:
+      country: USA
+    position:
+      lat: 38.03376
+      lng: -78.50841
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel: brainhack-uva
+    twitter_handle:
+    facebook:
+    instagram:
+    website:
+    github_username:
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Brainhack Western
+    format: In person
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Suzanne Witt
+      - Keza Motlana
+    contact:
+      - switt4@uwo.ca
+      - kmotlana@uwo.ca
+    location: University of Western Ontario
+    address:
+      street:
+      city: London
+      region: Ontario
+      postcode:
+      country: Canada
+    position:
+      lat: 43.0101
+      lng: -81.2736
+    date: '2023-11-01'
+    date_end: '2023-11-03'
+    mattermost_channel:
+    twitter_handle: UWOBrainhack
+    facebook:
+    instagram:
+    website: https://brainhackwestern.github.io
+    github_username: brainhackwestern
+    image: western.png
+    image_caption: 'Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)'
+    publishDate: '2024-01-19'
+  - title: Brainhack Geneva
+    format: In person
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Valentina Borghesani
+      - Michael Dayan
+    contact:
+      - valentinaborghesani@gmail.com
+      - michael.dayan@fcbg.ch
+    location: Foundation Campus Biotech Geneva (FCBG)
+    address:
+      street: Chemin des Mines 9
+      city: Geneva
+      region:
+      postcode: 1202
+      country: Switzerland
+    position:
+      lat: 46.22837926269193
+      lng: 6.163716523226527
+    date: '2023-12-01'
+    date_end: '2023-12-03'
+    mattermost_channel:
+    twitter_handle: brainhackgeneva
+    facebook:
+    instagram:
+    website: https://brainhack.ch/
+    github_username:
+    image: geneva.jpg
+    image_caption: 'Image credit: [**Brainhack Geneva**](https://brainhack.ch/)'
+    publishDate: '2034-01-17'
+  - title: BrainHack Toronto
+    format: Hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Erin Dickie
+      - Ju-Chi Yu
+    contact:
+    location: The Krembil Centre for Neuroinformatics (12th floor)
+    address:
+      street: 250 College St.
+      city: Toronto
+      region: Ontario
+      postcode: M5T 1R8
+      country: Canada
+    position:
+      lat: 43.658465558549466
+      lng: -79.39905692883602
+    date: '2023-12-14'
+    date_end: '2023-12-15'
+    mattermost_channel: brainhack-toronto
+    twitter_handle: brainhackto
+    facebook:
+    instagram:
+    website: https://brainhackto.github.io/global-toronto-12-2023/
+    github_username: brainhackto
+    image:
+    image_caption:
+    publishDate: '2024-01-19'
+  - title: Brainhack UCLA
+    format: hybrid
+    display: false
+    abstract:
+    summary: Brainhack brings together cross-disciplinary researchers within the neuroimaging
+      community at UCLA
+    organizers:
+      - Lucina Uddin
+    contact:
+    location: UCLA
+    address:
+      street:
+      city:
+      region:
+      postcode: Los Angeles
+      country: USA
+    position:
+      lat: 34.06
+      lng: -118.44
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://sites.google.com/view/brainhack-ucla/home
+    github_username:
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Brainhack Nordic
+    format: In person
+    display: true
+    abstract:
+    summary: PET imaging and BIDS
+    organizers:
+      - Cyril Pernet
+    contact:
+    location: Copenhagen, Denmark
+    address:
+      street: Neurobiology Research Unit
+      city: Copenhangen
+      region:
+      postcode:
+      country: Denmark
+    position:
+      lat: 55.67
+      lng: 12.56
+    date: '2024-01-22'
+    date_end: '2024-01-24'
+    mattermost_channel:
+    twitter_handle: OpenNeuroPET
+    facebook:
+    instagram:
+    website: https://openneuropet.github.io/BrainHack-Nordic/
+    github_username: openneuropet
+    image: nordic.png
+    image_caption: 'Image credit: [**Brainhack Nordic**](https://openneuropet.github.io/brainhack/)'
+    publishDate: '2024-01-19'
+  - title: Brainhack Zurich
+    format: hybrid
+    display: false
+    abstract:
+    summary: Mobile EEG and Biomarkers
+    organizers:
+      - Mark Melnykowycz
+      - Cao Tri Do
+    contact:
+    location:
+    address:
+      street: Rämistrasse 101
+      city: Zürich
+      region:
+      postcode: 8092
+      country: Switzerland
+    position:
+      lat: 47.37666088954596
+      lng: 8.548579624651714
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel: bhg21-zurich
+    twitter_handle:
+    facebook:
+    instagram:
+    website:
+    github_username:
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Brainhack Boston
+    format: hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Anastasia Yendiki
+      - Kabilar Gunalan
+    contact:
+    location: MIT
+    address:
+      street: MIT
+      city: Cambridge
+      region:
+      postcode:
+      country: USA
+    position:
+      lat: 42.36243545334124
+      lng: -71.092273294204
+    date: '2023-12-11'
+    date_end: '2023-12-13'
+    mattermost_channel: bhg23-boston
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://brainhack-boston.github.io/
+    github_username: brainhack-boston
+    image: boston.png
+    image_caption: 'Image credit: [**Brainhack Boston**](https://brainhack-boston.github.io/)'
+    publishDate: '2024-01-19'
+  - title: Brainhack NYC
+    format: hybrid
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Gregory Kiar
+      - Steven Giavasis
+    contact:
+    location: Child Mind Institute
+    address:
+      street: 101 East 56th St
+      city: New York
+      region: New York
+      postcode: 10022
+      country: USA
+    position:
+      lat: 40.76103663481412
+      lng: -73.97044149270326
+    date: '2023-11-29'
+    date_end:
+    mattermost_channel: bhg21-nyc
+    twitter_handle: brainhackNY
+    facebook:
+    instagram:
+    website: https://brainhacknyc.github.io/2021/
+    github_username: brainhacknyc
+    image:
+    image_caption:
+    publishDate: '2034-01-17'
+  - title: Brainhack Montreal
+    format: hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Mathieu Dugré
+    contact:
+      - mathdugre@pm.me
+    location: Concordia University
+    address:
+      street:
+      city: Montréal
+      region: Québec
+      postcode:
+      country: Canada
+    position:
+      lat: 45.49221148292775
+      lng: -73.62426362752213
+    date: '2023-12-08'
+    date_end: '2023-12-12'
+    mattermost_channel: bhg2023-mtl
+    twitter_handle: BrainhackMTL
+    facebook:
+    instagram:
+    website:
+    github_username: brainhackmtl
+    image: montreal.jpeg
+    image_caption:
+    publishDate: '2024-01-19'
+  - title: BrainHack Magdeburg
+    format: Hybrid
+    display: false
+    abstract:
+    summary:
+    organizers:
+      - Anika Dirks
+      - Janelle Pakan
+    contact:
+      - anika.dirks@med.ovgu.de
+    location: Medical Faculty, Otto von Guericke University Magdeburg
+    address:
+      street:
+      city: Magdeburg
+      region:
+      postcode:
+      country: Germany
+    position:
+      lat: 52.14235072529714
+      lng: 11.647752113849283
+    date: '2023-12-08'
+    date_end: '2023-12-08'
+    mattermost_channel: magdeburg
+    twitter_handle: RTG2413SynAGE
+    facebook:
+    instagram:
+    website: https://brainhack-magdeburg.github.io/
+    github_username: brainhack-magdeburg
+    image: magdeburg.png
+    image_caption: 'Image credit: [**BrainHack Magdeburg**](https://brainhack-magdeburg.github.io/)'
+    publishDate: '2034-01-17'
+  - title: BrainHack Vanderbilt
+    format: Hybrid
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Roza Bayrak
+      - Catie Chang
+    contact:
+      - roza.g.bayrak@vanderbilt.edu
+    location: Featheringill Hall, Vanderbilt University
+    address:
+      street: 400 24th Ave S
+      city: Nashville
+      region: Tennessee
+      postcode: 37240
+      country: USA
+    position:
+      lat: 36.14472593013846
+      lng: -86.80283014854133
+    date: '2024-01-20'
+    date_end: '2024-01-21'
+    mattermost_channel: brainhack-vandy
+    twitter_handle:
+    facebook:
+    instagram:
+    website: https://brainhack-vandy.github.io/
+    github_username: brainhack-vandy
+    image: vanderbilt.png
+    image_caption: 'Image credit: [**BrainHack Vanderbilt**](https://brainhack-vandy.github.io/)'
+    publishDate: '2024-01-19'
