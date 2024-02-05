@@ -7,11 +7,8 @@ pytest
 jupyter-book
 osfclient
 rich
-black
-isort
 requests
 ruamel.yaml
 cffconvert
 plotly
-flake8
 pre-commit
