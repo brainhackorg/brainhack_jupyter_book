@@ -1,4 +1,5 @@
 """Generate the contributors and acknowledgments tables for the book."""
+
 from pathlib import Path
 
 import pandas as pd

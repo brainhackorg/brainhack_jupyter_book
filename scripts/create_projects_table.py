@@ -1,10 +1,7 @@
 import json
 
 import pandas as pd
-from utils import bhg_log
-from utils import list_labels_in_projects
-from utils import load_repositories_info
-from utils import root_dir
+from utils import bhg_log, list_labels_in_projects, load_repositories_info, root_dir
 
 log_level = "INFO"
 
