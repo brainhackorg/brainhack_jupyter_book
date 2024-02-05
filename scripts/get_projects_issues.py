@@ -6,13 +6,12 @@ Your github token for the github API must be in a file called "token.txt"
 in the same directory as this script.
 
 """
+
 import json
 from pathlib import Path
 
 import requests
-from utils import bhg_log
-from utils import load_repositories_info
-from utils import root_dir
+from utils import bhg_log, load_repositories_info, root_dir
 
 # only run on repositories in this list
 INCLUDE = ["global2023"]

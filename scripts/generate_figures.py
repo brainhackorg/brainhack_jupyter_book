@@ -1,14 +1,17 @@
 """Generate figures for the projects and timeline."""
+
 from typing import Union
 
 import pandas as pd
 import plotly.express as px
 from rich import print
-from utils import get_timeline
-from utils import list_labels_in_projects
-from utils import list_x_in_projects
-from utils import load_hackathon_projects
-from utils import root_dir
+from utils import (
+    get_timeline,
+    list_labels_in_projects,
+    list_x_in_projects,
+    load_hackathon_projects,
+    root_dir,
+)
 
 show = True
 
