@@ -10,7 +10,7 @@ repos:
     -   id: check-json # checks json files for parseable syntax.
 
 -   repo: https://github.com/codespell-project/codespell
-    rev: v2.3.0
+    rev: v2.4.0
     hooks:
     -   id: codespell
         args: [--config, ./.codespellrc]
@@ -27,7 +27,7 @@ repos:
     -   id: black
 
 - repo: https://github.com/asottile/pyupgrade
-  rev: v3.19.0
+  rev: v3.19.1
   hooks:
   - id: pyupgrade
 
