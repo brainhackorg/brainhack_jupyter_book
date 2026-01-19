@@ -197,11 +197,9 @@ def labels_to_rename():
         "topic:PCA": ["PCA"],
     }
     for key in LABELS_TO_RENAME:
-        log.info(
-            f"""Renaming {LABELS_TO_RENAME[key]}
+        log.info(f"""Renaming {LABELS_TO_RENAME[key]}
       to '{key}'
-        """
-        )
+        """)
     return LABELS_TO_RENAME
 
 
@@ -238,12 +236,10 @@ def get_project_site(this_hackathon, sites, labels):
         site = find_site_in_labels(sites, labels)
 
     if site is None:
-        log.warning(
-            f"""Could not find site for:
+        log.warning(f"""Could not find site for:
 - name: {this_hackathon['name']}
 - labels: {labels}
-- details: {this_hackathon}"""
-        )
+- details: {this_hackathon}""")
         site = "n/a"
 
     return site
