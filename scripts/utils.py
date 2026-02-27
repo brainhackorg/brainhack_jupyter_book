@@ -44,10 +44,8 @@ def find_coordinates_event(event_city: str, brainhack_sites: pd.DataFrame) -> tu
     if this_city.sum() == 0:
         log.warning(f"Could not find {event_city} in brainhack-sites.csv")
     if this_city.sum() > 1:
-        log.warning(
-            f"""Found several cities for {event_city} in brainhack-sites.csv:
-Evidence: {brainhack_sites[this_city]}"""
-        )
+        log.warning(f"""Found several cities for {event_city} in brainhack-sites.csv:
+Evidence: {brainhack_sites[this_city]}""")
     else:
         lat = brainhack_sites[this_city]["lat"].values
         lon = brainhack_sites[this_city]["lon"].values
@@ -71,7 +69,7 @@ def get_timeline() -> pd.DataFrame:
     # Find coordinates for each event and drop it if not found
     coordinates = {"lat": [], "lon": []}
     for row in timeline.itertuples():
-        (lat, lon) = find_coordinates_event(row.City, brainhack_sites)
+        lat, lon = find_coordinates_event(row.City, brainhack_sites)
         if len(lat) > 0 and len(lon) > 0:
             coordinates["lat"].append(lat[0])
             coordinates["lon"].append(lon[0])
