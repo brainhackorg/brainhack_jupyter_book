@@ -10,7 +10,7 @@ book: figures
 	jupyter-book build brainhack_book
 
 test: figures
-	jupyter-book build brainhack_book -W --builder linkcheck
+	jupyter-book build brainhack_book --strict --check-links
 
 validate_citation_cff: CITATION.cff
 	cffconvert --validate

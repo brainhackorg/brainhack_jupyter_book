@@ -43,7 +43,7 @@ events:
     contact:
       - michal-brzus@uiowa.edu
     website:
-    address: University of Iowa, Iowa City,	USA
+    address: University of Iowa, Iowa City, USA
     position:
       lat: 41.66286808308367
       lng: -91.55440847343925
@@ -67,7 +67,7 @@ events:
     contact:
       - dave.oconnor@yale.edu
     website:
-    address: Yale University, New Haven,	USA
+    address: Yale University, New Haven, USA
     position:
       lat: 41.3171463076155
       lng: -72.92204269579824
@@ -81,7 +81,7 @@ events:
     website: https://langsci-edu.github.io/brainhack21
     address:
       Graduate Institute of Linguistics, National Taiwan University,
-      Taipei,	Taiwan
+      Taipei, Taiwan
     position:
       lat: 25.017476595471454
       lng: 121.53975179752602
@@ -93,7 +93,7 @@ events:
     contact:
       - hartma4k@students.uni-marburg.de
     website: https://brainhack-marburg.github.io/
-    address: OSIUM (Open Science Initiative University Marburg), Marburg,	Germany
+    address: OSIUM (Open Science Initiative University Marburg), Marburg, Germany
     position:
       lat: 50.81080790834922
       lng: 8.774228471279875
@@ -132,7 +132,7 @@ events:
     contact:
       - mac.shine@sydney.edu.au
     website:
-    address: The University of Sydney, Sydney,	Australia
+    address: The University of Sydney, Sydney, Australia
     position:
       lat: -33.8883636936788
       lng: 151.1873131074999
@@ -170,7 +170,7 @@ events:
     contact:
       - brainhack.western@gmail.com
     website: https://brainhackwestern.github.io
-    address: Western University, London, Ontario,	Canada
+    address: Western University, London, Ontario, Canada
     position:
       lat: 43.0101
       lng: -81.2736
