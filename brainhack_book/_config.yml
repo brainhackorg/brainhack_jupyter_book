@@ -64,5 +64,13 @@ sphinx:
       - https?://brainhack.org/LA # need to fix to "LA2016" in OSF
       - https://fnndsc.childrens.harvard.edu/brainhack2019/
       - https://www.abcd-repronim.org/index.html
+      - https?://(www\.)?twitter\.com/.* # twitter/x blocks unauthenticated link checkers with a 404, even for live accounts
+      - http://brainhack.org/brainhack_jupyter_book/? # this is the book's own canonical URL (repo homepage), currently down on brainhack.org's side
+    linkcheck_allowed_redirects:
+      https://doi\.org/.*: .* # DOIs are designed to redirect
+      http://improvingpsych\.org: https://improvingpsych\.org/
+      https://neurodatawithoutborders\.github\.io/nwb_hackathons: http://nwb\.org/nwb_hackathons/
+      https://github\.com/brainhackorg/brainhack_jupyter_book/issues/new.*: https://github\.com/login.*
+      https://www\.humanbrainproject\.eu/en/education/.*: https://www\.humanbrainproject\.eu/en/education-training-career/.*
     suppress_warnings:
       - myst.domains # domain method not implemented for `cite`
