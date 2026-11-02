@@ -16,28 +16,28 @@ repos:
     -   id: check-json # checks json files for parseable syntax.
 
 -   repo: https://github.com/codespell-project/codespell
-    rev: v2.4.2
+    rev: v2.4.3
     hooks:
     -   id: codespell
         args: [--config, ./.codespellrc]
 
 -   repo: https://github.com/pycqa/isort
-    rev: 9.0.0a3
+    rev: 10.0.0b2
     hooks:
     -   id: isort
         args: [--profile, black]
 
 -   repo: https://github.com/psf/black-pre-commit-mirror
-    rev: "26.5.1"
+    rev: "26.10.1"
     hooks:
     -   id: black
 
 - repo: https://github.com/asottile/pyupgrade
-  rev: v3.21.2
+  rev: v3.22.0
   hooks:
   - id: pyupgrade
 
 - repo: https://github.com/pycqa/flake8
-  rev: "7.3.0"
+  rev: "7.5.0"
   hooks:
   - id: flake8
