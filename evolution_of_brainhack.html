@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=6a604523" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=5e9ef638" />
   
   <!-- So that users can add custom icons -->
@@ -57,7 +57,7 @@
     <script src="_static/togglebutton.js?v=b8b12719"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script data-sd-tabs-storage-prefix="sphinx-design-tab-id-" src="_static/design-tabs.js?v=fcb327ea"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -484,15 +484,15 @@
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%html</span>
-<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;div.cell_input&#39;</span><span class="p">).</span><span class="nx">hide</span><span class="p">();&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;observablehq-chart-99cde20f&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">br</span> <span class="p">/&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://observablehq.com/@katjaq/zoomable-sunburst&quot;</span><span class="p">&gt;</span>You can play with the full code for the Zoomable Sunburst by katja <span class="err">&amp;</span> anibal<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span><span class="nx">$</span><span class="p">(</span><span class="s1">'div.cell_input'</span><span class="p">).</span><span class="nx">hide</span><span class="p">();&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">"observablehq-chart-99cde20f"</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">br</span> <span class="p">/&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://observablehq.com/@katjaq/zoomable-sunburst"</span><span class="p">&gt;</span>You can play with the full code for the Zoomable Sunburst by katja <span class="err">&amp;</span> anibal<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 
-<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;module&quot;</span><span class="p">&gt;</span>
-<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="nx">Runtime</span><span class="p">,</span><span class="w"> </span><span class="nx">Inspector</span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js&quot;</span><span class="p">;</span>
-<span class="k">import</span><span class="w"> </span><span class="nx">define</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;https://api.observablehq.com/@katjaq/zoomable-sunburst.js?v=3&quot;</span><span class="p">;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">"module"</span><span class="p">&gt;</span>
+<span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="nx">Runtime</span><span class="p">,</span><span class="w"> </span><span class="nx">Inspector</span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">"https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js"</span><span class="p">;</span>
+<span class="k">import</span><span class="w"> </span><span class="nx">define</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">"https://api.observablehq.com/@katjaq/zoomable-sunburst.js?v=3"</span><span class="p">;</span>
 <span class="ow">new</span><span class="w"> </span><span class="nx">Runtime</span><span class="p">().</span><span class="nx">module</span><span class="p">(</span><span class="nx">define</span><span class="p">,</span><span class="w"> </span><span class="nx">name</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">name</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s2">&quot;chart&quot;</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Inspector</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">&quot;#observablehq-chart-99cde20f&quot;</span><span class="p">));</span>
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">name</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s2">"chart"</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">Inspector</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s2">"#observablehq-chart-99cde20f"</span><span class="p">));</span>
 <span class="p">});</span>
 <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </pre></div>
